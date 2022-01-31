@@ -3,6 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{FF2793A5-D42F-45A4-9DC7-9AC38CA1B949}">
 			<PropertyList>
+				<Property Name="Event Action List\{371AE6AB-C596-4F3C-8C7C-774491766239}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{45C3257D-2EAB-49B6-B593-1A3290D7C5A0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4B7C14D3-4763-4B2C-9EAB-142865C3261F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -24,7 +27,8 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Android_High"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="1RdinBHdlUeHwWzgKFPFQVeyDG7IxlxMg2YnQN/EQew="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="F0/Hobg46kmf30EdkVGnvgvHXOiEn1lHtI837YxWVbPenyqeoQ//SZ8Uzqj+1uTgSGNsEFXUBkOFLu/yUHfIp/HWGLDyYZRJutg6RHjTQT201UQGXTkAS4yzV9XejDf7dtu9Fa21KEOGRCTwnttxwqjUx1zxWEJDiRZ3KOeGOZilEHR2VmEvQ4exO1f3gHZgtfstoVJyWkqxsXEpj2qbKz5kMZjx+l9AjFG/z6VMPEauIRQgqpFQR5Te1/UwucTBAjfBOnJrBESOj+EAj0iI9ydEhgLjmQZOkCKNUNpLl26nxWrVmVbtQr4QvW+YzQJSaPI/FDRQP0ucgrkNoE35MEm/qPc/QYFCtppH2UXauw407BkjXkHVSpZRtw5CpLx8Ku6rte6b+U+kfKLfDAP7Rg=="/>
@@ -39,6 +43,10 @@
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="7"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
+				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
+				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
+				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
+				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
@@ -59,7 +67,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ8/E59lZnHPRJi4+HKYnjWgs="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="mGWHWyxm9UW0HjOI2lTyvmWe9DB/L61Lss4H8vP7z/IMU6YlMcU5TqkGe4tkR93S"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="3+R3IV9DO0Gy3/AiPtz3tJhlh1ssZvVFtB4ziNpU8r5lnvQwfy+tS7LOB/Lz+8/yDFOmJTHFOU6pBnuLZEfd0or/31GOcJNPvnwtQg+SSsw="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

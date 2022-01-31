@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="94" WwiseVersion="v2019.1.11" WwiseBuild="7296">
 	<ProjectInfo>
-		<Project Name="Wwise Adventure Game" ID="{0405FE9F-22D5-41EF-B245-E5DC92910373}">
+		<Project Name="WAG_ForClass_WWiseProject" ID="{0405FE9F-22D5-41EF-B245-E5DC92910373}">
 			<Platforms>
 				<Platform Name="Android_High" ReferencePlatform="Android" ID="{3A2ADE7D-434B-4CA0-A150-84DDDF1FECB2}"/>
 				<Platform Name="Android_Low" ReferencePlatform="Android" ID="{13C102C2-F35C-4282-82D9-A5679C2005AC}"/>
@@ -45,19 +45,20 @@
 						<Value Platform="Android_High">20</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjUyNjQiIG1hc2s9Ik5YWUY2ODI0IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMi0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9 IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjItMDctMzEiICAvPjxsaWNlbnNl IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjItMDctMzEiICAvPjxsaWNlbnNl IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw aXJlcz0iMjAyMi0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjE5IiBuYW1lPSJXd2lz ZSBCZXRhIEJ1aWxkcyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjItMDctMzEiICAv PjxsaWNlbnNlIGlkPSIxOSIgbmFtZT0iV3dpc2UgQmV0YSBCdWlsZHMiIHR5cGU9 IjMiICBleHBpcmVzPSIyMDIyLTA3LTMxIiAgLz48bGljZW5zZSBpZD0iMzciIG5h bWU9IkNyYW5rY2FzZSBBdWRpbyBSRVYiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwz LDQsMTAsMTQiIGV4cGlyZXM9IjIwMjItMDctMzEiICAvPjxwbHVnaW4gaWQ9IjI3 MjY3MTU0IiBuYW1lPSJDcmFua2Nhc2UgQXVkaW8gUkVWIiBsaWNlbnNlPSIzNyIg Lz48YXNzZXQgaWQ9IjY1NTM0IiBwbHVnaW49IjI3MjY3MTU0IiBuYW1lPSJSRVYg TW9kZWxlciBUb29sIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAyMi0wNy0zMSIgLz48 YXNzZXQgaWQ9IjY1NTM1IiBwbHVnaW49IjI3MjY3MTU0IiBuYW1lPSJBbGwgZW5n aW5lIG1vZGVscyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjItMDctMzEiIC8+PC9w cm9qZWN0Pg==|QwF9E5A/m7t4E8J2ecxQj+03/inigiceIZsC5HrIYrBKrSmEm2+ hgA3kv/EYpM0Vo4lrMasgSHRE+cZWoxRUryYpbu/Y7HvdMehXMwVwkPIGjvjYtTY 0f93kcJE9Us4xa2tmY6rkH2r42eG8X6hXjPgi0eVNaZxCgc2UoSqc7B0xB5zy4Nr UiuNW5YQDb25x7spuXmEnTZgtZu/AWBhcbOJp3KPoIqf8bpA/JAv3ewmmBRyHRk1 pN9OIhAv8ufOhLeXZZBi3bLWdiWRXOku1umLqj0UWAJg8P5bRfRsJ74HYPzbAmqd ysCs+Uyz4xcPiw/a55c6z/Z+OiX8zgOfang== "/>
 				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\WwiseAdventureGameSource\GeneratedSoundBanks"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\WAG_ForClass\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Android_Low">..\WwiseAdventureGameSource\GeneratedSoundBanks\Android_Low\</Value>
-						<Value Platform="iOS">..\WwiseAdventureGameSource\GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Mac">..\WwiseAdventureGameSource\GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Windows">..\WwiseAdventureGameSource\GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Android_High">..\WwiseAdventureGameSource\GeneratedSoundBanks\Android_High\</Value>
+						<Value Platform="Android_Low">..\WAG_ForClass\GeneratedSoundBanks\Android_Low\</Value>
+						<Value Platform="iOS">..\WAG_ForClass\GeneratedSoundBanks\iOS\</Value>
+						<Value Platform="Mac">..\WAG_ForClass\GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">..\WAG_ForClass\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Android_High">..\WAG_ForClass\GeneratedSoundBanks\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
@@ -107,33 +108,6 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2011.2|Build=4007|VersionName=v2011.2.2|Config=Release"/>
-			
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjUyNjQiIG1hc2s9Ik5YWUY2ODI0IiBlbmM9IjAiPjxsaWNl
-bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs
-NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMi0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9
-IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
-MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjItMDctMzEiICAvPjxsaWNlbnNl
-IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i
-MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjItMDctMzEiICAvPjxsaWNlbnNl
-IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw
-aXJlcz0iMjAyMi0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjE5IiBuYW1lPSJXd2lz
-ZSBCZXRhIEJ1aWxkcyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjItMDctMzEiICAv
-PjxsaWNlbnNlIGlkPSIxOSIgbmFtZT0iV3dpc2UgQmV0YSBCdWlsZHMiIHR5cGU9
-IjMiICBleHBpcmVzPSIyMDIyLTA3LTMxIiAgLz48bGljZW5zZSBpZD0iMzciIG5h
-bWU9IkNyYW5rY2FzZSBBdWRpbyBSRVYiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwz
-LDQsMTAsMTQiIGV4cGlyZXM9IjIwMjItMDctMzEiICAvPjxwbHVnaW4gaWQ9IjI3
-MjY3MTU0IiBuYW1lPSJDcmFua2Nhc2UgQXVkaW8gUkVWIiBsaWNlbnNlPSIzNyIg
-Lz48YXNzZXQgaWQ9IjY1NTM0IiBwbHVnaW49IjI3MjY3MTU0IiBuYW1lPSJSRVYg
-TW9kZWxlciBUb29sIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAyMi0wNy0zMSIgLz48
-YXNzZXQgaWQ9IjY1NTM1IiBwbHVnaW49IjI3MjY3MTU0IiBuYW1lPSJBbGwgZW5n
-aW5lIG1vZGVscyIgdHlwZT0iMyIgIGV4cGlyZXM9IjIwMjItMDctMzEiIC8+PC9w
-cm9qZWN0Pg==|QwF9E5A/m7t4E8J2ecxQj+03/inigiceIZsC5HrIYrBKrSmEm2+
-hgA3kv/EYpM0Vo4lrMasgSHRE+cZWoxRUryYpbu/Y7HvdMehXMwVwkPIGjvjYtTY
-0f93kcJE9Us4xa2tmY6rkH2r42eG8X6hXjPgi0eVNaZxCgc2UoSqc7B0xB5zy4Nr
-UiuNW5YQDb25x7spuXmEnTZgtZu/AWBhcbOJp3KPoIqf8bpA/JAv3ewmmBRyHRk1
-pN9OIhAv8ufOhLeXZZBi3bLWdiWRXOku1umLqj0UWAJg8P5bRfRsJ74HYPzbAmqd
-ysCs+Uyz4xcPiw/a55c6z/Z+OiX8zgOfang==
-"/>
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>

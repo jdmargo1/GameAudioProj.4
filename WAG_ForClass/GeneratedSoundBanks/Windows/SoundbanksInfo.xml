@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>E:\1. UCI Coursework\Game Audio Prep\3. WAG Project\WAG Copy Test\Wwise Project\</ProjectRoot>
-		<SourceFilesRoot>E:\1. UCI Coursework\Game Audio Prep\3. WAG Project\WAG Copy Test\Wwise Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\1. UCI Coursework\Game Audio Prep\3. WAG Project\WAG Copy Test\WwiseAdventureGameSource\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\4. GameAudioProj.4\Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>E:\4. GameAudioProj.4\Wwise Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\4. GameAudioProj.4\WAG_ForClass\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\1. UCI Coursework\Game Audio Prep\3. WAG Project\WAG Copy Test\Wwise Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\4. GameAudioProj.4\Wwise Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>

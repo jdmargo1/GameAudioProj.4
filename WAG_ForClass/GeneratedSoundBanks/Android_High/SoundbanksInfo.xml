@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android_High" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Jenkins\workspace\Wwise_Adventure_Game_build_2019.1\wpa-game\Wwise Project\</ProjectRoot>
-		<SourceFilesRoot>D:\Jenkins\workspace\Wwise_Adventure_Game_build_2019.1\wpa-game\Wwise Project\.cache\Android_High\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Jenkins\workspace\Wwise_Adventure_Game_build_2019.1\wpa-game\WwiseAdventureGameSource\GeneratedSoundBanks\Android_High\</SoundBanksRoot>
+		<ProjectRoot>E:\4. GameAudioProj.4\Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>E:\4. GameAudioProj.4\Wwise Project\.cache\Android_High\</SourceFilesRoot>
+		<SoundBanksRoot>E:\4. GameAudioProj.4\WAG_ForClass\GeneratedSoundBanks\Android_High\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Jenkins\workspace\Wwise_Adventure_Game_build_2019.1\wpa-game\Wwise Project\GeneratedSoundBanks\Android_High</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\4. GameAudioProj.4\Wwise Project\GeneratedSoundBanks\Android_High</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>

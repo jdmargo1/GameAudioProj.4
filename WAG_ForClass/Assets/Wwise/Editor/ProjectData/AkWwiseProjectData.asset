@@ -688,7 +688,7 @@ MonoBehaviour:
       - ElementName: Ambient_Campfire_Play
         ObjectType: 3
       Path: Ambient\General\Ambient_Campfire_Play
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Campfire_Stop
@@ -703,8 +703,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Ambient\General\Ambient_Campfire_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Ambient_Core_FinalReveal
       guid: abe61a3796c53c4f8c7c774491766239
       id: 1342629461
@@ -739,8 +739,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_HorribleSound
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 11.077979
+      minDuration: 11.077979
     - name: Ambient_Core_Shield_1
       guid: 5cda0ad8dcf051439196ad6310f57eea
       id: 1378810117
@@ -756,7 +756,7 @@ MonoBehaviour:
       - ElementName: Ambient_Core_Shield_1
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_1
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Core_Shield_2
@@ -774,7 +774,7 @@ MonoBehaviour:
       - ElementName: Ambient_Core_Shield_2
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_2
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Core_Shield_3
@@ -792,7 +792,7 @@ MonoBehaviour:
       - ElementName: Ambient_Core_Shield_3
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_3
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Core_Shield_Alive
@@ -810,7 +810,7 @@ MonoBehaviour:
       - ElementName: Ambient_Core_Shield_Alive
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Alive
-      maxAttenuation: 0
+      maxAttenuation: 60
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Core_Shield_Destroyed
@@ -828,9 +828,9 @@ MonoBehaviour:
       - ElementName: Ambient_Core_Shield_Destroyed
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Destroyed
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 10.652333
+      minDuration: 10.652333
     - name: Ambient_Crystal_Hum
       guid: dee3b325eeda1847a2a28b9343f935ae
       id: 2355650095
@@ -842,7 +842,7 @@ MonoBehaviour:
       - ElementName: Ambient_Crystal_Hum
         ObjectType: 3
       Path: Ambient\General\Ambient_Crystal_Hum
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Lava
@@ -858,7 +858,7 @@ MonoBehaviour:
       - ElementName: Ambient_Lava
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Ambient_Lava
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Region_Cave
@@ -872,7 +872,7 @@ MonoBehaviour:
       - ElementName: Ambient_Region_Cave
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Region_Cave
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Region_Desert
@@ -886,7 +886,7 @@ MonoBehaviour:
       - ElementName: Ambient_Region_Desert
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Region_Desert
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Region_Dungeon
@@ -900,7 +900,7 @@ MonoBehaviour:
       - ElementName: Ambient_Region_Dungeon
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Region_Dungeon
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Region_PineForest
@@ -914,7 +914,7 @@ MonoBehaviour:
       - ElementName: Ambient_Region_PineForest
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Region_PineForest
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Region_Village
@@ -928,7 +928,7 @@ MonoBehaviour:
       - ElementName: Ambient_Region_Village
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Region_Village
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Region_Woodlands
@@ -942,7 +942,7 @@ MonoBehaviour:
       - ElementName: Ambient_Region_Woodlands
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Region_Woodlands
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Ambient_River
@@ -956,7 +956,7 @@ MonoBehaviour:
       - ElementName: Ambient_River
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_River
-      maxAttenuation: 0
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Torch
@@ -972,7 +972,7 @@ MonoBehaviour:
       - ElementName: Ambient_Torch
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Dungeon\Ambient_Torch
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: Ambient_WaterDrop
@@ -986,9 +986,9 @@ MonoBehaviour:
       - ElementName: Ambient_WaterDrop
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_WaterDrop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 80
+      maxDuration: 0.389
+      minDuration: 0
     - name: Ambient_Waterfall
       guid: 367874b07895f649adcb20daade76160
       id: 1934835592
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       - ElementName: Ambient_Waterfall
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Waterfall
-      maxAttenuation: 0
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: Ambient_Windmill
@@ -1014,7 +1014,7 @@ MonoBehaviour:
       - ElementName: Ambient_Windmill
         ObjectType: 3
       Path: Ambient\SoundBankSpecific\Ambient_Windmill
-      maxAttenuation: 0
+      maxAttenuation: 51
       maxDuration: -1
       minDuration: -1
     - name: DLC_Ambient_Heaven
@@ -1029,8 +1029,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Ambient\DLC\DLC_Ambient_Heaven
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 62.975563
+      minDuration: 62.975563
     - name: DLC_Button
       guid: 96c6843e7b07d34f8892158c9df3a153
       id: 2622476831
@@ -1042,7 +1042,7 @@ MonoBehaviour:
       - ElementName: DLC_Button
         ObjectType: 3
       Path: Ambient\DLC\DLC_Button
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: DLC_Cannon_Shot
@@ -1056,9 +1056,9 @@ MonoBehaviour:
       - ElementName: DLC_Cannon_Shot
         ObjectType: 3
       Path: Ambient\DLC\DLC_Cannon_Shot
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.661715
+      minDuration: 1.661715
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 4e55bae82ccd424fa041d281a0fa8848
@@ -1075,8 +1075,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Stop_All
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Destruction.wwu
     ParentPhysicalPath: 
     guid: d54a6bbcfd92354dbf2bdf9c9eb6313e
@@ -1094,9 +1094,9 @@ MonoBehaviour:
       - ElementName: Destruction_Container
         ObjectType: 3
       Path: Destruction\General\Destruction_Container
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.49873
+      minDuration: 0.882358
     - name: Destruction_Core_Explosion
       guid: ed1ec0d7bcf07246a90abb4959573ed7
       id: 3250765487
@@ -1108,9 +1108,9 @@ MonoBehaviour:
       - ElementName: Destruction_Core_Explosion
         ObjectType: 3
       Path: Destruction\RegionSpecific\Destruction_Core_Explosion
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 80
+      maxDuration: 10.652333
+      minDuration: 10.652333
     - name: Destruction_Core_ShieldBreak
       guid: 67d6329bf84a9946858d9fcbfb7a4493
       id: 2095238286
@@ -1122,9 +1122,9 @@ MonoBehaviour:
       - ElementName: Destruction_Core_ShieldBreak
         ObjectType: 3
       Path: Destruction\RegionSpecific\Destruction_Core_ShieldBreak
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 150
+      maxDuration: 12.244208
+      minDuration: 12.244208
     - name: Destruction_Crystal_Destroy
       guid: da3e40d07f8ffa4ca39a04eb7c726517
       id: 448719855
@@ -1136,9 +1136,9 @@ MonoBehaviour:
       - ElementName: Destruction_Crystal_Destroy
         ObjectType: 3
       Path: Destruction\RegionSpecific\Destruction_Crystal_Destroy
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 80
+      maxDuration: 1.314307
+      minDuration: 1.205225
     - name: Destruction_Rock_Destroy
       guid: bdaae62d88025f44a9b767e4bf11c653
       id: 1999886838
@@ -1150,9 +1150,9 @@ MonoBehaviour:
       - ElementName: Destruction_Rock_Destroy
         ObjectType: 3
       Path: Destruction\RegionSpecific\Destruction_Rock_Destroy
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 80
+      maxDuration: 1.358367
+      minDuration: 0.986848
     - name: Destruction_VolcanicBoulder_Impact
       guid: fe45ea42aab6df42a7d6d904f1d60431
       id: 2541270269
@@ -1164,9 +1164,9 @@ MonoBehaviour:
       - ElementName: Destruction_VolcanicBoulder_Impact
         ObjectType: 3
       Path: Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 80
+      maxDuration: 2.736167
+      minDuration: 2.171697
   - PhysicalPath: Events\Enemies.wwu
     ParentPhysicalPath: 
     guid: d0f46f6772c4e94087f48e41880d7388
@@ -1184,9 +1184,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilCrawler_Death
         ObjectType: 3
       Path: Enemies\EvilCrawler\Enemy_EvilCrawler_Death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.540292
+      minDuration: 1.251542
     - name: Enemy_EvilCrawler_Eat
       guid: 9a251ec149ff7143a0c5cd222b9b7610
       id: 3621593767
@@ -1198,9 +1198,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilCrawler_Eat
         ObjectType: 3
       Path: Enemies\EvilCrawler\Enemy_EvilCrawler_Eat
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.166396
+      minDuration: 0.782118
     - name: Enemy_EvilCrawler_Explode
       guid: c3cacda4ea7f1b45854afd603ccbd040
       id: 3580182562
@@ -1212,9 +1212,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilCrawler_Explode
         ObjectType: 3
       Path: Enemies\EvilCrawler\Enemy_EvilCrawler_Explode
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 2.954966
+      minDuration: 2.247743
     - name: Enemy_EvilCrawler_Hurt
       guid: a1b98b988e2f934989335b2a87d9869c
       id: 3990952
@@ -1226,9 +1226,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilCrawler_Hurt
         ObjectType: 3
       Path: Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 0.810083
+      minDuration: 0
     - name: Enemy_EvilCrawler_Movement
       guid: 1c08e1373e62d2428f8713ada174f864
       id: 2135810184
@@ -1240,9 +1240,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilCrawler_Movement
         ObjectType: 3
       Path: Enemies\EvilCrawler\Enemy_EvilCrawler_Movement
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.86906
+      minDuration: 1.396901
     - name: Enemy_EvilHead_Bite
       guid: 94c18185a14b66488172bdf1395b15a8
       id: 2758258135
@@ -1254,9 +1254,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Bite
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Bite
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 0.827313
+      minDuration: 0.759979
     - name: Enemy_EvilHead_Charge
       guid: e0b9ae9eaf3b654d98a56da75faa8548
       id: 2340191741
@@ -1268,9 +1268,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Charge
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Charge
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 3.232871
+      minDuration: 1.831956
     - name: Enemy_EvilHead_Death
       guid: 911074335445424db0f5afb0fad96326
       id: 2283357753
@@ -1282,9 +1282,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Death
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 4.483125
+      minDuration: 3.686521
     - name: Enemy_EvilHead_Hover_Play
       guid: a5812328861871439e7958379c8bcdf2
       id: 3260075118
@@ -1296,7 +1296,7 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Hover_Play
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Hover_Play
-      maxAttenuation: 0
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: Enemy_EvilHead_Hover_Stop
@@ -1311,8 +1311,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Hover_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Enemy_EvilHead_Hurt
       guid: 87db883f1bf7eb468b792ded365c9f81
       id: 3999192250
@@ -1324,9 +1324,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Hurt
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Hurt
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.078502
+      minDuration: 0
     - name: Enemy_EvilHead_Movement
       guid: 95b3a48237ff9d45a6908d4d38d669d7
       id: 1070022042
@@ -1338,9 +1338,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Movement
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Movement
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 3.232871
+      minDuration: 1.831956
     - name: Enemy_EvilHead_SpawnerDestroy
       guid: bd1753e7e339f54b88b843663586d277
       id: 1880981927
@@ -1352,9 +1352,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_SpawnerDestroy
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 0.974672
+      minDuration: 0.819598
     - name: Enemy_EvilHead_Telegraph
       guid: c7205c7d4b7d2c4bbfa4e4e0082a7c5c
       id: 4037905639
@@ -1366,9 +1366,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilHead_Telegraph
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_Telegraph
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.745562
+      minDuration: 1.745562
     - name: Enemy_EVilSpitPlant_Bullet_Impact
       guid: 60bef80b2e44e147a9cd06e40af6852d
       id: 1702412353
@@ -1380,9 +1380,9 @@ MonoBehaviour:
       - ElementName: Enemy_EVilSpitPlant_Bullet_Impact
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 0.832667
+      minDuration: 0.700479
     - name: Enemy_EVilSpitPlant_Bullet_NoImpact
       guid: 96b15a90b9065b47bda22bec7182d653
       id: 3324372356
@@ -1394,9 +1394,9 @@ MonoBehaviour:
       - ElementName: Enemy_EVilSpitPlant_Bullet_NoImpact
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_NoImpact
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1
+      minDuration: 1
     - name: Enemy_EvilSpitPlant_Charge
       guid: fcd57857fa12f54298ae68b276802979
       id: 504652456
@@ -1408,9 +1408,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilSpitPlant_Charge
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Charge
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 0.966099
+      minDuration: 0.889025
     - name: Enemy_EvilSpitPlant_Death
       guid: 5eb059934f1202488f450488128bb6f9
       id: 2892293322
@@ -1422,9 +1422,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilSpitPlant_Death
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 2.154757
+      minDuration: 1.806697
     - name: Enemy_EvilSpitPlant_Death_Headfall
       guid: dc0d63745a21b74dacfc708c5615e441
       id: 4129842532
@@ -1436,9 +1436,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilSpitPlant_Death_Headfall
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death_Headfall
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 0.620875
+      minDuration: 0.453729
     - name: Enemy_EvilSpitPlant_Hurt
       guid: b8d6b6aef737914abf62de8c4e37bde5
       id: 1293226255
@@ -1450,9 +1450,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilSpitPlant_Hurt
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Hurt
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.083521
+      minDuration: 0.879709
     - name: Enemy_EvilSpitPlant_ShootBullet
       guid: 0a10915fa255464198da46a45310c142
       id: 1042419433
@@ -1464,9 +1464,9 @@ MonoBehaviour:
       - ElementName: Enemy_EvilSpitPlant_ShootBullet
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootBullet
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 1.687432
+      minDuration: 1.429188
     - name: Enemy_EvilSpitPlant_ShootLoop_Play
       guid: 570653cb26ac434ab468b24503eb2ed9
       id: 812304580
@@ -1478,7 +1478,7 @@ MonoBehaviour:
       - ElementName: Enemy_EvilSpitPlant_ShootLoop_Play
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Play
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: Enemy_EvilSpitPlant_ShootLoop_Stop
@@ -1493,8 +1493,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Magic.wwu
     ParentPhysicalPath: 
     guid: 5bed01ba03083e4fbdd31c6a37246b2f
@@ -1512,9 +1512,9 @@ MonoBehaviour:
       - ElementName: Magic_Blast
         ObjectType: 3
       Path: Magic\SoundBankSpecific\Magic_Blast
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 2.672354
+      minDuration: 2.672354
     - name: Magic_Blast_Impact
       guid: b0989815040b624f86bec4eda88332cf
       id: 1230192158
@@ -1526,9 +1526,9 @@ MonoBehaviour:
       - ElementName: Magic_Blast_Impact
         ObjectType: 3
       Path: Magic\SoundBankSpecific\Magic_Blast_Impact
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 150
+      maxDuration: 5.825833
+      minDuration: 3.074354
     - name: Magic_Charge
       guid: c576729b4fb32a409f1cc83a9200dfaa
       id: 3373889173
@@ -1540,7 +1540,7 @@ MonoBehaviour:
       - ElementName: Magic_Charge
         ObjectType: 3
       Path: Magic\General\Magic_Charge
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: Magic_Stop
@@ -1555,8 +1555,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Magic\SoundBankSpecific\Magic_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: NPC_Wwizard_IdleGimmick_Poof
       guid: 6f80b0c72ee41348ada18f99bdd38112
       id: 1035173718
@@ -1568,9 +1568,9 @@ MonoBehaviour:
       - ElementName: NPC_Wwizard_IdleGimmick_Poof
         ObjectType: 3
       Path: Magic\General\NPC_Wwizard_IdleGimmick_Poof
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 0.922842
+      minDuration: 0.922842
     - name: NPC_Wwizard_Poof
       guid: f1cb2dbe2e9446468d7bfa557c01fa74
       id: 2391108228
@@ -1582,9 +1582,9 @@ MonoBehaviour:
       - ElementName: NPC_Wwizard_Poof
         ObjectType: 3
       Path: Magic\General\NPC_Wwizard_Poof
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 150
+      maxDuration: 2.47359
+      minDuration: 2.47359
   - PhysicalPath: Events\Music.wwu
     ParentPhysicalPath: 
     guid: 3161f804ad49294398bbb2dd0f96bdd3
@@ -1602,7 +1602,7 @@ MonoBehaviour:
       - ElementName: Music_ArcadeMachine_Play
         ObjectType: 3
       Path: Music\SoundBankSpecific\Music_ArcadeMachine_Play
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: Music_ArcadeMachine_Stop
@@ -1617,8 +1617,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Music\SoundBankSpecific\Music_ArcadeMachine_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Music_Credits
       guid: 2b67f01d0fd8f6479ad408a647433c4d
       id: 1882971781
@@ -1645,8 +1645,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Music\SoundBankSpecific\Music_DungeonEnemyOnly
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 23
+      minDuration: 23
     - name: Music_Enemies
       guid: 2bc7ac9bd891bc408753dada3e6c40a1
       id: 433441283
@@ -1659,8 +1659,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Music\General\Music_Enemies
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 21.5
+      minDuration: 21.5
     - name: Music_Region
       guid: 35e7df7af7cfb64fad0e95505ac5d57d
       id: 3741135221
@@ -1701,8 +1701,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Music\General\Stinger_GetWeapon
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.179146
+      minDuration: 3.179146
   - PhysicalPath: Events\NPCs.wwu
     ParentPhysicalPath: 
     guid: 8157b1cf4989c64780c59b7bcc8aae4d
@@ -1723,8 +1723,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 8.378913
+      minDuration: 8.378913
     - name: Blacksmith_DialogueLine_Q3b_02
       guid: 43e9815ba7ad6d4fbea776d274e4b6b6
       id: 958722918
@@ -1739,8 +1739,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.388396
+      minDuration: 9.388396
     - name: Blacksmith_DialogueLine_Q3b_03
       guid: d5ed6dc72d070d478e1858272b44114d
       id: 958722919
@@ -1755,8 +1755,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.858715
+      minDuration: 6.858715
     - name: Blacksmith_DialogueLine_Q3b_04
       guid: 99b104f41f6615408b1c2e57459467ca
       id: 958722912
@@ -1771,8 +1771,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 10.416062
+      minDuration: 10.416062
     - name: Blacksmith_DialogueLine_Q3b_05
       guid: 0aa62522e4188c4aa82ca30a7f4f2754
       id: 958722913
@@ -1787,8 +1787,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.787461
+      minDuration: 5.787461
     - name: Blacksmith_DialogueLine_Q4b_01
       guid: 032bfdc63e6ab74ca8d6f52dc6d759a4
       id: 135068334
@@ -1803,8 +1803,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.325403
+      minDuration: 7.325403
     - name: NPC_Wwizard_StaffOnGround
       guid: fec33c04ca761644a960616573cb563d
       id: 2857761532
@@ -1814,9 +1814,9 @@ MonoBehaviour:
       - ElementName: NPC_Wwizard_StaffOnGround
         ObjectType: 3
       Path: NPCs\NPC_Wwizard_StaffOnGround
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 30
+      maxDuration: 0.332418
+      minDuration: 0.332418
     - name: Wwizard_DialogueLine_Q1_1
       guid: ccceba2f51935c46accfe19b92d29b51
       id: 4165450549
@@ -1831,8 +1831,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.362862
+      minDuration: 7.362862
     - name: Wwizard_DialogueLine_Q1_2
       guid: 0d772ba5f106a544966541f86ec74571
       id: 4165450550
@@ -1847,8 +1847,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 10.698787
+      minDuration: 10.698787
     - name: Wwizard_DialogueLine_Q1_3
       guid: 3fd6e230244b5142bb37b41990136fc0
       id: 4165450551
@@ -1863,8 +1863,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.740224
+      minDuration: 2.740224
     - name: Wwizard_DialogueLine_Q2_1
       guid: b61feb1b5a3678408d1828727c82a133
       id: 3091829994
@@ -1879,8 +1879,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.19065
+      minDuration: 5.19065
     - name: Wwizard_DialogueLine_Q2_2
       guid: 27d4ecfcceeba2439ef16339e5bc707d
       id: 3091829993
@@ -1895,8 +1895,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.46704
+      minDuration: 6.46704
     - name: Wwizard_DialogueLine_Q2_3
       guid: 6ab16fe837d1f541ad05f5d304320f4d
       id: 3091829992
@@ -1911,8 +1911,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_3
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 11.771148
+      minDuration: 11.771148
     - name: Wwizard_DialogueLine_Q3a_01
       guid: 0f3553f4d0762f46a91808520519cddc
       id: 1620373966
@@ -1927,8 +1927,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.083075
+      minDuration: 9.083075
     - name: Wwizard_DialogueLine_Q3a_02
       guid: 075c17522ea7e346b5dacba1605d887f
       id: 1620373965
@@ -1943,8 +1943,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.060315
+      minDuration: 4.060315
     - name: Wwizard_DialogueLine_Q3a_03
       guid: f0139321dfb0984daab67833341a984a
       id: 1620373964
@@ -1959,8 +1959,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.683978
+      minDuration: 5.683978
     - name: Wwizard_DialogueLine_Q3a_04
       guid: 768276af8d84c049b4dfe5c0aa0a20cc
       id: 1620373963
@@ -1975,8 +1975,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.820393
+      minDuration: 5.820393
     - name: Wwizard_DialogueLine_Q3a_05
       guid: 5126cf906b3c5d41aef51ee0fda1701d
       id: 1620373962
@@ -1991,8 +1991,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.684738
+      minDuration: 7.684738
     - name: Wwizard_DialogueLine_Q3a_06
       guid: 7c09e2e0800b204f920bd96ca54e21f7
       id: 1620373961
@@ -2007,8 +2007,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.615914
+      minDuration: 9.615914
     - name: Wwizard_DialogueLine_Q3a_07
       guid: bbbf96126fe41a40b1bebe0d9745f2f7
       id: 1620373960
@@ -2023,8 +2023,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.78845
+      minDuration: 5.78845
     - name: Wwizard_DialogueLine_Q3a_08
       guid: 58de5baf13784442bee3f8e1db37d200
       id: 1620373959
@@ -2039,8 +2039,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.890649
+      minDuration: 4.890649
     - name: Wwizard_DialogueLine_Q3a_09
       guid: b782b401c8841442aa97122f590636f5
       id: 1620373958
@@ -2055,8 +2055,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 8.852072
+      minDuration: 8.852072
     - name: Wwizard_DialogueLine_Q3a_10
       guid: 6f115ee8127c224b8a4638bf20c07964
       id: 1603596380
@@ -2071,8 +2071,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.89492
+      minDuration: 6.89492
     - name: Wwizard_DialogueLine_Q4a_01
       guid: 643894567b114243815948e68ec2cb07
       id: 3210335081
@@ -2087,8 +2087,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.922984
+      minDuration: 2.922984
     - name: Wwizard_DialogueLine_Q4a_02
       guid: 2212c836fcb4c34695e337ce5fad8d4c
       id: 3210335082
@@ -2103,8 +2103,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.107094
+      minDuration: 7.107094
     - name: Wwizard_DialogueLine_Q4a_03
       guid: 77b435448a39ce4e8a15dae8d1275418
       id: 3210335083
@@ -2119,8 +2119,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.652344
+      minDuration: 3.652344
     - name: Wwizard_DialogueLine_Q4a_04
       guid: d1fa76d0d8403d44b93349b2c541e96c
       id: 3210335084
@@ -2135,8 +2135,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.156808
+      minDuration: 6.156808
     - name: Wwizard_DialogueLine_Q4a_05
       guid: f35c14c0cad8e947ae09a16e5ce59e6d
       id: 3210335085
@@ -2151,8 +2151,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.492522
+      minDuration: 7.492522
     - name: Wwizard_DialogueLine_Q4a_06
       guid: 2d97eb425a7e6e4395da0a12af2ad046
       id: 3210335086
@@ -2167,8 +2167,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 8.135187
+      minDuration: 8.135187
     - name: Wwizard_DialogueLine_Q5a_01
       guid: df2f5cfbf7a6c7489146570510b4fea7
       id: 2934374892
@@ -2183,8 +2183,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.318625
+      minDuration: 7.318625
     - name: Wwizard_DialogueLine_Q5a_02
       guid: 242cf6a087a0e444ac65cb15e9635298
       id: 2934374895
@@ -2199,8 +2199,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.055896
+      minDuration: 4.055896
     - name: Wwizard_DialogueLine_Q5a_03
       guid: 3a14eb7163077840b38b99f76ce5cc23
       id: 2934374894
@@ -2215,8 +2215,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.389604
+      minDuration: 6.389604
     - name: Wwizard_DialogueLine_Q5a_04
       guid: 4fdbb2630ce20c46bf426b92de66bc45
       id: 2934374889
@@ -2231,8 +2231,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.9
+      minDuration: 4.9
     - name: Wwizard_DialogueLine_Q5a_05
       guid: b63b193cfd64694abb0a67e23bc76f56
       id: 2934374888
@@ -2247,8 +2247,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.8
+      minDuration: 4.8
     - name: Wwizard_DialogueLine_Q5a_06
       guid: 30219d2fee0503498b8ec01607221a11
       id: 2934374891
@@ -2263,8 +2263,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.738229
+      minDuration: 3.738229
     - name: Wwizard_DialogueLine_Q5a_07
       guid: d58cf6fecab3ec4b987ab7d6cb76b9d3
       id: 2934374890
@@ -2279,8 +2279,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.134729
+      minDuration: 1.134729
     - name: Wwizard_DialogueLine_Q5b_01
       guid: 50b98f737e967447b02374348eb0061b
       id: 878619833
@@ -2295,8 +2295,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.045536
+      minDuration: 4.045536
     - name: Wwizard_DialogueLine_Q5b_02
       guid: c9b7b58f6f080247930ccd7442620985
       id: 878619834
@@ -2311,8 +2311,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.774554
+      minDuration: 4.774554
     - name: Wwizard_DialogueLine_Q5b_03
       guid: a560d1fde558854d9ebd154dfbe1c96d
       id: 878619835
@@ -2327,8 +2327,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.402458
+      minDuration: 5.402458
     - name: Wwizard_DialogueLine_Q5b_04
       guid: a8dc3c82cb5995478be60e8bcc85bddc
       id: 878619836
@@ -2343,8 +2343,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.072172
+      minDuration: 3.072172
     - name: Wwizard_DialogueLine_Q6_01
       guid: f33ead7fadc1b940babbc23578cfae05
       id: 863080756
@@ -2359,8 +2359,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.35576
+      minDuration: 3.35576
     - name: Wwizard_DialogueLine_Q6_02
       guid: 206cf6e953dbb746b777850b3731e82f
       id: 863080759
@@ -2375,8 +2375,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.110533
+      minDuration: 9.110533
     - name: Wwizard_DialogueLine_Q6_03
       guid: 772452135f45724381f30c0362643cb5
       id: 863080758
@@ -2391,8 +2391,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.677252
+      minDuration: 5.677252
     - name: Wwizard_DialogueLine_Q6_04
       guid: 82aeee0014d7ef42b7811788c8cfd881
       id: 863080753
@@ -2407,8 +2407,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.695143
+      minDuration: 6.695143
     - name: Wwizard_DialogueLine_Q6_05
       guid: d2a8d7d6cef5974c95bae34f6d2a8a72
       id: 863080752
@@ -2423,8 +2423,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.9
+      minDuration: 2.9
     - name: Wwizard_DialogueLine_Q7_01
       guid: edd3256f9c6013418d23d3bcd85312ed
       id: 2929281579
@@ -2439,8 +2439,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.680245
+      minDuration: 5.680245
     - name: Wwizard_DialogueLine_Q7_02
       guid: aee49767a41f874781d4f4703008fade
       id: 2929281576
@@ -2455,8 +2455,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.217076
+      minDuration: 7.217076
     - name: Wwizard_DialogueLine_Q7_03
       guid: 48b8d72e73fa434f9cff336085a35e06
       id: 2929281577
@@ -2471,8 +2471,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.239771
+      minDuration: 3.239771
     - name: Wwizard_DialogueLine_Q7_04
       guid: eb07329e4ae8f848a64e12ff712f5279
       id: 2929281582
@@ -2487,8 +2487,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q7_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.2
+      minDuration: 5.2
     - name: Wwizard_DialogueLine_Q8a_01
       guid: 04a6a41157d6764cb82901d1b63e839d
       id: 2760797509
@@ -2503,8 +2503,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.599068
+      minDuration: 2.599068
     - name: Wwizard_DialogueLine_Q8a_02
       guid: 9f0f30cb2feb99489faba4020f9c64f8
       id: 2760797510
@@ -2519,8 +2519,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.483196
+      minDuration: 5.483196
     - name: Wwizard_DialogueLine_Q8a_03
       guid: aded5808a85af3448f510d176163f35f
       id: 2760797511
@@ -2535,8 +2535,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.852096
+      minDuration: 5.852096
     - name: Wwizard_DialogueLine_Q8a_04
       guid: 8801ef8b99ba01438caa248992cf2dde
       id: 2760797504
@@ -2551,8 +2551,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.961112
+      minDuration: 1.961112
     - name: Wwizard_DialogueLine_Q8a_05
       guid: 0b45337499bb94429bb0cba08a90f8a7
       id: 2760797505
@@ -2567,8 +2567,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 8.35163
+      minDuration: 8.35163
     - name: Wwizard_DialogueLine_Q8a_06
       guid: ff406a5f7f92ce46b36614932960775d
       id: 2760797506
@@ -2583,8 +2583,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 7\Wwizard_DialogueLine_Q8a_06
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.939129
+      minDuration: 3.939129
     - name: Wwizard_DialogueLine_Q8b_01
       guid: f0aa639b35eeb14c8e47167e72c6cbd4
       id: 2142579352
@@ -2599,8 +2599,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.614771
+      minDuration: 3.614771
     - name: Wwizard_DialogueLine_Q8b_02
       guid: 37a2ced86cd3d44abafeb14f2a241168
       id: 2142579355
@@ -2615,8 +2615,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.5
+      minDuration: 3.5
     - name: Wwizard_DialogueLine_Q8b_03
       guid: c038bb37b1ca6b4baa2a3ac7f728022d
       id: 2142579354
@@ -2631,8 +2631,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.379604
+      minDuration: 4.379604
     - name: Wwizard_DialogueLine_Q8b_04
       guid: f6aa8ffdf7bb2845b19dd154617dd92f
       id: 2142579357
@@ -2647,8 +2647,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_04
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.3525
+      minDuration: 4.3525
     - name: Wwizard_DialogueLine_Q8b_05
       guid: 3cfd30cebcf2bb46b437516cfa92873c
       id: 2142579356
@@ -2663,8 +2663,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_05
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.846292
+      minDuration: 2.846292
     - name: Wwizard_DialogueLine_Q8b_06
       guid: 2951bd482118e2498216c7d183ebf145
       id: 2142579359
@@ -2679,8 +2679,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_06
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.882958
+      minDuration: 7.882958
     - name: Wwizard_DialogueLine_Q8b_07
       guid: 938b53fa1854d441b04a261cd8199f5c
       id: 2142579358
@@ -2695,8 +2695,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_07
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.1
+      minDuration: 3.1
     - name: Wwizard_DialogueLine_Q8c_01
       guid: 2cf587b915a3264d8023324cba342706
       id: 2040456591
@@ -2711,8 +2711,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.504395
+      minDuration: 2.504395
     - name: Wwizard_DialogueLine_Q8c_02
       guid: 52670c59cf8b3a4e9ca67033e99dd941
       id: 2040456588
@@ -2727,8 +2727,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 6.089923
+      minDuration: 6.089923
     - name: Wwizard_DialogueLine_Q8c_03
       guid: a80c2c151e3b264e8c63c4d7cdf8a929
       id: 2040456589
@@ -2743,8 +2743,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.956008
+      minDuration: 2.956008
     - name: Wwizard_DialogueLine_Q8d_01
       guid: 2335683b03b8624ba562120bf99ef601
       id: 1411895810
@@ -2759,8 +2759,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.006721
+      minDuration: 7.006721
     - name: Wwizard_DialogueLine_Q8d_02
       guid: 174367b2f2524642975957dd2a3598a9
       id: 1411895809
@@ -2775,8 +2775,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_02
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.988296
+      minDuration: 5.988296
     - name: Wwizard_DialogueLine_Q8d_03
       guid: 94c1f2b97dca5941b7ec9f7457df3caa
       id: 1411895808
@@ -2791,8 +2791,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_03
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.127318
+      minDuration: 4.127318
   - PhysicalPath: Events\Objects.wwu
     ParentPhysicalPath: 
     guid: e479a010ddb4fd458b611565bea608b0
@@ -2810,7 +2810,7 @@ MonoBehaviour:
       - ElementName: Door_DLCdoor_Open_Play
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Door_DLCdoor_Open_Play
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Door_DLCdoor_Open_Stop
@@ -2824,9 +2824,9 @@ MonoBehaviour:
       - ElementName: Door_DLCdoor_Open_Stop
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 2.647154
+      minDuration: 2.647154
     - name: Door_TempleDoor_Open_Play
       guid: 2dbb827eb45cdf4baf678bb906a0e729
       id: 3492604883
@@ -2838,9 +2838,9 @@ MonoBehaviour:
       - ElementName: Door_TempleDoor_Open_Play
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Door_TempleDoor_Open_Play
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 5.096907
+      minDuration: 5.096907
     - name: Door_TempleDoor_Open_Stop
       guid: 540107922980ae4c816f579cb6f4999c
       id: 2622623673
@@ -2853,8 +2853,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Object_ActivateKey_Failed
       guid: ea65089cb5d2f4419c0d8479a86f808d
       id: 630311347
@@ -2866,9 +2866,9 @@ MonoBehaviour:
       - ElementName: Object_ActivateKey_Failed
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Object_ActivateKey_Failed
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 0.47736
+      minDuration: 0.42528
     - name: Object_ActivateKey_Success
       guid: 145c4526d3a2824e9eaad0429d7c60d4
       id: 1499503781
@@ -2880,9 +2880,9 @@ MonoBehaviour:
       - ElementName: Object_ActivateKey_Success
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Object_ActivateKey_Success
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 1.190208
+      minDuration: 1.060354
     - name: Object_Coin_Drop
       guid: d1818cc6179d7f4c8356964f200dde92
       id: 1795559212
@@ -2894,9 +2894,9 @@ MonoBehaviour:
       - ElementName: Object_Coin_Drop
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Object_Coin_Drop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 150
+      maxDuration: 3.1
+      minDuration: 3.1
     - name: Object_Rune_Charge_Play
       guid: 48e913ca8afc864ca933feb51278a585
       id: 1817926999
@@ -2908,7 +2908,7 @@ MonoBehaviour:
       - ElementName: Object_Rune_Charge_Play
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Object_Rune_Charge_Play
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Object_Rune_Charge_Stop
@@ -2922,9 +2922,9 @@ MonoBehaviour:
       - ElementName: Object_Rune_Charge_Stop
         ObjectType: 3
       Path: Objects\SoundBankSpecific\Object_Rune_Charge_Stop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 2.089813
+      minDuration: 1.793333
   - PhysicalPath: Events\Player.wwu
     ParentPhysicalPath: 
     guid: 2ff5d4d6b5794a43ad13672ee62ab7cc
@@ -2942,9 +2942,9 @@ MonoBehaviour:
       - ElementName: Pickup_Coins
         ObjectType: 3
       Path: Player\General\Pickup_Coins
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 0.626248
+      minDuration: 0.408707
     - name: Pickup_ItemType
       guid: 8ba2482dceb9744ea06d2ed1f9a01f59
       id: 509318909
@@ -2956,9 +2956,9 @@ MonoBehaviour:
       - ElementName: Pickup_ItemType
         ObjectType: 3
       Path: Player\General\Pickup_ItemType
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 1.522597
+      minDuration: 0.230654
     - name: Pickup_WeaponType
       guid: 7d893e485bc4d34a818dc2e9b50c4897
       id: 3012415428
@@ -2970,9 +2970,9 @@ MonoBehaviour:
       - ElementName: Pickup_WeaponType
         ObjectType: 3
       Path: Player\General\Pickup_WeaponType
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 0.841587
+      minDuration: 0.625193
     - name: Player_Death
       guid: 6f572bfbede7b148ba2247110315bd88
       id: 3083087645
@@ -2985,8 +2985,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Player\General\Player_Death
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.606618
+      minDuration: 0.757116
     - name: Player_Footstep
       guid: 733cfdc95a25e547bfa2c3d1514ae81f
       id: 2453392179
@@ -2998,9 +2998,9 @@ MonoBehaviour:
       - ElementName: Player_Footstep
         ObjectType: 3
       Path: Player\SoundBankSpecific\Player_Footstep
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 0.623278
+      minDuration: 0.257783
     - name: Player_Health
       guid: 1b9a8e35956d154d9de30cf4bdd482dd
       id: 215992295
@@ -3027,8 +3027,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Player\General\Player_Hurt_Vox
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.832667
+      minDuration: 0.700479
     - name: Player_WeaponImpact
       guid: 0b954917b0d5c64094306f0d4f7a516e
       id: 3695342915
@@ -3040,9 +3040,9 @@ MonoBehaviour:
       - ElementName: Player_WeaponImpact
         ObjectType: 3
       Path: Player\General\Player_WeaponImpact
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 1.658605
+      minDuration: 0.136391
     - name: Player_WeaponSwing
       guid: 806057d62da4bf4f8b2556c419bc2d7e
       id: 3808743129
@@ -3054,9 +3054,9 @@ MonoBehaviour:
       - ElementName: Player_WeaponSwing
         ObjectType: 3
       Path: Player\General\Player_WeaponSwing
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 1.071429
+      minDuration: 0.346819
   - PhysicalPath: Events\Quest.wwu
     ParentPhysicalPath: 
     guid: 5ce294cd157402488879ce42aa44ac22
@@ -3073,8 +3073,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Quest\Quest_Complete
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.406333
+      minDuration: 1.406333
     - name: Quest_CompleteCollection
       guid: 3d2721d57b3ef24e8a9b66160f6242a9
       id: 844130829
@@ -3085,8 +3085,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Quest\Quest_CompleteCollection
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.41372
+      minDuration: 1.41372
   - PhysicalPath: Events\UI.wwu
     ParentPhysicalPath: 
     guid: cc4237cbe8cc974b86e12ce1666d85a2
@@ -3105,8 +3105,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Generic\UI_Button_Down
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.047391
+      minDuration: 0.047391
     - name: UI_Button_Enter
       guid: 7b657bce19f3414c8cd782fbea81ef7a
       id: 18309885
@@ -3119,8 +3119,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Generic\UI_Button_Enter
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.420917
+      minDuration: 0.420917
     - name: UI_Button_Exit
       guid: c794e9792f6ff04a9125aab149e882df
       id: 2325560497
@@ -3133,8 +3133,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Generic\UI_Button_Exit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.27728
+      minDuration: 0.27728
     - name: UI_Button_Up
       guid: 82c57519e39b944baf65dc7c428d2057
       id: 15662850
@@ -3147,8 +3147,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Generic\UI_Button_Up
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.047391
+      minDuration: 0.047391
     - name: UI_Inventory_Close
       guid: 205f44b2c6c23246b5961bc3bdf68ae0
       id: 2278290679
@@ -3161,8 +3161,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Inventory\UI_Inventory_Close
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.202715
+      minDuration: 0.202715
     - name: UI_Inventory_Open
       guid: 4087f0e19ede3940bde2c46b8d8b18f8
       id: 2199611969
@@ -3175,8 +3175,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Inventory\UI_Inventory_Open
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.200143
+      minDuration: 0.200143
     - name: UI_Inventory_Roll
       guid: b2beb50fb9b5fe42a8bfd6dfbe133f84
       id: 3749307760
@@ -3189,8 +3189,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Inventory\UI_Inventory_Roll
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.269723
+      minDuration: 0.269723
     - name: UI_Menu_Pause
       guid: 8573c838f6c51f419e84d9ea1b4d1d98
       id: 3237189652
@@ -3203,8 +3203,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Menu\UI_Menu_Pause
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.292667
+      minDuration: 0.292667
     - name: UI_Menu_Resume
       guid: 53a7bdee1b4e8043aca2fd53129c027d
       id: 1464993479
@@ -3217,8 +3217,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Menu\UI_Menu_Resume
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.325188
+      minDuration: 0.325188
     - name: UI_Menu_Select
       guid: 36bba4f849da5d448477d48bf27f917e
       id: 3474566310
@@ -3231,8 +3231,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Menu\UI_Menu_Select
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.755678
+      minDuration: 0.755678
     - name: UI_Menu_Teleport
       guid: bcc7ef1718712d4c8f3a46491d0bf0cc
       id: 750089663
@@ -3245,8 +3245,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Menu\UI_Menu_Teleport
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.798771
+      minDuration: 1.798771
     - name: UI_QuestRoll_Close
       guid: cb4cd7edb76aff48be5b3ee357dbd93b
       id: 808893336
@@ -3259,8 +3259,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Quest Roll\UI_QuestRoll_Close
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.423525
+      minDuration: 0.423525
     - name: UI_QuestRoll_Hide
       guid: 0d843873aa47c749b598cfef41459a42
       id: 2792117052
@@ -3273,8 +3273,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Quest Roll\UI_QuestRoll_Hide
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.423525
+      minDuration: 0.423525
     - name: UI_QuestRoll_Open
       guid: 468e1781ef957947ab9e2d5734984ef8
       id: 949395292
@@ -3287,8 +3287,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Quest Roll\UI_QuestRoll_Open
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.087646
+      minDuration: 1.087646
     - name: UI_QuestRoll_Show
       guid: aa4a57c135747d4ba0ee94e4c14c2ce2
       id: 3699139167
@@ -3301,8 +3301,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI\Quest Roll\UI_QuestRoll_Show
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.087646
+      minDuration: 1.087646
   RtpcWwu:
   - PhysicalPath: Game Parameters\Ambient.wwu
     ParentPhysicalPath: 
