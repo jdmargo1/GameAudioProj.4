@@ -9,6 +9,11 @@
 						<Property Name="Color" Type="int16" Value="15"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>

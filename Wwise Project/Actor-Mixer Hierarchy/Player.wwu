@@ -1320,6 +1320,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -4707,6 +4712,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</SwitchContainer>
 										<SwitchContainer Name="Impact_Axe_Surface_Type" ID="{2484E82A-28C5-4354-923A-BC58C122CBB1}" ShortID="406858533">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -8495,6 +8505,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</SwitchContainer>
 										<SwitchContainer Name="Impact_Hammer_Surface_Type" ID="{1889386D-52BC-4C3B-AD55-1EB06A75515E}" ShortID="887895664">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -11109,6 +11124,11 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -11279,6 +11299,11 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -14975,6 +15000,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<SwitchContainer Name="Player_Footstep_Rubble" ID="{A1500AC2-425E-417C-9C81-51D60A40B620}" ShortID="159755759">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -15982,6 +16012,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<SwitchContainer Name="Player_Footstep_Sand" ID="{93975229-C83E-497D-B4CE-5C987AA9B933}" ShortID="234490411">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -17516,6 +17551,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -17560,6 +17600,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>

@@ -7,6 +7,11 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="MidiTempoSource" Type="int16" Value="1"/>
 						<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 					</PropertyList>
@@ -151,6 +156,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_BigPno" ID="{FA2847F0-6101-4C78-AB44-7DA136DC7A7D}" ShortID="365850863">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -282,6 +292,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_EvilOrgan" ID="{59F906DD-FD8B-4170-8FC6-432EEED490BF}" ShortID="641832703">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -408,6 +423,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_LowBrass_Long" ID="{4581A765-9993-444D-B046-24D8F54DE316}" ShortID="470385151">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -535,6 +555,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_SoloViolin_1" ID="{E3CA1AA3-41DD-4C79-B80E-81FA5D5222C3}" ShortID="480513765">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -607,6 +632,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_Strings_Choir_1" ID="{8E2D17A4-2E93-492B-96DF-BF765FF06DDA}" ShortID="407969779">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -820,6 +850,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_Strings_Ostinato" ID="{E70FCF31-39E6-4612-AC85-4E31CDB7CBA0}" ShortID="1018831405">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -887,6 +922,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_Strings_Sitar" ID="{6231FEA2-AD4D-4E51-8F4F-ED408E344F38}" ShortID="1010997056">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -954,6 +994,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_Strings_Tremolo" ID="{7CE5BB74-D61E-4B4D-BD9A-34DB9516F789}" ShortID="699245025">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1026,6 +1071,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_Timpani" ID="{14111EAF-297D-4930-9FC3-90B5726AEFF1}" ShortID="38158135">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1096,6 +1146,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Dungeon_Tubas" ID="{7A09FFE7-638E-45E4-B0F9-AB87E6256A9D}" ShortID="235359829">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>

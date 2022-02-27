@@ -386,6 +386,11 @@
 						<ActorMixer Name="Core" ID="{BCE8EAFC-4783-4EAB-AAE3-6FB424DDEBB0}" ShortID="110467325">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -651,6 +656,11 @@
 						<ActorMixer Name="DLC_Key" ID="{A15C452B-6874-4169-A330-8F967C4EBFA6}" ShortID="515501325">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -822,6 +832,11 @@
 						<Property Name="Color" Type="int16" Value="15"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideConversion" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>

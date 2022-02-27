@@ -865,6 +865,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<MusicPlaylistContainer Name="Desert" ID="{11AD5FDC-E240-4809-8DCD-427260E863E9}" ShortID="1054816875">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4303,6 +4308,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						<MusicPlaylistContainer Name="Dungeon" ID="{6A9E3E63-A728-4EE3-8961-22A22126FECA}" ShortID="568532528">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

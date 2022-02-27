@@ -1500,6 +1500,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1567,6 +1572,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1634,6 +1644,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1698,6 +1713,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1765,6 +1785,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -1828,6 +1853,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2179,6 +2209,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2240,6 +2275,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2301,6 +2341,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2478,6 +2523,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2550,6 +2600,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2625,6 +2680,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2698,6 +2758,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2771,6 +2836,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2843,6 +2913,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -2926,6 +3001,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3009,6 +3089,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3089,6 +3174,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3169,6 +3259,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3249,6 +3344,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3329,6 +3429,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3401,6 +3506,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3485,6 +3595,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3565,6 +3680,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3645,6 +3765,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3725,6 +3850,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>1</Value>
@@ -3813,6 +3943,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3896,6 +4031,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -3980,6 +4120,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -4038,6 +4183,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -4099,6 +4249,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
@@ -4162,6 +4317,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsNonCachable" Type="bool">
 											<ValueList>
 												<Value>True</Value>
