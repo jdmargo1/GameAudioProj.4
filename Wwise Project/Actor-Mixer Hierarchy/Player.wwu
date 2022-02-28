@@ -12883,7 +12883,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-14</Value>
+												<Value>-8</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -12960,7 +12960,15 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Value>5</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-80</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{9B822974-32D4-48CE-B858-BDD4EBEC4967}">
@@ -13024,7 +13032,13 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -13053,9 +13067,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_run_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Run" ID="{53D1DBEE-16B3-4FBE-8480-192B075CE236}" ShortID="1007244860">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.44849601098359E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.145685512653524"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.335189074857265"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_run_01" ID="{899BE9DC-0BB8-4A10-9B06-A15147F9D221}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Run" ID="{53D1DBEE-16B3-4FBE-8480-192B075CE236}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_run_02" ID="{B5D66D64-A747-4A9A-86CD-A9F1E18B9E34}" ShortID="459176540">
@@ -13076,9 +13103,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_run_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Run" ID="{EE78F338-8967-488E-A60A-E20FD6FE7DE7}" ShortID="716185492">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.011556678304145"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.121987159877086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.33865463601605"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.628616359540262"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_run_02" ID="{E41DD6FF-C199-4FC0-832D-482EC45C19C0}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Run" ID="{EE78F338-8967-488E-A60A-E20FD6FE7DE7}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_run_03" ID="{E9844DDD-6A04-4206-8F19-F97311A6F941}" ShortID="101105789">
@@ -13099,9 +13139,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_run_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Run" ID="{34D0B319-E939-4EDA-9089-9DC5D8BA553E}" ShortID="110825758">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.011556678304145"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.121987159877086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.644811871279187"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.92220427716752"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_run_03" ID="{11505C5F-9ACD-42E1-BE9A-67B75809BCFB}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Run" ID="{34D0B319-E939-4EDA-9089-9DC5D8BA553E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_run_04" ID="{EB2D8237-4F97-4213-9967-34AB86353AD1}" ShortID="626275864">
@@ -13129,9 +13182,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_run_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Run" ID="{D1CEC2D3-EB6D-49CD-9242-21E49E1D9112}" ShortID="457444468">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.011556678304145"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.121987159877086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.927441384218654"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.19485589816208"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_run_04" ID="{722415C6-CEFF-4BFD-A04F-CE4A8C7442C7}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Run" ID="{D1CEC2D3-EB6D-49CD-9242-21E49E1D9112}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_run_05" ID="{837AD68F-6C05-4A45-BCDE-1BE6C7C8C801}" ShortID="398004563">
@@ -13145,6 +13211,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	</ValueList>
 																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>5</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -13159,9 +13235,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_run_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Run" ID="{5A8E66D9-E7E2-4689-924E-1BCB9693E868}" ShortID="295176911">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.011556678304145"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.121987159877086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.18746828603177"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.46307029688711"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_run_05" ID="{A096693C-6BAE-4993-A381-47BB659DF74B}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Run" ID="{5A8E66D9-E7E2-4689-924E-1BCB9693E868}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_run_06" ID="{60BE1208-AE7E-433F-B8DA-6268422B7916}" ShortID="485521541">
@@ -13189,9 +13278,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_run_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Run" ID="{345B1499-6B5F-4646-B5D4-EE103B5C0CE8}" ShortID="623350409">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.011556678304145"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.121987159877086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.46535258826139"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.67988512852213"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_run_06" ID="{BB618449-A9DB-4C4F-A6CD-89386EC1AE63}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Run" ID="{345B1499-6B5F-4646-B5D4-EE103B5C0CE8}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -13199,11 +13301,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<RandomSequenceContainer Name="Player_Footstep_dirt_walk" ID="{2F8C95B5-FB1F-45FD-9FA6-AA9DC7F6BFD1}" ShortID="853446149">
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Highpass" Type="int16">
-															<ValueList>
-																<Value>10</Value>
-															</ValueList>
-														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -13218,7 +13315,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>2</Value>
+																<Value>-6</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -13235,6 +13332,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>5</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -13249,9 +13351,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_walk_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Walk" ID="{D1934149-C2AA-435C-860C-04CC88BC13CF}" ShortID="441970458">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.14512543141194"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.388870962472694"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_walk_01" ID="{29250E91-41F1-44B3-A15D-8BA3D4B2C275}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Walk" ID="{D1934149-C2AA-435C-860C-04CC88BC13CF}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_walk_02" ID="{F6AC49A9-B95E-40F7-B25B-2E39E6DDB553}" ShortID="580697204">
@@ -13272,15 +13386,32 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_walk_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Walk" ID="{F2380D97-49E2-47FC-9AB6-AAC86F7C735E}" ShortID="433857567">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.14512543141194"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.440300545500227"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.872876654293306"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_walk_02" ID="{7FF38FEE-7C00-4469-85E7-58DAD26F2EA5}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Walk" ID="{F2380D97-49E2-47FC-9AB6-AAC86F7C735E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_walk_03" ID="{C1975B07-1EA9-46F6-8003-79DD093471B3}" ShortID="152542908">
 															<PropertyList>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>12</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -13295,9 +13426,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_walk_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Walk" ID="{6F6C51FB-38D2-44F0-A9BB-720868617EC9}" ShortID="239168245">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.14512543141194"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.87960065682895"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.3365431538092"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_walk_03" ID="{C422B5F2-8168-47E8-8794-3BE879031B04}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Walk" ID="{6F6C51FB-38D2-44F0-A9BB-720868617EC9}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_walk_04" ID="{B36E7CAD-AE8A-4FEA-AE28-0A47AA8C2299}" ShortID="721128311">
@@ -13311,6 +13454,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	</ValueList>
 																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -13325,9 +13473,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_walk_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Walk" ID="{A87B12B6-37ED-4CB2-B917-A017178E047C}" ShortID="582560102">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.14512543141194"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.34349708852788"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.76801010683983"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_walk_04" ID="{E57109A0-A927-452F-AB9B-02807EC114EC}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Walk" ID="{A87B12B6-37ED-4CB2-B917-A017178E047C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_walk_05" ID="{B9255879-5891-47E6-9C6B-D2F02C092926}" ShortID="324280369">
@@ -13341,6 +13501,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	</ValueList>
 																</Property>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -13355,9 +13520,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_walk_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Walk" ID="{40BB9351-BC2D-4D57-9136-1810A6F52DF0}" ShortID="992774190">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.14512543141194"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.77537317198553"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.21285375779117"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_walk_05" ID="{C3F8CF03-B0E5-4244-AD02-020F7DDFA2FA}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Walk" ID="{40BB9351-BC2D-4D57-9136-1810A6F52DF0}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_dirt_walk_06" ID="{41DE0C31-BB51-4FB4-878B-8D3A1983EE8C}" ShortID="22767155">
@@ -13385,9 +13562,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_dirt_walk_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Dirt_Walk" ID="{329ADABA-2E9C-45F9-BAA7-54BE2721FB39}" ShortID="633450488">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.14512543141194"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.20351722020905"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.64112084580394"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Dirt_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_dirt_walk_06" ID="{331D7654-66DD-45FA-8DA3-3877060BA7B2}" Platform="Linked"/>
+																<ActiveSource Name="FS_Dirt_Walk" ID="{329ADABA-2E9C-45F9-BAA7-54BE2721FB39}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -13442,6 +13631,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-14</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -13487,9 +13681,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_run_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Run" ID="{01F3FF5A-7E43-4FA2-9BFD-10C22CAA0D61}" ShortID="775213757">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="4.69440948995885E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.10930937295332"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.37566608531838"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_run_04" ID="{510A456C-74B6-4723-9A3F-F816571E7EAF}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Run" ID="{01F3FF5A-7E43-4FA2-9BFD-10C22CAA0D61}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_run_02" ID="{17015CAB-A7CD-4216-98AC-D17339569E23}" ShortID="855616930">
@@ -13520,9 +13727,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_run_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Run" ID="{8170CA47-6AD2-47C6-BA33-4C7EFB8E4C14}" ShortID="920142712">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="5.20467139104135E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.033677285471444"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.433722615920112"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.682730423648365"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_run_02" ID="{FC6475BF-2DE0-4C8F-9DE5-898E43BF7E2F}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Run" ID="{8170CA47-6AD2-47C6-BA33-4C7EFB8E4C14}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_run_05" ID="{EC81840F-59EB-4A06-B334-6077BBC941BF}" ShortID="767904733">
@@ -13560,9 +13780,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_run_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Run" ID="{4CBB4970-D555-4C73-8C78-AF4F05234A32}" ShortID="1073639909">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="8.98060945905172E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.49302632256735"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.74815727310859"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_run_05" ID="{198C1C29-88C8-45C5-B8D2-F40FAE378CC0}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Run" ID="{4CBB4970-D555-4C73-8C78-AF4F05234A32}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_run_06" ID="{EFA992B9-7C12-4F2D-8864-D460325A28D3}" ShortID="454430902">
@@ -13600,9 +13833,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_run_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Run" ID="{DBFA12BE-C8E3-4B33-808D-15CFC7F3AF48}" ShortID="347709270">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.073477713755878"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.90837951004849"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.14207946074427"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_run_06" ID="{04B3D0CE-C0A7-49E1-986E-A2F4EB25088D}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Run" ID="{DBFA12BE-C8E3-4B33-808D-15CFC7F3AF48}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_run_03" ID="{D2AA49A9-DF43-4319-99D1-122A8F059E31}" ShortID="194224193">
@@ -13633,9 +13879,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_run_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Run" ID="{87FB3C55-7F7B-4E65-BB9B-A38632BCD5E6}" ShortID="616862208">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.115319189644642"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.764372327821563"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.00827751653899"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_run_03" ID="{5A861647-877C-452F-89F1-4A0837B49FEB}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Run" ID="{87FB3C55-7F7B-4E65-BB9B-A38632BCD5E6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_run_01" ID="{DAA744B9-74E2-492E-83E3-D16ECFF27951}" ShortID="841237668">
@@ -13666,9 +13925,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_run_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Run" ID="{51EF9C65-050F-4F44-BD9A-24E8A5D20108}" ShortID="73281594">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.55130950541243E-02"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.294931378825676"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_run_01" ID="{DD8FA519-FEF0-4F57-95A8-BBAFD18D6E90}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Run" ID="{51EF9C65-050F-4F44-BD9A-24E8A5D20108}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -13720,9 +13991,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_walk_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Walk" ID="{123D600C-E9B3-4D75-B234-DDF9ABD03B22}" ShortID="942932876">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.388860021214482"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.239646292143809"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.662418524510717"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_walk_01" ID="{51E43507-0E23-4053-BA0E-A03CAE86D4FE}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Walk" ID="{123D600C-E9B3-4D75-B234-DDF9ABD03B22}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_walk_03" ID="{49112F92-7FC8-486E-8B04-F15BC20AA39F}" ShortID="12595177">
@@ -13753,9 +14036,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_walk_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Walk" ID="{D9E7B0C8-126C-4C0A-B251-BA6D504C0740}" ShortID="340096011">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.388860021214482"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.57804822562621"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.97142987499435"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_walk_03" ID="{FCB03DAB-7AC7-46FB-83F7-D2AEBC8295FC}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Walk" ID="{D9E7B0C8-126C-4C0A-B251-BA6D504C0740}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_walk_02" ID="{EDB65571-BD51-4AA4-A3C0-AC93AF99D92D}" ShortID="80948410">
@@ -13786,9 +14081,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_walk_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Walk" ID="{D5C23BA9-DB90-45FB-9251-09E5ACA4510D}" ShortID="915141775">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.370773508599856"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.859109349194785"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.22988285779464"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_walk_02" ID="{213C1A5F-2E81-46BD-92D9-9A3E760BD508}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Walk" ID="{D5C23BA9-DB90-45FB-9251-09E5ACA4510D}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_walk_04" ID="{040141DC-D4E3-4C78-A739-E1681E5AAF71}" ShortID="187621925">
@@ -13826,9 +14133,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_walk_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Walk" ID="{A1F6E88D-2D00-4F00-9C23-1DF031C788EB}" ShortID="414065280">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.305209900371834"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.19751128267719"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.61124025873678"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_walk_04" ID="{5101F9DF-AF9D-444A-A31C-9B1A1F6144CF}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Walk" ID="{A1F6E88D-2D00-4F00-9C23-1DF031C788EB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_walk_05" ID="{61FBDB87-0C86-41FC-8D73-770D2F7F24EB}" ShortID="491497098">
@@ -13866,9 +14185,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_walk_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Walk" ID="{A9225796-433E-4E64-9D44-BF5B45D0C8D2}" ShortID="863050244">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.388860021214482"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.80567026934402"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="3.25557227063287"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_walk_05" ID="{64871FF8-6D40-4414-A55F-7B4A882EC4A3}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Walk" ID="{A9225796-433E-4E64-9D44-BF5B45D0C8D2}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_wood_walk_06" ID="{9CAFB34E-EC68-4972-A9E7-AE27DD3B8A64}" ShortID="250494651">
@@ -13906,9 +14237,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_wood_walk_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Wood_Walk" ID="{1A251837-5DDE-4A3D-8AC8-B64FD9541D2B}" ShortID="952233575">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.354947810062057"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.38443867301209"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="3.79816764907168"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Wood_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_wood_walk_06" ID="{89D9228F-758C-4821-9394-CF65899F21FB}" Platform="Linked"/>
+																<ActiveSource Name="FS_Wood_Walk" ID="{1A251837-5DDE-4A3D-8AC8-B64FD9541D2B}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -14483,10 +14826,20 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<RandomSequenceContainer Name="Player_Footstep_stone_run" ID="{D1795D30-94A7-4C6E-BD57-FB118C57D459}" ShortID="940569836">
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>600</Value>
+															</ValueList>
+														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-5</Value>
+																<Value>-10</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -14510,6 +14863,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -14527,9 +14885,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_run_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Run" ID="{6720FAA3-26A0-42F5-AA15-5CF1D1D52DA6}" ShortID="119767071">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.317422590064333"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.347297657364506"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.728204765441705"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_run_02" ID="{DB51834C-231D-4FF6-82DC-B91AC41FE061}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Run" ID="{6720FAA3-26A0-42F5-AA15-5CF1D1D52DA6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_run_03" ID="{AC48C41D-FB29-4E9F-AD49-C1B5A3C14137}" ShortID="623331435">
@@ -14543,6 +14913,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -14560,9 +14935,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_run_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Run" ID="{7F609D5B-C4F8-49CB-91E3-EDE5346430BB}" ShortID="618796958">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.291281906176681"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.07550242280621"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.4377376138208"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_run_03" ID="{BABA08E3-351D-42DE-A3BB-052D8C6DD5B3}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Run" ID="{7F609D5B-C4F8-49CB-91E3-EDE5346430BB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_run_04" ID="{AB605278-0532-4CAB-979E-424318B68BF1}" ShortID="1009143258">
@@ -14583,6 +14970,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -14599,6 +14991,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="BAS_Player_Footstep_stone_run_04" ID="{6C955E16-0C97-4B95-861E-D9AA6DF175CE}" ShortID="867309096">
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_run_04.wav</AudioFile>
+																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Run" ID="{2466F832-087E-4340-AB0C-DEF619016FC4}" ShortID="502782412">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.317422590064333"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.365969574427112"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Run.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="46371184"/>
+																	</ConvertedFileIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -14623,6 +15030,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>90</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -14640,9 +15052,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_run_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Run" ID="{31326BE7-63CA-4B69-85EA-80658FE3178E}" ShortID="302616316">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.317422590064333"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.46761268112098"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.80744157166044"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_run_05" ID="{7E2B670C-5FCD-421C-80BB-5E5FF959F974}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Run" ID="{31326BE7-63CA-4B69-85EA-80658FE3178E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_run_06" ID="{ABE72C9C-CEE1-4FA9-9B2F-936356F0AB47}" ShortID="575537160">
@@ -14663,6 +15087,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -14680,9 +15109,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_run_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Run" ID="{D37415AC-68F6-4FE4-9736-D6C5A74D007C}" ShortID="871178072">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.272609989114075"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.81491033848548"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.08752032759956"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_run_06" ID="{A399D8A5-7457-401B-A06A-EB79C58E9AB0}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Run" ID="{D37415AC-68F6-4FE4-9736-D6C5A74D007C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_run_01" ID="{A3ADDD38-808E-482F-BD4B-3EF8C7A2A500}" ShortID="879820553">
@@ -14696,6 +15137,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -14713,9 +15159,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_run_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Run" ID="{4BA9E13C-E029-42ED-90A4-423A2D13F8BD}" ShortID="46371184">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.317422590064333"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.365969574427112"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_run_01" ID="{D76514C5-2589-48BA-834A-EF0FB9959657}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Run" ID="{4BA9E13C-E029-42ED-90A4-423A2D13F8BD}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -14723,10 +15181,20 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<RandomSequenceContainer Name="Player_Footstep_stone_walk" ID="{0FC8D4AB-D07B-4046-BEC5-1A70B2CC62FB}" ShortID="861656080">
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>600</Value>
+															</ValueList>
+														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-1</Value>
+																<Value>-7</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -14767,9 +15235,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_walk_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Walk" ID="{95C22A5C-F30E-4CEF-AAA5-70626A176B8E}" ShortID="526127783">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.269145002888504"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.543782760937998"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.906304601563329"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_walk_02" ID="{410FA36C-539B-45FE-8F87-640BC3D19B4A}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Walk" ID="{95C22A5C-F30E-4CEF-AAA5-70626A176B8E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_walk_03" ID="{A50BAB18-EFB9-4059-B217-4FDCC577EAE4}" ShortID="620826110">
@@ -14800,9 +15280,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_walk_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Walk" ID="{3E5B820B-DF7C-4F3A-80A0-D79F3D61FBC8}" ShortID="154860637">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.269145002888504"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.04911623574907"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.45008736250133"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_walk_03" ID="{984C96BA-1A0A-4477-A91F-8ED2F71727A8}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Walk" ID="{3E5B820B-DF7C-4F3A-80A0-D79F3D61FBC8}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_walk_04" ID="{8037FAE8-1215-419D-A954-B9B8D11A5A28}" ShortID="935582543">
@@ -14840,9 +15332,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_walk_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Walk" ID="{6807E4A1-D641-4C5F-99B3-5F9F94586108}" ShortID="975487097">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.269145002888504"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.57642073120409"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.98837736827833"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_walk_04" ID="{4FBD646F-DB40-4EA1-8DAB-28C659AD96C6}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Walk" ID="{6807E4A1-D641-4C5F-99B3-5F9F94586108}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_walk_06" ID="{44C7FCA4-E4CB-4609-8DEF-88199B6B6148}" ShortID="646682417">
@@ -14891,9 +15395,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_walk_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Walk" ID="{B52287BC-775A-4082-B39E-2A60CB5B7ACE}" ShortID="408522342">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.269145002888504"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.68595727372405"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="3.08143564531532"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_walk_06" ID="{BEE990CA-E51F-4BF0-BC0B-CB0551916099}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Walk" ID="{B52287BC-775A-4082-B39E-2A60CB5B7ACE}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_walk_05" ID="{80011478-BFBE-4898-8E80-B3E181B627EF}" ShortID="471791190">
@@ -14931,9 +15447,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_walk_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Walk" ID="{FC6138CD-DD23-4AC9-8FCD-C34B8201C6FD}" ShortID="265204291">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.269145002888504"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.10921798182011"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.52117461889436"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_walk_05" ID="{68F6EA25-F75C-41FA-A9F9-69B1F938DE3F}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Walk" ID="{FC6138CD-DD23-4AC9-8FCD-C34B8201C6FD}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_stone_walk_01" ID="{8DB73829-5652-49A1-AA7E-E6A635FB17DB}" ShortID="322199740">
@@ -14964,9 +15492,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_stone_walk_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Stone_Walk" ID="{04D125AF-E479-4631-97A4-210A3C57DD76}" ShortID="922822218">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.269145002888504"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.521811740294038"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Stone_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_stone_walk_01" ID="{1746EDA1-7042-4CAC-9918-45803CE295B4}" Platform="Linked"/>
+																<ActiveSource Name="FS_Stone_Walk" ID="{04D125AF-E479-4631-97A4-210A3C57DD76}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -15492,6 +16032,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</ValueList>
 												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -15514,7 +16059,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>10</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -15527,43 +16072,15 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Player_Footstep_grass_run_01" ID="{553E4439-2E96-4625-B569-BF27B2DED35A}" ShortID="126656719">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-																<Property Name="Priority" Type="int16">
-																	<ValueList>
-																		<Value>80</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="BAS_Player_Footstep_grass_run_01" ID="{7A4715F8-A4AE-419D-B16E-A9AA2B790CF6}" ShortID="293050403">
-																	<Language>SFX</Language>
-																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_run_01.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_run_01" ID="{7A4715F8-A4AE-419D-B16E-A9AA2B790CF6}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
 														<Sound Name="Player_Footstep_grass_run_02" ID="{B47A78FD-672F-4612-AA5C-3909CC602A17}" ShortID="340678195">
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
 																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>19</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15571,6 +16088,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>75</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15584,13 +16111,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="BAS_Player_Footstep_grass_run_02" ID="{4C025524-D204-4937-876B-7C803EBE1D00}" ShortID="53207299">
+																<AudioFileSource Name="FS_Woodlands_Run" ID="{785B6378-BEA0-40E7-B77C-6DF379312CAE}" ShortID="222371863">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.181662740200392"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.332157853405618"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.645615130614137"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_run_02.wav</AudioFile>
+																	<AudioFile>FS_Woodlands_Run.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_run_02" ID="{4C025524-D204-4937-876B-7C803EBE1D00}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Run" ID="{785B6378-BEA0-40E7-B77C-6DF379312CAE}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_run_04" ID="{A1F0479A-F89F-412B-8035-8FDF589DFBA6}" ShortID="725961262">
@@ -15604,6 +16139,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																		<Value Platform="Android_High">False</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-400</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Priority" Type="int16">
 																	<ValueList>
 																		<Value>80</Value>
@@ -15611,6 +16151,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>75</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15624,13 +16169,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="BAS_Player_Footstep_grass_run_04" ID="{9FADEAF7-723F-4EB4-847C-12AA173E7746}" ShortID="34287000">
+																<AudioFileSource Name="FS_Woodlands_Run" ID="{F61D5612-5E58-4BC4-9956-91F63B55C912}" ShortID="293977736">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.181662740200392"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.977772984019755"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.31616436282441"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_run_04.wav</AudioFile>
+																	<AudioFile>FS_Woodlands_Run.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_run_04" ID="{9FADEAF7-723F-4EB4-847C-12AA173E7746}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Run" ID="{F61D5612-5E58-4BC4-9956-91F63B55C912}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_run_05" ID="{709CC64E-E181-4048-8EE3-25DA054F27A4}" ShortID="791644845">
@@ -15651,6 +16204,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>40</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15664,13 +16222,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="BAS_Player_Footstep_grass_run_05" ID="{2AB176D8-826E-4405-B184-4E8D1A5FB082}" ShortID="578971414">
+																<AudioFileSource Name="FS_Woodlands_Run" ID="{6D108744-5408-4590-9DFC-624839E74200}" ShortID="591482962">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.181662740200392"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.31527385919597"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.62338811463389"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_run_05.wav</AudioFile>
+																	<AudioFile>FS_Woodlands_Run.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_run_05" ID="{2AB176D8-826E-4405-B184-4E8D1A5FB082}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Run" ID="{6D108744-5408-4590-9DFC-624839E74200}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_run_06" ID="{2D8ED905-3CEB-451A-89E7-A03CC72B52FF}" ShortID="906595075">
@@ -15691,6 +16257,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>40</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15704,13 +16275,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="BAS_Player_Footstep_grass_run_06" ID="{3E8270CC-3524-4F24-8801-513E9B453518}" ShortID="501567712">
+																<AudioFileSource Name="FS_Woodlands_Run" ID="{C10B464F-E303-463F-A9ED-98587CF39908}" ShortID="656269259">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.181662740200392"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.61893559649173"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.88519618139328"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_run_06.wav</AudioFile>
+																	<AudioFile>FS_Woodlands_Run.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_run_06" ID="{3E8270CC-3524-4F24-8801-513E9B453518}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Run" ID="{C10B464F-E303-463F-A9ED-98587CF39908}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_run_03" ID="{8D22BA89-F497-45EF-96A8-C84B987079D4}" ShortID="102089701">
@@ -15724,6 +16303,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>40</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15737,13 +16321,77 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="BAS_Player_Footstep_grass_run_03" ID="{9224631C-4DF5-443D-941D-D9C6A6749F92}" ShortID="576812197">
+																<AudioFileSource Name="FS_Woodlands_Run" ID="{C5FC4920-5501-4992-B912-BF6C41CE1A3C}" ShortID="1073140718">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.181662740200392"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.650958152384737"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.95729140056579"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_run_03.wav</AudioFile>
+																	<AudioFile>FS_Woodlands_Run.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_run_03" ID="{9224631C-4DF5-443D-941D-D9C6A6749F92}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Run" ID="{C5FC4920-5501-4992-B912-BF6C41CE1A3C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Player_Footstep_grass_run_01" ID="{553E4439-2E96-4625-B569-BF27B2DED35A}" ShortID="126656719">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>20</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Priority" Type="int16">
+																	<ValueList>
+																		<Value>80</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>60</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Woodlands_Run" ID="{04CA7920-DE0C-48D9-9C10-1B21EE57D970}" ShortID="898983323">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.181662740200392"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.338391378804651"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Run.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Woodlands_Run" ID="{04CA7920-DE0C-48D9-9C10-1B21EE57D970}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -15751,6 +16399,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<RandomSequenceContainer Name="Player_Footstep_Woodlands_walk" ID="{03DFFC27-70B5-4F17-8079-B85258325436}" ShortID="1052050242">
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>19</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -15773,6 +16437,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>25</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15790,9 +16459,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_walk_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Woodlands_Walk" ID="{D0DDB9EE-7213-4003-B77F-B591908BE1F3}" ShortID="111689082">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="4.88257605622995E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.401702929974338"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.791053028845598"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.19275595881994"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_walk_03" ID="{C835FC92-D6C2-48CE-9593-E6F6DB99EE83}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Walk" ID="{D0DDB9EE-7213-4003-B77F-B591908BE1F3}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_walk_05" ID="{B4EFFD8F-9B44-42A0-85D6-155BDF2EFA7B}" ShortID="508717331">
@@ -15813,6 +16495,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</Property>
 																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>25</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Attenuation">
@@ -15830,9 +16517,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_walk_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Woodlands_Walk" ID="{CE86E951-DF4B-4A4B-B074-6570B0AF7E62}" ShortID="107237651">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.236421270408952"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.56868707798372"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.80510834839267"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_walk_05" ID="{ED31BACD-1807-403A-B209-193C8D777037}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Walk" ID="{CE86E951-DF4B-4A4B-B074-6570B0AF7E62}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_walk_01" ID="{F4565571-56AD-4DFC-B7FF-5192BF86A331}" ShortID="852567503">
@@ -15863,9 +16562,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_walk_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Woodlands_Walk" ID="{C5EFCB75-0074-4F7C-9A13-0671DAEE341B}" ShortID="951918111">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.260816137303322"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.68830901237021E-02"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.364311869702293"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_walk_01" ID="{D79B6EBC-DCEC-471B-827D-A614AA885260}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Walk" ID="{C5EFCB75-0074-4F7C-9A13-0671DAEE341B}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_walk_06" ID="{9C36E9C7-AB8C-476D-A368-FAAEA007236B}" ShortID="161356273">
@@ -15902,6 +16613,18 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="BAS_Player_Footstep_grass_walk_06" ID="{9788CC9D-9012-4436-9CCE-1D35B5E003AA}" ShortID="458904515">
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_walk_06.wav</AudioFile>
+																</AudioFileSource>
+																<AudioFileSource Name="FS_Woodlands_Walk" ID="{EB60EC26-6F08-48FB-BA69-F94DA036BE87}" ShortID="343720229">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.247070877184129"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.89243512394913"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.13950600113326"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Walk.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -15943,9 +16666,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_walk_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Woodlands_Walk" ID="{46409CA9-9B27-4C38-AB6B-83214B7AD2D0}" ShortID="151205934">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.219381899568667"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.31203155470193"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.5676221173062"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_walk_04" ID="{1AB04347-EB7D-4377-8AA1-7DE68B312150}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Walk" ID="{46409CA9-9B27-4C38-AB6B-83214B7AD2D0}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_grass_walk_02" ID="{E6AB35BB-1A48-4500-B373-BFE676D90D18}" ShortID="304384114">
@@ -15976,9 +16711,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_grass_walk_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Woodlands_Walk" ID="{9E0D2E4A-005F-47D9-8153-6A67DF98EF24}" ShortID="583871791">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.260816137303322"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.428122276572505"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.772854914180167"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Woodlands_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_grass_walk_02" ID="{944DA80A-4644-4C30-9C56-62CE72789281}" Platform="Linked"/>
+																<ActiveSource Name="FS_Woodlands_Walk" ID="{9E0D2E4A-005F-47D9-8153-6A67DF98EF24}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
