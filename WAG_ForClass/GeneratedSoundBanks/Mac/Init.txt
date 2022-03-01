@@ -14,6 +14,7 @@ Switch	ID	Name	Switch Group			Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	326723740	MagicZone			\MusicStates\MagicZone	
+	440928865	InWater			\PlayerInWater\InWater	
 	2106907484	Music_Regions			\MusicStates\Music_Regions	
 	2333396925	Combo			\Player\Combo	
 
@@ -21,6 +22,9 @@ State	ID	Name	State Group			Notes
 	0	None	MagicZone			
 	975018643	MZ1_OutsideHouse	MagicZone			
 	3530070619	MZ2_InsideHouse	MagicZone			
+	0	None	InWater			
+	979470758	Yes	InWater			
+	1668749452	No	InWater			
 	0	None	Music_Regions			
 	608898761	Dungeon	Music_Regions			
 	1421251628	Woodlands	Music_Regions			

@@ -201,6 +201,16 @@ namespace AK
             } // namespace STATE
         } // namespace COMBO
 
+        namespace INWATER
+        {
+            static const AkUniqueID GROUP = 440928865U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NO = 1668749452U;
+            } // namespace STATE
+        } // namespace INWATER
+
         namespace MAGICZONE
         {
             static const AkUniqueID GROUP = 326723740U;

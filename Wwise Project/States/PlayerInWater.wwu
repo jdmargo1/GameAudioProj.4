@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD8C2C57-F368-463E-B3D3-383B884B9DA2}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="PlayerInWater" ID="{DD8C2C57-F368-463E-B3D3-383B884B9DA2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="InWater" ID="{E6AE7966-95A2-4C0A-A814-F26284A2ED29}">
+					<ChildrenList>
+						<State Name="None" ID="{353E9A90-11AD-4B3F-8387-A380F49D0C08}"/>
+						<State Name="Yes" ID="{6A2B80DA-8678-4DB6-B3FF-D837E18F9567}"/>
+						<State Name="No" ID="{DED88D1F-0383-4797-8FB3-296CF08B81EB}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

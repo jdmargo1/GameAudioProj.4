@@ -15645,6 +15645,31 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ChildrenList>
 														</RandomSequenceContainer>
 													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="InWater" ID="{E6AE7966-95A2-4C0A-A814-F26284A2ED29}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="No" ID="{DED88D1F-0383-4797-8FB3-296CF08B81EB}"/>
+																<CustomState Name="" ID="{828D95E6-7E0E-434D-8E18-DFCDF2FDFB2F}" ShortID="897268338">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="None" ID="{353E9A90-11AD-4B3F-8387-A380F49D0C08}"/>
+																<CustomState Name="" ID="{474D7B39-E4BC-464D-B7B2-43B9A3F1231C}" ShortID="415833782"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="Yes" ID="{6A2B80DA-8678-4DB6-B3FF-D837E18F9567}"/>
+																<CustomState Name="" ID="{2477F1A7-C371-41FF-9AAD-CB6B06A98223}" ShortID="911109633"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
 													<Playlist>
 														<ItemRef Name="PFS_Water_Wade_L" ID="{C4E89D9C-BCA0-4052-A78D-E86373A98B1D}"/>
 														<ItemRef Name="PFS_Water_Wade_R" ID="{DACF5FF1-005A-40F7-8A40-60CBC1B00D1A}"/>

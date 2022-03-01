@@ -218,6 +218,7 @@ Switch	ID	Name	Switch Group			Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	326723740	MagicZone			\MusicStates\MagicZone	
+	440928865	InWater			\PlayerInWater\InWater	
 	2106907484	Music_Regions			\MusicStates\Music_Regions	
 	2333396925	Combo			\Player\Combo	
 
@@ -225,6 +226,8 @@ State	ID	Name	State Group			Notes
 	0	None	MagicZone			
 	975018643	MZ1_OutsideHouse	MagicZone			
 	3530070619	MZ2_InsideHouse	MagicZone			
+	979470758	Yes	InWater			
+	1668749452	No	InWater			
 	0	None	Music_Regions			
 	608898761	Dungeon	Music_Regions			
 	1421251628	Woodlands	Music_Regions			
@@ -241,6 +244,7 @@ State	ID	Name	State Group			Notes
 
 Custom State	ID	Name	State Group	Owner		Notes
 	651318039	TopSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	897268338	No	InWater	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S		
 	959165918	RightSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
 	1064249781	MZ2_InsideHouse	MagicZone	\Effects\Factory Effects\Wwise Flanger\Flanging\Standard		
 
