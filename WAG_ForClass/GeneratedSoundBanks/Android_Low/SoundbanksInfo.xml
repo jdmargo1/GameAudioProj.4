@@ -326,7 +326,7 @@
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.625193" DurationMax="0.794739"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="0.757116" DurationMax="1.606618"/>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.239300" DurationMax="0.623278"/>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.239300" DurationMax="4.420672"/>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Player\General\Player_Health" GUID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" DurationType="Infinite"/>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="0.832667"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.136391" DurationMax="1.467720"/>
@@ -1110,6 +1110,14 @@
 				</File>
 			</IncludedMemoryFiles>
 			<ExcludedMemoryFiles>
+				<File Id="24068947" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9CE0E8E6.wem</Path>
+				</File>
+				<File Id="34428346" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_5E7DEA6B.wem</Path>
+				</File>
 				<File Id="46371184" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_8AA7E60B.wem</Path>
@@ -1117,6 +1125,10 @@
 				<File Id="73281594" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
 					<Path>SFX\FS_Wood_Run_B9B38B64.wem</Path>
+				</File>
+				<File Id="106310996" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_30AFE37B.wem</Path>
 				</File>
 				<File Id="110825758" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -1126,45 +1138,41 @@
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
 					<Path>SFX\FS_Woodlands_Walk_D02080DF.wem</Path>
 				</File>
-				<File Id="117108038" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="119767071" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_6097BE48.wem</Path>
 				</File>
-				<File Id="130892503" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_02_0C8DC468.wem</Path>
+				<File Id="140084451" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_12CBED97.wem</Path>
 				</File>
 				<File Id="154860637" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX\FS_Stone_Walk_2D981C11.wem</Path>
 				</File>
+				<File Id="161812219" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_2358A531.wem</Path>
+				</File>
+				<File Id="178475207" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_5F82089F.wem</Path>
+				</File>
 				<File Id="222371863" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
 					<Path>SFX\FS_Woodlands_Run_26158534.wem</Path>
-				</File>
-				<File Id="229113548" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_03_0C8DC468.wem</Path>
 				</File>
 				<File Id="239168245" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_F08ED7E3.wem</Path>
 				</File>
-				<File Id="288556157" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="340096011" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_DA3CFD9E.wem</Path>
+					<Path>SFX\FS_Wood_Walk_AB97E8A7.wem</Path>
 				</File>
-				<File Id="352809797" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_03_0C8DC468.wem</Path>
+				<File Id="382767867" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9A1062CA.wem</Path>
 				</File>
 				<File Id="433857567" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
@@ -1173,6 +1181,14 @@
 				<File Id="441970458" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_A58CA425.wem</Path>
+				</File>
+				<File Id="448906690" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_499A6B4C.wem</Path>
+				</File>
+				<File Id="498254836" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_03885216.wem</Path>
 				</File>
 				<File Id="526127783" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
@@ -1190,9 +1206,21 @@
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_13D15A53.wem</Path>
 				</File>
+				<File Id="653608214" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_AF09D3BC.wem</Path>
+				</File>
+				<File Id="714688282" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_82EAE871.wem</Path>
+				</File>
 				<File Id="716185492" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_4C070060.wem</Path>
+				</File>
+				<File Id="820509230" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_9BFA69F9.wem</Path>
 				</File>
 				<File Id="898983323" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -1200,7 +1228,7 @@
 				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_96905AB4.wem</Path>
+					<Path>SFX\FS_Wood_Walk_817BE2F9.wem</Path>
 				</File>
 				<File Id="920142712" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
@@ -1212,11 +1240,7 @@
 				</File>
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_1E91BE1A.wem</Path>
-				</File>
-				<File Id="951050489" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_02_0C8DC468.wem</Path>
+					<Path>SFX\FS_Wood_Walk_673D9D57.wem</Path>
 				</File>
 				<File Id="951918111" Language="SFX">
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
@@ -1380,7 +1404,7 @@
 				</File>
 				<File Id="340096011" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_DA3CFD9E.wem</Path>
+					<Path>SFX\FS_Wood_Walk_AB97E8A7.wem</Path>
 				</File>
 				<File Id="357036992" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_Creature_FinalReveal.wav</ShortName>
@@ -1432,7 +1456,7 @@
 				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_96905AB4.wem</Path>
+					<Path>SFX\FS_Wood_Walk_817BE2F9.wem</Path>
 				</File>
 				<File Id="920142712" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
@@ -1444,7 +1468,7 @@
 				</File>
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_1E91BE1A.wem</Path>
+					<Path>SFX\FS_Wood_Walk_673D9D57.wem</Path>
 				</File>
 				<File Id="947204474" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_Creature_Wind_Loop.wav</ShortName>
@@ -1492,6 +1516,14 @@
 				<File Id="154369548"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="24068947" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9CE0E8E6.wem</Path>
+				</File>
+				<File Id="34428346" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_5E7DEA6B.wem</Path>
+				</File>
 				<File Id="46371184" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_8AA7E60B.wem</Path>
@@ -1504,6 +1536,10 @@
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_04_798B0481.wem</Path>
 				</File>
+				<File Id="106310996" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_30AFE37B.wem</Path>
+				</File>
 				<File Id="110825758" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_F7658695.wem</Path>
@@ -1512,21 +1548,25 @@
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
 					<Path>SFX\FS_Woodlands_Walk_D02080DF.wem</Path>
 				</File>
-				<File Id="117108038" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="119767071" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_6097BE48.wem</Path>
 				</File>
-				<File Id="130892503" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_02_0C8DC468.wem</Path>
+				<File Id="140084451" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_12CBED97.wem</Path>
 				</File>
 				<File Id="154860637" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX\FS_Stone_Walk_2D981C11.wem</Path>
+				</File>
+				<File Id="161812219" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_2358A531.wem</Path>
+				</File>
+				<File Id="178475207" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_5F82089F.wem</Path>
 				</File>
 				<File Id="200954560" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
@@ -1540,10 +1580,6 @@
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_05_0EA796C2.wem</Path>
 				</File>
-				<File Id="229113548" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_03_0C8DC468.wem</Path>
-				</File>
 				<File Id="239168245" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_F08ED7E3.wem</Path>
@@ -1552,17 +1588,13 @@
 					<ShortName>Ambient\Ambient_Emitters\Waterfall_Strong_1.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\Waterfall_Strong_1_1B075974.wem</Path>
 				</File>
-				<File Id="288556157" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="340096011" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_DA3CFD9E.wem</Path>
+					<Path>SFX\FS_Wood_Walk_AB97E8A7.wem</Path>
 				</File>
-				<File Id="352809797" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_03_0C8DC468.wem</Path>
+				<File Id="382767867" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9A1062CA.wem</Path>
 				</File>
 				<File Id="417722590" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
@@ -1575,6 +1607,14 @@
 				<File Id="441970458" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_A58CA425.wem</Path>
+				</File>
+				<File Id="448906690" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_499A6B4C.wem</Path>
+				</File>
+				<File Id="498254836" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_03885216.wem</Path>
 				</File>
 				<File Id="512076338" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops.wav</ShortName>
@@ -1596,6 +1636,10 @@
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_13D15A53.wem</Path>
 				</File>
+				<File Id="653608214" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_AF09D3BC.wem</Path>
+				</File>
 				<File Id="660387120" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_06_25EE07D6.wem</Path>
@@ -1603,6 +1647,10 @@
 				<File Id="690249591" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\Water_RiverLoop.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\Water_RiverLoop_90A8A906.wem</Path>
+				</File>
+				<File Id="714688282" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_82EAE871.wem</Path>
 				</File>
 				<File Id="716185492" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -1612,13 +1660,17 @@
 					<ShortName>Ambient\Ambient_Emitters\Waterfall_Strong_1.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\Waterfall_Strong_1_AFC6FC73.wem</Path>
 				</File>
+				<File Id="820509230" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_9BFA69F9.wem</Path>
+				</File>
 				<File Id="898983323" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
 					<Path>SFX\FS_Woodlands_Run_D498FB12.wem</Path>
 				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_96905AB4.wem</Path>
+					<Path>SFX\FS_Wood_Walk_817BE2F9.wem</Path>
 				</File>
 				<File Id="920142712" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
@@ -1630,11 +1682,7 @@
 				</File>
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_1E91BE1A.wem</Path>
-				</File>
-				<File Id="951050489" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_02_0C8DC468.wem</Path>
+					<Path>SFX\FS_Wood_Walk_673D9D57.wem</Path>
 				</File>
 				<File Id="951918111" Language="SFX">
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
@@ -1659,6 +1707,14 @@
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact" GUID="{42EA45FE-B6AA-42DF-A7D6-D904F1D60431}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="24068947" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9CE0E8E6.wem</Path>
+				</File>
+				<File Id="34428346" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_5E7DEA6B.wem</Path>
+				</File>
 				<File Id="46371184" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_8AA7E60B.wem</Path>
@@ -1667,37 +1723,37 @@
 					<ShortName>FS_Wood_Run.wav</ShortName>
 					<Path>SFX\FS_Wood_Run_B9B38B64.wem</Path>
 				</File>
+				<File Id="106310996" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_30AFE37B.wem</Path>
+				</File>
 				<File Id="110825758" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_F7658695.wem</Path>
-				</File>
-				<File Id="117108038" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_01_0C8DC468.wem</Path>
 				</File>
 				<File Id="119767071" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_6097BE48.wem</Path>
 				</File>
-				<File Id="130892503" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_02_0C8DC468.wem</Path>
+				<File Id="140084451" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_12CBED97.wem</Path>
 				</File>
 				<File Id="154860637" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX\FS_Stone_Walk_2D981C11.wem</Path>
 				</File>
-				<File Id="229113548" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_03_0C8DC468.wem</Path>
+				<File Id="161812219" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_2358A531.wem</Path>
+				</File>
+				<File Id="178475207" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_5F82089F.wem</Path>
 				</File>
 				<File Id="239168245" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_F08ED7E3.wem</Path>
-				</File>
-				<File Id="288556157" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_01_0C8DC468.wem</Path>
 				</File>
 				<File Id="299482527" Language="SFX">
 					<ShortName>AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald.wav</ShortName>
@@ -1705,11 +1761,11 @@
 				</File>
 				<File Id="340096011" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_DA3CFD9E.wem</Path>
+					<Path>SFX\FS_Wood_Walk_AB97E8A7.wem</Path>
 				</File>
-				<File Id="352809797" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_03_0C8DC468.wem</Path>
+				<File Id="382767867" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9A1062CA.wem</Path>
 				</File>
 				<File Id="433857567" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
@@ -1718,6 +1774,14 @@
 				<File Id="441970458" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_A58CA425.wem</Path>
+				</File>
+				<File Id="448906690" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_499A6B4C.wem</Path>
+				</File>
+				<File Id="498254836" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_03885216.wem</Path>
 				</File>
 				<File Id="526127783" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
@@ -1731,13 +1795,25 @@
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_13D15A53.wem</Path>
 				</File>
+				<File Id="653608214" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_AF09D3BC.wem</Path>
+				</File>
+				<File Id="714688282" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_82EAE871.wem</Path>
+				</File>
 				<File Id="716185492" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_4C070060.wem</Path>
 				</File>
+				<File Id="820509230" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_9BFA69F9.wem</Path>
+				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_96905AB4.wem</Path>
+					<Path>SFX\FS_Wood_Walk_817BE2F9.wem</Path>
 				</File>
 				<File Id="920142712" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
@@ -1749,11 +1825,7 @@
 				</File>
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_1E91BE1A.wem</Path>
-				</File>
-				<File Id="951050489" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_02_0C8DC468.wem</Path>
+					<Path>SFX\FS_Wood_Walk_673D9D57.wem</Path>
 				</File>
 				<File Id="1007244860" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -2196,7 +2268,7 @@
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.625193" DurationMax="0.794739"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="0.757116" DurationMax="1.606618"/>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.239300" DurationMax="0.623278"/>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.239300" DurationMax="4.420672"/>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Player\General\Player_Health" GUID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" DurationType="Infinite"/>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="0.832667"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.136391" DurationMax="1.467720"/>
@@ -2368,6 +2440,10 @@
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_04.wav</ShortName>
 					<Path>SFX\Objects\Pickups\BAS_Pickup_Coin_04_FBBC6300.wem</Path>
 				</File>
+				<File Id="24068947" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9CE0E8E6.wem</Path>
+				</File>
 				<File Id="24304843" Language="SFX">
 					<ShortName>Character\Adventuress_damaged_13.wav</ShortName>
 					<Path>SFX\Character\Adventuress_damaged_13_5ABFB4E6.wem</Path>
@@ -2383,6 +2459,10 @@
 				<File Id="31470392" Language="SFX">
 					<ShortName>Character\Weapons\BAS_pickUpWeapon_001.wav</ShortName>
 					<Path>SFX\Character\Weapons\BAS_pickUpWeapon_001_34513EF0.wem</Path>
+				</File>
+				<File Id="34428346" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_5E7DEA6B.wem</Path>
 				</File>
 				<File Id="38322136" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_01.wav</ShortName>
@@ -2473,6 +2553,10 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_03.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_Hurt_03_1DF8385B.wem</Path>
 				</File>
+				<File Id="106310996" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_30AFE37B.wem</Path>
+				</File>
 				<File Id="108061160" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_03.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_Shoot_03_DDEDB2A8.wem</Path>
@@ -2493,10 +2577,6 @@
 					<ShortName>Character\Adventuress_damaged_10.wav</ShortName>
 					<Path>SFX\Character\Adventuress_damaged_10_A2F83798.wem</Path>
 				</File>
-				<File Id="117108038" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="119767071" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_6097BE48.wem</Path>
@@ -2513,10 +2593,6 @@
 					<ShortName>Ambient\Ambient_Background\BAS_amb_shield_core_LP_01.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_01_43A3FBD4.wem</Path>
 				</File>
-				<File Id="130892503" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_02_0C8DC468.wem</Path>
-				</File>
 				<File Id="132383432" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_03.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_E7D80F57.wem</Path>
@@ -2532,6 +2608,10 @@
 				<File Id="138086648" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Death_Headfall_01.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_01_DDEDB2A8.wem</Path>
+				</File>
+				<File Id="140084451" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_12CBED97.wem</Path>
 				</File>
 				<File Id="152211720" Language="SFX">
 					<ShortName>Music\Battle_Flutes.wav</ShortName>
@@ -2550,9 +2630,17 @@
 					<ShortName>Character\Impact\BAS_Impact_Hammer_SurfaceType_Barrel.wav</ShortName>
 					<Path>SFX\Character\Impact\BAS_Impact_Hammer_SurfaceType_Barrel_3E0B2928.wem</Path>
 				</File>
+				<File Id="161812219" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_2358A531.wem</Path>
+				</File>
 				<File Id="176533674" Language="SFX">
 					<ShortName>Objects\Pickups\BAS_Pickup_WeaponType_Dagger.wav</ShortName>
 					<Path>SFX\Objects\Pickups\BAS_Pickup_WeaponType_Dagger_0C8DC468.wem</Path>
+				</File>
+				<File Id="178475207" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_5F82089F.wem</Path>
 				</File>
 				<File Id="180963865" Language="SFX">
 					<ShortName>Other\WAG_TitleScreen_V1.wav</ShortName>
@@ -2624,10 +2712,6 @@
 					<ShortName>Creatures\BAS_Evil_Head_Charge_01.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_Head_Charge_01_F47C2ACE.wem</Path>
 				</File>
-				<File Id="229113548" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_03_0C8DC468.wem</Path>
-				</File>
 				<File Id="239013951" Language="SFX">
 					<ShortName>Character\Adventuress_damaged_12.wav</ShortName>
 					<Path>SFX\Character\Adventuress_damaged_12_FE5EF444.wem</Path>
@@ -2686,10 +2770,6 @@
 					<ShortName>Objects\BAS_Crate_Destroy_01.wav</ShortName>
 					<Path>SFX\Objects\BAS_Crate_Destroy_01_0354A934.wem</Path>
 				</File>
-				<File Id="288556157" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="288737095" Language="SFX">
 					<ShortName>Character\Adventuress_Death_01.wav</ShortName>
 					<Path>SFX\Character\Adventuress_Death_01_0E286387.wem</Path>
@@ -2724,11 +2804,7 @@
 				</File>
 				<File Id="340096011" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_DA3CFD9E.wem</Path>
-				</File>
-				<File Id="352809797" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_03_0C8DC468.wem</Path>
+					<Path>SFX\FS_Wood_Walk_AB97E8A7.wem</Path>
 				</File>
 				<File Id="353842310" Language="SFX">
 					<ShortName>Character\Heartbeat_Lub.wav</ShortName>
@@ -2762,6 +2838,10 @@
 				<File Id="365731772" Language="SFX">
 					<ShortName>Character\Adventuress_damaged_06.wav</ShortName>
 					<Path>SFX\Character\Adventuress_damaged_06_943DD587.wem</Path>
+				</File>
+				<File Id="382767867" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9A1062CA.wem</Path>
 				</File>
 				<File Id="395293424" Language="SFX">
 					<ShortName>Character\Impact\BAS_Impact_Dagger_SurfaceType_Barrel.wav</ShortName>
@@ -2798,6 +2878,10 @@
 				<File Id="441970458" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_A58CA425.wem</Path>
+				</File>
+				<File Id="448906690" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_499A6B4C.wem</Path>
 				</File>
 				<File Id="466737030" Language="SFX">
 					<ShortName>Other\WAG_Sparkle.wav</ShortName>
@@ -2839,6 +2923,10 @@
 				<File Id="496256198" Language="SFX">
 					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
 					<Path>SFX\Interface\BAS_QuestRoll_Close_B66F7D21.wem</Path>
+				</File>
+				<File Id="498254836" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_03885216.wem</Path>
 				</File>
 				<File Id="501305534" Language="SFX">
 					<ShortName>Character\Adventuress_exertion_10.wav</ShortName>
@@ -3022,6 +3110,10 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_0C8DC468.wem</Path>
 				</File>
+				<File Id="653608214" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_AF09D3BC.wem</Path>
+				</File>
 				<File Id="656229177" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_01.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_01_1DF8385B.wem</Path>
@@ -3090,6 +3182,10 @@
 				<File Id="706707052" Language="SFX">
 					<ShortName>Character\Adventuress_damaged_11.wav</ShortName>
 					<Path>SFX\Character\Adventuress_damaged_11_1A781F72.wem</Path>
+				</File>
+				<File Id="714688282" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_82EAE871.wem</Path>
 				</File>
 				<File Id="715406799" Language="SFX">
 					<ShortName>Music\Music_Forest_Mix.wav</ShortName>
@@ -3208,6 +3304,10 @@
 					<ShortName>Interface\BAS_QuestRoll_Open.wav</ShortName>
 					<Path>SFX\Interface\BAS_QuestRoll_Open_0C8DC468.wem</Path>
 				</File>
+				<File Id="820509230" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_9BFA69F9.wem</Path>
+				</File>
 				<File Id="824466461" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_Head_Death_01.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_Head_Death_01_DDEDB2A8.wem</Path>
@@ -3259,7 +3359,7 @@
 				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_96905AB4.wem</Path>
+					<Path>SFX\FS_Wood_Walk_817BE2F9.wem</Path>
 				</File>
 				<File Id="917282363" Language="SFX">
 					<ShortName>Character\Weapons\BAS_imp_axe_dirt.wav</ShortName>
@@ -3299,7 +3399,7 @@
 				</File>
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_1E91BE1A.wem</Path>
+					<Path>SFX\FS_Wood_Walk_673D9D57.wem</Path>
 				</File>
 				<File Id="945967359" Language="SFX">
 					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
@@ -3308,10 +3408,6 @@
 				<File Id="947204474" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_Creature_Wind_Loop.wav</ShortName>
 					<Path>SFX\Cinematic\BAS_CIN_Creature_Wind_Loop_C0113D54.wem</Path>
-				</File>
-				<File Id="951050489" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_02_0C8DC468.wem</Path>
 				</File>
 				<File Id="951918111" Language="SFX">
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
@@ -3573,7 +3669,7 @@
 				</File>
 				<File Id="340096011" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_DA3CFD9E.wem</Path>
+					<Path>SFX\FS_Wood_Walk_AB97E8A7.wem</Path>
 				</File>
 				<File Id="433857567" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
@@ -3617,7 +3713,7 @@
 				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_96905AB4.wem</Path>
+					<Path>SFX\FS_Wood_Walk_817BE2F9.wem</Path>
 				</File>
 				<File Id="920142712" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
@@ -3629,7 +3725,7 @@
 				</File>
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
-					<Path>SFX\FS_Wood_Walk_1E91BE1A.wem</Path>
+					<Path>SFX\FS_Wood_Walk_673D9D57.wem</Path>
 				</File>
 				<File Id="951918111" Language="SFX">
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
@@ -3662,6 +3758,14 @@
 				<File Id="393693165"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="24068947" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9CE0E8E6.wem</Path>
+				</File>
+				<File Id="34428346" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_5E7DEA6B.wem</Path>
+				</File>
 				<File Id="46371184" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_8AA7E60B.wem</Path>
@@ -3669,6 +3773,10 @@
 				<File Id="77938166" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_04_798B0481.wem</Path>
+				</File>
+				<File Id="106310996" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_30AFE37B.wem</Path>
 				</File>
 				<File Id="110825758" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -3678,21 +3786,25 @@
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
 					<Path>SFX\FS_Woodlands_Walk_D02080DF.wem</Path>
 				</File>
-				<File Id="117108038" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_01_0C8DC468.wem</Path>
-				</File>
 				<File Id="119767071" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_6097BE48.wem</Path>
 				</File>
-				<File Id="130892503" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_02_0C8DC468.wem</Path>
+				<File Id="140084451" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_12CBED97.wem</Path>
 				</File>
 				<File Id="154860637" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX\FS_Stone_Walk_2D981C11.wem</Path>
+				</File>
+				<File Id="161812219" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_2358A531.wem</Path>
+				</File>
+				<File Id="178475207" Language="SFX">
+					<ShortName>FS_Water_Run.wav</ShortName>
+					<Path>SFX\FS_Water_Run_5F82089F.wem</Path>
 				</File>
 				<File Id="200954560" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
@@ -3706,21 +3818,13 @@
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_05_0EA796C2.wem</Path>
 				</File>
-				<File Id="229113548" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_03_0C8DC468.wem</Path>
-				</File>
 				<File Id="239168245" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_F08ED7E3.wem</Path>
 				</File>
-				<File Id="288556157" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_run_01.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_run_01_0C8DC468.wem</Path>
-				</File>
-				<File Id="352809797" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_03.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_03_0C8DC468.wem</Path>
+				<File Id="382767867" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_9A1062CA.wem</Path>
 				</File>
 				<File Id="417722590" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
@@ -3733,6 +3837,14 @@
 				<File Id="441970458" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX\FS_Dirt_Walk_A58CA425.wem</Path>
+				</File>
+				<File Id="448906690" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_499A6B4C.wem</Path>
+				</File>
+				<File Id="498254836" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_03885216.wem</Path>
 				</File>
 				<File Id="512076338" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops.wav</ShortName>
@@ -3754,13 +3866,25 @@
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX\FS_Stone_Run_13D15A53.wem</Path>
 				</File>
+				<File Id="653608214" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_AF09D3BC.wem</Path>
+				</File>
 				<File Id="660387120" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
 					<Path>SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_06_25EE07D6.wem</Path>
 				</File>
+				<File Id="714688282" Language="SFX">
+					<ShortName>FS_Water_Wade.wav</ShortName>
+					<Path>SFX\FS_Water_Wade_82EAE871.wem</Path>
+				</File>
 				<File Id="716185492" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
 					<Path>SFX\FS_Dirt_Run_4C070060.wem</Path>
+				</File>
+				<File Id="820509230" Language="SFX">
+					<ShortName>FS_Water_Walk.wav</ShortName>
+					<Path>SFX\FS_Water_Walk_9BFA69F9.wem</Path>
 				</File>
 				<File Id="898983323" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -3769,10 +3893,6 @@
 				<File Id="922822218" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX\FS_Stone_Walk_AB8B56C3.wem</Path>
-				</File>
-				<File Id="951050489" Language="SFX">
-					<ShortName>Character\Footsteps\BAS_Player_Footstep_water_walk_02.wav</ShortName>
-					<Path>SFX\Character\Footsteps\BAS_Player_Footstep_water_walk_02_0C8DC468.wem</Path>
 				</File>
 				<File Id="951918111" Language="SFX">
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>

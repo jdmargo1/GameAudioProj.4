@@ -12828,7 +12828,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>1</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -14306,10 +14306,15 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<RandomSequenceContainer Name="Player_Footstep_water_run" ID="{78DFB0EE-634D-418A-9CD7-50823A5CDFA7}" ShortID="770714072">
+												<RandomSequenceContainer Name="PFS_Water_Run" ID="{78DFB0EE-634D-418A-9CD7-50823A5CDFA7}" ShortID="770714072">
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -14348,9 +14353,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_run_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Run" ID="{EA135B40-F0F5-4C5F-BB1D-FFC4C30AED4E}" ShortID="161812219">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.85625862129947E-02"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.372771666725617"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_run_01" ID="{4CBF9E04-7501-422F-A6A8-2A7529CD1A4E}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Run" ID="{EA135B40-F0F5-4C5F-BB1D-FFC4C30AED4E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_run_02" ID="{7EB30FC9-53A0-4F4E-ACEC-27ACADC71B73}" ShortID="294386957">
@@ -14381,9 +14398,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_run_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Run" ID="{4500CA89-40E1-404A-B026-A035C0B4FE5B}" ShortID="106310996">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.385625862129947"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.801244846870002"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_run_02" ID="{F141FE26-77AD-4216-97D1-984DB88B88A4}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Run" ID="{4500CA89-40E1-404A-B026-A035C0B4FE5B}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_run_04" ID="{08D20592-8CFE-489E-9015-875D3605E858}" ShortID="702236053">
@@ -14421,9 +14450,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_run_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Run" ID="{6D1BF4E1-D0A9-41CA-BFD3-6CC865C6C1F6}" ShortID="625582644">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.034277854411551"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.24685695422016"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.65819120715877"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_run_04" ID="{133490CF-4F4B-4458-8609-FDA15244AE47}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Run" ID="{6D1BF4E1-D0A9-41CA-BFD3-6CC865C6C1F6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_run_05" ID="{19DAFD12-5ECA-4C74-B775-5EB43A0C298E}" ShortID="700993951">
@@ -14461,9 +14503,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_run_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Run" ID="{1796B040-EA9C-45FE-A38E-D1ABE32EB7F0}" ShortID="184207217">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="2.99931226101071E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.67533013436455"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.09951858270749"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_run_05" ID="{7BC1F601-AE9F-4221-98BE-361899E57CCB}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Run" ID="{1796B040-EA9C-45FE-A38E-D1ABE32EB7F0}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_run_06" ID="{F297D9AB-232A-4AF5-9527-C242EF8402E7}" ShortID="296485202">
@@ -14498,12 +14553,32 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Player_Footstep_water_run_06" ID="{74B7ABBA-7EDA-403D-83A3-FA5F05BD573D}" ShortID="582942783">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_run_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Run" ID="{1E43DE94-592D-4932-B33E-DD25525C8A6C}" ShortID="395445078">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="4.28473180144386E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.08237965550171"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_run_06" ID="{74B7ABBA-7EDA-403D-83A3-FA5F05BD573D}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Run" ID="{1E43DE94-592D-4932-B33E-DD25525C8A6C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_run_03" ID="{AD52CA22-BAA3-40F4-B097-10823D065EBA}" ShortID="996160128">
@@ -14534,17 +14609,35 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_run_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Run" ID="{9DA7083E-6A32-44F7-AAFB-21CD091C7F07}" ShortID="178475207">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="4.71320498158825E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.822668505877221"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.22543329521294"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Run.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_run_03" ID="{B3692C38-02D7-44F9-8B6B-4923344146F0}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Run" ID="{9DA7083E-6A32-44F7-AAFB-21CD091C7F07}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Player_Footstep_water_walk" ID="{DA58FF7C-8D14-4616-B788-790D0084706A}" ShortID="120610881">
+												<RandomSequenceContainer Name="PFS_Water_Walk" ID="{DA58FF7C-8D14-4616-B788-790D0084706A}" ShortID="120610881">
 													<PropertyList>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -14590,9 +14683,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_walk_04.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Walk" ID="{E1325CAC-FF57-4CB5-A31C-98CB65C31F13}" ShortID="757836245">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.134305599767348"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.59939007376492"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="4.82157103164778"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_walk_04" ID="{ACDCA69C-361F-43E7-B6C6-FE147FE9822B}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Walk" ID="{E1325CAC-FF57-4CB5-A31C-98CB65C31F13}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_walk_06" ID="{04115052-1305-4A99-8A62-02E58994CD22}" ShortID="1066820571">
@@ -14630,9 +14736,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_walk_06.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Walk" ID="{8B23ABF0-E51D-4E98-8A89-9CC2F4E07C9C}" ShortID="139752345">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.214888959627756"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="6.47352990878616"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="7.62855806678535"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_walk_06" ID="{DE2F845F-5362-4F27-9349-B2DA9EC2A5FE}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Walk" ID="{8B23ABF0-E51D-4E98-8A89-9CC2F4E07C9C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_walk_01" ID="{70102DC8-AC3D-43C7-A3EF-6309CFC6887D}" ShortID="1043199770">
@@ -14663,9 +14782,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_walk_01.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Walk" ID="{D5FD0BBC-AA13-434F-9AED-94077759F615}" ShortID="653608214">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.174597279697552"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.30276431774327"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_walk_01" ID="{E8FC53B5-67F4-4188-8787-5C495EF8C2A2}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Walk" ID="{D5FD0BBC-AA13-434F-9AED-94077759F615}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_walk_02" ID="{F8D101E4-16F0-4500-AE1E-3FCBD90E9C58}" ShortID="320856559">
@@ -14696,9 +14827,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_walk_02.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Walk" ID="{4BD4F03C-572F-4503-AA0B-9065A1CD4064}" ShortID="498254836">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="8.05833598604085E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.31619487772001"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.5115147156494"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_walk_02" ID="{7198E6C4-DA46-4CDE-AA13-B613CC89134C}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Walk" ID="{4BD4F03C-572F-4503-AA0B-9065A1CD4064}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_walk_05" ID="{76BED210-7CDA-4263-98D8-F1036B29B277}" ShortID="220525971">
@@ -14736,9 +14880,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_walk_05.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Walk" ID="{DE01AA46-C94C-42E2-B3F6-CD689BA46D3C}" ShortID="565812124">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.174597279697553"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="4.92901551146166"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="6.43323822885596"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_walk_05" ID="{EFC25806-28FC-422D-B6EF-602D479D113D}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Walk" ID="{DE01AA46-C94C-42E2-B3F6-CD689BA46D3C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Player_Footstep_water_walk_03" ID="{858CA64F-F006-44D1-B6EE-033496B302BE}" ShortID="906785569">
@@ -14769,34 +14926,756 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Footsteps\BAS_Player_Footstep_water_walk_03.wav</AudioFile>
 																</AudioFileSource>
+																<AudioFileSource Name="FS_Water_Walk" ID="{FB4E69E5-6FF3-42D0-9CE5-31268AEB9946}" ShortID="820509230">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.188027839674287"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.51151471564941"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="3.53223727388124"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Water_Walk.wav</AudioFile>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="BAS_Player_Footstep_water_walk_03" ID="{1BC8F8A7-1035-4BC5-8E08-4BA41F1AE6CE}" Platform="Linked"/>
+																<ActiveSource Name="FS_Water_Walk" ID="{FB4E69E5-6FF3-42D0-9CE5-31268AEB9946}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="PFS_Water_Wade_S" ID="{F42B5780-C2B6-4436-8553-CD67BC379AA5}" ShortID="925867002">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="PFS_Water_Wade_L" ID="{C4E89D9C-BCA0-4052-A78D-E86373A98B1D}" ShortID="1070865328">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>1</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																<Property Name="OverrideEffect" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-150</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{137BA29A-3D75-4DD6-AC06-3BD0C1F3C03A}">
+																				<PropertyList>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-100"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Priority" Type="int16">
+																	<ValueList>
+																		<Value>80</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="RenderEffect0" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																<Property Name="UseMaxSoundPerInstance" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<RTPCList>
+																		<RTPC Name="" ID="{3B97C120-1CDF-4640-A5D2-60AE588C1F1B}" ShortID="147573344">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}" WorkUnitID="{A31A2BA8-6E09-4F0B-ADD8-D40CFA64A98A}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{8517C6D6-A914-475B-991E-C4AFC238EE5C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>6</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>24.90421</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>3</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																</Reference>
+																<Reference Name="Effect0">
+																	<Custom>
+																		<Effect Name="Wwise_Time_Stretch_(Custom)" ID="{C085DE62-70FF-4979-8C39-697C5BC35287}" ShortID="92333226" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																			<PropertyList>
+																				<Property Name="OutputGain" Type="Real32" Value="-3.5"/>
+																				<Property Name="TimeStretch" Type="Real32">
+																					<RTPCList>
+																						<RTPC Name="" ID="{CC2052C9-FC4C-427A-A3FC-36074DB8890E}" ShortID="657680926">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<ObjectRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}" WorkUnitID="{A31A2BA8-6E09-4F0B-ADD8-D40CFA64A98A}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{21973042-B846-46C3-BCE5-8256DCE07966}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>100</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>100</XPos>
+																										<YPos>40</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</Effect>
+																	</Custom>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="FS_Water_Wade" ID="{D3364400-2256-427E-A571-C486A109EDB2}" ShortID="259924377">
+																	<PropertyList>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{EF9F4A59-764D-4481-A4F3-22064ED4738A}" ShortID="24068947">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.581430797437733"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.84080650687325"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="34428346"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{EF9F4A59-764D-4481-A4F3-22064ED4738A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_01" ID="{76C88D0F-B572-4F5E-8136-84629F5F4BF1}" ShortID="166014352">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{BE326BEB-3298-4CE9-9A26-82A20422A892}" ShortID="382767867">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.44455660484876"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="1.79404610602184"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="3.58809221204368"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{BE326BEB-3298-4CE9-9A26-82A20422A892}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_02" ID="{D760D29A-2113-4454-A7E4-EBBFD8D717E5}" ShortID="882671762">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{5C043BDC-83A1-4DF8-9D9B-259C4EA07C4A}" ShortID="140084451">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.46785590492696"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="3.72788801251292"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="5.77822641939503"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{5C043BDC-83A1-4DF8-9D9B-259C4EA07C4A}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_03" ID="{D2EE8543-F5E6-41F4-A1BE-63AD1B5382B6}" ShortID="252281240">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{88ECB72D-888E-48B5-9AC3-4EE306FDAE17}" ShortID="448906690">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.79404610602184"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="6.17431452072452"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="8.20135362752842"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{88ECB72D-888E-48B5-9AC3-4EE306FDAE17}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_04" ID="{388362E2-4F54-4F2D-9828-B28754218F69}" ShortID="1037038052">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{62CABB94-E4E5-455C-AD0F-F3A70E7B8825}" ShortID="714688282">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.95985136821033"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="1.3303657643613"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="8.38774802815407"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="11.93106189786"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{62CABB94-E4E5-455C-AD0F-F3A70E7B8825}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="PFS_Water_Wade_R" ID="{DACF5FF1-005A-40F7-8A40-60CBC1B00D1A}" ShortID="424757269">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+																<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+																<Property Name="MaxSoundPerInstance" Type="int16">
+																	<ValueList>
+																		<Value>1</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+																<Property Name="OverrideEffect" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>150</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{8811F65D-1814-4490-8FA0-515E307C602F}">
+																				<PropertyList>
+																					<Property Name="Max" Type="Real64" Value="100"/>
+																					<Property Name="Min" Type="Real64" Value="-100"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Priority" Type="int16">
+																	<ValueList>
+																		<Value>80</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="RenderEffect0" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																<Property Name="UseMaxSoundPerInstance" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<RTPCList>
+																		<RTPC Name="" ID="{85B073D4-C554-429F-AB49-9F31356CADF8}" ShortID="843729151">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}" WorkUnitID="{A31A2BA8-6E09-4F0B-ADD8-D40CFA64A98A}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{05E83467-4623-4DB2-931A-398F534DE8CC}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>6</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>24.90421</XPos>
+																						<YPos>0</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>3</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																</Reference>
+																<Reference Name="Effect0">
+																	<Custom>
+																		<Effect Name="Wwise_Time_Stretch_(Custom)" ID="{3A69D813-D843-4C36-9E19-BA655C0553D5}" ShortID="303306294" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+																			<PropertyList>
+																				<Property Name="OutputGain" Type="Real32" Value="-3.5"/>
+																				<Property Name="TimeStretch" Type="Real32">
+																					<RTPCList>
+																						<RTPC Name="" ID="{8B0DA1AF-C859-4F87-942F-7C9DCE5D3868}" ShortID="532694414">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<ObjectRef Name="Player_MovementSpeed" ID="{EF98BB12-3E2E-4A32-AD64-2796F172CA26}" WorkUnitID="{A31A2BA8-6E09-4F0B-ADD8-D40CFA64A98A}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{C58A0FDF-2DA7-43FF-924E-1CD344FAAAF1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>100</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>100</XPos>
+																										<YPos>40</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</Effect>
+																	</Custom>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="FS_Water_Wade" ID="{545A8DAA-E5B8-4AE2-82A8-AB5EEB70F7D8}" ShortID="37300714">
+																	<PropertyList>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{425F3C35-B228-4670-B3E9-40B53BF8E156}" ShortID="308675096">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.1882643039885"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.74744750586544"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="24068947"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{425F3C35-B228-4670-B3E9-40B53BF8E156}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_01" ID="{A452D181-6132-4D3F-B47D-7C593674E49A}" ShortID="737186614">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{0A3DFF00-A825-4202-9CF0-72B4EBCDF728}" ShortID="684226150">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.44455660484876"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="1.79404610602184"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="3.58809221204368"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="382767867"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{0A3DFF00-A825-4202-9CF0-72B4EBCDF728}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_02" ID="{5B220140-7BA6-456F-83A6-5777202AF40B}" ShortID="535441225">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{0E7284C3-AC63-41DF-828B-03C135BC5BE4}" ShortID="34428346">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.46785590492696"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="3.72788801251292"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="5.77822641939503"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="140084451"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{0E7284C3-AC63-41DF-828B-03C135BC5BE4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_03" ID="{7C5D4C3C-E29F-4134-B06C-91819111D24D}" ShortID="950271278">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{4AF6D310-A099-4C61-AF76-DF54DCEA3571}" ShortID="152778473">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.79404610602184"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.698979002346173"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="6.17431452072452"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="8.20135362752842"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="448906690"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{4AF6D310-A099-4C61-AF76-DF54DCEA3571}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="FS_Water_Wade_04" ID="{8779A805-4EFA-4683-993A-DE7AA85FB2C6}" ShortID="711296154">
+																	<PropertyList>
+																		<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																		<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+																		<Property Name="Priority" Type="int16">
+																			<ValueList>
+																				<Value>80</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+																		<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Attenuation">
+																			<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
+																		</Reference>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="FS_Water_Wade" ID="{7A3C72E6-C9C2-4507-BD24-60D7BB49E1C7}" ShortID="392007062">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="1.95985136821033"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="1.3303657643613"/>
+																				<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																				<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="8.38774802815407"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="11.93106189786"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>FS_Water_Wade.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="714688282"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="FS_Water_Wade" ID="{7A3C72E6-C9C2-4507-BD24-60D7BB49E1C7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<Playlist>
+														<ItemRef Name="PFS_Water_Wade_L" ID="{C4E89D9C-BCA0-4052-A78D-E86373A98B1D}"/>
+														<ItemRef Name="PFS_Water_Wade_R" ID="{DACF5FF1-005A-40F7-8A40-60CBC1B00D1A}"/>
+													</Playlist>
 												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Player_Footstep_water_walk" ID="{DA58FF7C-8D14-4616-B788-790D0084706A}"/>
+														<ItemRef Name="PFS_Water_Walk" ID="{DA58FF7C-8D14-4616-B788-790D0084706A}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Player_Footstep_water_run" ID="{78DFB0EE-634D-418A-9CD7-50823A5CDFA7}"/>
+														<ItemRef Name="PFS_Water_Wade_S" ID="{F42B5780-C2B6-4436-8553-CD67BC379AA5}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="PFS_Water_Run" ID="{78DFB0EE-634D-418A-9CD7-50823A5CDFA7}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Walk" ID="{10F04FDD-B9C1-40C2-BDA7-A98FA264B5BC}"/>
 														<ItemList>
-															<ItemRef Name="Player_Footstep_water_walk" ID="{DA58FF7C-8D14-4616-B788-790D0084706A}"/>
+															<ItemRef Name="PFS_Water_Walk" ID="{DA58FF7C-8D14-4616-B788-790D0084706A}"/>
+															<ItemRef Name="PFS_Water_Wade_S" ID="{F42B5780-C2B6-4436-8553-CD67BC379AA5}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
 														<SwitchRef Name="Run" ID="{23EB3AEA-AE92-467B-87EB-BFAB682836E3}"/>
 														<ItemList>
-															<ItemRef Name="Player_Footstep_water_run" ID="{78DFB0EE-634D-418A-9CD7-50823A5CDFA7}"/>
+															<ItemRef Name="PFS_Water_Run" ID="{78DFB0EE-634D-418A-9CD7-50823A5CDFA7}"/>
+															<ItemRef Name="PFS_Water_Wade_S" ID="{F42B5780-C2B6-4436-8553-CD67BC379AA5}"/>
 														</ItemList>
 													</Grouping>
 												</GroupingList>

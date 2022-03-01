@@ -3,23 +3,23 @@
 	<Platform GUID="{13C102C2-F35C-4282-82D9-A5679C2005AC}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cave" Hash="2799278410" Timestamp="1646093523"/>
+				<File Name="Cave" Hash="3441698824" Timestamp="1646165898"/>
 				<File Name="Credits" Hash="2588438800" Timestamp="1646093523"/>
 				<File Name="DLC" Hash="3928889608" Timestamp="1646093523"/>
-				<File Name="Desert" Hash="3326919027" Timestamp="1646093617"/>
-				<File Name="Dungeon" Hash="1035859822" Timestamp="1646093616"/>
-				<File Name="General" Hash="2713303392" Timestamp="1646093617"/>
-				<File Name="Init" Hash="4069919303" Timestamp="1646093524"/>
+				<File Name="Desert" Hash="2584690077" Timestamp="1646165898"/>
+				<File Name="Dungeon" Hash="825224098" Timestamp="1646096414"/>
+				<File Name="General" Hash="2985092966" Timestamp="1646165898"/>
+				<File Name="Init" Hash="696070525" Timestamp="1646165898"/>
 				<File Name="PineForest" Hash="1659770720" Timestamp="1646093524"/>
 				<File Name="Quest_06" Hash="3856845157" Timestamp="1646093523"/>
 				<File Name="Quest_07" Hash="3735391459" Timestamp="1646093523"/>
 				<File Name="Quest_08" Hash="2754927300" Timestamp="1646093523"/>
 				<File Name="TitleScreen" Hash="1525084597" Timestamp="1646093523"/>
-				<File Name="Village" Hash="798305840" Timestamp="1646093616"/>
-				<File Name="Woodlands" Hash="151413183" Timestamp="1646093617"/>
+				<File Name="Village" Hash="3619917305" Timestamp="1646096414"/>
+				<File Name="Woodlands" Hash="1008905366" Timestamp="1646165898"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="All_In_One" Hash="3715582664" Timestamp="1646093617"/>
+				<File Name="All_In_One" Hash="1009666612" Timestamp="1646165898"/>
 				<File Name="Quest_01" Hash="1602835583" Timestamp="1646093523"/>
 				<File Name="Quest_02" Hash="1950069734" Timestamp="1646093523"/>
 				<File Name="Quest_03" Hash="477177068" Timestamp="1646093523"/>
@@ -32,30 +32,30 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1721558480" Timestamp="1646093617"/>
+				<File Name="" Hash="2826320143" Timestamp="1646165898"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{62583A05-2A25-4749-9F87-C2EEBBBFFA8E}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cave" Hash="3901461842" Timestamp="1646093527"/>
+				<File Name="Cave" Hash="1768018479" Timestamp="1646165898"/>
 				<File Name="Credits" Hash="2588438800" Timestamp="1646093527"/>
 				<File Name="DLC" Hash="3920069498" Timestamp="1646093527"/>
-				<File Name="Desert" Hash="3119825271" Timestamp="1646093617"/>
-				<File Name="Dungeon" Hash="1451193502" Timestamp="1646093617"/>
-				<File Name="General" Hash="2375231248" Timestamp="1646093617"/>
-				<File Name="Init" Hash="3361778154" Timestamp="1646093527"/>
+				<File Name="Desert" Hash="244136164" Timestamp="1646165898"/>
+				<File Name="Dungeon" Hash="289536842" Timestamp="1646096415"/>
+				<File Name="General" Hash="3245918292" Timestamp="1646165898"/>
+				<File Name="Init" Hash="2213078820" Timestamp="1646165899"/>
 				<File Name="PineForest" Hash="1983575692" Timestamp="1646093527"/>
 				<File Name="Quest_06" Hash="3423149624" Timestamp="1646093527"/>
 				<File Name="Quest_07" Hash="3735391459" Timestamp="1646093527"/>
 				<File Name="Quest_08" Hash="2055303477" Timestamp="1646093527"/>
 				<File Name="TitleScreen" Hash="2654664500" Timestamp="1646093527"/>
-				<File Name="Village" Hash="1688659658" Timestamp="1646093617"/>
-				<File Name="Woodlands" Hash="2529432643" Timestamp="1646093617"/>
+				<File Name="Village" Hash="1705441656" Timestamp="1646096415"/>
+				<File Name="Woodlands" Hash="487175374" Timestamp="1646165899"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="All_In_One" Hash="796833104" Timestamp="1646093617"/>
+				<File Name="All_In_One" Hash="2545714780" Timestamp="1646165898"/>
 				<File Name="Quest_01" Hash="1602835583" Timestamp="1646093527"/>
 				<File Name="Quest_02" Hash="3539486968" Timestamp="1646093527"/>
 				<File Name="Quest_03" Hash="655051601" Timestamp="1646093527"/>
@@ -68,30 +68,30 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1937542802" Timestamp="1646093617"/>
+				<File Name="" Hash="381240912" Timestamp="1646165899"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{9C6217D5-DD11-4795-87C1-6CE02853C541}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cave" Hash="2912699534" Timestamp="1646093528"/>
+				<File Name="Cave" Hash="3203599092" Timestamp="1646165899"/>
 				<File Name="Credits" Hash="1371583066" Timestamp="1646093527"/>
 				<File Name="DLC" Hash="3761107111" Timestamp="1646093527"/>
-				<File Name="Desert" Hash="94033901" Timestamp="1646093617"/>
-				<File Name="Dungeon" Hash="4208202415" Timestamp="1646093617"/>
-				<File Name="General" Hash="327728801" Timestamp="1646093528"/>
-				<File Name="Init" Hash="3951032331" Timestamp="1646093528"/>
+				<File Name="Desert" Hash="3595356819" Timestamp="1646165899"/>
+				<File Name="Dungeon" Hash="2881216510" Timestamp="1646096415"/>
+				<File Name="General" Hash="2943785698" Timestamp="1646165899"/>
+				<File Name="Init" Hash="1408697180" Timestamp="1646165899"/>
 				<File Name="PineForest" Hash="3079976825" Timestamp="1646093528"/>
 				<File Name="Quest_06" Hash="2183284825" Timestamp="1646093527"/>
 				<File Name="Quest_07" Hash="3735391459" Timestamp="1646093527"/>
 				<File Name="Quest_08" Hash="1353338542" Timestamp="1646093527"/>
 				<File Name="TitleScreen" Hash="3052695039" Timestamp="1646093527"/>
-				<File Name="Village" Hash="990456708" Timestamp="1646093617"/>
-				<File Name="Woodlands" Hash="2112922679" Timestamp="1646093617"/>
+				<File Name="Village" Hash="1899972589" Timestamp="1646096415"/>
+				<File Name="Woodlands" Hash="1024232970" Timestamp="1646165899"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="All_In_One" Hash="1489357289" Timestamp="1646093617"/>
+				<File Name="All_In_One" Hash="311102015" Timestamp="1646165899"/>
 				<File Name="Quest_01" Hash="1602835583" Timestamp="1646093527"/>
 				<File Name="Quest_02" Hash="1822696555" Timestamp="1646093527"/>
 				<File Name="Quest_03" Hash="3431014006" Timestamp="1646093528"/>
@@ -104,30 +104,30 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="938993949" Timestamp="1646093617"/>
+				<File Name="" Hash="3469459484" Timestamp="1646165899"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cave" Hash="2912699534" Timestamp="1646093530"/>
+				<File Name="Cave" Hash="3203599092" Timestamp="1646165900"/>
 				<File Name="Credits" Hash="1371583066" Timestamp="1646093529"/>
 				<File Name="DLC" Hash="3761107111" Timestamp="1646093529"/>
-				<File Name="Desert" Hash="94033901" Timestamp="1646093617"/>
-				<File Name="Dungeon" Hash="4208202415" Timestamp="1646093617"/>
-				<File Name="General" Hash="327728801" Timestamp="1646093530"/>
-				<File Name="Init" Hash="1101132733" Timestamp="1646093530"/>
+				<File Name="Desert" Hash="3595356819" Timestamp="1646165899"/>
+				<File Name="Dungeon" Hash="2881216510" Timestamp="1646096415"/>
+				<File Name="General" Hash="2943785698" Timestamp="1646165899"/>
+				<File Name="Init" Hash="3647726914" Timestamp="1646165900"/>
 				<File Name="PineForest" Hash="3079976825" Timestamp="1646093530"/>
 				<File Name="Quest_06" Hash="2183284825" Timestamp="1646093529"/>
 				<File Name="Quest_07" Hash="3735391459" Timestamp="1646093529"/>
 				<File Name="Quest_08" Hash="1353338542" Timestamp="1646093529"/>
 				<File Name="TitleScreen" Hash="3052695039" Timestamp="1646093529"/>
-				<File Name="Village" Hash="990456708" Timestamp="1646093617"/>
-				<File Name="Woodlands" Hash="2112922679" Timestamp="1646093617"/>
+				<File Name="Village" Hash="1899972589" Timestamp="1646096415"/>
+				<File Name="Woodlands" Hash="1024232970" Timestamp="1646165900"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="All_In_One" Hash="1489357289" Timestamp="1646093617"/>
+				<File Name="All_In_One" Hash="311102015" Timestamp="1646165899"/>
 				<File Name="Quest_01" Hash="1602835583" Timestamp="1646093529"/>
 				<File Name="Quest_02" Hash="1822696555" Timestamp="1646093529"/>
 				<File Name="Quest_03" Hash="3431014006" Timestamp="1646093530"/>
@@ -140,30 +140,30 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1566136359" Timestamp="1646093617"/>
+				<File Name="" Hash="2431722474" Timestamp="1646165900"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{3A2ADE7D-434B-4CA0-A150-84DDDF1FECB2}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Cave" Hash="3901461842" Timestamp="1646093520"/>
+				<File Name="Cave" Hash="1768018479" Timestamp="1646165897"/>
 				<File Name="Credits" Hash="2588438800" Timestamp="1646093520"/>
 				<File Name="DLC" Hash="3920069498" Timestamp="1646093520"/>
-				<File Name="Desert" Hash="3119825271" Timestamp="1646093616"/>
-				<File Name="Dungeon" Hash="1451193502" Timestamp="1646093616"/>
-				<File Name="General" Hash="1524946636" Timestamp="1646093616"/>
-				<File Name="Init" Hash="3237055893" Timestamp="1646093520"/>
+				<File Name="Desert" Hash="244136164" Timestamp="1646165897"/>
+				<File Name="Dungeon" Hash="289536842" Timestamp="1646096414"/>
+				<File Name="General" Hash="1215595106" Timestamp="1646165897"/>
+				<File Name="Init" Hash="238718079" Timestamp="1646165897"/>
 				<File Name="PineForest" Hash="1983575692" Timestamp="1646093520"/>
 				<File Name="Quest_06" Hash="3655927756" Timestamp="1646093520"/>
 				<File Name="Quest_07" Hash="3735391459" Timestamp="1646093520"/>
 				<File Name="Quest_08" Hash="2055303477" Timestamp="1646093520"/>
 				<File Name="TitleScreen" Hash="2654664500" Timestamp="1646093520"/>
-				<File Name="Village" Hash="4154574743" Timestamp="1646093616"/>
-				<File Name="Woodlands" Hash="2529432643" Timestamp="1646093616"/>
+				<File Name="Village" Hash="193740217" Timestamp="1646096414"/>
+				<File Name="Woodlands" Hash="487175374" Timestamp="1646165897"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="All_In_One" Hash="3158417190" Timestamp="1646093616"/>
+				<File Name="All_In_One" Hash="3157729804" Timestamp="1646165897"/>
 				<File Name="Quest_01" Hash="1602835583" Timestamp="1646093520"/>
 				<File Name="Quest_02" Hash="3539486968" Timestamp="1646093520"/>
 				<File Name="Quest_03" Hash="655051601" Timestamp="1646093520"/>
@@ -176,7 +176,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1928194964" Timestamp="1646093616"/>
+				<File Name="" Hash="745361090" Timestamp="1646165898"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
