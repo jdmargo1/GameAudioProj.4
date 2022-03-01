@@ -57,7 +57,7 @@
 						<Value Platform="Android_Low">..\WAG_ForClass\GeneratedSoundBanks\Android_Low\</Value>
 						<Value Platform="iOS">..\WAG_ForClass\GeneratedSoundBanks\iOS\</Value>
 						<Value Platform="Mac">..\WAG_ForClass\GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Windows">..\..\..\..\..\..\..\..\Program Files (x86)\Audiokinetic\Wwise Adventure Game 2019.1.11.14\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\WAG_ForClass\GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Android_High">..\WAG_ForClass\GeneratedSoundBanks\</Value>
 					</ValueList>
 				</Property>

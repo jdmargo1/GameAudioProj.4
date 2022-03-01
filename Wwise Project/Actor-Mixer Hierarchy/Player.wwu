@@ -13993,7 +13993,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{123D600C-E9B3-4D75-B234-DDF9ABD03B22}" ShortID="942932876">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.388860021214482"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="6.76128383184585E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.245182739787757"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14038,7 +14039,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{D9E7B0C8-126C-4C0A-B251-BA6D504C0740}" ShortID="340096011">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.388860021214482"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.194473111048914"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14083,7 +14084,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{D5C23BA9-DB90-45FB-9251-09E5ACA4510D}" ShortID="915141775">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.370773508599856"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="4.22580239490365E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.13412857448525"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14135,7 +14137,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{A1F6E88D-2D00-4F00-9C23-1DF031C788EB}" ShortID="414065280">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.305209900371834"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="4.22580239490367E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.144629409365495"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14187,7 +14190,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{A9225796-433E-4E64-9D44-BF5B45D0C8D2}" ShortID="863050244">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.388860021214482"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.69032095796147E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.202924715838721"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14239,7 +14243,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{1A251837-5DDE-4A3D-8AC8-B64FD9541D2B}" ShortID="952233575">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.354947810062057"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.211270528635333"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
