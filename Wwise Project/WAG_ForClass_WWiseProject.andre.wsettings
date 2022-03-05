@@ -244,12 +244,12 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="8Tn2Vmcc9EmLj4cpieNaCw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="d1bAhANfwEOBw7pSznCJ6mYr2ZjXBe9Eug5NPu/zkC2YZYdbLGb1RbQeM4jaVPK+7gQoTZlSJUen03DGaKMmZiIyC3ibFBFLpSgmPf3lMeCddVehZ1s0S6IwMXH2+8WPZZ70MH8vrUuyzgfy8/vP8okty7D2K4xOqha/zbLto1M="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="d1bAhANfwEOBw7pSznCJ6phlh1ssZvVFtB4ziNpU8r6ddVehZ1s0S6IwMXH2+8WPZZ70MH8vrUuyzgfy8/vP8okty7D2K4xOqha/zbLto1M="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="YrLgOhLY7EGfUqYde4C9xS/11Na1eUpDrRNnLuYqt8y2vrYzzkquRIEV4yNQ5TDSbFLeYE+wMEWjyyUz6rQ7IoOvYnX/MWVGtZzPBrJf7AJc4pTNFXQCSIh5zkKqRKwi"/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="FyGuDVrV60uX1koA8oCgyCdB5K1bm1NOrzk8OtMoRHE="/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="FyGuDVrV60uX1koA8oCgyCdB5K1bm1NOrzk8OtMoRHGZi3rM3hOHTrW3fAdreAoi"/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="Z3WoiwfbnEGknkG2FRdh2lcsjN1o8z5Gs9M4O4hLnaJmea7mopUKTKgU8mKEou0p"/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="qCsaowluC0+t2NQM+mSpig=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="nsPzFwOSoEGsjjbjXoaXAqgrGqMJbgtPrdjUDPpkqYo="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{11F30665-75D7-4B00-8751-01114A8B8BF1}" Type="Real64" Value="60"/>
 				<Property Name="RTPC\GameParameterSimValue\{154C2E88-AEE3-4516-B5E6-5674AA2AE208}" Type="Real64" Value="100"/>
@@ -323,6 +323,19 @@
 					</ValueList>
 				</Property>
 			</PropertyList>
+			<PluginInnerObjectList>
+				<List Name="BatchRenameSettings">
+					<PluginInnerObject Name="" ID="{517C4E8D-CE33-45D6-A001-E33A9BAA24F7}" PluginName="BatchRenameSettings" CompanyID="0" PluginID="992">
+						<PropertyList>
+							<Property Name="EnableInsert" Type="bool" Value="True"/>
+							<Property Name="InsertStartAt" Type="int32" Value="1"/>
+							<Property Name="InsertWhat" Type="int16" Value="1"/>
+							<Property Name="ReplaceFindWhat" Type="string" Value="Player_Footstep_stone_walk"/>
+							<Property Name="ReplaceReplaceWith" Type="string" Value="FS_Stone_Walk"/>
+						</PropertyList>
+					</PluginInnerObject>
+				</List>
+			</PluginInnerObjectList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
 </WwiseDocument>
