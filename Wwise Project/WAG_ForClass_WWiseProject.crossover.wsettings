@@ -39,19 +39,22 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Android_High"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\LastObject2" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode2" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="7"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{30F49E65-2F7F-4BAD-B2CE-07F2F3FBCFF2}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -69,7 +72,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="3+R3IV9DO0Gy3/AiPtz3tHdWwIQDX8BDgcO6Us5wieoeV3K67HK9RI0fC9DisLWLZivZmNcF70S6Dk0+7/OQLZhlh1ssZvVFtB4ziNpU8r50pmDeGsnmSp2kyI9skbotnXVXoWdbNEuiMDFx9vvFj2We9DB/L61Lss4H8vP7z/ILKj2JvLgvTLstLxhgfpDADFOmJTHFOU6pBnuLZEfd0okty7D2K4xOqha/zbLto1OK/99RjnCTT758LUIPkkrM"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="D/EV+fn/2UCPpEmQrVjZig7p1KGTJvxAqgqxxQk64r8AYUt0n8dyQaOclNSrqUHKazPdy72dmUG0VW+oqqwchOfsG7Oj77tBmK/G2IccIrYR6CTEU0MJQq1qdQv9pFwwfyRXEVz5UkK/ds/WJt24T7hAfGMZ5uVCkbrO9CCN1wuEPIrbKgEWQ4OQhk/UjNezP9wgmJzVLUO3scGQtigWboetTfUfP3pDjoIy2reldR6jenQ4YnijQ4iSKPMuQelQqBCCQWgIyEO/FXPVd6NcYhfkAGCl+N9DmhUTrSGt+0Hf0JWx11E7RJv7GZ9HHjCAl4GfdZlDYUWVNTBoplXqIMuh2Rs78O1FnqVR/p88gHeYZYdbLGb1RbQeM4jaVPK+ACIixcnDj0aEpts0eFtkw5HPDlYhWatGjmBKL9NlIHZlB1MTKCC4Rq/qeTEY+mLCmrO586B5w0ah9sNYp8IlserkQqOr3sZGgiysY/GnwWDpsm7kzOpWR6v6TYre6Q+G+5Gn4AqJCUimU4IN3fATgJft/yLYQqNInBeH/GrczTxtaWzdnobZSYaAU0OkwZjNj3EGEWHtwEqjnQMzjKmw+TRzve+aH2BLlFR8ka3rGTirRup8UqGrS7kENCgJ1a5XZZ70MH8vrUuyzgfy8/vP8qrsZ+MkBTVMracn7V3X+Mbv8I4YS7yhTK4F5L+a5QxRlsygtit7Qk2DjQjB8OTxA7UHpPMcBbNNv/4ftXRtUZGNZKFGdU0GTq3TLNwgK9jbDFOmJTHFOU6pBnuLZEfd0okty7D2K4xOqha/zbLto1Nyk6nZfgtCT79izcR+HvF9"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

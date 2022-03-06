@@ -964,6 +964,11 @@
 								<RandomSequenceContainer Name="Destroy_Crate" ID="{2A8F5E0D-670B-472C-A437-08AAEB59207B}" ShortID="362135089">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
 												<ModifierInfo>
@@ -989,7 +994,7 @@
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1047,9 +1052,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Crate_Destroy_04.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_crate_04" ID="{71E0080D-DE9C-4D70-AC22-03E98DEF5575}" ShortID="917466409">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_crate_04.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Crate_Destroy_04" ID="{A5D94823-A8C8-4413-BFD2-0DA44D2EA87A}" Platform="Linked"/>
+												<ActiveSource Name="destroy_crate_04" ID="{71E0080D-DE9C-4D70-AC22-03E98DEF5575}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Crate_Destroy_01" ID="{BDBD607A-8182-4613-B09A-E8C5B0078410}" ShortID="328593496">
@@ -1093,9 +1108,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Crate_Destroy_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_crate_01" ID="{077A2E2D-8598-495F-9CDE-37AFC9CB9555}" ShortID="655081181">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_crate_01.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Crate_Destroy_01" ID="{BDFB8FA2-47AE-41FA-BD51-6A6091FCF44D}" Platform="Linked"/>
+												<ActiveSource Name="destroy_crate_01" ID="{077A2E2D-8598-495F-9CDE-37AFC9CB9555}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Crate_Destroy_02" ID="{4BCE194C-A045-4351-8768-2BFEAD1F410F}" ShortID="592141666">
@@ -1137,15 +1162,25 @@
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{2838CB7B-0F7C-4603-8D0F-79596BC143ED}" ShortID="998009996">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="9.68330308529946E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0968330308529946"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.24134565940714"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Crate_Destroy_02.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_crate_02" ID="{E641EA7B-3572-47E7-96C5-012C5E13718B}" ShortID="933865182">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_crate_02.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Crate_Destroy_02" ID="{2838CB7B-0F7C-4603-8D0F-79596BC143ED}" Platform="Linked"/>
+												<ActiveSource Name="destroy_crate_02" ID="{E641EA7B-3572-47E7-96C5-012C5E13718B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Crate_Destroy_03" ID="{3FA7C3E5-0BFB-4100-A1F6-1814F05E7546}" ShortID="648840260">
@@ -1189,9 +1224,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Crate_Destroy_03.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_crate_03" ID="{0BCED4C1-8C04-4164-80B4-EB9F17AE5305}" ShortID="333031398">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_crate_03.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Crate_Destroy_03" ID="{2B1786E8-7FD3-4FDF-A42F-C9B162541021}" Platform="Linked"/>
+												<ActiveSource Name="destroy_crate_03" ID="{0BCED4C1-8C04-4164-80B4-EB9F17AE5305}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Crate_Destroy_05" ID="{C7ED3C4C-5E0A-4747-AACC-3B34A5896516}" ShortID="272839198">
@@ -1235,9 +1280,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Crate_Destroy_05.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_crate_05" ID="{CE5B74C1-0927-4D04-A18D-EC19F8E9EDDF}" ShortID="147413471">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_crate_05.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Crate_Destroy_05" ID="{10F20970-0711-40C1-B200-502274CE3A02}" Platform="Linked"/>
+												<ActiveSource Name="destroy_crate_05" ID="{CE5B74C1-0927-4D04-A18D-EC19F8E9EDDF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Crate_Destroy_06" ID="{FA99DEF4-D6E7-4434-82E5-E314EC08B426}" ShortID="518331528">
@@ -1281,9 +1336,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Crate_Destroy_06.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_crate_06" ID="{B27124EF-BED6-4C90-9A3D-10DAFCB556BC}" ShortID="867210621">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_crate_06.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Crate_Destroy_06" ID="{BAB2FC9E-A866-43F5-AD22-0900578039E0}" Platform="Linked"/>
+												<ActiveSource Name="destroy_crate_06" ID="{B27124EF-BED6-4C90-9A3D-10DAFCB556BC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1291,6 +1356,11 @@
 								<RandomSequenceContainer Name="Destroy_Barrel" ID="{6C06D6AB-9F54-488E-B6B3-D51590D55704}" ShortID="339678295">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>18</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
 												<ModifierInfo>
@@ -1316,7 +1386,7 @@
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1363,9 +1433,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Destroy_Wood_02.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_barrel_02" ID="{4AA82E34-B988-461A-BAB3-C15F12193F27}" ShortID="100576181">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_barrel_02.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Destroy_Wood_02" ID="{216B26C9-3659-4795-B54F-F9EE9E3B1372}" Platform="Linked"/>
+												<ActiveSource Name="destroy_barrel_02" ID="{4AA82E34-B988-461A-BAB3-C15F12193F27}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Destroy_Wood_03" ID="{0DFF6A28-D738-4697-B62D-CEA5D553C2EE}" ShortID="207653843">
@@ -1402,9 +1482,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Destroy_Wood_03.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_barrel_03" ID="{BB5B9B9B-BAC1-4012-B426-8627061C4110}" ShortID="549711663">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_barrel_03.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Destroy_Wood_03" ID="{25C97802-A70F-431A-9651-75D94E00C2B7}" Platform="Linked"/>
+												<ActiveSource Name="destroy_barrel_03" ID="{BB5B9B9B-BAC1-4012-B426-8627061C4110}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Destroy_Wood_01" ID="{9D1D0A7F-5553-42AF-ACC5-1C54D365B919}" ShortID="499173483">
@@ -1441,9 +1531,19 @@
 													<Language>SFX</Language>
 													<AudioFile>Objects\BAS_Destroy_Wood_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="destroy_barrel_01" ID="{0F54DCD1-0C07-4238-A19D-72E2C504131F}" ShortID="776399969">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>destroy_barrel_01.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Destroy_Wood_01" ID="{EF5294E7-1068-43C8-9162-C0F54084B93C}" Platform="Linked"/>
+												<ActiveSource Name="destroy_barrel_01" ID="{0F54DCD1-0C07-4238-A19D-72E2C504131F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1453,9 +1553,14 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>17</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>-710</Value>
+												<Value>-350</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1469,6 +1574,11 @@
 										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1491,9 +1601,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Other\WAG_CrashWood.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="destroy_wood_01" ID="{4018E155-1DC7-41F7-A492-694196991D7E}" ShortID="69431015">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>destroy_wood_01.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="WAG_CrashWood" ID="{5F7139E7-9E15-4005-8CB4-8EDE2DF7BE52}" Platform="Linked"/>
+										<ActiveSource Name="destroy_wood_01" ID="{4018E155-1DC7-41F7-A492-694196991D7E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1589,7 +1709,7 @@
 								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-430</Value>
+										<Value>-100</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1638,9 +1758,19 @@
 									<Language>SFX</Language>
 									<AudioFile>Objects\BAS_Crystals_Destroy.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="destroy_crystals_01" ID="{18B668F7-8757-488C-9919-02156F4CC147}" ShortID="567298804">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>destroy_crystals_01.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_Crystals_Destroy" ID="{80E9F652-861E-4FDB-8D2C-F20AC4F05D7C}" Platform="Linked"/>
+								<ActiveSource Name="destroy_crystals_01" ID="{18B668F7-8757-488C-9919-02156F4CC147}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Destruction_Core_ShieldBreak" ID="{7E8AFCBF-3EFA-4548-933D-AF8AF69C6904}" ShortID="775870513">

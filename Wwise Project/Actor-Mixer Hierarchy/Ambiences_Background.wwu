@@ -337,16 +337,26 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="4.67511176607769E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0467511176607769"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.26297503684187"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.845903035174683"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_day_element_01_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="ambi_day_element_01_01" ID="{3E619A6B-DAAE-43F6-96F0-3DE2EB1F77B3}" ShortID="856665198">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ambi_day_element_01_01.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_day_element_01_01" ID="{BC86186F-B386-4EB0-A06F-0C3ABD2B5D0F}" Platform="Linked"/>
+												<ActiveSource Name="ambi_day_element_01_01" ID="{3E619A6B-DAAE-43F6-96F0-3DE2EB1F77B3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Day_Element_01_02" ID="{E557DC6B-D15A-4581-AB98-595AAC29FB51}" ShortID="436136676">
@@ -402,9 +412,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_day_element_01_02.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="ambi_day_element_01_02" ID="{335C89B2-6E98-41A1-9D8D-06EE0500E35B}" ShortID="55009279">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ambi_day_element_01_02.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_day_element_01_02" ID="{CEA029E5-46EC-4D83-8A3C-82F6D27D78D7}" Platform="Linked"/>
+												<ActiveSource Name="ambi_day_element_01_02" ID="{335C89B2-6E98-41A1-9D8D-06EE0500E35B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Day_Element_01_03" ID="{72BADAC5-2A51-46C0-B4EC-C6F756167790}" ShortID="244877195">
@@ -458,7 +478,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="6.7671766840655E-03"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0067671766840655"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.363171815378182"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0.027068706736262"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -468,9 +488,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_day_element_01_03.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="ambi_day_element_01_03" ID="{59CA2C70-C9A2-410E-9599-0CF4B2E82BF2}" ShortID="294169920">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ambi_day_element_01_03.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_day_element_01_03" ID="{ABC73BEF-4D6A-4572-99BD-C3E33168119A}" Platform="Linked"/>
+												<ActiveSource Name="ambi_day_element_01_03" ID="{59CA2C70-C9A2-410E-9599-0CF4B2E82BF2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -701,7 +731,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="forestBirds_001" ID="{D79AD172-5789-4CC2-93CF-94DDA1CF1DB8}" ShortID="948901730">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="7.41034973004114E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0741034973004114"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="5.66974969954327"/>
 														<Property Name="FadeOutShape" Type="int16" Value="1"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.369893369455733"/>
@@ -710,9 +740,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Emitters\forestBirds_001.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="ambi_day_element_02_02" ID="{D55E9CC6-05FA-4CB9-B5E1-C9629AB8F39D}" ShortID="26489740">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ambi_day_element_02_02.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="forestBirds_001" ID="{D79AD172-5789-4CC2-93CF-94DDA1CF1DB8}" Platform="Linked"/>
+												<ActiveSource Name="ambi_day_element_02_02" ID="{D55E9CC6-05FA-4CB9-B5E1-C9629AB8F39D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Day_Element_02_03" ID="{AAF2A25D-B2E4-4262-922A-3FC896CDDC63}" ShortID="770876480">
@@ -761,18 +801,28 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.25499536065338E-02"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="4.55761473079386E-02"/>
-														<Property Name="LoopBegin" Type="Real64" Value="4.62366711819666E-03"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0125499536065338"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0455761473079386"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.00462366711819666"/>
 														<Property Name="LoopEnd" Type="Real64" Value="0.555500578057627"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_day_element_02_03.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="ambi_day_element_02_03" ID="{7AC9DAF3-2B68-49F9-8222-E6A2E9804C0B}" ShortID="189973564">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ambi_day_element_02_03.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_day_element_02_03" ID="{1DAF577F-F4DE-482C-AE97-0A6C7442D6AE}" Platform="Linked"/>
+												<ActiveSource Name="ambi_day_element_02_03" ID="{7AC9DAF3-2B68-49F9-8222-E6A2E9804C0B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Day_Element_02_04" ID="{63BB8691-E9D7-4FF1-B11F-8AC970B21E37}" ShortID="364412659">
@@ -821,7 +871,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="4.78625761026511E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0478625761026511"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.356464701055851"/>
 														<Property Name="LoopEnd" Type="Real64" Value="1.29827237678441"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -830,9 +880,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_day_element_02_04.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="ambi_day_element_02_04" ID="{E08929E3-F42E-4DC8-A2F0-C736EC450C5A}" ShortID="50562905">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ambi_day_element_02_04.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_day_element_02_04" ID="{C660C418-C4C5-4E96-9E51-4EC60349AE7E}" Platform="Linked"/>
+												<ActiveSource Name="ambi_day_element_02_04" ID="{E08929E3-F42E-4DC8-A2F0-C736EC450C5A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1072,16 +1132,26 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_frog_01" ID="{D9C44E7C-A6F3-4FC3-BAF9-3306E07DBC2B}" ShortID="1072194896">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="3.65628591513151E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0365628591513151"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.222891190144262"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.650818892893407"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\BAS_frog_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="frog_01" ID="{16D09CA2-7D60-4E70-AD7A-F0B90F524E72}" ShortID="887528105">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>frog_01.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_frog_01" ID="{D9C44E7C-A6F3-4FC3-BAF9-3306E07DBC2B}" Platform="Linked"/>
+												<ActiveSource Name="frog_01" ID="{16D09CA2-7D60-4E70-AD7A-F0B90F524E72}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="frog_02" ID="{6474B03A-E12B-448D-A161-6A05955EAB81}" ShortID="913278454">
@@ -1111,16 +1181,26 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_frog_02" ID="{6D8FC43F-C7B2-4EAC-A8A5-157886AC13E4}" ShortID="485003889">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="3.01676576142268E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0301676576142268"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.373543769727457"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.891317156783973"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\BAS_frog_02.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="frog_02" ID="{B3C1AD2C-D80B-4C86-BF49-481654B9B12C}" ShortID="282957560">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>frog_02.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_frog_02" ID="{6D8FC43F-C7B2-4EAC-A8A5-157886AC13E4}" Platform="Linked"/>
+												<ActiveSource Name="frog_02" ID="{B3C1AD2C-D80B-4C86-BF49-481654B9B12C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="frog_03" ID="{F9EBA5A4-27FF-46AB-8E9B-0F184D5060F1}" ShortID="463193445">
@@ -1150,15 +1230,25 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_frog_03" ID="{406C270E-AF63-4D13-8D68-2E32C41C3FA6}" ShortID="1044378112">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="4.75369150284788E-03"/>
-														<Property Name="TrimBegin" Type="Real64" Value="4.20475674511439E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00475369150284788"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0420475674511439"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\BAS_frog_03.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="frog_03" ID="{A4CCB319-0F81-4CFD-A7B1-CEE900276252}" ShortID="895407622">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>frog_03.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_frog_03" ID="{406C270E-AF63-4D13-8D68-2E32C41C3FA6}" Platform="Linked"/>
+												<ActiveSource Name="frog_03" ID="{A4CCB319-0F81-4CFD-A7B1-CEE900276252}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="frog_04" ID="{84E8839D-1E56-43DF-BBB8-15880ABCDDC0}" ShortID="165927961">
@@ -1188,14 +1278,24 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_frog_04" ID="{5E650436-0122-472A-AA0D-DDF438EE222C}" ShortID="241690857">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="5.75928008998877E-03"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00575928008998877"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\BAS_frog_04.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="frog_04" ID="{C49ACF03-E83C-40BC-95D0-9E6F4B8E8F8B}" ShortID="920678023">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>frog_04.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_frog_04" ID="{5E650436-0122-472A-AA0D-DDF438EE222C}" Platform="Linked"/>
+												<ActiveSource Name="frog_04" ID="{C49ACF03-E83C-40BC-95D0-9E6F4B8E8F8B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="frog_05" ID="{A4FC0CD4-692E-43B0-A2E8-DBDB15BC42FB}" ShortID="184053615">
@@ -1225,24 +1325,34 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_frog_05" ID="{3DCB2F4F-D816-4EC3-A14F-698A3355AC58}" ShortID="477947509">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="4.21661578017034E-03"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.07757958826575E-02"/>
-														<Property Name="TrimBegin" Type="Real64" Value="9.97932401306979E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00421661578017034"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0107757958826575"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0997932401306979"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\BAS_frog_05.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="frog_05" ID="{208409CD-EF11-4B94-8E1E-B959F16E78E0}" ShortID="98770837">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>frog_05.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_frog_05" ID="{3DCB2F4F-D816-4EC3-A14F-698A3355AC58}" Platform="Linked"/>
+												<ActiveSource Name="frog_05" ID="{208409CD-EF11-4B94-8E1E-B959F16E78E0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{D17649CF-2004-46EE-9E70-476B9CE0D818}">
 											<PropertyList>
-												<Property Name="PanX" Type="Real64" Value="3.9825081715953E-15"/>
-												<Property Name="PanY" Type="Real64" Value="2.99760216648792E-15"/>
+												<Property Name="PanX" Type="Real64" Value="3.9825081715953E-015"/>
+												<Property Name="PanY" Type="Real64" Value="2.99760216648792E-015"/>
 											</PropertyList>
 										</Panner>
 										<Position Name="" ID="{139CEAF6-0CAE-4A01-8B7C-30544E2CF422}">
@@ -1884,7 +1994,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="4.95031001789666E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0495031001789666"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.519460227029408"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -1935,7 +2045,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.92542146752591E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0192542146752591"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.230190200762305"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.832142142946417"/>
 													</PropertyList>
@@ -1982,8 +2092,8 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="4.54840933812237E-02"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="6.02928679704594E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0454840933812237"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0602928679704594"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_night_element_02_03.wav</AudioFile>
@@ -2028,7 +2138,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="2.30670241019935E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0230670241019935"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.119948525330366"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2337,7 +2447,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="3.48809088216333E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0348809088216333"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.164438570159128"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2383,8 +2493,8 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="3.34658034454177E-02"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="8.92421425211136E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0334658034454177"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0892421425211136"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_02.wav</AudioFile>
@@ -2434,7 +2544,7 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.60206695191798E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0160206695191798"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_03.wav</AudioFile>
@@ -2484,8 +2594,8 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.26530612244898E-02"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.12471655328796E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0126530612244898"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0112471655328796"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_04.wav</AudioFile>
@@ -3475,12 +3585,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<File ID="154369548"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_forest_day_background_loop" ID="{F0488378-9CA5-4D66-8F48-EECDED0802A5}" ShortID="506729827">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_forest_day_background_loop.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{E3C10949-2B7A-4129-BB3F-D35EAE5DAEA0}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{9F8518EF-C814-4409-93FA-02262220A54F}" Platform="Linked"/>
+												<ActiveSource Name="amb_forest_day_background_loop" ID="{F0488378-9CA5-4D66-8F48-EECDED0802A5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -4056,12 +4176,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<File ID="369256951"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_trees_day_background_loop" ID="{BD04D7FF-49CA-41B3-8837-0AA9B8801C51}" ShortID="954772343">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_trees_day_background_loop.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{837696CE-C0B6-4E0A-A3B4-AC3DBBA20D64}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="treesVillage_001" ID="{FFFDE09E-1406-4FFC-9424-A866B4866C8D}" Platform="Linked"/>
+												<ActiveSource Name="amb_trees_day_background_loop" ID="{BD04D7FF-49CA-41B3-8837-0AA9B8801C51}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -4568,12 +4698,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<File ID="144964242"/>
 													</ConvertedFileIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_village_day_background_loop" ID="{FE1E8B80-FD2D-463C-9D12-DDBEACC08F03}" ShortID="934392985">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_village_day_background_loop.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{E7894886-88BC-470B-91CD-594ACE08AB1D}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{6D075EAE-E85D-4702-8F1A-0FC78672CCDE}" Platform="Linked"/>
+												<ActiveSource Name="amb_village_day_background_loop" ID="{FE1E8B80-FD2D-463C-9D12-DDBEACC08F03}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -5246,12 +5386,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<Language>SFX</Language>
 											<AudioFile>Ambient\Ambient_Background\BAS_amb_cave_background_LP.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="amb_cave_background_loop" ID="{E26E8F95-797C-4D9E-840C-4C30C40AE3B7}" ShortID="28422376">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>amb_cave_background_loop.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Position Name="" ID="{AF504613-63B3-4733-93F9-DFD88956D9D8}"/>
 									</PositioningInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_amb_cave_background_LP" ID="{E9C55718-2D19-43AD-BB77-F973B0B2A16C}" Platform="Linked"/>
+										<ActiveSource Name="amb_cave_background_loop" ID="{E26E8F95-797C-4D9E-840C-4C30C40AE3B7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
