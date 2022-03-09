@@ -147,8 +147,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-001" ID="{4C2076ED-AB0A-4B32-889B-691916C477C8}" ShortID="942816104">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.366108506944444"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
@@ -190,8 +191,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-002" ID="{59EE4271-FB76-4B53-80CA-8F40296C5B12}" ShortID="662387708">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
@@ -240,9 +242,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-003" ID="{5F471C99-E292-41D3-8CBD-E279E2A44076}" ShortID="321602368">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.2271630859375"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.2271630859375"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -290,9 +293,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-004" ID="{C29A194B-E68A-4D5C-95C2-2C5423513D11}" ShortID="146703143">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.177063259548611"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.177063259548611"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -330,9 +334,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-005" ID="{13921E91-3E59-44A0-84BE-B046AE12A3F4}" ShortID="432396446">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.168871636284722"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.168871636284722"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -370,9 +375,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-006" ID="{DF62CEFE-BC81-4DD6-8EA0-D57787775BCD}" ShortID="372825360">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.245453703703704"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.245453703703704"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -530,9 +536,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-010" ID="{ABBA38B2-BBAC-4327-850F-9B41F2502654}" ShortID="509145898">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.303441116898148"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.303441116898148"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1803,36 +1810,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Blacksmith_DialogueLine_Q3b_05" ID="{A4AEF245-A0A9-4E53-8560-0B2BB979866A}" ShortID="133723198">
+								<Sound Name="WAG Blacksmith Line-001" ID="{5FE36506-0D1A-4E16-9416-C11E0490DFC6}" ShortID="305826408">
 									<PropertyList>
-										<Property Name="CenterPercentage" Type="int32">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="IsNonCachable" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Priority" Type="int16">
+										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>100</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
-										<Property Name="PriorityDistanceOffset" Type="int16">
-											<ValueList>
-												<Value>0</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1842,55 +1828,38 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="NPC_Detailed" ID="{B77B2264-DDCF-4EFC-8D87-E273CB81797B}" WorkUnitID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}"/>
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Blacksmith_DialogueLine_Q3b_05" ID="{4DCFCFBC-726A-4D20-BE0C-30288B249634}" ShortID="669867001">
+										<AudioFileSource Name="WAG Blacksmith Line-001" ID="{75AA9C09-D1F0-44C5-96DD-4F28658CF910}" ShortID="27737227">
 											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="5.7874609375"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.140412434895833"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
-											<AudioFile>Blacksmith_DialogueLine_Q3b_05.wav</AudioFile>
+											<AudioFile>WAG Blacksmith Line-001.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Blacksmith_DialogueLine_Q3b_05" ID="{4DCFCFBC-726A-4D20-BE0C-30288B249634}" Platform="Linked"/>
+										<ActiveSource Name="WAG Blacksmith Line-001" ID="{75AA9C09-D1F0-44C5-96DD-4F28658CF910}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Blacksmith_DialogueLine_Q3b_04" ID="{5DA881B7-382F-4345-B392-BEA957B8FFFF}" ShortID="690843077">
+								<Sound Name="WAG Blacksmith Line-002" ID="{2C8F47C7-5F37-4AE9-8F2E-4888DCF4F7E5}" ShortID="560514923">
 									<PropertyList>
-										<Property Name="CenterPercentage" Type="int32">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="IsNonCachable" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Priority" Type="int16">
+										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>100</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
-										<Property Name="PriorityDistanceOffset" Type="int16">
-											<ValueList>
-												<Value>0</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1900,110 +1869,37 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="NPC_Detailed" ID="{B77B2264-DDCF-4EFC-8D87-E273CB81797B}" WorkUnitID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}"/>
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Blacksmith_DialogueLine_Q3b_04" ID="{40FC9849-AFD8-4502-AC89-E89FA833EC34}" ShortID="1030148940">
-											<Language>English(US)</Language>
-											<AudioFile>Blacksmith_DialogueLine_Q3b_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Blacksmith_DialogueLine_Q3b_04" ID="{40FC9849-AFD8-4502-AC89-E89FA833EC34}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Blacksmith_DialogueLine_Q3b_02" ID="{DF4C5797-958A-45BE-BCB8-AFA7E18C964E}" ShortID="423834978">
-									<PropertyList>
-										<Property Name="CenterPercentage" Type="int32">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
-										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="IsNonCachable" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Priority" Type="int16">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
-										<Property Name="PriorityDistanceOffset" Type="int16">
-											<ValueList>
-												<Value>0</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="NPC_Detailed" ID="{B77B2264-DDCF-4EFC-8D87-E273CB81797B}" WorkUnitID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Blacksmith_DialogueLine_Q3b_02" ID="{C35D33D1-8E48-48C9-9F37-3AB8F7A3E328}" ShortID="184998337">
+										<AudioFileSource Name="WAG Blacksmith Line-002" ID="{02F6D872-8CD4-4A38-95C6-8651058C8FBA}" ShortID="539763760">
 											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="9.38839597284226"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
-											<AudioFile>Blacksmith_DialogueLine_Q3b_02.wav</AudioFile>
+											<AudioFile>WAG Blacksmith Line-002.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Blacksmith_DialogueLine_Q3b_02" ID="{C35D33D1-8E48-48C9-9F37-3AB8F7A3E328}" Platform="Linked"/>
+										<ActiveSource Name="WAG Blacksmith Line-002" ID="{02F6D872-8CD4-4A38-95C6-8651058C8FBA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Blacksmith_DialogueLine_Q3b_03" ID="{A4625000-3CBC-4C3F-BB1C-7215438EF1E1}" ShortID="1033900110">
+								<Sound Name="WAG Blacksmith Line-003" ID="{4F4F1507-029F-458E-BC1D-D27419118949}" ShortID="894815759">
 									<PropertyList>
-										<Property Name="CenterPercentage" Type="int32">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="IsNonCachable" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Priority" Type="int16">
+										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>100</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
-										<Property Name="PriorityDistanceOffset" Type="int16">
-											<ValueList>
-												<Value>0</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2013,55 +1909,38 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="NPC_Detailed" ID="{B77B2264-DDCF-4EFC-8D87-E273CB81797B}" WorkUnitID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}"/>
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Blacksmith_DialogueLine_Q3b_03" ID="{77CAA8E8-2818-4652-8C95-E5FF51838158}" ShortID="501172588">
+										<AudioFileSource Name="WAG Blacksmith Line-003" ID="{D4D7C822-F60B-4C6A-9682-386F61F35100}" ShortID="486625135">
 											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="6.85871500651042"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.111550853587963"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.111550853587963"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
-											<AudioFile>Blacksmith_DialogueLine_Q3b_03.wav</AudioFile>
+											<AudioFile>WAG Blacksmith Line-003.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Blacksmith_DialogueLine_Q3b_03" ID="{77CAA8E8-2818-4652-8C95-E5FF51838158}" Platform="Linked"/>
+										<ActiveSource Name="WAG Blacksmith Line-003" ID="{D4D7C822-F60B-4C6A-9682-386F61F35100}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Blacksmith_DialogueLine_Q3b_01" ID="{6E0D3A05-0F26-4371-B627-EB2CFF706960}" ShortID="262382244">
+								<Sound Name="WAG Blacksmith Line-004" ID="{672E0066-0D33-47EE-AC74-D3588BF25B6D}" ShortID="274867088">
 									<PropertyList>
-										<Property Name="CenterPercentage" Type="int32">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="IsNonCachable" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Priority" Type="int16">
+										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>100</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
-										<Property Name="PriorityDistanceOffset" Type="int16">
-											<ValueList>
-												<Value>0</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2071,55 +1950,37 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="NPC_Detailed" ID="{B77B2264-DDCF-4EFC-8D87-E273CB81797B}" WorkUnitID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}"/>
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Blacksmith_DialogueLine_Q3b_01" ID="{72847A93-F896-43B3-B59B-DB10FDC29888}" ShortID="141653825">
+										<AudioFileSource Name="WAG Blacksmith Line-004" ID="{CDD1929C-9714-4ED8-B4EC-21BD5D0DB820}" ShortID="792618344">
 											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="8.37891264415922"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
-											<AudioFile>Blacksmith_DialogueLine_Q3b_01.wav</AudioFile>
+											<AudioFile>WAG Blacksmith Line-004.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Blacksmith_DialogueLine_Q3b_01" ID="{72847A93-F896-43B3-B59B-DB10FDC29888}" Platform="Linked"/>
+										<ActiveSource Name="WAG Blacksmith Line-004" ID="{CDD1929C-9714-4ED8-B4EC-21BD5D0DB820}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Blacksmith_DialogueLine_Q4b_01" ID="{106FC02E-0FA5-439A-87A4-2056AAD6C960}" ShortID="1012886736">
+								<Sound Name="WAG Blacksmith Line-005" ID="{342E6797-9F50-4F9D-B4C3-1E911753A5FB}" ShortID="443961944">
 									<PropertyList>
-										<Property Name="CenterPercentage" Type="int32">
-											<ValueList>
-												<Value>100</Value>
-											</ValueList>
-										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-										<Property Name="IsNonCachable" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
-										<Property Name="Priority" Type="int16">
+										<Property Name="Pitch" Type="int32">
 											<ValueList>
-												<Value>100</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
-										<Property Name="PriorityDistanceOffset" Type="int16">
-											<ValueList>
-												<Value>0</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2129,23 +1990,106 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="NPC_Detailed" ID="{B77B2264-DDCF-4EFC-8D87-E273CB81797B}" WorkUnitID="{7C4C4D9A-0F39-44F5-A890-894932A053AC}"/>
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Dialogue" ID="{0CF7483B-65CB-45F0-A796-F86C335B3843}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Blacksmith_DialogueLine_Q4b_01" ID="{1FAC65A6-5FAE-438E-9672-64C9F43F1989}" ShortID="312874557">
+										<AudioFileSource Name="WAG Blacksmith Line-005" ID="{497C8C15-FE43-4942-9C78-DDC02B11C003}" ShortID="18204354">
 											<PropertyList>
-												<Property Name="TrimEnd" Type="Real64" Value="7.32540276227679"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
-											<AudioFile>Blacksmith_DialogueLine_Q4b_01.wav</AudioFile>
+											<AudioFile>WAG Blacksmith Line-005.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Blacksmith_DialogueLine_Q4b_01" ID="{1FAC65A6-5FAE-438E-9672-64C9F43F1989}" Platform="Linked"/>
+										<ActiveSource Name="WAG Blacksmith Line-005" ID="{497C8C15-FE43-4942-9C78-DDC02B11C003}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WAG Blacksmith Line-006" ID="{9120FE36-C7A3-4FF8-B34A-715945DDCA29}" ShortID="350139302">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WAG Blacksmith Line-006" ID="{DD08D185-95F5-4541-B9AC-DFAFB30F1B01}" ShortID="292045048">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>English(US)</Language>
+											<AudioFile>WAG Blacksmith Line-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WAG Blacksmith Line-006" ID="{DD08D185-95F5-4541-B9AC-DFAFB30F1B01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WAG Blacksmith Line-007" ID="{E64252C7-4967-40C4-9C57-1B37F076110C}" ShortID="973225334">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WAG Blacksmith Line-007" ID="{81468C49-15D7-4A0E-9F4C-FD9C9C9B7E56}" ShortID="691705488">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>English(US)</Language>
+											<AudioFile>WAG Blacksmith Line-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WAG Blacksmith Line-007" ID="{81468C49-15D7-4A0E-9F4C-FD9C9C9B7E56}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

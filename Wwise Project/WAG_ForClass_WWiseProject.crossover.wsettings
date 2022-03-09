@@ -12,6 +12,7 @@
 				<Property Name="Event Action List\{1BEB1FB6-365A-4078-8D18-28727C82A133}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1CF76F02-9289-49BB-B568-B32E7CB1551D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{219313F0-B0DF-4D98-AAB6-7833341A984A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F9D2130-05EE-4903-8B8E-C01607221A11}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2FBACECC-9351-465C-ACCF-E19B92D29B51}\x64_Expand States" Type="string" Value=""/>
@@ -21,9 +22,11 @@
 				<Property Name="Event Action List\{3C193BB6-64FD-4A69-BB0A-67E23BC76F56}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{42EB972D-7E5A-436E-95DA-0A12AF2AD046}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4435B477-398A-4ECE-8A15-DAE8D1275418}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{44B1109B-F93D-4380-87C0-A28497A32D8D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{45C3257D-2EAB-49B6-B593-1A3290D7C5A0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{52175C07-A72E-46E3-B5DA-CBA1605D887F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{56943864-117B-4342-8159-48E68EC2CB07}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{71EB143A-0763-4078-B38B-99F76CE5CC23}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7338840D-47AA-49C7-B598-CFEF41459A42}\x64_Expand States" Type="string" Value=""/>
@@ -37,6 +40,8 @@
 				<Property Name="Event Action List\{B2445F20-C2C6-4632-B596-1BC3BDF68AE0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2674317-52F2-4246-9759-57DD2A3598A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C76DEDD5-072D-470D-8E18-58272B44114D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CE7B657B-F319-4C41-8CD7-82FBEA81EF7A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D076FAD1-40D8-443D-B933-49B2C541E96C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E0E2097C-0B80-4F20-920B-D96CA54E21F7}\x64_Expand States" Type="string" Value=""/>
@@ -44,6 +49,7 @@
 				<Property Name="Event Action List\{E86FB16A-D137-41F5-AD05-F5D304320F4D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EEBDA753-4E1B-4380-ACA2-FD53129C027D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F404B199-661F-4015-8B1C-2E57459467CA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F453350F-76D0-462F-A918-08520519CDDC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F8A4BB36-DA49-445D-8477-D48BF27F917E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FB2B576F-E7ED-48B1-BA22-47110315BD88}\x64_Expand States" Type="string" Value=""/>
@@ -71,7 +77,7 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Android_High"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
@@ -88,7 +94,7 @@
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{B650E8E2-E280-47EA-8716-CCA75FDAB2D1}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{F7C13263-D4E6-40E0-814D-F91F96A8585B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -184,7 +190,7 @@
 						<Value Platform="Android_High"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value=""/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{2C2400B1-F58D-428C-8262-966DFAD84976}2566620951"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

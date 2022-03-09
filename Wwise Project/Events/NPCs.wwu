@@ -101,13 +101,13 @@
 							<ChildrenList>
 								<Event Name="Blacksmith_DialogueLine_Q3b_01" ID="{44B1109B-F93D-4380-87C0-A28497A32D8D}">
 									<ChildrenList>
-										<Action Name="" ID="{ABF487D4-E2FE-4B77-8012-1AF1D3BEE54E}" ShortID="106084837">
+										<Action Name="" ID="{972D4581-9E88-4433-876D-B704F140732C}" ShortID="147022840">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_01" ID="{6E0D3A05-0F26-4371-B627-EB2CFF706960}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+													<ObjectRef Name="WAG Blacksmith Line-001" ID="{5FE36506-0D1A-4E16-9416-C11E0490DFC6}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -115,13 +115,13 @@
 								</Event>
 								<Event Name="Blacksmith_DialogueLine_Q3b_02" ID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}">
 									<ChildrenList>
-										<Action Name="" ID="{615E9E86-046B-470A-8605-9F452CF54605}" ShortID="32040236">
+										<Action Name="" ID="{681AC696-BC2B-4331-A553-493241C2203F}" ShortID="885427555">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_02" ID="{DF4C5797-958A-45BE-BCB8-AFA7E18C964E}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+													<ObjectRef Name="WAG Blacksmith Line-002" ID="{2C8F47C7-5F37-4AE9-8F2E-4888DCF4F7E5}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -129,13 +129,23 @@
 								</Event>
 								<Event Name="Blacksmith_DialogueLine_Q3b_03" ID="{C76DEDD5-072D-470D-8E18-58272B44114D}">
 									<ChildrenList>
-										<Action Name="" ID="{D3BA64A9-4646-4AEF-A453-6C708FE699B0}" ShortID="729250886">
+										<Action Name="" ID="{A0D89B3E-6A94-40C6-B26B-3FD4B7594DCE}" ShortID="611531774">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_03" ID="{A4625000-3CBC-4C3F-BB1C-7215438EF1E1}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+													<ObjectRef Name="WAG Blacksmith Line-003" ID="{4F4F1507-029F-458E-BC1D-D27419118949}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{3D01B474-8195-47B0-BB57-9BD3BD7C8E40}" ShortID="484329399">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WAG Blacksmith Line-004" ID="{672E0066-0D33-47EE-AC74-D3588BF25B6D}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -143,13 +153,13 @@
 								</Event>
 								<Event Name="Blacksmith_DialogueLine_Q3b_04" ID="{F404B199-661F-4015-8B1C-2E57459467CA}">
 									<ChildrenList>
-										<Action Name="" ID="{3AB9E7E2-2027-4B9D-89D7-87E34DE85879}" ShortID="116229195">
+										<Action Name="" ID="{58F4DB60-3F97-4AAE-B108-CBFAD71FE079}" ShortID="847358643">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_04" ID="{5DA881B7-382F-4345-B392-BEA957B8FFFF}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+													<ObjectRef Name="WAG Blacksmith Line-005" ID="{342E6797-9F50-4F9D-B4C3-1E911753A5FB}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -157,13 +167,13 @@
 								</Event>
 								<Event Name="Blacksmith_DialogueLine_Q3b_05" ID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}">
 									<ChildrenList>
-										<Action Name="" ID="{1096C203-DE00-4795-81D3-C52B948ED71A}" ShortID="29224919">
+										<Action Name="" ID="{7E5687FA-9F41-4C8E-BA9B-207DBE17C3BA}" ShortID="763551871">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Blacksmith_DialogueLine_Q3b_05" ID="{A4AEF245-A0A9-4E53-8560-0B2BB979866A}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+													<ObjectRef Name="WAG Blacksmith Line-006" ID="{9120FE36-C7A3-4FF8-B34A-715945DDCA29}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -399,13 +409,13 @@
 								</Event>
 								<Event Name="Blacksmith_DialogueLine_Q4b_01" ID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}">
 									<ChildrenList>
-										<Action Name="" ID="{9195C756-716D-4E3E-A79A-A9BD15DA367D}" ShortID="151100162">
+										<Action Name="" ID="{E2EFDC7F-896F-435B-9DB5-745AF4E8ADFB}" ShortID="398708842">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Blacksmith_DialogueLine_Q4b_01" ID="{106FC02E-0FA5-439A-87A4-2056AAD6C960}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+													<ObjectRef Name="WAG Blacksmith Line-007" ID="{E64252C7-4967-40C4-9C57-1B37F076110C}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
