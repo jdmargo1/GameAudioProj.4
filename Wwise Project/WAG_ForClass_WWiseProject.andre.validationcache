@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1645987878" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1646532983" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambient.wwu" DateLow="1645475838" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1645475838" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1646515353" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies.wwu" DateLow="1646167135" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilCrawler.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilHead.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilSpitPlant.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Instruments.wwu" DateLow="1645987878" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\NPCs.wwu" DateLow="1645987878" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Destruction.wwu" DateLow="1645987878" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\NPCs.wwu" DateLow="1646810176" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Destruction.wwu" DateLow="1646532983" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Props.wwu" DateLow="1645987878" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1645475838" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Player.wwu" DateLow="1646168081" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Player.wwu" DateLow="1646810176" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\UI.wwu" DateLow="1646507872" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Attenuations\Ambient.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Attenuations\Default Work Unit.wwu" DateLow="1645475838" DateHigh="0"/>
@@ -36,7 +36,7 @@
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\Enemies.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\Magic.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\Music.wwu" DateLow="1645475838" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\NPCs.wwu" DateLow="1645475838" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\NPCs.wwu" DateLow="1646810176" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\Objects.wwu" DateLow="1645475838" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\Player.wwu" DateLow="1646165655" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Events\Quest.wwu" DateLow="1645475838" DateHigh="0"/>
@@ -76,6 +76,6 @@
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Switches\Player.wwu" DateLow="1645475843" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Triggers\Default Work Unit.wwu" DateLow="1645475843" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1645475843" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.andre.wsettings" DateLow="1646171013" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.wproj" DateLow="1646167794" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.andre.wsettings" DateLow="1646810011" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.wproj" DateLow="1646532985" DateHigh="0"/>
 </ValidationCache>
