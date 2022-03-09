@@ -109,7 +109,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -125,90 +125,91 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Adventuress_Death_01" ID="{9BC50597-F566-4F07-A4BC-94FA98CA5895}" ShortID="717720426">
+										<Sound Name="Adventuress DEATH-001" ID="{28D137E2-A62D-4C38-8088-9B78CC371BBB}" ShortID="819351034">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>20</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+													<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Adventuress_Death_01" ID="{FA17523E-E281-4278-90C3-7975790B78B7}" ShortID="288737095">
+												<AudioFileSource Name="Adventuress DEATH-001" ID="{C1F74D70-336F-4876-853C-0DD314696ABC}" ShortID="306250123">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.612903225806452"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.60661764705882"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Character\Adventuress_Death_01.wav</AudioFile>
+													<AudioFile>Adventuress DEATH-001.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_Death_01" ID="{FA17523E-E281-4278-90C3-7975790B78B7}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress DEATH-001" ID="{C1F74D70-336F-4876-853C-0DD314696ABC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Adventuress_Death_02" ID="{6DA6273E-FA73-4303-A02D-BF8B9B670A57}" ShortID="343576137">
+										<Sound Name="Adventuress DEATH-002" ID="{A411F5DC-A050-47D3-98F5-FDCDD97223A4}" ShortID="84915465">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+													<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Adventuress_Death_02" ID="{C4784A69-78BB-480E-A0D7-8DB372F7157C}" ShortID="361675366">
+												<AudioFileSource Name="Adventuress DEATH-002" ID="{B6779D1C-A319-447D-9E68-C4FB30BFDD0A}" ShortID="692493790">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.29841674573055"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.862636385199241"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Character\Adventuress_Death_02.wav</AudioFile>
+													<AudioFile>Adventuress DEATH-002.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_Death_02" ID="{C4784A69-78BB-480E-A0D7-8DB372F7157C}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress DEATH-002" ID="{B6779D1C-A319-447D-9E68-C4FB30BFDD0A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Adventuress_Death_03" ID="{212AB3AE-094A-4719-8D98-746FBB3E92A4}" ShortID="149839981">
+										<Sound Name="Adventuress DEATH-003" ID="{2787CC5D-A04C-4A51-B91E-B6DB68145703}" ShortID="819166450">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80BE8EEB-3F19-43CD-9BCB-5157D976053A}"/>
+													<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Adventuress_Death_03" ID="{E47D7938-FBDA-420B-B06B-CE6EFB0DF343}" ShortID="768452881">
+												<AudioFileSource Name="Adventuress DEATH-003" ID="{77C2FFBB-A3AF-42BD-B00F-778F0A456B08}" ShortID="190827734">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.241935483870968"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.757115749525617"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Character\Adventuress_Death_03.wav</AudioFile>
+													<AudioFile>Adventuress DEATH-003.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_Death_03" ID="{E47D7938-FBDA-420B-B06B-CE6EFB0DF343}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress DEATH-003" ID="{77C2FFBB-A3AF-42BD-B00F-778F0A456B08}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -450,6 +451,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -471,9 +477,24 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-001" ID="{67BAC09C-0274-4840-AA44-C06B0E8B0186}" ShortID="507086479">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-0.1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-001.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_01" ID="{086BE022-3549-4F53-801C-3D6F707484A4}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-001" ID="{67BAC09C-0274-4840-AA44-C06B0E8B0186}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_02" ID="{A2CD5C53-33AC-4D86-850F-BD2ED629A250}" ShortID="871101501">
@@ -498,6 +519,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -519,9 +545,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_02.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-002" ID="{6365D7D5-1841-4F17-9C88-AEA273DB5C48}" ShortID="450823707">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-002.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_02" ID="{27516D92-9C00-457A-9580-D7BFC0D7C147}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-002" ID="{6365D7D5-1841-4F17-9C88-AEA273DB5C48}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_03" ID="{676A92C7-5900-4DA6-B632-38D49DF9A99A}" ShortID="111812974">
@@ -546,6 +582,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -563,13 +604,28 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.161112428842505"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.353771347248577"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_03.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-003" ID="{032FE2A4-59E3-487F-9A49-2B88FFB51C72}" ShortID="466637199">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-003.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_03" ID="{522DB05F-E7CB-47A3-A422-EF970DEE5D6C}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-003" ID="{032FE2A4-59E3-487F-9A49-2B88FFB51C72}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_04" ID="{5B946243-4C6C-48CC-8F7A-DC7AC6905359}" ShortID="27759347">
@@ -594,6 +650,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -614,6 +675,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_04.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-004" ID="{FC84C85B-0A0E-4880-80FE-66ADF033AC9A}" ShortID="894711931">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-004.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -642,6 +713,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -662,6 +738,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_05.wav</AudioFile>
+												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-005" ID="{072394B9-8F69-4357-908D-057BDBDDA662}" ShortID="157385305">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-005.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -690,6 +776,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -711,9 +802,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_06.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-006" ID="{F8395E89-9B10-4043-AB38-7BF5F3C13EC3}" ShortID="567589712">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-006.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_06" ID="{35426BF6-355F-4FE1-827F-931DB9CED292}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-006" ID="{F8395E89-9B10-4043-AB38-7BF5F3C13EC3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_07" ID="{F70D440D-7114-46A2-ACB0-A20023AA8EB2}" ShortID="587028090">
@@ -738,6 +839,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -759,9 +865,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_07.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-007" ID="{9D804353-0BED-48C7-AA71-E101269F6E40}" ShortID="325669408">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-007.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_07" ID="{F433BDB3-20C9-4706-8858-9FFC3BD507F4}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-007" ID="{9D804353-0BED-48C7-AA71-E101269F6E40}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_10" ID="{C520F413-0884-4679-9F86-8F60BE4B1A0A}" ShortID="628389898">
@@ -786,6 +902,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -807,9 +928,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_10.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-010" ID="{609C3BDF-C480-4DAC-807E-4B0443B8000F}" ShortID="650182870">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-010.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_10" ID="{A9B86E2F-FE77-48BD-89B3-4CCA2169371D}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-010" ID="{609C3BDF-C480-4DAC-807E-4B0443B8000F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_11" ID="{C4343E48-3E9B-4934-B92E-9EF30E4E0AF2}" ShortID="344604175">
@@ -834,6 +965,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -855,9 +991,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_11.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-011" ID="{723EC937-0511-4820-B329-9F7ACED56652}" ShortID="796153610">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-011.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_11" ID="{32A38B97-4027-4F4C-B9F1-B71BCDA0767A}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-011" ID="{723EC937-0511-4820-B329-9F7ACED56652}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_12" ID="{9366D787-1890-4FD0-B1D3-2F77BD261666}" ShortID="991094374">
@@ -882,6 +1028,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -903,9 +1054,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_12.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-012" ID="{9EB5BC0A-FFCE-407A-B760-C0209E2DFAA3}" ShortID="249818564">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-012.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_12" ID="{3B4CE628-DA31-4E3D-9D25-F6491BFA66E4}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-012" ID="{9EB5BC0A-FFCE-407A-B760-C0209E2DFAA3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Adventuress_damaged_13" ID="{50291EE9-05E7-4873-8002-CF59A9548E6B}" ShortID="198938880">
@@ -930,6 +1091,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -951,9 +1117,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Character\Adventuress_damaged_13.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Adventuress Damaged-013" ID="{F5118721-8F23-40F8-86FA-7D7DF7DAB53B}" ShortID="82540882">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Adventuress Damaged-013.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Adventuress_damaged_13" ID="{425557ED-03B4-4B7C-9CC1-A3E9C7FD6C10}" Platform="Linked"/>
+												<ActiveSource Name="Adventuress Damaged-013" ID="{F5118721-8F23-40F8-86FA-7D7DF7DAB53B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -12545,307 +12721,207 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Adventuress_exertion_07" ID="{79935FAC-B7F8-4A0F-A887-434D2B19FB17}" ShortID="1048141959">
+												<Sound Name="Adventuress swing weapon light-001" ID="{31FE8AA5-60DB-4C34-9E48-C131E092ECA6}" ShortID="160954592">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{2D2E3CE2-7825-431F-9A7E-B70B21F61376}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{34E8334F-C974-49B8-8D23-99C61E200FB5}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_07" ID="{F49BBF89-A9EA-401F-9294-78239E119961}" ShortID="780624504">
+														<AudioFileSource Name="Adventuress swing weapon light-001" ID="{EAD7E730-8A90-40AB-9BEA-54363E9D166C}" ShortID="272780788">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0498046875"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.36328125"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_07.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="596945623"/>
-															</ConvertedFileIDList>
+															<AudioFile>Adventuress swing weapon light-001.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_07" ID="{F49BBF89-A9EA-401F-9294-78239E119961}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon light-001" ID="{EAD7E730-8A90-40AB-9BEA-54363E9D166C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_05" ID="{76E08D45-A11F-484A-8E02-46EAB29FF78C}" ShortID="13248433">
+												<Sound Name="Adventuress swing weapon light-002" ID="{40DDF904-789D-40DC-9748-485C5B0E69DE}" ShortID="355275435">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{02FF11AB-6734-492C-90D9-CA36D161FEBF}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_05" ID="{78AA4648-7FE0-4400-B666-31B1675B7953}" ShortID="723937954">
+														<AudioFileSource Name="Adventuress swing weapon light-002" ID="{45590812-350D-4F33-BB10-D068FFCD0DBB}" ShortID="397299840">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.165736607142857"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.414341517857143"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="687190676"/>
-															</ConvertedFileIDList>
+															<AudioFile>Adventuress swing weapon light-002.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_05" ID="{78AA4648-7FE0-4400-B666-31B1675B7953}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon light-002" ID="{45590812-350D-4F33-BB10-D068FFCD0DBB}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_03" ID="{74C74BCE-718A-4209-8CC8-CB3C1540A721}" ShortID="200637814">
+												<Sound Name="Adventuress swing weapon light-003" ID="{309C8C2F-558F-42ED-95B2-3D25BCB237A2}" ShortID="164547686">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{FFDC2197-2842-4E6C-9352-FCA23DD2EC52}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{3C822BA1-E11B-42A9-A130-EB9FD8989E69}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_03" ID="{D52DC23D-33B8-4674-9346-013F544BAB43}" ShortID="945705224">
+														<AudioFileSource Name="Adventuress swing weapon light-003" ID="{8339786F-995C-4632-A9A7-6F241CC2AE99}" ShortID="957579855">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.15087890625"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.35888671875"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="476522655"/>
-															</ConvertedFileIDList>
+															<AudioFile>Adventuress swing weapon light-003.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_03" ID="{D52DC23D-33B8-4674-9346-013F544BAB43}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon light-003" ID="{8339786F-995C-4632-A9A7-6F241CC2AE99}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_04" ID="{1E9DFA79-B7C3-4F84-A83B-B9C04ADBE873}" ShortID="92680482">
+												<Sound Name="Adventuress swing weapon light-004" ID="{5261F3E6-9CA2-4555-A26D-2D9591A87ADD}" ShortID="382947203">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{8241727D-E49E-4DEE-A384-CF041BCEC7FE}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{E6F4F28B-78AB-4B65-9483-4597A39346A6}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_04" ID="{872EE4D8-3A4B-4E57-BBEB-6E2E6B84CA67}" ShortID="668023941">
+														<AudioFileSource Name="Adventuress swing weapon light-004" ID="{C03B85D6-AF52-4C55-95EF-B357E027E6AC}" ShortID="707790496">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.127371651785714"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.346819196428571"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="796603137"/>
-															</ConvertedFileIDList>
+															<AudioFile>Adventuress swing weapon light-004.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_04" ID="{872EE4D8-3A4B-4E57-BBEB-6E2E6B84CA67}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon light-004" ID="{C03B85D6-AF52-4C55-95EF-B357E027E6AC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_09" ID="{B68755B2-32CA-4C29-A57F-18BA86BA34D5}" ShortID="880445578">
+												<Sound Name="Adventuress swing weapon light-005" ID="{2E3DB670-E5AC-4136-93C7-393B1D41F6F2}" ShortID="127012502">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{0F8DB66E-CAD5-429F-8FBB-EB63E200A941}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_09" ID="{0A11B9D9-9364-46AF-960C-AC1D277752FF}" ShortID="899169029">
+														<AudioFileSource Name="Adventuress swing weapon light-005" ID="{DCFCD1BF-A518-49D8-9CDD-409843DA842A}" ShortID="820985440">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0919015066964285"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.4254150390625"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_09.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1007745237"/>
-															</ConvertedFileIDList>
+															<AudioFile>Adventuress swing weapon light-005.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_09" ID="{0A11B9D9-9364-46AF-960C-AC1D277752FF}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon light-005" ID="{DCFCD1BF-A518-49D8-9CDD-409843DA842A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Adventuress swing weapon light-006" ID="{7C0F2927-7A9F-41B5-B766-E4366A52ABEA}" ShortID="377295156">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Adventuress swing weapon light-006" ID="{A651ECB6-3C52-4E78-A208-F53DF8EF90C2}" ShortID="359869389">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Adventuress swing weapon light-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Adventuress swing weapon light-006" ID="{A651ECB6-3C52-4E78-A208-F53DF8EF90C2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Adventuress swing weapon light-007" ID="{D09A8908-1846-4D95-853B-AE9AF6FEEF8B}" ShortID="796160660">
+													<PropertyList>
+														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Adventuress swing weapon light-007" ID="{76714E91-2751-4F93-9558-3C7415311C59}" ShortID="290458456">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Adventuress swing weapon light-007.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Adventuress swing weapon light-007" ID="{76714E91-2751-4F93-9558-3C7415311C59}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -12874,7 +12950,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-8</Value>
+														<Value>-10</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -12899,454 +12975,207 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Adventuress_exertion_10" ID="{54006489-4FB4-4CFD-A05D-4B4B58D6DF55}" ShortID="688921727">
+												<Sound Name="Adventuress swing weapon hard-001" ID="{7EE7C11D-74F3-4471-95B4-DB80F8EF9BA5}" ShortID="665779502">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{25CE4097-FAA2-49C0-A63B-496C47BF941C}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_10" ID="{88BB3757-23E8-452F-A573-203EE5D7BBB4}" ShortID="501305534">
+														<AudioFileSource Name="Adventuress swing weapon hard-001" ID="{8524DC44-50F6-40F0-BF37-6A0701166651}" ShortID="870756169">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.147042410714286"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0432477678571429"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.7568359375"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_10.wav</AudioFile>
+															<AudioFile>Adventuress swing weapon hard-001.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_10" ID="{88BB3757-23E8-452F-A573-203EE5D7BBB4}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-001" ID="{8524DC44-50F6-40F0-BF37-6A0701166651}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_13" ID="{75C2748D-D558-40D8-8472-4801EC4B7AF4}" ShortID="1027064615">
+												<Sound Name="Adventuress swing weapon hard-002" ID="{7EE6E114-2D87-492D-ADBA-DB55E8FE3560}" ShortID="563832293">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{18799200-68C0-46E4-9908-585DEC3FFBBA}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_13" ID="{078CEB00-C9D5-4C1D-BB1A-DACF5EB61DA9}" ShortID="659300493">
+														<AudioFileSource Name="Adventuress swing weapon hard-002" ID="{4C40C562-748D-4904-AC16-E1D0F2253745}" ShortID="575400696">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.200892857142857"/>
-																<Property Name="TrimEnd" Type="Real64" Value="1.07142857142857"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_13.wav</AudioFile>
+															<AudioFile>Adventuress swing weapon hard-002.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_13" ID="{078CEB00-C9D5-4C1D-BB1A-DACF5EB61DA9}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-002" ID="{4C40C562-748D-4904-AC16-E1D0F2253745}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_06" ID="{357DE316-F2AC-4AE6-BD5A-A87FE7E90C21}" ShortID="142001785">
+												<Sound Name="Adventuress swing weapon hard-003" ID="{AB240A59-3CC2-408A-A575-EDB9A1A5C408}" ShortID="675687515">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{B095CED1-38A2-4C6D-9222-2071DFE73D55}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{5EA80922-BEAB-4A4C-8FF6-06762939080A}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_06" ID="{381DA8C3-D354-4534-9089-DC35B1DBF321}" ShortID="601886410">
+														<AudioFileSource Name="Adventuress swing weapon hard-003" ID="{43676554-4E48-4726-A2B0-D5A8100D7B44}" ShortID="196106116">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.123849051339286"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.717215401785714"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_06.wav</AudioFile>
+															<AudioFile>Adventuress swing weapon hard-003.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_06" ID="{381DA8C3-D354-4534-9089-DC35B1DBF321}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-003" ID="{43676554-4E48-4726-A2B0-D5A8100D7B44}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_12" ID="{890D5584-79ED-4C6C-AE23-E1A2ACCB284E}" ShortID="401889975">
+												<Sound Name="Adventuress swing weapon hard-004" ID="{C17DD3E3-DAD6-49DA-A7CF-F904B1B3CF1B}" ShortID="829238605">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{4BB9178A-000F-407E-A247-3A29B900CD81}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{FCC09BD6-BC0A-432E-9BA5-235FF91B7C9D}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_12" ID="{6DD2A216-B72A-4A2F-B735-948C75BCB324}" ShortID="592455788">
+														<AudioFileSource Name="Adventuress swing weapon hard-004" ID="{D86DBE33-3C14-4280-9A91-BDAF1ACF6820}" ShortID="872064368">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.123849051339286"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.658063616071429"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_12.wav</AudioFile>
+															<AudioFile>Adventuress swing weapon hard-004.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_12" ID="{6DD2A216-B72A-4A2F-B735-948C75BCB324}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-004" ID="{D86DBE33-3C14-4280-9A91-BDAF1ACF6820}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_11" ID="{5F549AFB-572D-4A14-A538-7586CAD13E6F}" ShortID="540257421">
+												<Sound Name="Adventuress swing weapon hard-005" ID="{957742DF-EAE9-4367-A34E-B927910DC6E0}" ShortID="764432519">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{4E7FBD01-69CA-4075-AA34-88EB9199AD6B}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_11" ID="{BF5C84DA-386F-424F-AC98-E031028868D9}" ShortID="1067218367">
+														<AudioFileSource Name="Adventuress swing weapon hard-005" ID="{4B5ADC34-E909-487E-97BC-99F42B37243A}" ShortID="903214963">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.1796875"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.033203125"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.806640625"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_11.wav</AudioFile>
+															<AudioFile>Adventuress swing weapon hard-005.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_11" ID="{BF5C84DA-386F-424F-AC98-E031028868D9}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-005" ID="{4B5ADC34-E909-487E-97BC-99F42B37243A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_01" ID="{A93366D1-9EBF-4757-95BD-D4E151A65AB1}" ShortID="141234699">
+												<Sound Name="Adventuress swing weapon hard-006" ID="{C5AD7304-49BD-495F-9182-BC31D821B6CB}" ShortID="804995486">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{A28C648B-7D09-4BAD-AD66-3EF632260456}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{80A1CBCC-42C1-4A18-A4B5-3649341EEF6A}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_01" ID="{AF3A32D2-71AB-4C05-AE98-F2D8F16F7416}" ShortID="855611825">
+														<AudioFileSource Name="Adventuress swing weapon hard-006" ID="{EA83161B-09DF-40D2-97C6-CBB2F1814379}" ShortID="112419487">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.137486049107143"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.760881696428572"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_01.wav</AudioFile>
+															<AudioFile>Adventuress swing weapon hard-006.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_01" ID="{AF3A32D2-71AB-4C05-AE98-F2D8F16F7416}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-006" ID="{EA83161B-09DF-40D2-97C6-CBB2F1814379}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Adventuress_exertion_08" ID="{29FD1A14-CC14-48B7-AE1F-B65C7DAED059}" ShortID="334812252">
+												<Sound Name="Adventuress swing weapon hard-007" ID="{7DE576AA-092C-43DF-A8F3-DCA5078FD484}" ShortID="494928095">
 													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{FE443459-1569-487E-8D80-F2ADDFF3786E}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
 														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
+															<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_08" ID="{1FAC9C25-D943-4B45-B10A-42BB9511C07B}" ShortID="703397546">
+														<AudioFileSource Name="Adventuress swing weapon hard-007" ID="{DF3B6B14-B349-4B72-BFCA-18C9B2479CBC}" ShortID="829079823">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.189697265625"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.637451171875"/>
+																<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+																<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_08.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="980308778"/>
-															</ConvertedFileIDList>
+															<AudioFile>Adventuress swing weapon hard-007.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_08" ID="{1FAC9C25-D943-4B45-B10A-42BB9511C07B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Adventuress_exertion_02" ID="{7F32C318-2B8A-48EB-AD87-9BE5D2F9CC79}" ShortID="323228487">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-														<Property Name="Priority" Type="int16">
-															<ValueList>
-																<Value>80</Value>
-															</ValueList>
-														</Property>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-12</Value>
-															</ValueList>
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{E302EBDC-6E43-4BAD-82C6-2DEB214CA6A7}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="False"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Ambience_Emitters_Small_3_15" ID="{FD100DA7-5358-4B68-B6BD-EBC9F2E8F335}" WorkUnitID="{E0237DA4-C386-4BC4-A1FC-687BC09FB5DC}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Player_Interaction" ID="{5CA7D971-C95A-4E3B-A12F-79AACCCD1FA5}" WorkUnitID="{A6DD8683-510E-4221-B13A-801CE87E1F3F}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{FFCB5E13-D9D6-4610-AC15-8EE7E84352F9}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Adventuress_exertion_02" ID="{C63BA745-910D-41CE-9640-9B35D2FFABE2}" ShortID="1010646515">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.158203125"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.123046875"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.798828125"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>Character\Adventuress_exertion_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="922334387"/>
-															</ConvertedFileIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Adventuress_exertion_02" ID="{C63BA745-910D-41CE-9640-9B35D2FFABE2}" Platform="Linked"/>
+														<ActiveSource Name="Adventuress swing weapon hard-007" ID="{DF3B6B14-B349-4B72-BFCA-18C9B2479CBC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

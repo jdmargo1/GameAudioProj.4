@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+WAG_ForClass/.DS_Store
+WAG_ForClass/Assets/.DS_Store
+WAG_ForClass/Assets/Game Assets/.DS_Store
+Wwise Project/.DS_Store
