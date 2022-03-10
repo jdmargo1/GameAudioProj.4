@@ -782,9 +782,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<Language>SFX</Language>
 											<AudioFile>Character\Weapons\BAS_pickUpWeapon_001.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Quest_ Get_Weapon" ID="{91F868AE-51F1-4C1E-A44F-FF277448351E}" ShortID="546241215">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Quest_ Get_Weapon.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_pickUpWeapon_001" ID="{F8D2F3A4-C330-418D-B9DE-72BA30C78B0F}" Platform="Linked"/>
+										<ActiveSource Name="Quest_ Get_Weapon" ID="{91F868AE-51F1-4C1E-A44F-FF277448351E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Collection Complete" ID="{767183B0-DA01-4AFC-9844-9AB9822692AE}" ShortID="875586601">
@@ -832,6 +842,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Sound Name="BAS_Quest_CompleteCollection_02" ID="{6A7926A3-D4DA-4934-B165-4BAB893EEF55}" ShortID="1045609384">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -873,6 +888,35 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="BAS_Quest_CompleteCollection_02" ID="{635C1330-AADF-40AF-825E-D2DAF68BD010}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Quest_Complete_Collection" ID="{C0838E4A-5D2C-4A71-882F-4081570B6E9E}" ShortID="104102535">
+											<PropertyList>
+												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Quest_Complete_Collection" ID="{E0CEEF28-EA77-4BE7-944B-3D6C7E5519F2}" ShortID="68411760">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Quest_Complete_Collection.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Quest_Complete_Collection" ID="{E0CEEF28-EA77-4BE7-944B-3D6C7E5519F2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1022,12 +1066,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<Language>SFX</Language>
 											<AudioFile>Interface\BAS_Quest_CompleteCollection_01.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Quest_Complete" ID="{1ED5F1B7-7B93-49F5-9A61-E71DB040855F}" ShortID="494250686">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Quest_Complete.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{71956947-C708-40D4-B0C2-EE5FCFAC7E97}"/>
 									</PositioningInfo>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Quest_CompleteCollection_01" ID="{04571D48-FC1E-4DBE-AC6E-6B188CF5B507}" Platform="Linked"/>
+										<ActiveSource Name="Quest_Complete" ID="{1ED5F1B7-7B93-49F5-9A61-E71DB040855F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1135,9 +1189,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<File ID="496256198"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Questroll Close" ID="{C054649E-3CA9-4300-9F3E-9D7C995C228F}" ShortID="93320748">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Questroll Close.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_QuestRoll_Close" ID="{3613A917-6C3C-450E-AE33-04DC6ECB160A}" Platform="Linked"/>
+										<ActiveSource Name="Questroll Close" ID="{C054649E-3CA9-4300-9F3E-9D7C995C228F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="QuestRoll_Open" ID="{9A50790A-2C33-440F-963E-1ACC6F651C93}" ShortID="171034214">
@@ -1182,9 +1246,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<File ID="813955928"/>
 											</ConvertedFileIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Questroll_Open" ID="{F51BD79A-E75F-4B75-B86C-9F4122172115}" ShortID="657291671">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Questroll_Open.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_QuestRoll_Open" ID="{2334F552-0E14-4307-A3AB-2A06BCE1D2D9}" Platform="Linked"/>
+										<ActiveSource Name="Questroll_Open" ID="{F51BD79A-E75F-4B75-B86C-9F4122172115}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

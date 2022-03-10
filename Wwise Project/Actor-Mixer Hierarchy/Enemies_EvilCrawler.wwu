@@ -144,6 +144,11 @@
 								<Sound Name="EvilCrawler_Move_01" ID="{5CC39637-07B5-48DB-98DF-A43AB896E435}" ShortID="766230767">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -167,6 +172,11 @@
 								<Sound Name="EvilCrawler_Move_02" ID="{6BBB5EC3-5BE0-434E-ADFB-4E710DA5FED2}" ShortID="169732944">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -190,6 +200,11 @@
 								<Sound Name="EvilCrawler_Move_03" ID="{E27AA6E5-7C36-42C6-B4E8-C7F9A39AE6F4}" ShortID="809560618">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -208,6 +223,93 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="BAS_Evil_Crawler_Move_03" ID="{5216A797-AEDF-459C-9036-05032222ED2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Movement_01" ID="{4D4F17A7-0263-430C-A846-0DDEBA60A34A}" ShortID="900853784">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Movement_01" ID="{C9C15781-22A7-4F9F-ABEE-E36688399AAE}" ShortID="870914841">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Movement_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Movement_01" ID="{C9C15781-22A7-4F9F-ABEE-E36688399AAE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Movement_02" ID="{B2C76109-AC99-475C-9B51-6AB7A1293F89}" ShortID="727578760">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Movement_02" ID="{B76BC559-4246-4A94-B814-CA635A6D0695}" ShortID="107949489">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Movement_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Movement_02" ID="{B76BC559-4246-4A94-B814-CA635A6D0695}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Movement_03" ID="{CD75EF54-5C27-4198-AFB7-7311C0672759}" ShortID="995993661">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Movement_03" ID="{4D0D41AC-7B4A-43F5-A4ED-ADCE5224866D}" ShortID="436175451">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Movement_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Movement_03" ID="{4D0D41AC-7B4A-43F5-A4ED-ADCE5224866D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -275,9 +377,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Crawler_Eat_01.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilCrawler_Eat_01" ID="{EDEFD873-CB5C-48B9-930D-790E76E2BF2B}" ShortID="983728569">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Eat_01.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Crawler_Eat_01" ID="{93E2543B-9EFD-4E0A-B4AB-2A613BAA6273}" Platform="Linked"/>
+										<ActiveSource Name="EvilCrawler_Eat_01" ID="{EDEFD873-CB5C-48B9-930D-790E76E2BF2B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilCrawler_Eat_02" ID="{9116631A-BCA4-4F69-A69A-4C549D4EBC4D}" ShortID="402671342">
@@ -309,9 +421,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Crawler_Eat_02.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilCrawler_Eat_02" ID="{75DF022A-D064-4742-B0F4-D73B50BF6346}" ShortID="67235325">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Eat_02.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Crawler_Eat_02" ID="{27CC129C-12D6-47A6-A806-D2ACD1797F2D}" Platform="Linked"/>
+										<ActiveSource Name="EvilCrawler_Eat_02" ID="{75DF022A-D064-4742-B0F4-D73B50BF6346}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilCrawler_Eat_03" ID="{6C89DD06-02BB-4143-BCD8-798DD0BF6E7B}" ShortID="202951183">
@@ -343,9 +465,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Crawler_Eat_03.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilCrawler_Eat_03" ID="{2DFED0D1-C32B-42A2-895B-BD9C793E5333}" ShortID="221853960">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Eat_03.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Crawler_Eat_03" ID="{E724309F-D674-4592-9EF1-FF5FF726091F}" Platform="Linked"/>
+										<ActiveSource Name="EvilCrawler_Eat_03" ID="{2DFED0D1-C32B-42A2-895B-BD9C793E5333}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -392,6 +524,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -437,6 +574,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -482,6 +624,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -522,6 +669,93 @@
 										<ActiveSource Name="BAS_Evil_Crawler_Explode_03" ID="{7DECA534-3829-4933-8A1D-765AB7D0E5FC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="EvilCrawler_Explosion_01" ID="{4420A06D-CA8E-49C9-9356-162CC37DB8D1}" ShortID="90916645">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Explosion_01" ID="{ACE2998E-F1D0-40AB-A70E-50BC789DA63A}" ShortID="813624506">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Explosion_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Explosion_01" ID="{ACE2998E-F1D0-40AB-A70E-50BC789DA63A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Explosion_02" ID="{19EA172E-9502-4852-98BF-8AA7D43C00F6}" ShortID="227873750">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Explosion_02" ID="{EC531C72-1CF0-49AD-971A-E4FDAB2B7A93}" ShortID="116929962">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Explosion_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Explosion_02" ID="{EC531C72-1CF0-49AD-971A-E4FDAB2B7A93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Explosion_03" ID="{07CE4A77-CBE1-4287-A99D-80160729484F}" ShortID="1018005142">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Explosion_03" ID="{FA5F58E3-3AD1-49A6-B596-13618132545C}" ShortID="859711236">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Explosion_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Explosion_03" ID="{FA5F58E3-3AD1-49A6-B596-13618132545C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="EvilCrawler_Hurt" ID="{3BB783D6-F727-4F24-887E-4B0A5922BC6F}" ShortID="889035760">
@@ -558,6 +792,11 @@
 								<Sound Name="BAS_Evil_Crawler_Hurt_Vox_01" ID="{6450F098-57AF-4213-B933-C3EB9AE432A0}" ShortID="1054214475">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -571,7 +810,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Crawler_Hurt_Vox_01" ID="{81331CDE-D21F-441D-A528-7CB2E3CE0B0F}" ShortID="581193606">
 											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="9.50613839285714E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00950613839285714"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Crawler_Hurt_Vox_01.wav</AudioFile>
@@ -584,6 +823,11 @@
 								<Sound Name="BAS_Evil_Crawler_Hurt_Vox_02" ID="{DEF3E751-4AB9-463C-B39C-664C5DCF5515}" ShortID="1029043990">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -607,6 +851,11 @@
 								<Sound Name="BAS_Evil_Crawler_Hurt_Vox_03" ID="{27AB3027-956A-4814-990D-012D472C25D8}" ShortID="710737962">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -625,6 +874,93 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="BAS_Evil_Crawler_Hurt_Vox_03" ID="{372FB3B5-C9C8-4D10-8AD8-0385C79F4E70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Hurt_01" ID="{1769311A-7861-41F4-B386-07B94F314F18}" ShortID="587819451">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Hurt_01" ID="{3A8C0448-574F-4C05-93BD-2E18DB957978}" ShortID="804977747">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Hurt_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Hurt_01" ID="{3A8C0448-574F-4C05-93BD-2E18DB957978}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Hurt_02" ID="{10E89537-5484-4405-9086-C65EA0D0E372}" ShortID="53897128">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Hurt_02" ID="{B9A18D6D-E037-4C45-A760-5B5ACEE1E8C6}" ShortID="551193915">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Hurt_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Hurt_02" ID="{B9A18D6D-E037-4C45-A760-5B5ACEE1E8C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Hurt_03" ID="{9555261E-BF08-4CD6-A9BD-43C12DDD4EFE}" ShortID="308364821">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Hurt_03" ID="{8BBC03FD-E080-41A6-AF0C-96C8728D4213}" ShortID="542133360">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Hurt_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Hurt_03" ID="{8BBC03FD-E080-41A6-AF0C-96C8728D4213}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -657,6 +993,11 @@
 								<Sound Name="BAS_Evil_Crawler_Death_Vox_01" ID="{E09A9042-E6E5-4F91-929C-E7DDCFFF9777}" ShortID="927754686">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -680,6 +1021,11 @@
 								<Sound Name="BAS_Evil_Crawler_Death_Vox_02" ID="{0929D3A2-DB24-4749-9091-9978E60BAE15}" ShortID="1019215547">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -703,6 +1049,11 @@
 								<Sound Name="BAS_Evil_Crawler_Death_Vox_03" ID="{134513E0-308A-4AF3-9B67-5D953FDE8806}" ShortID="106424981">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -721,6 +1072,93 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="BAS_Evil_Crawler_Death_Vox_03" ID="{0AF1C9DB-9138-4C36-8744-3E44640CABFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Death_01" ID="{66FA3D06-0835-44B0-AC6B-A3F6CB55EFDD}" ShortID="848427640">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Death_01" ID="{0AC71A43-039D-411E-96BE-ED8F172B61C7}" ShortID="884334431">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Death_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Death_01" ID="{0AC71A43-039D-411E-96BE-ED8F172B61C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Death_02" ID="{E9E0191A-FA0A-41BA-88C1-2414F8964B1B}" ShortID="44329173">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Death_02" ID="{DDD97098-B84F-4A9F-ADA0-3A8C6DAEB701}" ShortID="353750307">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Death_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Death_02" ID="{DDD97098-B84F-4A9F-ADA0-3A8C6DAEB701}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EvilCrawler_Death_03" ID="{7427626F-C6EB-41DC-9AA6-8F2881AEF340}" ShortID="63014484">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EvilCrawler_Death_03" ID="{3138B489-8C79-4170-8DD3-43A8F744F90A}" ShortID="325805174">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilCrawler_Death_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="EvilCrawler_Death_03" ID="{3138B489-8C79-4170-8DD3-43A8F744F90A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

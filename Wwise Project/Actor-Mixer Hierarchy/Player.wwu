@@ -539,7 +539,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="Adventuress_damaged_02" ID="{27516D92-9C00-457A-9580-D7BFC0D7C147}" ShortID="891187179">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="9.72041034155597E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0972041034155597"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.424498932637571"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -733,7 +733,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="Adventuress_damaged_05" ID="{C9761915-6709-4DA5-9D3C-4369A5C5A4FB}" ShortID="340074122">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="5.54435483870968E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0554435483870968"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.327620967741936"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -985,7 +985,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="Adventuress_damaged_11" ID="{32A38B97-4027-4F4C-B9F1-B71BCDA0767A}" ShortID="706707052">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="7.29364326375712E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0729364326375712"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.346448055028463"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -2604,7 +2604,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_sword_dirt" ID="{CBCFD43B-EE51-4118-B26F-55BDE9D20A66}" ShortID="134654369">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="5.65902760665188E-03"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.00565902760665188"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.372081065137361"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -2817,9 +2817,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_sword_grass" ID="{34BC99CF-AD18-4B2A-9C97-FDE58F60F26D}" ShortID="758933006">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="2.71462406357745E-03"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.00271462406357745"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.608181784239492"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="3.22339525466875E-02"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0322339525466875"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Character\Weapons\BAS_imp_sword_grass.wav</AudioFile>
@@ -3114,9 +3114,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_sword_stone_2" ID="{FDC28FFF-9D30-4C6B-8FB6-5051EFC1D9F9}" ShortID="200941956">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="8.6065249370879E-03"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.0086065249370879"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.150614186399038"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="2.86884164569597E-02"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0286884164569597"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.65409589521868"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -3411,7 +3411,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_sword_leaves" ID="{9198E24D-8B92-47AB-B5EA-96F0B11BD110}" ShortID="69206909">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="1.42225408275275E-02"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.0142225408275275"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.595766432441985"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.205436700842064"/>
 																			</PropertyList>
@@ -3793,7 +3793,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_sword_dirt" ID="{CFC35A60-B15C-498F-9E57-1CFEE56CE6AC}" ShortID="214711863">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="5.65902760665188E-03"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.00565902760665188"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.372081065137361"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -4647,9 +4647,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_sword_stone_2" ID="{22974408-A6E8-451F-946E-36172469B9A7}" ShortID="253547979">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="8.6065249370879E-03"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.0086065249370879"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.150614186399038"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="2.86884164569597E-02"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0286884164569597"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.65409589521868"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -4913,7 +4913,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Pickup_Crystals_01" ID="{CD930C05-FF7A-4BBA-9E07-475948400ACB}" ShortID="729516380">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.61546404275992E-03"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00361546404275992"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Objects\Pickups\BAS_Pickup_Crystals_01.wav</AudioFile>
@@ -5296,10 +5296,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_dirt" ID="{CE45850C-8FB9-4298-84B8-6C8B944C10E5}" ShortID="917282363">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="3.95819798830619E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00395819798830619"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.108889101431108"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.93729698245929E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0593729698245929"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_axe_dirt.wav</AudioFile>
@@ -5474,9 +5474,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{5D2FB89A-E749-4A0C-B364-05D7E95DAE99}" ShortID="649241323">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.00870688560825E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0100870688560825"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.3809808314105"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.90576252454878E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0690576252454878"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.60677598811204"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -5556,10 +5556,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_leaves_2" ID="{4AC2F9A6-1695-4665-8700-EB73F96F7697}" ShortID="39706661">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.09580312183417E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0109580312183417"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.386270600446545"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.95866842895227E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0295866842895227"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_axe_leaves_2.wav</AudioFile>
@@ -5627,10 +5627,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_hitCrate_001" ID="{3264F231-798C-4503-AF2E-C2DFC2559198}" ShortID="1072449166">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.39675321281092E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00439675321281092"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.354626607738907"/>
 																		<Property Name="FadeOutShape" Type="int16" Value="6"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.42946750599252E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0342946750599252"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.552536443148688"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -5708,8 +5708,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{8E6C540C-E86D-4542-B964-23FA70821FA6}" ShortID="837232758">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.96645363236553E-02"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.55736896103302E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0196645363236553"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0555736896103302"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Impact\BAS_Impact_Axe_SurfaceType_Crate.wav</AudioFile>
@@ -5792,7 +5792,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{42D1ECD1-710D-4188-9FFF-C2C09850AE65}" ShortID="271810230">
 																	<PropertyList>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.502495572676717"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.24883969472241E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0324883969472241"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="1.01904696556817"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -5861,7 +5861,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_Crawler_Hurt_01" ID="{4F26CA0A-7EAA-4538-BD58-B6146A92175D}" ShortID="656229177">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.46920572916667E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0246920572916667"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_Crawler_Hurt_01.wav</AudioFile>
@@ -6014,9 +6014,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{30AEBFD3-D9CB-4FC7-B222-F152F7842F74}" ShortID="90939150">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.00870688560825E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0100870688560825"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.3809808314105"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.90576252454878E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0690576252454878"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.60677598811204"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -6077,8 +6077,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_SpitPlant_HurtImpact_01" ID="{9DD6402F-F556-437B-8B1E-C188CAF90E5E}" ShortID="468278613">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="5.55137877211238E-03"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.19903962885882E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00555137877211238"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0619903962885882"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_SpitPlant_HurtImpact_01.wav</AudioFile>
@@ -6104,7 +6104,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_SpitPlant_HurtImpact_02" ID="{36E3D1BC-36DB-49B6-8C11-459E65820CB6}" ShortID="942011354">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.81097814776275E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0581097814776275"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_SpitPlant_HurtImpact_02.wav</AudioFile>
@@ -6130,8 +6130,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_SpitPlant_HurtImpact_03" ID="{3FC9775D-1B0A-4356-98EF-255632695469}" ShortID="663521142">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="3.10475199445023E-03"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.75283558792925E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00310475199445023"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0675283558792925"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_SpitPlant_HurtImpact_03.wav</AudioFile>
@@ -6205,7 +6205,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Pickup_Crystals_01" ID="{EE6F7C50-BBCC-486C-BB7E-144F96EC2A05}" ShortID="767235161">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.61546404275992E-03"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00361546404275992"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Objects\Pickups\BAS_Pickup_Crystals_01.wav</AudioFile>
@@ -6557,7 +6557,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<PropertyList>
 																		<Property Name="FadeInDuration" Type="Real64" Value="0.002557429850828"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.231703144485017"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="1.63675510452992E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0163675510452992"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.312517927771182"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -6637,9 +6637,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_dagger_grass_2" ID="{6C34118A-32AE-4137-91E9-3724E58AEC0A}" ShortID="681775821">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.26330331149307E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0426330331149307"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.243688254665203"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.30326185817237E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0530326185817237"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_dagger_grass_2.wav</AudioFile>
@@ -6746,7 +6746,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_dagger_stone_2" ID="{994DC482-F415-47E4-BF58-C9751E9F9A54}" ShortID="274027457">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.24893279668252E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00124893279668252"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.122457094070705"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.154962451866952"/>
 																	</PropertyList>
@@ -6832,9 +6832,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_dagger_leaves" ID="{E268D768-3AD2-460F-95BE-F558F5012622}" ShortID="908851993">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="8.13628341933187E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00813628341933187"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.252653011442411"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="1.32928624944306E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0132928624944306"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_dagger_leaves.wav</AudioFile>
@@ -6930,9 +6930,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_dagger_wood" ID="{26C368F3-3262-43EB-977B-CDF7E2DD22B2}" ShortID="214462698">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="3.14657586415466E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00314657586415466"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.263787943278299"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.52072648502918E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0252072648502918"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.354574409392449"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -7142,7 +7142,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Impact_Dagger_SurfaceType_Barrel" ID="{484C4161-7F3C-414D-8E47-02B6F87FA847}" ShortID="395293424">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.29889455782313E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0129889455782313"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.241436261461106"/>
 																		<Property Name="TrimBegin" Type="Real64" Value="0.04267796404276"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.579013309671695"/>
@@ -7212,8 +7212,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_SpitPlant_HurtImpact_01" ID="{2B39F17A-782B-4B18-811E-D7920DB9F083}" ShortID="863794614">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="5.55137877211238E-03"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.19903962885882E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00555137877211238"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0619903962885882"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_SpitPlant_HurtImpact_01.wav</AudioFile>
@@ -7252,7 +7252,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_SpitPlant_HurtImpact_02" ID="{5034CC24-3FA3-4D10-AE82-AD3BEF2D1BDB}" ShortID="148094259">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.81097814776275E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0581097814776275"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_SpitPlant_HurtImpact_02.wav</AudioFile>
@@ -7291,8 +7291,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Evil_SpitPlant_HurtImpact_03" ID="{AD64EB99-E6D2-4D06-A0F9-95F1DA159FF2}" ShortID="331797461">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="3.10475199445023E-03"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.75283558792925E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00310475199445023"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0675283558792925"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Creatures\BAS_Evil_SpitPlant_HurtImpact_03.wav</AudioFile>
@@ -7382,7 +7382,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_dagger_stone_2" ID="{ECE01284-B39D-4AA7-B553-39A45B33A7EE}" ShortID="421633583">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.24893279668252E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00124893279668252"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.122457094070705"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.154962451866952"/>
 																	</PropertyList>
@@ -7644,7 +7644,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Pickup_Crystals_01" ID="{F716D010-D75A-40A6-8DD2-09963F606833}" ShortID="205808487">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.61546404275992E-03"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00361546404275992"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Objects\Pickups\BAS_Pickup_Crystals_01.wav</AudioFile>
@@ -8013,10 +8013,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_dirt" ID="{B2A838DA-8BB9-4F43-BCEC-2D516BB0EC76}" ShortID="70306256">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="3.95819798830619E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00395819798830619"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.227816284215845"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.93729698245929E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0593729698245929"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.391421801065834"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -8214,9 +8214,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{C850BA2D-8182-420C-9576-62E50A553799}" ShortID="498575419">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="2.32778512063443E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00232778512063443"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.431416175690913"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.58668428952261E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0558668428952261"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_axe_stone_2.wav</AudioFile>
@@ -8312,10 +8312,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_leaves_2" ID="{2FC2C34D-C14D-4B1E-934E-050415F3927D}" ShortID="385596671">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.09580312183417E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0109580312183417"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.386270600446545"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.95866842895227E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0295866842895227"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_axe_leaves_2.wav</AudioFile>
@@ -8403,10 +8403,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_hitCrate_001" ID="{2BC4DEB6-F1A1-428E-8A4F-0A1DC4800357}" ShortID="94640661">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.39675321281092E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00439675321281092"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.748694848818033"/>
 																		<Property Name="FadeOutShape" Type="int16" Value="6"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.42946750599252E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0342946750599252"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_hitCrate_001.wav</AudioFile>
@@ -9033,9 +9033,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{4BA16339-C1AA-4FE4-A7E6-548577A8FC64}" ShortID="38736502">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="2.32778512063443E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00232778512063443"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.431416175690913"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.58668428952261E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0558668428952261"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_imp_axe_stone_2.wav</AudioFile>
@@ -9126,7 +9126,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Pickup_Crystals_01" ID="{BBE799F1-07CD-478A-AED7-90D442DA7710}" ShortID="852422006">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.61546404275992E-03"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00361546404275992"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Objects\Pickups\BAS_Pickup_Crystals_01.wav</AudioFile>
@@ -9520,10 +9520,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_imp_axe_dirt" ID="{6174A323-E279-449C-B84E-E772FC4824A4}" ShortID="858085136">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="3.95819798830619E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00395819798830619"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.227816284215845"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="5.93729698245929E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0593729698245929"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.391421801065834"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -9784,9 +9784,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																			<ChildrenList>
 																				<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{C972D309-655E-4BCC-806E-B58962EDCF4B}" ShortID="101646276">
 																					<PropertyList>
-																						<Property Name="FadeInDuration" Type="Real64" Value="1.00870688560825E-02"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.0100870688560825"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="0.3809808314105"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="6.90576252454878E-02"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0690576252454878"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="0.60677598811204"/>
 																					</PropertyList>
 																					<Language>SFX</Language>
@@ -9838,9 +9838,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																			<ChildrenList>
 																				<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{3E0BF898-A1BC-4E74-8601-2A83304BCA06}" ShortID="807183143">
 																					<PropertyList>
-																						<Property Name="FadeInDuration" Type="Real64" Value="2.32778512063443E-03"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.00232778512063443"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="0.431416175690913"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="5.58668428952261E-02"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0558668428952261"/>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Character\Weapons\BAS_imp_axe_stone_2.wav</AudioFile>
@@ -10119,10 +10119,10 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																	<ChildrenList>
 																		<AudioFileSource Name="BAS_imp_axe_leaves_2" ID="{12F73576-4420-4EC5-B03D-0C2408C3CF10}" ShortID="308615192">
 																			<PropertyList>
-																				<Property Name="FadeInDuration" Type="Real64" Value="1.09580312183417E-02"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="0.0109580312183417"/>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.386270600446545"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="TrimBegin" Type="Real64" Value="2.95866842895227E-02"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.0295866842895227"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
 																			<AudioFile>Character\Weapons\BAS_imp_axe_leaves_2.wav</AudioFile>
@@ -10356,9 +10356,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_hitCrate_001" ID="{3F2DC465-DE10-46C0-A692-79FA6B4E5671}" ShortID="247082657">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.39675321281092E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00439675321281092"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.473969996341017"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.42946750599252E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0342946750599252"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Weapons\BAS_hitCrate_001.wav</AudioFile>
@@ -10456,7 +10456,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Crate" ID="{26BD5040-C86E-4567-A9DA-DADC658703E7}" ShortID="1037987212">
 																	<PropertyList>
 																		<Property Name="FadeInDuration" Type="Real64" Value="0.011114737922066"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="6.41234880119195E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0641234880119195"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Character\Impact\BAS_Impact_Axe_SurfaceType_Crate.wav</AudioFile>
@@ -10556,7 +10556,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="BAS_Impact_Axe_SurfaceType_Barrel" ID="{A26ADF7C-153C-4A6C-BB2C-DF9B4B6B7C1B}" ShortID="935478334">
 																	<PropertyList>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.20029543805995"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.72174643666991E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0272174643666991"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="1.12973654975919"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -10984,9 +10984,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																			<ChildrenList>
 																				<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{4BB39960-D69E-4F96-B688-AA9DC1801EC9}" ShortID="886744589">
 																					<PropertyList>
-																						<Property Name="FadeInDuration" Type="Real64" Value="1.00870688560825E-02"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.0100870688560825"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="0.3809808314105"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="6.90576252454878E-02"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0690576252454878"/>
 																						<Property Name="TrimEnd" Type="Real64" Value="0.60677598811204"/>
 																					</PropertyList>
 																					<Language>SFX</Language>
@@ -11038,9 +11038,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																			<ChildrenList>
 																				<AudioFileSource Name="BAS_imp_axe_stone_2" ID="{8195EA0C-43A5-43B8-8A38-4FE7B50DB19E}" ShortID="713672520">
 																					<PropertyList>
-																						<Property Name="FadeInDuration" Type="Real64" Value="2.32778512063443E-03"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="0.00232778512063443"/>
 																						<Property Name="FadeOutDuration" Type="Real64" Value="0.431416175690913"/>
-																						<Property Name="TrimBegin" Type="Real64" Value="5.58668428952261E-02"/>
+																						<Property Name="TrimBegin" Type="Real64" Value="0.0558668428952261"/>
 																					</PropertyList>
 																					<Language>SFX</Language>
 																					<AudioFile>Character\Weapons\BAS_imp_axe_stone_2.wav</AudioFile>
@@ -11267,7 +11267,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															<ChildrenList>
 																<AudioFileSource Name="BAS_Pickup_Crystals_01" ID="{5B13C7B2-522D-46ED-8B5D-56A60B583242}" ShortID="593203107">
 																	<PropertyList>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.61546404275992E-03"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00361546404275992"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Objects\Pickups\BAS_Pickup_Crystals_01.wav</AudioFile>
@@ -13649,7 +13649,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Dirt_Run" ID="{53D1DBEE-16B3-4FBE-8480-192B075CE236}" ShortID="1007244860">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="2.44849601098359E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0244849601098359"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.145685512653524"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -14263,8 +14263,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Run" ID="{01F3FF5A-7E43-4FA2-9BFD-10C22CAA0D61}" ShortID="775213757">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.69440948995885E-02"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0469440948995885"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0765392851623728"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14309,7 +14309,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Run" ID="{8170CA47-6AD2-47C6-BA33-4C7EFB8E4C14}" ShortID="920142712">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="5.20467139104135E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0520467139104135"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.033677285471444"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -14362,8 +14362,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Run" ID="{4CBB4970-D555-4C73-8C78-AF4F05234A32}" ShortID="1073639909">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="8.98060945905172E-02"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0898060945905172"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0765392851623728"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14416,7 +14416,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="FS_Wood_Run" ID="{DBFA12BE-C8E3-4B33-808D-15CFC7F3AF48}" ShortID="347709270">
 																	<PropertyList>
 																		<Property Name="FadeInDuration" Type="Real64" Value="0.073477713755878"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0765392851623728"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14462,7 +14462,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																<AudioFileSource Name="FS_Wood_Run" ID="{87FB3C55-7F7B-4E65-BB9B-A38632BCD5E6}" ShortID="616862208">
 																	<PropertyList>
 																		<Property Name="FadeInDuration" Type="Real64" Value="0.115319189644642"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0765392851623728"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -14507,11 +14507,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Run" ID="{51EF9C65-050F-4F44-BD9A-24E8A5D20108}" ShortID="73281594">
 																	<PropertyList>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="7.65392851623728E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0765392851623728"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.55130950541243E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0255130950541243"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.294931378825676"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -14573,7 +14573,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{123D600C-E9B3-4D75-B234-DDF9ABD03B22}" ShortID="942932876">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="6.76128383184585E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0676128383184585"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.245182739787757"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -14664,7 +14664,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{D5C23BA9-DB90-45FB-9251-09E5ACA4510D}" ShortID="915141775">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.22580239490365E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0422580239490365"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.13412857448525"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -14717,7 +14717,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{A1F6E88D-2D00-4F00-9C23-1DF031C788EB}" ShortID="414065280">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.22580239490367E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0422580239490367"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.144629409365495"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -14770,7 +14770,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Wood_Walk" ID="{A9225796-433E-4E64-9D44-BF5B45D0C8D2}" ShortID="863050244">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="1.69032095796147E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0169032095796147"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.202924715838721"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -14939,7 +14939,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.85625862129947E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0385625862129947"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.372771666725617"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -15085,7 +15085,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Water_Run" ID="{1796B040-EA9C-45FE-A38E-D1ABE32EB7F0}" ShortID="184207217">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="2.99931226101071E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0299931226101071"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -15145,7 +15145,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Water_Run" ID="{1E43DE94-592D-4932-B33E-DD25525C8A6C}" ShortID="395445078">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.28473180144386E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0428473180144386"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -15191,7 +15191,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Water_Run" ID="{9DA7083E-6A32-44F7-AAFB-21CD091C7F07}" ShortID="178475207">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.71320498158825E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0471320498158825"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.184243467462086"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -15409,7 +15409,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Water_Walk" ID="{4BD4F03C-572F-4503-AA0B-9065A1CD4064}" ShortID="498254836">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="8.05833598604085E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0805833598604085"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.56408351902286"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -17949,7 +17949,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																</AudioFileSource>
 																<AudioFileSource Name="FS_Woodlands_Walk" ID="{D0DDB9EE-7213-4003-B77F-B591908BE1F3}" ShortID="111689082">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.88257605622995E-02"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0488257605622995"/>
 																		<Property Name="FadeOutDuration" Type="Real64" Value="0.401702929974338"/>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -18056,7 +18056,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																		<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 																		<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.68830901237021E-02"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0368830901237021"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.364311869702293"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -19070,9 +19070,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Objects\Pickups\BAS_Pickup_Book_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pickup_Book" ID="{16A59CCE-6904-4B9A-AAC5-81D5E9EFDA9E}" ShortID="864546744">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_Book.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Pickup_Book_01" ID="{BFB8D9C3-7FA8-4E6A-9ABB-96A600DFB32E}" Platform="Linked"/>
+												<ActiveSource Name="Pickup_Book" ID="{16A59CCE-6904-4B9A-AAC5-81D5E9EFDA9E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pickup_CrystalShard" ID="{9D71DF1F-1D21-45E9-BFBF-DF5474C27A27}" ShortID="601987717">
@@ -19143,9 +19153,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Objects\Pickups\BAS_Pickup_Generic_05.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pickup_CrystalShard" ID="{A33A0B98-7570-4968-BB88-80A2CC51E6D4}" ShortID="996262965">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_CrystalShard.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Pickup_Generic_05" ID="{4C99F65A-FBC2-47A3-AF4C-C94B427371AC}" Platform="Linked"/>
+												<ActiveSource Name="Pickup_CrystalShard" ID="{A33A0B98-7570-4968-BB88-80A2CC51E6D4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Pickup_EvilEssence" ID="{35077F58-3FB8-40A6-8347-C0924DB28938}" ShortID="853703335">
@@ -19269,9 +19289,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Objects\Pickups\BAS_Pickup_EvilEssence.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pickup_EvilEssence" ID="{C0BEA099-5F2B-411B-B4B6-21618402D218}" ShortID="769633419">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_EvilEssence.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Pickup_EvilEssence" ID="{097BCFDE-9054-485A-B79A-2D2EE0168661}" Platform="Linked"/>
+												<ActiveSource Name="Pickup_EvilEssence" ID="{C0BEA099-5F2B-411B-B4B6-21618402D218}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pickup_Key" ID="{36135137-8F8F-4EAD-9EBF-16F29B590C58}" ShortID="189352295">
@@ -19327,9 +19357,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Objects\Pickups\BAS_Pickup_Key_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pickup_Key" ID="{9A83BB63-55D5-4061-A68F-198DEB569058}" ShortID="953096697">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_Key.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Pickup_Key_01" ID="{DE0B3434-B45B-4419-AC19-03FABF948413}" Platform="Linked"/>
+												<ActiveSource Name="Pickup_Key" ID="{9A83BB63-55D5-4061-A68F-198DEB569058}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pickup_Misc" ID="{C755EB1F-D1C7-4519-A80F-5605E9793ADC}" ShortID="315514006">
@@ -19383,7 +19423,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="Pickup" ID="{3A6BE707-ED15-4E21-81E0-6100E2E79832}" ShortID="474305653">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="3.27236320837807E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0327236320837807"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.118381073542554"/>
 														<Property Name="FadeOutShape" Type="int16" Value="6"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -19447,10 +19487,20 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</PropertyList>
 													<Language>SFX</Language>
 												</SourcePlugin>
+												<AudioFileSource Name="Pickup_Misc" ID="{C2ABF092-713F-4F25-982C-877E78A4AD73}" ShortID="121579601">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_Misc.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Pickup" ID="{3A6BE707-ED15-4E21-81E0-6100E2E79832}" Platform="Linked"/>
 												<ActiveSource Name="Pickup_SynthOne" ID="{4B0E7F82-D758-485F-97DF-C38866631BE5}" Platform="iOS"/>
+												<ActiveSource Name="Pickup_Misc" ID="{C2ABF092-713F-4F25-982C-877E78A4AD73}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pickup_Mushroom" ID="{EC36E034-2E17-46F7-8C02-4DF96E5D997B}" ShortID="1068193649">
@@ -19534,9 +19584,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Objects\Pickups\BAS_Pickup_Mushroom_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pickup_Mushroom" ID="{21209927-B73C-466D-8797-BB7BEB815517}" ShortID="639973630">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_Mushroom.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Pickup_Mushroom_01" ID="{CEC8599D-5E89-4CFE-A73C-74CE40784382}" Platform="Linked"/>
+												<ActiveSource Name="Pickup_Mushroom" ID="{21209927-B73C-466D-8797-BB7BEB815517}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pickup_PineCone" ID="{08B93344-8FD4-401D-AD77-96DDD0059E76}" ShortID="1022745127">
@@ -19605,9 +19665,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Language>SFX</Language>
 													<AudioFile>Objects\Pickups\BAS_Pickup_PineCone_01.wav</AudioFile>
 												</AudioFileSource>
+												<AudioFileSource Name="Pickup_PineCone" ID="{5FA90699-F257-4293-882D-6FA8A80A225B}" ShortID="159574703">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Pickup_PineCone.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Pickup_PineCone_01" ID="{73220A4D-79D2-422F-8882-F955E2C6018E}" Platform="Linked"/>
+												<ActiveSource Name="Pickup_PineCone" ID="{5FA90699-F257-4293-882D-6FA8A80A225B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

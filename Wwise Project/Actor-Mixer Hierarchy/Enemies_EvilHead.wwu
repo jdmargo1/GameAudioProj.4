@@ -172,9 +172,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Head_Bite_02.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilHead_Bite_02" ID="{451BED28-ACE0-4546-8897-0C8D13527424}" ShortID="504113723">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Bite_02.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Bite_02" ID="{DA9BD9D4-E88A-4476-BEF3-3786B5EF46EA}" Platform="Linked"/>
+										<ActiveSource Name="EvilHead_Bite_02" ID="{451BED28-ACE0-4546-8897-0C8D13527424}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilHead_Bite_03" ID="{A5C8A5A9-993F-4F78-B809-2EF5ED991E9C}" ShortID="879737302">
@@ -217,9 +227,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Head_Bite_03.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilHead_Bite_03" ID="{D4CA6D20-4316-479C-BF40-C03BE0A8C9BA}" ShortID="940066120">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Bite_03.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Bite_03" ID="{9B0A4F49-1366-495C-B588-F867EDD93FB4}" Platform="Linked"/>
+										<ActiveSource Name="EvilHead_Bite_03" ID="{D4CA6D20-4316-479C-BF40-C03BE0A8C9BA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilHead_Bite_01" ID="{5E594957-42B4-4718-AFC2-9F3B1F41EB0A}" ShortID="99263704">
@@ -266,9 +286,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Head_Bite_01.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilHead_Bite_01" ID="{B12D574A-86CF-4860-8DCA-6CBF9850A205}" ShortID="998490517">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Bite_01.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Bite_01" ID="{9A3EDD82-C7A6-4D5A-924B-98A407F00D05}" Platform="Linked"/>
+										<ActiveSource Name="EvilHead_Bite_01" ID="{B12D574A-86CF-4860-8DCA-6CBF9850A205}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -547,9 +577,19 @@
 									<Language>SFX</Language>
 									<AudioFile>Creatures\BAS_Evil_Head_Hover_LP.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="Evilhead_Hover_01" ID="{514D1EC3-68C5-4446-BA83-A4C3AAC54D59}" ShortID="913150674">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Evilhead_Hover_01.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_Evil_Head_Hover_LP" ID="{6C42F756-8469-4252-8E2A-4E05A55BBB77}" Platform="Linked"/>
+								<ActiveSource Name="Evilhead_Hover_01" ID="{514D1EC3-68C5-4446-BA83-A4C3AAC54D59}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<BlendContainer Name="Telegraph" ID="{512B7166-9804-490B-8A5D-BF0620A4A4D5}" ShortID="977411256">
@@ -1017,9 +1057,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Head_Charge_03.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilHead_Charge_03" ID="{A6FA84BE-31EE-4569-AEF2-FD65260E3A9C}" ShortID="50497435">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Charge_03.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Charge_03" ID="{E313A83B-ED2C-4FA0-9891-4173F9C90B0A}" Platform="Linked"/>
+										<ActiveSource Name="EvilHead_Charge_03" ID="{A6FA84BE-31EE-4569-AEF2-FD65260E3A9C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilHead_Charge_02" ID="{FF139390-7467-4D3E-9AAB-514B6E39FFCD}" ShortID="824465014">
@@ -1051,9 +1101,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Head_Charge_02.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilHead_Charge_02" ID="{AB06BEE1-5C2E-4955-952F-5ADEE9449BF5}" ShortID="545286099">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Charge_02.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Charge_02" ID="{77C59012-0960-4EC6-AE90-4B0E1A91ADD2}" Platform="Linked"/>
+										<ActiveSource Name="EvilHead_Charge_02" ID="{AB06BEE1-5C2E-4955-952F-5ADEE9449BF5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilHead_Charge_01" ID="{D4216B14-3808-4EE9-A8C9-73354529D541}" ShortID="257002163">
@@ -1085,9 +1145,19 @@
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Head_Charge_01.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="EvilHead_Charge_01" ID="{805355F4-AAE0-4D3B-9428-6423D87DEEC5}" ShortID="332240288">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>EvilHead_Charge_01.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Charge_01" ID="{A5BB200A-2ECC-4A57-9E6F-2C5DA10CCE50}" Platform="Linked"/>
+										<ActiveSource Name="EvilHead_Charge_01" ID="{805355F4-AAE0-4D3B-9428-6423D87DEEC5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
