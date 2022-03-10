@@ -2,21 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	547945861	Object_Rune_Charge_Stop			\Objects\SoundBankSpecific\Object_Rune_Charge_Stop	
 	1205412814	Ambient_Core_HorribleSound			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_HorribleSound	
 	1230192158	Magic_Blast_Impact			\Magic\SoundBankSpecific\Magic_Blast_Impact	
-	1411895808	Wwizard_DialogueLine_Q8d_03			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_03	
-	1411895809	Wwizard_DialogueLine_Q8d_02			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_02	
-	1411895810	Wwizard_DialogueLine_Q8d_01			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8d_01	
 	1817926999	Object_Rune_Charge_Play			\Objects\SoundBankSpecific\Object_Rune_Charge_Play	
-	2040456588	Wwizard_DialogueLine_Q8c_02			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_02	
-	2040456589	Wwizard_DialogueLine_Q8c_03			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_03	
-	2040456591	Wwizard_DialogueLine_Q8c_01			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8c_01	
 	2095238286	Destruction_Core_ShieldBreak			\Destruction\RegionSpecific\Destruction_Core_ShieldBreak	
-	2142579352	Wwizard_DialogueLine_Q8b_01			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_01	
-	2142579354	Wwizard_DialogueLine_Q8b_03			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_03	
-	2142579355	Wwizard_DialogueLine_Q8b_02			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_02	
-	2142579356	Wwizard_DialogueLine_Q8b_05			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_05	
-	2142579357	Wwizard_DialogueLine_Q8b_04			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_04	
-	2142579358	Wwizard_DialogueLine_Q8b_07			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_07	
-	2142579359	Wwizard_DialogueLine_Q8b_06			\NPCs\Dialogue\Quest 8\Wwizard_DialogueLine_Q8b_06	
 	2637251965	Magic_Blast			\Magic\SoundBankSpecific\Magic_Blast	
 	2689787085	Magic_Stop			\Magic\SoundBankSpecific\Magic_Stop	
 	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
@@ -37,10 +24,10 @@ Switch	ID	Name	Switch Group			Notes
 	3893417221	Weapon	Player_Pickup_Type			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	15988685	PinkShield_Impact_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_PinkShield_Impact_01_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_01		31087
-	54157530	Core_Shield_Impact_Hammer	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_HammerHit_03_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact_Hammer		21827
-	222577091	Ambient_Core_Shield_Destroyed	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_PinkShield_After_Loop_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Destroyed		85336
-	838527785	Creature_EarthSweetener_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_Creature_EarthSweetener_02_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Creature_EarthSweetener_02		61688
-	931042639	PinkShield_Impact_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_PinkShield_Impact_02_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_02		51867
-	1055916331	Core_HorribleSound	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_Creature_Start_31E2E08B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Core_HorribleSound		24291
+	15988685	PinkShield_Impact_01	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_PinkShield_Impact_01_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_01		31087
+	54157530	Core_Shield_Impact_Hammer	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_HammerHit_03_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact_Hammer		21827
+	222577091	Ambient_Core_Shield_Destroyed	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_PinkShield_After_Loop_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Destroyed		85336
+	838527785	Creature_EarthSweetener_02	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_Creature_EarthSweetener_02_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Creature_EarthSweetener_02		61688
+	931042639	PinkShield_Impact_02	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_PinkShield_Impact_02_153CF8FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_02		51867
+	1055916331	Core_HorribleSound	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Cinematic\BAS_CIN_Creature_Start_31E2E08B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Core_HorribleSound		24291
 

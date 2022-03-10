@@ -9,7 +9,6 @@
 		<Plugin Name="Wwise Peak Limiter" ID="7208963" DLL="AkPeakLimiter"/>
 		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
 		<Plugin Name="Wwise RoomVerb" ID="7733251" DLL="AkRoomVerb"/>
-		<Plugin Name="SoundSeed Air Woosh" ID="7864322" DLL="AkSoundSeedAir"/>
 		<Plugin Name="Wwise Flanger" ID="8192003" DLL="AkFlanger"/>
 		<Plugin Name="Wwise Convolution Reverb" ID="8323075" DLL="AkConvolutionReverb"/>
 		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL"/>

@@ -1,10 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
 	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
-	863080752	Wwizard_DialogueLine_Q6_05			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_05	
-	863080753	Wwizard_DialogueLine_Q6_04			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_04	
-	863080756	Wwizard_DialogueLine_Q6_01			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_01	
-	863080758	Wwizard_DialogueLine_Q6_03			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_03	
-	863080759	Wwizard_DialogueLine_Q6_02			\NPCs\Dialogue\Quest 6\Wwizard_DialogueLine_Q6_02	
 	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -32,6 +27,6 @@ Modulator LFO	ID	Name			Wwise Object Path	Notes
 	397902884	Modulator LFO (Custom)				
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	190170041	Pickup_Book	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Objects\Pickups\BAS_Pickup_Book_01_31F0D4CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		3368
-	474305653	Pickup_Misc	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Objects\Pickup_F117C480.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		2982
+	190170041	Pickup_Book	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Objects\Pickups\BAS_Pickup_Book_01_31F0D4CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		3368
+	474305653	Pickup_Misc	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Objects\Pickup_14FAC200.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		2982
 

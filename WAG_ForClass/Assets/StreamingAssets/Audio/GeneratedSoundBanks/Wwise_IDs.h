@@ -146,45 +146,12 @@ namespace AK
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q4A_04 = 3210335084U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q4A_05 = 3210335085U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q4A_06 = 3210335086U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_01 = 2934374892U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_02 = 2934374895U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_03 = 2934374894U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_04 = 2934374889U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_05 = 2934374888U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_06 = 2934374891U;
         static const AkUniqueID WWIZARD_DIALOGUELINE_Q5A_07 = 2934374890U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q5B_01 = 878619833U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q5B_02 = 878619834U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q5B_03 = 878619835U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q5B_04 = 878619836U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q6_01 = 863080756U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q6_02 = 863080759U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q6_03 = 863080758U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q6_04 = 863080753U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q6_05 = 863080752U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q7_01 = 2929281579U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q7_02 = 2929281576U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q7_03 = 2929281577U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q7_04 = 2929281582U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8A_01 = 2760797509U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8A_02 = 2760797510U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8A_03 = 2760797511U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8A_04 = 2760797504U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8A_05 = 2760797505U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8A_06 = 2760797506U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_01 = 2142579352U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_02 = 2142579355U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_03 = 2142579354U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_04 = 2142579357U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_05 = 2142579356U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_06 = 2142579359U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8B_07 = 2142579358U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8C_01 = 2040456591U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8C_02 = 2040456588U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8C_03 = 2040456589U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8D_01 = 1411895810U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8D_02 = 1411895809U;
-        static const AkUniqueID WWIZARD_DIALOGUELINE_Q8D_03 = 1411895808U;
     } // namespace EVENTS
 
     namespace STATES
@@ -208,6 +175,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID NO = 1668749452U;
+                static const AkUniqueID YES = 979470758U;
             } // namespace STATE
         } // namespace INWATER
 

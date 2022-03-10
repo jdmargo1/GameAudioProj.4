@@ -1,15 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
-	878619833	Wwizard_DialogueLine_Q5b_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_01	
-	878619834	Wwizard_DialogueLine_Q5b_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_02	
-	878619835	Wwizard_DialogueLine_Q5b_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_03	
-	878619836	Wwizard_DialogueLine_Q5b_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5b_04	
 	2622623673	Door_TempleDoor_Open_Stop			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop	
 	2934374888	Wwizard_DialogueLine_Q5a_05			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05	
 	2934374889	Wwizard_DialogueLine_Q5a_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04	
 	2934374890	Wwizard_DialogueLine_Q5a_07			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07	
 	2934374891	Wwizard_DialogueLine_Q5a_06			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06	
-	2934374892	Wwizard_DialogueLine_Q5a_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01	
 	2934374894	Wwizard_DialogueLine_Q5a_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03	
 	2934374895	Wwizard_DialogueLine_Q5a_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02	
 	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
@@ -36,12 +31,13 @@ Switch	ID	Name	Switch Group			Notes
 	2979801095	EvilEssence	Player_Pickup_ItemType			
 	3062523257	Misc	Player_Pickup_ItemType			
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20442315	WAG Wwizard Dial_ Line-026	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\WAG Wwizard Dial. Line-026_63712F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-026		68222
+	27295569	WAG Wwizard Dial_ Line-025	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\WAG Wwizard Dial. Line-025_63712F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-025		76969
+	204931226	WAG Wwizard Dial_ Line-024	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\WAG Wwizard Dial. Line-024_63712F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-024		59199
+	619952066	WAG Wwizard Dial_ Line-028	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\WAG Wwizard Dial. Line-028_63712F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-028		50671
+	1073270917	WAG Wwizard Dial_ Line-027	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\WAG Wwizard Dial. Line-027_63712F16.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-027		53177
+
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	60790338	Wwizard_DialogueLine_Q5a_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_3_6DC991D6.wem	60790338.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_03	
-	64488070	Wwizard_DialogueLine_Q5a_07	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_7_6DC991D6.wem	64488070.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_07	
-	338325124	Wwizard_DialogueLine_Q5a_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_6_6DC991D6.wem	338325124.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_06	
-	506705032	Wwizard_DialogueLine_Q5a_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_5_6DC991D6.wem	506705032.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_05	
-	745580301	Wwizard_DialogueLine_Q5a_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_2_6DC991D6.wem	745580301.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_02	
-	765406834	Wwizard_DialogueLine_Q5a_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_1_6DC991D6.wem	765406834.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_01	
-	1058535481	Wwizard_DialogueLine_Q5a_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\Wwizard_VoiceLine_Q5a_4_6DC991D6.wem	1058535481.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\Wwizard_DialogueLine_Q5a_04	
+	973122318	WAG Wwizard Dial_ Line-029	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\Voices\English(US)\WAG Wwizard Dial. Line-029_63712F16.wem	973122318.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-029	
 
