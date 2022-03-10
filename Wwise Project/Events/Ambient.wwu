@@ -84,6 +84,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{78EBB932-321D-47A9-992F-73DC1BC0176D}" ShortID="1065467703">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elements_DayAndNight" ID="{9B2E5B17-3684-407D-A11C-C3399DA6F1E9}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambient_Region_PineForest" ID="{9887199A-C53A-4F4B-B207-CACADB99D4EC}">
@@ -95,6 +105,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ambient_Region_PineForest" ID="{7570C208-3336-4F52-AB16-4CA29F037A25}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EFCA324A-059A-47AA-BDC4-D0B20D154A27}" ShortID="934567517">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elements_DayAndNight" ID="{9B2E5B17-3684-407D-A11C-C3399DA6F1E9}" WorkUnitID="{560ECF91-5921-46AB-8E60-4A2FD3652076}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
