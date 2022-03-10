@@ -1581,27 +1581,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_03_01" ID="{6F255A60-51C5-473F-88FD-1CC6F5E4D6E5}" ShortID="571801213">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="scream_01" ID="{5069CA49-614A-433C-994C-F9F2D03C1047}" ShortID="95024384">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.137243217814019"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="4.18591814332758"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_03_01.wav</AudioFile>
+													<AudioFile>scream_01.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_03_01" ID="{6F255A60-51C5-473F-88FD-1CC6F5E4D6E5}" Platform="Linked"/>
+												<ActiveSource Name="scream_01" ID="{5069CA49-614A-433C-994C-F9F2D03C1047}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_03_02" ID="{71E82AB4-3833-480C-B3F5-0DA5E1140B9F}" ShortID="789811425">
@@ -1637,27 +1629,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_03_02" ID="{C521CA9A-55F5-4451-9B6B-5B2DEAE7A577}" ShortID="626030515">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="scream_02" ID="{668F8B41-4DF7-4B99-AD6A-71F28FDD0E97}" ShortID="589283411">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.103878621335106"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="2.72445293228891"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_03_02.wav</AudioFile>
+													<AudioFile>scream_02.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_03_02" ID="{C521CA9A-55F5-4451-9B6B-5B2DEAE7A577}" Platform="Linked"/>
+												<ActiveSource Name="scream_02" ID="{668F8B41-4DF7-4B99-AD6A-71F28FDD0E97}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_03_03" ID="{D3CE1DA6-6E90-45F1-8E15-395B4C2EBEDA}" ShortID="677681112">
@@ -1688,27 +1672,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_03_03" ID="{9883CB57-2B75-491A-8549-B24CABE9145A}" ShortID="549383379">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="scream_03" ID="{7445796B-62C8-451E-933B-2D3C5670501B}" ShortID="910721575">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.20790653912498"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="2.08453661596362"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_03_03.wav</AudioFile>
+													<AudioFile>scream_03.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_03_03" ID="{9883CB57-2B75-491A-8549-B24CABE9145A}" Platform="Linked"/>
+												<ActiveSource Name="scream_03" ID="{7445796B-62C8-451E-933B-2D3C5670501B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_03_04" ID="{8BBBEF58-43BA-4A02-9E56-A7CA0B967B01}" ShortID="904195085">
@@ -1723,6 +1699,16 @@ Your sole right with regard to this Audio Content is to listen to the Audio
 Content as part of this Sample Project.  This Audio Content cannot be used
 or modified for a commercial purpose nor for public demonstration.</Comment>
 											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>21</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-1110</Value>
+													</ValueList>
+												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -1744,27 +1730,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_03_04" ID="{63447DBC-885B-44DB-8251-EB35AC9CAF8E}" ShortID="413261440">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="scream_03" ID="{92839B97-6CA3-44B7-B91C-663C1760EE1C}" ShortID="76414221">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.120465014399466"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="3.39379023325393"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_03_04.wav</AudioFile>
+													<AudioFile>scream_03.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="910721575"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_03_04" ID="{63447DBC-885B-44DB-8251-EB35AC9CAF8E}" Platform="Linked"/>
+												<ActiveSource Name="scream_03" ID="{92839B97-6CA3-44B7-B91C-663C1760EE1C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1982,27 +1963,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_02_01" ID="{0B78FC26-DE60-4A07-8800-3E049E3E8FE2}" ShortID="113815345">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="owl_01" ID="{7C226C8B-5FF7-4D6A-AE63-C343251F2C86}" ShortID="946965300">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0495031001789666"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.519460227029408"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_02_01.wav</AudioFile>
+													<AudioFile>owl_01.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_02_01" ID="{0B78FC26-DE60-4A07-8800-3E049E3E8FE2}" Platform="Linked"/>
+												<ActiveSource Name="owl_01" ID="{7C226C8B-5FF7-4D6A-AE63-C343251F2C86}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_02_02" ID="{63933928-D6F9-4599-B0E9-25414C6721DF}" ShortID="17084244">
@@ -2033,28 +2006,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_02_02" ID="{F4227749-BE9B-477E-9CB0-00EF8A21D85F}" ShortID="864986687">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="owl_02" ID="{8B351E63-09DD-4939-8D9D-5836F6744044}" ShortID="599457266">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0192542146752591"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.230190200762305"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.832142142946417"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_02_02.wav</AudioFile>
+													<AudioFile>owl_02.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_02_02" ID="{F4227749-BE9B-477E-9CB0-00EF8A21D85F}" Platform="Linked"/>
+												<ActiveSource Name="owl_02" ID="{8B351E63-09DD-4939-8D9D-5836F6744044}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_02_03" ID="{C5E44B7E-E792-4758-8F88-38C01DCCC9F5}" ShortID="841067685">
@@ -2080,27 +2044,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_02_03" ID="{016D6EC3-CBF0-4838-A751-815F752B7A64}" ShortID="95415607">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="owl_03" ID="{5187AAD1-A89B-4C8E-82B4-D5C3BC8CAE40}" ShortID="1033458789">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0454840933812237"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0602928679704594"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_02_03.wav</AudioFile>
+													<AudioFile>owl_03.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_02_03" ID="{016D6EC3-CBF0-4838-A751-815F752B7A64}" Platform="Linked"/>
+												<ActiveSource Name="owl_03" ID="{5187AAD1-A89B-4C8E-82B4-D5C3BC8CAE40}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_02_04" ID="{69F609EB-D948-44F2-AC93-AEE970C36818}" ShortID="844354179">
@@ -2126,27 +2082,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_02_04" ID="{E39A528B-7BA1-4318-957C-5D4F6159A034}" ShortID="370181548">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="owl_04" ID="{A2C84E9F-06F3-494B-80A7-6A95181FB2A5}" ShortID="199440052">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0230670241019935"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.119948525330366"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_02_04.wav</AudioFile>
+													<AudioFile>owl_04.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_02_04" ID="{E39A528B-7BA1-4318-957C-5D4F6159A034}" Platform="Linked"/>
+												<ActiveSource Name="owl_04" ID="{A2C84E9F-06F3-494B-80A7-6A95181FB2A5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2435,27 +2383,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_01_01" ID="{12E343A7-57EE-417C-A9C4-47E11D195533}" ShortID="917888294">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="cricket_01" ID="{EE2C8169-F174-4C92-80BF-66F0E79AD8FE}" ShortID="528952793">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0348809088216333"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.164438570159128"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_01.wav</AudioFile>
+													<AudioFile>cricket_01.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_01_01" ID="{12E343A7-57EE-417C-A9C4-47E11D195533}" Platform="Linked"/>
+												<ActiveSource Name="cricket_01" ID="{EE2C8169-F174-4C92-80BF-66F0E79AD8FE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_01_02" ID="{1715F20C-3D77-4817-A25F-19F252C173C9}" ShortID="564761697">
@@ -2481,27 +2421,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_01_02" ID="{4523A5D0-7C35-485A-9136-E752EB05786E}" ShortID="173466533">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="cricket_02" ID="{682526E1-835E-426C-A236-710E0C9BEF09}" ShortID="195237193">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0334658034454177"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0892421425211136"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_02.wav</AudioFile>
+													<AudioFile>cricket_02.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_01_02" ID="{4523A5D0-7C35-485A-9136-E752EB05786E}" Platform="Linked"/>
+												<ActiveSource Name="cricket_02" ID="{682526E1-835E-426C-A236-710E0C9BEF09}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_01_03" ID="{3CCB0619-C76B-4245-80F5-5ED94B69028B}" ShortID="16430622">
@@ -2532,26 +2464,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_01_03" ID="{981F9BBC-F866-4FA9-BE82-ACF1FB48054D}" ShortID="467164584">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="cricket_03" ID="{1D3EDADB-57BB-4CC2-AB54-C9A2DAB4AC81}" ShortID="231204175">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0160206695191798"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_03.wav</AudioFile>
+													<AudioFile>cricket_03.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_01_03" ID="{981F9BBC-F866-4FA9-BE82-ACF1FB48054D}" Platform="Linked"/>
+												<ActiveSource Name="cricket_03" ID="{1D3EDADB-57BB-4CC2-AB54-C9A2DAB4AC81}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Night_Element_01_04" ID="{57A57346-2713-451A-A89F-13B2E55E1C29}" ShortID="200735340">
@@ -2582,27 +2507,19 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_night_element_01_04" ID="{179CB05E-3FF2-4CB0-8E0A-BD09F16B1EE5}" ShortID="251146730">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="cricket_04" ID="{23235981-C068-48B4-A062-195634E387DE}" ShortID="506408922">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0126530612244898"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0112471655328796"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_night_element_01_04.wav</AudioFile>
+													<AudioFile>cricket_04.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_night_element_01_04" ID="{179CB05E-3FF2-4CB0-8E0A-BD09F16B1EE5}" Platform="Linked"/>
+												<ActiveSource Name="cricket_04" ID="{23235981-C068-48B4-A062-195634E387DE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -3791,37 +3708,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{665ECFB8-8D53-4593-8023-7EDE6F8DE742}" ShortID="942018179">
-													<Comment>Audiokinetic Inc. All rights reserved.
-Audio content provided by Bay Area Sound, Inc.
-With the help of Damian Kastbauer for Lost Chocolate Lab.
-(c) 2012 Bay Area Sound, Inc.
-www.basound.com
-
-The Audio Content contained in this file is the property of Bay Area Sound, Inc.
-Your sole right with regard to this Audio Content is to listen to the Audio 
-Content as part of this Sample Project.  This Audio Content cannot be used
-or modified for a commercial purpose nor for public demonstration.</Comment>
+												<AudioFileSource Name="ambient_region_woodlands_2" ID="{78538D4C-2807-410C-8CB3-ABCBB937DFF4}" ShortID="535160128">
 													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="500"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.262455943007124"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.306198600174977"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0.634268528933883"/>
-														<Property Name="LoopEnd" Type="Real64" Value="21.1277034120735"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\amb_forest_night_background_loop_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="888712339"/>
-													</ConvertedFileIDList>
+													<AudioFile>ambient_region_woodlands_2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{28FFD412-3C77-428D-9E1E-E0E3AE1304D2}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_forest_night_background_loop_04" ID="{665ECFB8-8D53-4593-8023-7EDE6F8DE742}" Platform="Linked"/>
+												<ActiveSource Name="ambient_region_woodlands_2" ID="{78538D4C-2807-410C-8CB3-ABCBB937DFF4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -4283,27 +4185,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{6EB9B972-2DE7-4C7D-B442-C70FDC4477C9}" ShortID="554829583">
+												<AudioFileSource Name="ambient_region_pineforest_2" ID="{9B0C114A-7B08-4073-8EF8-FFF949A20516}" ShortID="767628211">
 													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="1500"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.694464285714286"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.848789682539689"/>
-														<Property Name="LoopBegin" Type="Real64" Value="2.54636904761905"/>
-														<Property Name="LoopEnd" Type="Real64" Value="76.1595833333333"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="667561842"/>
-													</ConvertedFileIDList>
+													<AudioFile>ambient_region_pineforest_2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{3D62867D-2FCC-463B-BE61-9FDF5033E481}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{6EB9B972-2DE7-4C7D-B442-C70FDC4477C9}" Platform="Linked"/>
+												<ActiveSource Name="ambient_region_pineforest_2" ID="{9B0C114A-7B08-4073-8EF8-FFF949A20516}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Pineforest_Night_Short" ID="{DD48B260-8540-4E2A-AA08-F1C56A24CDF5}" ShortID="699852891">
@@ -4830,29 +4727,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{E57A9010-C5FE-42AC-99B8-07AD3B259D2C}" ShortID="598441999">
+												<AudioFileSource Name="ambient_region_village_2" ID="{C8F67E6B-4456-4C02-BBD4-8BF5130B97EE}" ShortID="564098441">
 													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="2000"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.57063795596979"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.7015244523006"/>
-														<Property Name="LoopBegin" Type="Real64" Value="18.1932229899834"/>
-														<Property Name="LoopEnd" Type="Real64" Value="116.750754727088"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="14.2666281000589"/>
-														<Property Name="TrimEnd" Type="Real64" Value="121.724441587659"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Background\BAS_amb_village_night_background_loop_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="208266426"/>
-													</ConvertedFileIDList>
+													<AudioFile>ambient_region_village_2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{CBFB4ECB-2971-4FF6-A722-6A406112D858}"/>
 											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{E57A9010-C5FE-42AC-99B8-07AD3B259D2C}" Platform="Linked"/>
+												<ActiveSource Name="ambient_region_village_2" ID="{C8F67E6B-4456-4C02-BBD4-8BF5130B97EE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ambient_Village_Night_Short" ID="{78DCBDEA-2F6F-4807-A904-49F4AE49EA38}" ShortID="1060573847">

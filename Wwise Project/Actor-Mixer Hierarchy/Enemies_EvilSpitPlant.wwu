@@ -115,6 +115,9 @@
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-430</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{ED2B129B-8C2C-4CF2-AE97-6AA57B96ADF1}">
@@ -144,17 +147,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_01" ID="{855F06A1-9484-4F18-947B-051812073AA0}" ShortID="38322136">
+										<AudioFileSource Name="SHOOT_1" ID="{2300A3A9-B9C9-4409-91B5-88247099535F}" ShortID="691094125">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.177265577737447"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.68743194192378"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Shoot_01.wav</AudioFile>
+											<AudioFile>SHOOT_1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_01" ID="{855F06A1-9484-4F18-947B-051812073AA0}" Platform="Linked"/>
+										<ActiveSource Name="SHOOT_1" ID="{2300A3A9-B9C9-4409-91B5-88247099535F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilSpitPlant_Shoot_02" ID="{145358DA-07C3-4949-964A-F6A7DFBB0148}" ShortID="166364780">
@@ -192,17 +197,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_02" ID="{B6CDC579-6078-4329-858B-3E8FF95EA5DE}" ShortID="196871823">
+										<AudioFileSource Name="SHOOT_2" ID="{17CE9E1E-0E76-458D-BC61-F542FC489703}" ShortID="940774173">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="5.26509376890503E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.65192316999395"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Shoot_02.wav</AudioFile>
+											<AudioFile>SHOOT_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_02" ID="{B6CDC579-6078-4329-858B-3E8FF95EA5DE}" Platform="Linked"/>
+										<ActiveSource Name="SHOOT_2" ID="{17CE9E1E-0E76-458D-BC61-F542FC489703}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilSpitPlant_Shoot_03" ID="{A06DA9FE-30D9-4529-9BAD-5CE3CC4821FA}" ShortID="350821579">
@@ -210,7 +217,15 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>450</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{A08B6FDF-C4B7-4F91-BA7D-236AE699AB72}">
@@ -240,13 +255,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_03" ID="{C4D8C00E-6DDE-4BE3-ADBC-84D37FD08619}" ShortID="108061160">
+										<AudioFileSource Name="SHOOT_3" ID="{A2B67DBE-BCB2-4F4D-95FD-7621EB807269}" ShortID="888488608">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Shoot_03.wav</AudioFile>
+											<AudioFile>SHOOT_3.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_03" ID="{C4D8C00E-6DDE-4BE3-ADBC-84D37FD08619}" Platform="Linked"/>
+										<ActiveSource Name="SHOOT_3" ID="{A2B67DBE-BCB2-4F4D-95FD-7621EB807269}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -312,13 +333,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Hurt_04" ID="{71739F9B-9298-4E76-8984-2A783C43B5BD}" ShortID="571611364">
+										<AudioFileSource Name="HURT_1wav" ID="{90361289-76FB-440D-91AA-8EF21320FFF4}" ShortID="657075190">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Hurt_04.wav</AudioFile>
+											<AudioFile>HURT_1wav.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Hurt_04" ID="{71739F9B-9298-4E76-8984-2A783C43B5BD}" Platform="Linked"/>
+										<ActiveSource Name="HURT_1wav" ID="{90361289-76FB-440D-91AA-8EF21320FFF4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Hurt_02" ID="{ADD546D7-75BE-4EED-946A-81DB468EC9DE}" ShortID="120610401">
@@ -335,24 +362,29 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Hurt_05" ID="{2C5034E9-93A0-47F7-AB4F-8E6017C56447}" ShortID="18622617">
+										<AudioFileSource Name="HURT_2" ID="{936A5F59-AF06-49A2-969C-FF57E1581A81}" ShortID="513419570">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.36752684513007E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="5.95276391409558E-02"/>
-												<Property Name="TrimBegin" Type="Real64" Value="7.47188475546307E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.804427555958863"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Hurt_05.wav</AudioFile>
+											<AudioFile>HURT_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Hurt_05" ID="{2C5034E9-93A0-47F7-AB4F-8E6017C56447}" Platform="Linked"/>
+										<ActiveSource Name="HURT_2" ID="{936A5F59-AF06-49A2-969C-FF57E1581A81}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Hurt_03" ID="{8577EBC9-1002-4CD8-B3E2-3ACB228BD2ED}" ShortID="53845223">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-300</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -364,18 +396,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Hurt_06" ID="{222A6A5B-6B56-4740-A5AE-FA3EE53D2220}" ShortID="79468423">
+										<AudioFileSource Name="HURT_3" ID="{0B6C80B4-39AE-48F3-9364-7D549260FEAC}" ShortID="999445908">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.25395871143376E-02"/>
-												<Property Name="TrimBegin" Type="Real64" Value="2.71373569198751E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.809545485480944"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Hurt_06.wav</AudioFile>
+											<AudioFile>HURT_3.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Hurt_06" ID="{222A6A5B-6B56-4740-A5AE-FA3EE53D2220}" Platform="Linked"/>
+										<ActiveSource Name="HURT_3" ID="{0B6C80B4-39AE-48F3-9364-7D549260FEAC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -597,6 +630,11 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -610,13 +648,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Shoot_LP_01" ID="{2060CD1E-1DDF-42F7-B773-4D8764B0FEE1}" ShortID="61321815">
+										<AudioFileSource Name="EVILPLANT_LOOP" ID="{61871BFA-CDFE-4994-AB69-D99D231EF85D}" ShortID="630179046">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Shoot_LP_01.wav</AudioFile>
+											<AudioFile>EVILPLANT_LOOP.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Shoot_LP_01" ID="{2060CD1E-1DDF-42F7-B773-4D8764B0FEE1}" Platform="Linked"/>
+										<ActiveSource Name="EVILPLANT_LOOP" ID="{61871BFA-CDFE-4994-AB69-D99D231EF85D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -683,16 +727,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_01" ID="{35268CF9-FC15-44D1-9A0C-AD9E52F24F43}" ShortID="76260973">
+										<AudioFileSource Name="CHARGE_1" ID="{D79EDBCB-90CA-49C7-B63B-22D1DFA97E19}" ShortID="867188758">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="662500466"/>
-											</ConvertedFileIDList>
+											<AudioFile>CHARGE_1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Charge_01" ID="{35268CF9-FC15-44D1-9A0C-AD9E52F24F43}" Platform="Linked"/>
+										<ActiveSource Name="CHARGE_1" ID="{D79EDBCB-90CA-49C7-B63B-22D1DFA97E19}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Charge_02" ID="{80C55E8C-75E8-485F-843B-9513A2923F00}" ShortID="802749008">
@@ -709,16 +756,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_02" ID="{7881778F-CC1B-4BB6-9FAB-7F7F01A55C21}" ShortID="220933079">
+										<AudioFileSource Name="CHARGE_2" ID="{603D7A2F-2705-449E-801E-3727D6DA5A8D}" ShortID="122505936">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Charge_02.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="673472141"/>
-											</ConvertedFileIDList>
+											<AudioFile>CHARGE_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Charge_02" ID="{7881778F-CC1B-4BB6-9FAB-7F7F01A55C21}" Platform="Linked"/>
+										<ActiveSource Name="CHARGE_2" ID="{603D7A2F-2705-449E-801E-3727D6DA5A8D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Charge_03" ID="{64D56EC9-6B21-4938-AD38-FC37C122ED9E}" ShortID="639397400">
@@ -735,16 +785,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_03" ID="{584439DE-9A72-4878-92D7-915A66A70C85}" ShortID="1023617453">
+										<AudioFileSource Name="CHARGE_3" ID="{0C3FDDA9-3618-47A5-BC11-23BE3F1DAC37}" ShortID="117046144">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.556421033726558"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Charge_03.wav</AudioFile>
+											<AudioFile>CHARGE_3.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Charge_03" ID="{584439DE-9A72-4878-92D7-915A66A70C85}" Platform="Linked"/>
+										<ActiveSource Name="CHARGE_3" ID="{0C3FDDA9-3618-47A5-BC11-23BE3F1DAC37}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -772,6 +825,11 @@
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -782,19 +840,30 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Death_Headfall_01" ID="{4ADDFBC6-2859-4667-BEEB-C4F9F06DAF6D}" ShortID="138086648">
+										<AudioFileSource Name="HEAD FALL 1" ID="{3AE972B5-0225-4C37-B5A7-9C85918681D6}" ShortID="993005431">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Death_Headfall_01.wav</AudioFile>
+											<AudioFile>HEAD FALL 1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Death_Headfall_01" ID="{4ADDFBC6-2859-4667-BEEB-C4F9F06DAF6D}" Platform="Linked"/>
+										<ActiveSource Name="HEAD FALL 1" ID="{3AE972B5-0225-4C37-B5A7-9C85918681D6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Death_Headfall_02" ID="{9C53C01E-76D5-453F-A5F0-663EF1658942}" ShortID="576955232">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -805,18 +874,29 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Death_Headfall_02" ID="{94151D0D-ED1E-4AB5-B9CA-82E3A78238CF}" ShortID="412591648">
+										<AudioFileSource Name="HEAD FALL 2" ID="{331BF54B-4685-4241-AAED-6553AFACDA87}" ShortID="861304961">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Death_Headfall_02.wav</AudioFile>
+											<AudioFile>HEAD FALL 2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Death_Headfall_02" ID="{94151D0D-ED1E-4AB5-B9CA-82E3A78238CF}" Platform="Linked"/>
+										<ActiveSource Name="HEAD FALL 2" ID="{331BF54B-4685-4241-AAED-6553AFACDA87}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Death_Headfall_03" ID="{02B6233B-64F5-464B-A604-3104D6CD7D41}" ShortID="87995786">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-730</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -828,13 +908,22 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Death_Headfall_03" ID="{F2DBDC2B-253C-469A-87D4-3884A4A16705}" ShortID="1004673027">
+										<AudioFileSource Name="HEAD FALL 1" ID="{13A249E0-26BC-42F5-8169-9B5F3A1C9D98}" ShortID="513374449">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Death_Headfall_03.wav</AudioFile>
+											<AudioFile>HEAD FALL 1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="993005431"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Death_Headfall_03" ID="{F2DBDC2B-253C-469A-87D4-3884A4A16705}" Platform="Linked"/>
+										<ActiveSource Name="HEAD FALL 1" ID="{13A249E0-26BC-42F5-8169-9B5F3A1C9D98}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -867,7 +956,17 @@
 								<Sound Name="BAS_Evil_SpitPlant_Death_04" ID="{C2BEA1FF-2F14-4DFA-A732-516BF0C445D4}" ShortID="16304982">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>1090</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -878,24 +977,35 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Death_04" ID="{20D23693-DEAA-41C9-B6D0-937810791346}" ShortID="585485659">
+										<AudioFileSource Name="DYING BREATH (1)" ID="{D7ECFD23-0BB7-40E0-8EF5-69CA2FE6B459}" ShortID="895724711">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.38228833938294"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.104462511343013"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.90921909029038"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Death_04.wav</AudioFile>
+											<AudioFile>DYING BREATH (1).wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Death_04" ID="{20D23693-DEAA-41C9-B6D0-937810791346}" Platform="Linked"/>
+										<ActiveSource Name="DYING BREATH (1)" ID="{D7ECFD23-0BB7-40E0-8EF5-69CA2FE6B459}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Death_05" ID="{638E43CE-CBB5-45B5-A87F-7AD4E10BEEEC}" ShortID="802202033">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-860</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -906,25 +1016,33 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Death_05" ID="{817A9205-813E-4DFF-B6F8-7B589933034B}" ShortID="263730271">
+										<AudioFileSource Name="DYING BREATH (1)" ID="{7467AD42-EE84-4143-8F9D-DE0D8CC10983}" ShortID="228313305">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="2.79060798548094E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.30510647307925"/>
-												<Property Name="TrimBegin" Type="Real64" Value="4.27893224440411E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.49948669086509"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Death_05.wav</AudioFile>
+											<AudioFile>DYING BREATH (1).wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="895724711"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Death_05" ID="{817A9205-813E-4DFF-B6F8-7B589933034B}" Platform="Linked"/>
+										<ActiveSource Name="DYING BREATH (1)" ID="{7467AD42-EE84-4143-8F9D-DE0D8CC10983}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="BAS_Evil_SpitPlant_Death_06" ID="{95CFAEAF-4619-4C35-8FAA-1DB605011E20}" ShortID="443192150">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -935,17 +1053,22 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_Death_06" ID="{5DEC42BD-83F6-486C-AD6A-ECB599306D6E}" ShortID="426400611">
+										<AudioFileSource Name="DYING BREATH (1)" ID="{B7FA84F3-B4A8-401B-9A5B-DAA0051FFB0F}" ShortID="164466067">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.60919540229885E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.77211494252874"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_Death_06.wav</AudioFile>
+											<AudioFile>DYING BREATH (1).wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="895724711"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_Death_06" ID="{5DEC42BD-83F6-486C-AD6A-ECB599306D6E}" Platform="Linked"/>
+										<ActiveSource Name="DYING BREATH (1)" ID="{B7FA84F3-B4A8-401B-9A5B-DAA0051FFB0F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1000,13 +1123,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_ImpactPlayer_03" ID="{C2FCF399-B595-4029-8049-59065111B535}" ShortID="539203250">
+										<AudioFileSource Name="IMPACT_3" ID="{5E1A7333-EDC0-4913-8B52-E530567FBE91}" ShortID="452212148">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03.wav</AudioFile>
+											<AudioFile>IMPACT_3.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_ImpactPlayer_03" ID="{C2FCF399-B595-4029-8049-59065111B535}" Platform="Linked"/>
+										<ActiveSource Name="IMPACT_3" ID="{5E1A7333-EDC0-4913-8B52-E530567FBE91}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilSpitPlant_ImpactPlayer_01" ID="{3B97463A-5092-4994-A561-3001CBC63F4F}" ShortID="70570644">
@@ -1030,13 +1159,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_ImpactPlayer_01" ID="{842FD5EF-AD5C-4DF3-BE27-6579B35603CE}" ShortID="26692395">
+										<AudioFileSource Name="IMPACT_1" ID="{90D42751-22BF-4356-BD1F-960EDA9883BF}" ShortID="911538696">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01.wav</AudioFile>
+											<AudioFile>IMPACT_1.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_ImpactPlayer_01" ID="{842FD5EF-AD5C-4DF3-BE27-6579B35603CE}" Platform="Linked"/>
+										<ActiveSource Name="IMPACT_1" ID="{90D42751-22BF-4356-BD1F-960EDA9883BF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilSpitPlant_ImpactPlayer_02" ID="{5D60FEDD-1620-4F0C-9E5A-B7E1D45ECA5E}" ShortID="1027184220">
@@ -1060,13 +1195,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_SpitPlant_ImpactPlayer_02" ID="{90FD1219-0EC9-4439-A433-56AFD2C7EBE4}" ShortID="808800733">
+										<AudioFileSource Name="IMPACT_2" ID="{6D9C8202-65FA-4611-9D6A-8B3F62F73C83}" ShortID="1008460296">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</AudioFile>
+											<AudioFile>IMPACT_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_SpitPlant_ImpactPlayer_02" ID="{90FD1219-0EC9-4439-A433-56AFD2C7EBE4}" Platform="Linked"/>
+										<ActiveSource Name="IMPACT_2" ID="{6D9C8202-65FA-4611-9D6A-8B3F62F73C83}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

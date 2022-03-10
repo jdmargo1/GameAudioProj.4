@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{13725CB3-0AE3-4A5F-9758-761C9583AB24}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Dropbox\Mac\Desktop\WAG Effort Sounds\Wwizard Dialogue"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\Project 4 Sounds\ENVIRONMENT"/>
 				<Property Name="Event Action List\{01B482B7-84C8-4214-AA97-122F590636F5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1296BFBB-E46F-401A-B1BE-BE0D9745F2F7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{159898B0-0B04-4F62-86BE-C4EDA88332CF}\x64_Expand States" Type="string" Value=""/>
@@ -56,7 +56,7 @@
 				<Property Name="Event Action List\{FB5C2FDF-A6F7-48C7-9146-570510B4FEA7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FCECD427-EBCE-43A2-9EF1-6339E5BC707D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
+				<Property Name="EventView\FilterMode1" Type="int32" Value="24"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Android_Low"></Value>
@@ -94,7 +94,7 @@
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{0A516B52-3B65-4725-81FF-3AC69D3EABB1}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{51DFFF8A-708E-4F93-BE7C-2D420F924ACC}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -112,7 +112,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="YzLB9+bU4ECBTfkflqhYW32mWIaJxqZBptmwRfyioy23gahdLzhFQ7OSvqlXuP//KA74ZBO7ZkOoQrrxXa0vdQU6DW4mD3FDtifrLP9waWCHrU31Hz96Q46CMtq3pXUeLsBvEKUPmkOHpCBWqtbJYHdWwIQDX8BDgcO6Us5wiereOg6UDnjmRKoZSwONb3tbwrTRMAuiR0W0ubAFqk9CWOsRtDLAqrlFqtKiOwAG3a6XV0zfipW+Rby4r6fhjJZOmGWHWyxm9UW0HjOI2lTyvubKZrz5DytHlOrTzIzoLbv5WPiLOEQVSIiPanmYWBRzUaJ/qQujXEi4OcuUh2nxnbxdNP75Ag9JhydgSRl8LoffydU6tcB4Srh6LuN9ZL/LnXVXoWdbNEuiMDFx9vvFj2We9DB/L61Lss4H8vP7z/JxO54uBcmwS5swBs/ybgxe3TfVZX7wu0uE167sB9gCLgBQYqS8PD9MuxxyFUOO8eFeB/9VhzbgTKqymuivnuON6KVy4TOEik2zYAh+nv1fzgxTpiUxxTlOqQZ7i2RH3dJF8q6kqaBTToVgCyu5eYZqiS3LsPYrjE6qFr/Nsu2jU11xeo8EVwlPlWNBcuJQQZuSo97alGq5T4YsgEuhLOgW"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="W16/KXTSkkC2lx6wl9SfNWMywffm1OBAgU35H5aoWFt9pliGicamQabZsEX8oqMt/ynhLyArSUKW0nqfPGC+jrtz0pWrnl1Cu2sKrb4sOfO3gahdLzhFQ7OSvqlXuP//KA74ZBO7ZkOoQrrxXa0vdQU6DW4mD3FDtifrLP9waWCHrU31Hz96Q46CMtq3pXUeLsBvEKUPmkOHpCBWqtbJYHdWwIQDX8BDgcO6Us5wierOVpGgO0GoRKU9CviItqo83joOlA545kSqGUsDjW97W/NLRNB6pSRFhylxGc7WTjfCtNEwC6JHRbS5sAWqT0JY6xG0MsCquUWq0qI7AAbdrpdXTN+Klb5FvLivp+GMlk6YZYdbLGb1RbQeM4jaVPK+lFz4nkODWkay8zJ27b0PZubKZrz5DytHlOrTzIzoLbv5WPiLOEQVSIiPanmYWBRzUaJ/qQujXEi4OcuUh2nxnbxdNP75Ag9JhydgSRl8LoffydU6tcB4Srh6LuN9ZL/LG+wpU89pgEqF01+oWVmdk511V6FnWzRLojAxcfb7xY9lnvQwfy+tS7LOB/Lz+8/ycTueLgXJsEubMAbP8m4MXt031WV+8LtLhNeu7AfYAi4AUGKkvDw/TLscchVDjvHhXgf/VYc24Eyqspror57jjeilcuEzhIpNs2AIfp79X84MU6YlMcU5TqkGe4tkR93SRfKupKmgU06FYAsruXmGaokty7D2K4xOqha/zbLto1NIgAr69ND3TrlCAmXVUImeXXF6jwRXCU+VY0Fy4lBBm2UEA/xscQxPtOBXCOaV26OSo97alGq5T4YsgEuhLOgW"/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -190,7 +190,7 @@
 						<Value Platform="Android_High"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{2C2400B1-F58D-428C-8262-966DFAD84976}2566620951"/>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value=""/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

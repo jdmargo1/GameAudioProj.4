@@ -134,16 +134,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_torch" ID="{9CC799DA-4595-481D-93B0-28CF15D74C5D}" ShortID="182310961">
+								<AudioFileSource Name="ambient_fire_torch_2" ID="{7B38A1C0-E059-4FB9-9B5F-E01247F244F0}" ShortID="50556790">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Ambient\Ambient_Emitters\BAS_amb_torch.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="981622377"/>
-									</ConvertedFileIDList>
+									<AudioFile>ambient_fire_torch_2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_torch" ID="{9CC799DA-4595-481D-93B0-28CF15D74C5D}" Platform="Linked"/>
+								<ActiveSource Name="ambient_fire_torch_2" ID="{7B38A1C0-E059-4FB9-9B5F-E01247F244F0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Ambient_Water_River" ID="{42B20E05-96B9-4733-812D-AC61D9B056C5}" ShortID="413550356">
@@ -276,29 +279,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Water_RiverLoop" ID="{2A3EF3E1-89C3-4C4E-BA7D-9147296E1866}" ShortID="690249591">
+								<AudioFileSource Name="river" ID="{4B3DD198-C31B-48C0-B7E8-2120C7450F59}" ShortID="720373222">
 									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="250"/>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.860592755214051"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.597145993413831"/>
-										<Property Name="LoopBegin" Type="Real64" Value="1.21185510428101"/>
-										<Property Name="LoopEnd" Type="Real64" Value="14.9286498353458"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="VolumeOffset" Type="Real64">
-											<ValueList>
-												<Value>-4.2</Value>
-											</ValueList>
-										</Property>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Ambient\Ambient_Emitters\Water_RiverLoop.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File Platform="Android_Low" ID="285115110"/>
-									</ConvertedFileIDList>
+									<AudioFile>river.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Water_RiverLoop" ID="{2A3EF3E1-89C3-4C4E-BA7D-9147296E1866}" Platform="Linked"/>
+								<ActiveSource Name="river" ID="{4B3DD198-C31B-48C0-B7E8-2120C7450F59}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Ambient_Lava" ID="{D8C9FBB3-3535-4064-9EA7-5264BD9F8EA2}" ShortID="502397681">
@@ -615,13 +608,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BAS_amb_torch" ID="{0892445B-58F2-4843-8C71-9298222C6340}" ShortID="981622377">
+								<AudioFileSource Name="ambient_fire_campfire_2" ID="{36EC52F5-56B5-4285-9DF8-ECFAF7B94267}" ShortID="529411293">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Ambient\Ambient_Emitters\BAS_amb_torch.wav</AudioFile>
+									<AudioFile>ambient_fire_campfire_2.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_amb_torch" ID="{0892445B-58F2-4843-8C71-9298222C6340}" Platform="Linked"/>
+								<ActiveSource Name="ambient_fire_campfire_2" ID="{36EC52F5-56B5-4285-9DF8-ECFAF7B94267}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<BlendContainer Name="Ambient_Water_Waterfall" ID="{5B09A965-1A3D-483D-B2F0-C4DD74C1418C}" ShortID="708984362">
@@ -1215,7 +1214,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_02" ID="{EA6D795F-4E0F-4037-9A59-3F5EEBB241B9}" ShortID="92368391">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="2.55825977363958E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0255825977363958"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.15204751484839"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.321954579059924"/>
 															</PropertyList>
@@ -1250,7 +1249,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_03" ID="{B07E8B46-C6F1-4247-81F5-4A227AB23ADD}" ShortID="439035036">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="4.63636950038951E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0463636950038951"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.182279184467368"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.379166108456512"/>
 															</PropertyList>
@@ -1285,7 +1284,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_04" ID="{93DE85FF-8835-49D9-9837-D46C5BA880E9}" ShortID="664756174">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="5.70940707054871E-03"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00570940707054871"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.100312845507848"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.273337863502518"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.494577387486279"/>
@@ -1321,8 +1320,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_05" ID="{F6CE48E8-B93F-4B13-BC67-B090C30700E8}" ShortID="720197828">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="7.02005090876613E-02"/>
-																<Property Name="TrimBegin" Type="Real64" Value="8.84204885455276E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0702005090876613"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0884204885455276"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Ambient\Ambient_Emitters\BAS_WaterDrops_05.wav</AudioFile>
@@ -1355,7 +1354,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_06" ID="{D3470F65-320C-4B0A-B1D2-4E8A1AA36178}" ShortID="986175919">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="6.94502746393962E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0694502746393962"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.226195686151922"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -1385,7 +1384,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops" ID="{F0A8CB68-E420-4298-B180-71B968020DB2}" ShortID="439528036">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="7.00663401757494E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0700663401757494"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.245054357264423"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -1802,7 +1801,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_02" ID="{3A398AB7-E8C2-4960-B770-2D96BA03F606}" ShortID="738144536">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="2.55825977363958E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0255825977363958"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.15204751484839"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.321954579059924"/>
 											</PropertyList>
@@ -1846,7 +1845,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_03" ID="{FDC28892-34E0-4075-884E-24A7F2DA9D13}" ShortID="464674442">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.63636950038951E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0463636950038951"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.182279184467368"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.379166108456512"/>
 											</PropertyList>
@@ -1877,7 +1876,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_04" ID="{C84C379D-8E58-4098-AFE5-6A6FEB494B88}" ShortID="402893315">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.70940707054871E-03"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00570940707054871"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.100312845507848"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.273337863502518"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.494577387486279"/>
@@ -1909,8 +1908,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_05" ID="{10B4ADDB-ECC5-4C4C-80BC-AF4D2105A658}" ShortID="830124314">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7.02005090876613E-02"/>
-												<Property Name="TrimBegin" Type="Real64" Value="8.84204885455276E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0702005090876613"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0884204885455276"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambient\Ambient_Emitters\BAS_WaterDrops_05.wav</AudioFile>
@@ -1950,7 +1949,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_06" ID="{DF863385-A08B-429F-9B10-C74D358C7507}" ShortID="660387120">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="6.94502746393962E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0694502746393962"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.226195686151922"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1988,7 +1987,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops" ID="{6CD1BBE8-A2C7-434B-9EBE-03A03BBC5A13}" ShortID="512076338">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7.00663401757494E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0700663401757494"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.245054357264423"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2203,26 +2202,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_windMillBlade_004" ID="{F3F4ACB3-FCF0-4615-9B32-6C269943C1A5}" ShortID="1010912770">
+												<AudioFileSource Name="windmill_02" ID="{AE41712A-20CE-4F77-B7F7-FFDB7EBE9818}" ShortID="956294730">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.131520270017996"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.298112612040792"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0.184128378025195"/>
-														<Property Name="LoopEnd" Type="Real64" Value="2.87152589539292"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.22224661544091"/>
-														<Property Name="VolumeOffset" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Emitters\BAS_windMillBlade_004.wav</AudioFile>
+													<AudioFile>windmill_02.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_windMillBlade_004" ID="{F3F4ACB3-FCF0-4615-9B32-6C269943C1A5}" Platform="Linked"/>
+												<ActiveSource Name="windmill_02" ID="{AE41712A-20CE-4F77-B7F7-FFDB7EBE9818}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="windMillBlade_003" ID="{EC8ABEB6-E416-4C4C-BA6B-DD37D4916329}" ShortID="968206190">
@@ -2241,27 +2233,19 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_windMillBlade_003" ID="{B0FD40A2-17CE-42A6-9108-F40BAE59BCBD}" ShortID="632020663">
+												<AudioFileSource Name="windmill_01" ID="{71329864-0E73-4C51-A1CB-2C40A9CA4F3F}" ShortID="917271424">
 													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="137"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.130296825645736"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.21610370602687"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0.318503351578465"/>
-														<Property Name="LoopEnd" Type="Real64" Value="2.20056861090576"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.37324004171738"/>
-														<Property Name="VolumeOffset" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Ambient\Ambient_Emitters\BAS_windMillBlade_003.wav</AudioFile>
+													<AudioFile>windmill_01.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_windMillBlade_003" ID="{B0FD40A2-17CE-42A6-9108-F40BAE59BCBD}" Platform="Linked"/>
+												<ActiveSource Name="windmill_01" ID="{71329864-0E73-4C51-A1CB-2C40A9CA4F3F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2337,35 +2321,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Machine_Original" ID="{3F3CDE25-71F3-487F-8AE1-15FC4ADF714C}" ShortID="577806081">
+										<AudioFileSource Name="windmill_machine_2" ID="{211FEB0B-7C73-49DB-B40F-DC61624867E6}" ShortID="412897911">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.123424188467332"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.383549810703645"/>
-												<Property Name="TrimEnd" Type="Real64" Value="17.6432912923677"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Ambient\Ambient_Emitters\BAS_windMillBlade_001.wav</AudioFile>
-										</AudioFileSource>
-										<AudioFileSource Name="Machine_Trimmed" ID="{8C577505-D011-4B7D-8993-C1B8FB4A2846}" ShortID="971466993">
-											<PropertyList>
-												<Property Name="OverrideConversion" Type="bool" Value="True"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.383549810703645"/>
-												<Property Name="TrimEnd" Type="Real64" Value="3.96083839941762"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
-												</Reference>
-											</ReferenceList>
-											<Language>SFX</Language>
-											<AudioFile>Ambient\Ambient_Emitters\BAS_windMillBlade_001.wav</AudioFile>
+											<AudioFile>windmill_machine_2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Machine_Trimmed" ID="{8C577505-D011-4B7D-8993-C1B8FB4A2846}" Platform="iOS"/>
-										<ActiveSource Name="Machine_Original" ID="{3F3CDE25-71F3-487F-8AE1-15FC4ADF714C}" Platform="Linked"/>
+										<ActiveSource Name="windmill_machine_2" ID="{211FEB0B-7C73-49DB-B40F-DC61624867E6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -2631,7 +2599,7 @@
 										<AudioFileSource Name="WAG_TmpShotSound" ID="{2992C63C-1814-4F4F-ACAC-1B89043964D6}" ShortID="73574320">
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.16328872271799"/>
-												<Property Name="TrimBegin" Type="Real64" Value="2.22647702407002E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0222647702407002"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Other\WAG_TmpShotSound.wav</AudioFile>
@@ -2694,7 +2662,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG_Sparkle" ID="{4026690D-E61F-4556-A9F7-383090B94715}" ShortID="466737030">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="3.44369985412108E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0344369985412108"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="1.14867505964493"/>
 												<Property Name="FadeOutShape" Type="int16" Value="1"/>
 												<Property Name="TrimBegin" Type="Real64" Value="4.06038697065027"/>

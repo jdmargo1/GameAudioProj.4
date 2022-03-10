@@ -323,6 +323,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>29</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Priority" Type="int16">
 											<ValueList>
 												<Value>60</Value>
@@ -343,18 +348,25 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_Head_Hurt_01" ID="{DFEA0624-7F4F-4A47-BA43-A7E0C2F6C80F}" ShortID="60580651">
+										<AudioFileSource Name="SKULL_hurt" ID="{8926587A-3757-4493-9CDB-BCF8071117D8}" ShortID="229737450">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.446723608590442"/>
-												<Property Name="TrimBegin" Type="Real64" Value="3.18246370235935E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.11032622504537"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.419122221823703"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.713817534043494"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.26850017335581"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.982317707399304"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_Head_Hurt_01.wav</AudioFile>
+											<AudioFile>SKULL_hurt.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="270244909"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Hurt_01" ID="{DFEA0624-7F4F-4A47-BA43-A7E0C2F6C80F}" Platform="Linked"/>
+										<ActiveSource Name="SKULL_hurt" ID="{8926587A-3757-4493-9CDB-BCF8071117D8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilHead_Hurt_03" ID="{DF1A2726-C71B-4F18-852E-B4E8E7EE182C}" ShortID="616568798">
@@ -362,6 +374,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-480</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Priority" Type="int16">
 											<ValueList>
 												<Value>60</Value>
@@ -382,17 +399,25 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_Head_Hurt_03" ID="{2DCF99A0-424F-4CE7-AEFB-9BEE194433F1}" ShortID="1059060228">
+										<AudioFileSource Name="SKULL_hurt" ID="{34DD4B16-D9F0-4C0F-93FE-5BAD9395F6F8}" ShortID="270244909">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.4027574107683"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.04511554748941"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.235756249775833"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.207378182673186"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0349268518186419"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.674524825747522"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_Head_Hurt_03.wav</AudioFile>
+											<AudioFile>SKULL_hurt.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1062139904"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Hurt_03" ID="{2DCF99A0-424F-4CE7-AEFB-9BEE194433F1}" Platform="Linked"/>
+										<ActiveSource Name="SKULL_hurt" ID="{34DD4B16-D9F0-4C0F-93FE-5BAD9395F6F8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="EvilHead_Hurt_02" ID="{BCFFFA07-3050-4717-8A2D-5E8D47D96730}" ShortID="442996842">
@@ -420,17 +445,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Evil_Head_Hurt_02" ID="{FD093D8B-6465-4C01-87A4-D00C6B6D866A}" ShortID="247479220">
+										<AudioFileSource Name="SKULL_hurt" ID="{605F6DFD-E31D-4EF2-BCFA-B4E3BDF13A75}" ShortID="1062139904">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.307024217332123"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.968895738808228"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Creatures\BAS_Evil_Head_Hurt_02.wav</AudioFile>
+											<AudioFile>SKULL_hurt.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="229737450"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Evil_Head_Hurt_02" ID="{FD093D8B-6465-4C01-87A4-D00C6B6D866A}" Platform="Linked"/>
+										<ActiveSource Name="SKULL_hurt" ID="{605F6DFD-E31D-4EF2-BCFA-B4E3BDF13A75}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -633,7 +664,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_03" ID="{17984926-944B-4703-A70A-1F96FDD121C1}" ShortID="864397412">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="3.00262044270833E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0300262044270833"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.27601048642113"/>
 														<Property Name="LoopEnd" Type="Real64" Value="0.782087239583333"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -683,7 +714,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_02" ID="{C6371396-E151-47E4-B4B6-2AF178E393AB}" ShortID="898477822">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="6.17015438988095E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0617015438988095"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.620100516183038"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.305422642299107"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.925523158482145"/>
@@ -809,7 +840,7 @@
 												<AudioFileSource Name="BAS_Evil_Head_Charge" ID="{095736F8-019A-4499-BC40-B9F0484954D9}" ShortID="1043505733">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.323876023065476"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="7.39282226562502E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0739282226562502"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.823771623883928"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.91157261439732"/>
@@ -844,7 +875,7 @@
 												<AudioFileSource Name="BAS_Evil_Head_Charge_Bite" ID="{3B221517-3406-4297-8061-F40BD20D3C38}" ShortID="1028269556">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.170502580915179"/>
-														<Property Name="TrimBegin" Type="Real64" Value="3.03115699404762E-03"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00303115699404762"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.660792224702381"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -978,7 +1009,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Head_Charge_03" ID="{E313A83B-ED2C-4FA0-9891-4173F9C90B0A}" ShortID="197932788">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.78166852678572E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0178166852678572"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.235180245535714"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.231616908482143"/>
@@ -1012,7 +1043,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Head_Charge_02" ID="{77C59012-0960-4EC6-AE90-4B0E1A91ADD2}" ShortID="745897563">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="2.90770089285714E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0290770089285714"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.244731491815476"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.230192987351191"/>
@@ -1046,7 +1077,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Head_Charge_01" ID="{A5BB200A-2ECC-4A57-9E6F-2C5DA10CCE50}" ShortID="228435873">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.72965494791667E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0172965494791667"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.265762855489418"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.242151692708333"/>
@@ -1172,6 +1203,11 @@
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1182,25 +1218,35 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_Evil_Head_Death_Vox_01" ID="{6BD4A226-7E39-4DFF-B367-2FFA2DBA6A23}" ShortID="929104052">
+												<AudioFileSource Name="SKULL_dying breath" ID="{06F877D7-03AF-4F91-835F-082988F39E7E}" ShortID="578309539">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="2.08643025714672E-03"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.51780300967937"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.623692642097137"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.42257064806413"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Creatures\BAS_Evil_Head_Death_Vox_01.wav</AudioFile>
+													<AudioFile>SKULL_dying breath.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Evil_Head_Death_Vox_01" ID="{6BD4A226-7E39-4DFF-B367-2FFA2DBA6A23}" Platform="Linked"/>
+												<ActiveSource Name="SKULL_dying breath" ID="{06F877D7-03AF-4F91-835F-082988F39E7E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Evil_Head_Death_Vox_02" ID="{F49C51AB-6725-4108-A209-1BBB1FDE00C2}" ShortID="367147003">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1211,24 +1257,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_Evil_Head_Death_Vox_02" ID="{7943A786-FD58-43CB-B729-1018B2C68B5F}" ShortID="356049012">
+												<AudioFileSource Name="SKULL_dying breath" ID="{4F90C7C9-9AB6-429F-A474-8CD8DD02D550}" ShortID="862121307">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.255942226255293"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.246002722323049"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.45008771929825"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Creatures\BAS_Evil_Head_Death_Vox_02.wav</AudioFile>
+													<AudioFile>SKULL_dying breath.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="578309539"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Evil_Head_Death_Vox_02" ID="{7943A786-FD58-43CB-B729-1018B2C68B5F}" Platform="Linked"/>
+												<ActiveSource Name="SKULL_dying breath" ID="{4F90C7C9-9AB6-429F-A474-8CD8DD02D550}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Evil_Head_Death_Vox_03" ID="{8AE3AB76-CACF-4CF4-A537-EB9DC9F375E6}" ShortID="753061247">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>580</Value>
+													</ValueList>
+												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1239,17 +1299,22 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_Evil_Head_Death_Vox_03" ID="{3F63F2E7-2AE8-46DC-A9FB-1EC329B66C4E}" ShortID="299395336">
+												<AudioFileSource Name="SKULL_dying breath" ID="{4DA386B3-A749-41B5-8D39-72EF6557B9E2}" ShortID="406660310">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.213125"/>
-														<Property Name="FadeOutShape" Type="int16" Value="3"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Creatures\BAS_Evil_Head_Death_Vox_03.wav</AudioFile>
+													<AudioFile>SKULL_dying breath.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="578309539"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Evil_Head_Death_Vox_03" ID="{3F63F2E7-2AE8-46DC-A9FB-1EC329B66C4E}" Platform="Linked"/>
+												<ActiveSource Name="SKULL_dying breath" ID="{4DA386B3-A749-41B5-8D39-72EF6557B9E2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1320,19 +1385,34 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_Evil_Head_Death_01" ID="{7FE7B175-D687-48C1-AD45-08582742A4E1}" ShortID="824466461">
+												<AudioFileSource Name="SKULL_death" ID="{60CF0065-4037-4A5F-A1D6-D1C7C0BB88F9}" ShortID="918818155">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.607381370826011"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.29912126537786"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.11739894551845"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.47557117750439"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Creatures\BAS_Evil_Head_Death_01.wav</AudioFile>
+													<AudioFile>SKULL_death.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="84348566"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Evil_Head_Death_01" ID="{7FE7B175-D687-48C1-AD45-08582742A4E1}" Platform="Linked"/>
+												<ActiveSource Name="SKULL_death" ID="{60CF0065-4037-4A5F-A1D6-D1C7C0BB88F9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Evil_Head_Death_02" ID="{4278B404-9460-45BC-888A-308497ECBFA6}" ShortID="726438572">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-660</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{11C25649-EC8F-4544-AFC4-3C4E4780BF5C}">
@@ -1354,18 +1434,31 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_Evil_Head_Death_02" ID="{81636817-6F7D-47A6-8597-E2257F4BF2B2}" ShortID="155192250">
+												<AudioFileSource Name="SKULL_death" ID="{1E26CC87-2272-4DF8-BDA3-DA13F034273E}" ShortID="330017917">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.759226713532513"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.759226713532513"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Creatures\BAS_Evil_Head_Death_02.wav</AudioFile>
+													<AudioFile>SKULL_death.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Evil_Head_Death_02" ID="{81636817-6F7D-47A6-8597-E2257F4BF2B2}" Platform="Linked"/>
+												<ActiveSource Name="SKULL_death" ID="{1E26CC87-2272-4DF8-BDA3-DA13F034273E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="BAS_Evil_Head_Death_03" ID="{86FAA329-13FA-4229-9B32-5CF6C2BC7616}" ShortID="455990801">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-230</Value>
+													</ValueList>
+												</Property>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -1377,13 +1470,24 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="BAS_Evil_Head_Death_03" ID="{E029A63B-CBA5-444F-B7BF-948AAA8A5381}" ShortID="1056851740">
+												<AudioFileSource Name="SKULL_death" ID="{508BA43D-79EA-4959-BDD4-A76B46886952}" ShortID="84348566">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.49314586994728"/>
+														<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+														<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.38734622144112"/>
+														<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Creatures\BAS_Evil_Head_Death_03.wav</AudioFile>
+													<AudioFile>SKULL_death.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="918818155"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="BAS_Evil_Head_Death_03" ID="{E029A63B-CBA5-444F-B7BF-948AAA8A5381}" Platform="Linked"/>
+												<ActiveSource Name="SKULL_death" ID="{508BA43D-79EA-4959-BDD4-A76B46886952}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1397,7 +1501,7 @@
 								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>26</Value>
+										<Value>44</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1412,7 +1516,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>1000</Value>
+										<Value>100</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1438,20 +1542,22 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BAS_Evil_Head_Death_02" ID="{F987B212-47B8-49A4-B045-6716B6E19EBA}" ShortID="1007331327">
+								<AudioFileSource Name="SKULL_destory" ID="{C74EDC12-7E1D-4625-8B6A-3791E103775E}" ShortID="258211570">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="1.32908233041575E-02"/>
-										<Property Name="FadeOutDuration" Type="Real64" Value="1.59046852206419"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.28606334212068"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.50429723198594"/>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.451887992341357"/>
-										<Property Name="TrimEnd" Type="Real64" Value="2.18855557075128"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0796258787346222"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Creatures\BAS_Evil_Head_Death_02.wav</AudioFile>
+									<AudioFile>SKULL_destory.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_Evil_Head_Death_02" ID="{F987B212-47B8-49A4-B045-6716B6E19EBA}" Platform="Linked"/>
+								<ActiveSource Name="SKULL_destory" ID="{C74EDC12-7E1D-4625-8B6A-3791E103775E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
