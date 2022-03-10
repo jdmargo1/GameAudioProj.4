@@ -758,11 +758,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -824,11 +819,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -894,6 +884,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -950,11 +945,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1165,7 +1155,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1226,7 +1216,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

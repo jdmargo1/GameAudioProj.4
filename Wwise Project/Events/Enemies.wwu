@@ -130,7 +130,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="EvilHead_Attack_Charge" ID="{2DD9CBF6-8CB2-41CC-A0A9-DDED82AEE4DF}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
+											<ObjectRef Name="EvilHead_Movement" ID="{2708BF38-3F4A-4287-85E2-E08106518413}" WorkUnitID="{A9BC4D19-3EEF-4EA0-98A3-36A71A510AB8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

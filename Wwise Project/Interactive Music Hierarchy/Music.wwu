@@ -29,6 +29,80 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 							<ValueList>
 								<Value>-2</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{3D560D0E-8205-4D83-B8F1-11211EDAD664}" ShortID="547436111">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{472CEE72-4AF6-4534-B605-34E0A7AF3209}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{FE5AA667-543E-4F38-8975-A6E8BE00F672}" ShortID="572553078">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{166E0E71-F315-473C-BD66-0F7BA42A8206}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{6E48CECC-33DB-4E09-90BD-EA01A7DF0C68}" ShortID="794718356">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{563D3455-A3FA-49E7-BC26-CF5AF14A68BD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -66,6 +140,13 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Value Platform="Mac">True</Value>
 												<Value Platform="Windows">False</Value>
 											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{1AB5D4E9-B8B1-4B2E-9BD7-1C84AE260EE3}" ShortID="306261862">
+													<ReferenceList/>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -8357,11 +8438,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
@@ -12022,6 +12098,34 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{DE358177-B2DC-477A-9FC1-CB4A4DC17C37}" ShortID="819298000">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{95DDABF3-B8BE-4D0C-9425-DAA0AB466F68}" ShortID="700331972">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{59000AAD-F389-4817-833D-59DB37B2B7CE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -12059,6 +12163,172 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</PropertyList>
 													<AudioSourceRef Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{ACACE994-D3F6-4D3F-A8B8-8E00084B9497}"/>
 												</MusicClip>
+												<MusicClip Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{9D14F13B-7748-4BF8-AFBE-B4C1A3124406}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17483.8548752834"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="182.59170159252"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{ACACE994-D3F6-4D3F-A8B8-8E00084B9497}"/>
+												</MusicClip>
+												<MusicClip Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{77FD055C-4CF3-4094-AFF5-C33ACA4BFEB2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17483.8548752834"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="182.59170159252"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{ACACE994-D3F6-4D3F-A8B8-8E00084B9497}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fight Evil Head" ID="{FDD69639-6297-44BB-B36E-E39DEE3E89CA}" ShortID="679345162">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{79B2CCC9-B025-4651-B446-AA1AC1064A3E}" ShortID="833441330">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F148DD77-EA5A-4049-9FE3-EBB229C08FDC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{6F9AE96C-35B5-4B48-AFEB-1F06F8E1E099}" ShortID="939154861">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FIGHT_Loop_8+1brs_124bpm-44.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="922999685"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C0BAEA78-B41F-4FEB-B9F9-FC20BF9A5206}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F4DDC6A6-D7B4-498F-B8FA-DBE093A31DA4}">
+											<ClipList>
+												<MusicClip Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{C00E5B75-E807-4096-8FDC-DDFF2C4085A6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17483.8548752834"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="182.59170159252"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{6F9AE96C-35B5-4B48-AFEB-1F06F8E1E099}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Fight Evil Crawler" ID="{2D0796EB-7737-4F2D-90C5-2AC1166FCF9D}" ShortID="972321718">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{36BCBD5A-FB09-4F0A-9CFA-3BC528FFCB50}" ShortID="403830073">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{10C3E2B8-75F2-4259-977D-8A70BE291E09}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{AB9D876E-29C6-47DE-885B-BE1DE54CD074}" ShortID="234397680">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FIGHT_Loop_8+1brs_124bpm-44.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="922999685"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D90B8F1E-A9A4-44FF-A04A-595D2B37216A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{630F3672-5654-4813-BEC5-768E62535870}">
+											<ClipList>
+												<MusicClip Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{D07F28EF-5A04-410D-A30F-FF52548A9E48}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="17483.8548752834"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="182.59170159252"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{AB9D876E-29C6-47DE-885B-BE1DE54CD074}"/>
+												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
 									</SequenceList>
@@ -12091,6 +12361,34 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="FIGHT_TOUT_4brs_120bpm-44" ID="{AB7C9C27-167A-4451-9BFA-F12A184F0C50}" ShortID="65405576">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{7194D695-A96E-4418-852C-704C9D903D99}" ShortID="551683900">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Enemy_Music_EviSpitPlant" ID="{791DE3A3-1A43-4915-9479-D0D9DC5A13E8}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4AF699FE-C108-492F-9D9D-896DB94A1A80}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -12127,6 +12425,156 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
 													<AudioSourceRef Name="FIGHT_TOUT_4brs_120bpm-44" ID="{9202AF94-D40C-44A3-8816-3A4A8B0B9998}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="FIGHT OUT EVIL HEAD" ID="{C24E3900-C7EE-48CF-A543-02EA3321C3EE}" ShortID="1044388113">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{2ECF744C-11E3-4719-86D0-498058FDF10C}" ShortID="794998940">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Enemy_Music_EvilHead" ID="{154C2E88-AEE3-4516-B5E6-5674AA2AE208}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5B8FF36C-2475-468D-ABA0-B448C8712F36}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FIGHT_TOUT_4brs_120bpm-44" ID="{0C69FE98-EA33-4F90-97B2-F2FD64E69CF9}" ShortID="86193524">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FIGHT_TOUT_4brs_120bpm-44.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="351636245"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7BBD86E3-36BC-40EF-973D-48DD49A81D35}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3E318707-86C1-4D35-83A7-028CA262F95A}">
+											<ClipList>
+												<MusicClip Name="FIGHT_TOUT_4brs_120bpm-44" ID="{69881712-B89B-49EE-8428-CCC98F3A8E11}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FIGHT_TOUT_4brs_120bpm-44" ID="{0C69FE98-EA33-4F90-97B2-F2FD64E69CF9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="FIGHT OUT EVIL CRAWLER" ID="{39508DC7-9ADE-4CCB-9482-0EC54E4900C6}" ShortID="661648451">
+									<PropertyList>
+										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{A0FAA4FE-55E8-4B61-8D24-E36910DA27F3}" ShortID="897218217">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Enemy_Music_EvilCrawler" ID="{D8CCB745-2B61-4CB9-B0CB-283B70A63B15}" WorkUnitID="{F9FF173E-3BE9-4A8A-89AC-C3EF88FC933E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C250882D-2BD7-47F8-B494-D5E0C8F31BC0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FIGHT_TOUT_4brs_120bpm-44" ID="{4E169F77-BFC9-4F94-AB4A-EDAE0706AA79}" ShortID="96282668">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>FIGHT_TOUT_4brs_120bpm-44.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="351636245"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AFFC6514-913A-449F-A26C-AC996B33586D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{181B2006-538C-47DE-B946-7EC5C7B8AA9B}">
+											<ClipList>
+												<MusicClip Name="FIGHT_TOUT_4brs_120bpm-44" ID="{8F589456-7DCC-45D2-8BC7-362B448C474B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FIGHT_TOUT_4brs_120bpm-44" ID="{4E169F77-BFC9-4F94-AB4A-EDAE0706AA79}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>

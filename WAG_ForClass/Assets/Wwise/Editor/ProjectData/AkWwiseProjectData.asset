@@ -1171,7 +1171,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d0f46f6772c4e94087f48e41880d7388
     GuidInternal: 
-    m_lastTime: -8585567368644775808
+    m_lastTime: -8585547107034775808
     List:
     - name: Enemy_EvilCrawler_Death
       guid: 08cb1a3641cf114caa873ca4142aac7e
@@ -1185,8 +1185,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilCrawler/Enemy_EvilCrawler_Death
       maxAttenuation: 30
-      maxDuration: 1.540292
-      minDuration: 1.251542
+      maxDuration: 2.00907
+      minDuration: 2.00907
     - name: Enemy_EvilCrawler_Eat
       guid: 9a251ec149ff7143a0c5cd222b9b7610
       id: 3621593767
@@ -1199,8 +1199,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilCrawler/Enemy_EvilCrawler_Eat
       maxAttenuation: 30
-      maxDuration: 1.166396
-      minDuration: 0.782118
+      maxDuration: 119.89514
+      minDuration: 1.92775
     - name: Enemy_EvilCrawler_Explode
       guid: c3cacda4ea7f1b45854afd603ccbd040
       id: 3580182562
@@ -1213,8 +1213,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilCrawler/Enemy_EvilCrawler_Explode
       maxAttenuation: 30
-      maxDuration: 2.954966
-      minDuration: 2.247743
+      maxDuration: 1.818171
+      minDuration: 1.526246
     - name: Enemy_EvilCrawler_Hurt
       guid: a1b98b988e2f934989335b2a87d9869c
       id: 3990952
@@ -1227,7 +1227,7 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilCrawler/Enemy_EvilCrawler_Hurt
       maxAttenuation: 30
-      maxDuration: 0.810083
+      maxDuration: 1.658118
       minDuration: 0
     - name: Enemy_EvilCrawler_Movement
       guid: 1c08e1373e62d2428f8713ada174f864
@@ -1241,8 +1241,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilCrawler/Enemy_EvilCrawler_Movement
       maxAttenuation: 30
-      maxDuration: 1.86906
-      minDuration: 1.396901
+      maxDuration: 6.572504
+      minDuration: 2.556306
     - name: Enemy_EvilHead_Bite
       guid: 94c18185a14b66488172bdf1395b15a8
       id: 2758258135
@@ -1255,8 +1255,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilHead/Enemy_EvilHead_Bite
       maxAttenuation: 30
-      maxDuration: 0.827313
-      minDuration: 0.759979
+      maxDuration: 3.48
+      minDuration: 3.48
     - name: Enemy_EvilHead_Charge
       guid: e0b9ae9eaf3b654d98a56da75faa8548
       id: 2340191741
@@ -1269,8 +1269,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilHead/Enemy_EvilHead_Charge
       maxAttenuation: 30
-      maxDuration: 3.232871
-      minDuration: 1.831956
+      maxDuration: 2.238125
+      minDuration: 1.934942
     - name: Enemy_EvilHead_Death
       guid: 911074335445424db0f5afb0fad96326
       id: 2283357753
@@ -1339,8 +1339,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies/EvilHead/Enemy_EvilHead_Movement
       maxAttenuation: 30
-      maxDuration: 3.232871
-      minDuration: 1.831956
+      maxDuration: 5.21644
+      minDuration: 5.21644
     - name: Enemy_EvilHead_SpawnerDestroy
       guid: bd1753e7e339f54b88b843663586d277
       id: 1880981927
@@ -1701,8 +1701,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Music/General/Stinger_GetWeapon
       maxAttenuation: 0
-      maxDuration: 3.179146
-      minDuration: 3.179146
+      maxDuration: 2.69
+      minDuration: 2.69
   - PhysicalPath: Events/NPCs.wwu
     ParentPhysicalPath: 
     guid: 8157b1cf4989c64780c59b7bcc8aae4d
@@ -2429,8 +2429,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Player/General/Pickup_ItemType
       maxAttenuation: 15
-      maxDuration: 1.522597
-      minDuration: 0.230654
+      maxDuration: 2.658329
+      minDuration: 1.141882
     - name: Pickup_WeaponType
       guid: 7d893e485bc4d34a818dc2e9b50c4897
       id: 3012415428
@@ -2545,8 +2545,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Quest/Quest_Complete
       maxAttenuation: 0
-      maxDuration: 1.406333
-      minDuration: 1.406333
+      maxDuration: 2.04
+      minDuration: 2.04
     - name: Quest_CompleteCollection
       guid: 3d2721d57b3ef24e8a9b66160f6242a9
       id: 844130829
@@ -2557,8 +2557,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Quest/Quest_CompleteCollection
       maxAttenuation: 0
-      maxDuration: 1.41372
-      minDuration: 1.41372
+      maxDuration: 1.635692
+      minDuration: 1.635692
   - PhysicalPath: Events/UI.wwu
     ParentPhysicalPath: 
     guid: cc4237cbe8cc974b86e12ce1666d85a2
@@ -2731,8 +2731,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI/Quest Roll/UI_QuestRoll_Close
       maxAttenuation: 0
-      maxDuration: 0.423525
-      minDuration: 0.423525
+      maxDuration: 1.408753
+      minDuration: 1.408753
     - name: UI_QuestRoll_Hide
       guid: 0d843873aa47c749b598cfef41459a42
       id: 2792117052
@@ -2745,8 +2745,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI/Quest Roll/UI_QuestRoll_Hide
       maxAttenuation: 0
-      maxDuration: 0.423525
-      minDuration: 0.423525
+      maxDuration: 1.408753
+      minDuration: 1.408753
     - name: UI_QuestRoll_Open
       guid: 468e1781ef957947ab9e2d5734984ef8
       id: 949395292
@@ -2759,8 +2759,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI/Quest Roll/UI_QuestRoll_Open
       maxAttenuation: 0
-      maxDuration: 1.087646
-      minDuration: 1.087646
+      maxDuration: 2
+      minDuration: 2
     - name: UI_QuestRoll_Show
       guid: aa4a57c135747d4ba0ee94e4c14c2ce2
       id: 3699139167
@@ -2773,8 +2773,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: UI/Quest Roll/UI_QuestRoll_Show
       maxAttenuation: 0
-      maxDuration: 1.087646
-      minDuration: 1.087646
+      maxDuration: 2
+      minDuration: 2
   RtpcWwu:
   - PhysicalPath: Game Parameters/Ambient.wwu
     ParentPhysicalPath: 

@@ -130,18 +130,18 @@
 				<Event Id="2355650095" Name="Ambient_Crystal_Hum" ObjectPath="\Events\Ambient\General\Ambient_Crystal_Hum" GUID="{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}" MaxAttenuation="50.000000" DurationType="Infinite"/>
 				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Ambient_Torch" GUID="{19917800-6812-4744-9B26-A3519A86EFA5}" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Destruction\General\Destruction_Container" GUID="{F52B8CBC-4A26-44FF-8B0B-1E5D8E73FA20}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.813187" DurationMax="2.372896"/>
-				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.251542" DurationMax="1.540292"/>
-				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat" GUID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.782118" DurationMax="1.166396"/>
-				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode" GUID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.247743" DurationMax="2.954966"/>
-				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt" GUID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.810083"/>
-				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.396901" DurationMax="1.869060"/>
-				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Bite" GUID="{8581C194-4BA1-4866-8172-BDF1395B15A8}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.759979" DurationMax="0.827313"/>
-				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Charge" GUID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.831956" DurationMax="3.232871"/>
+				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.009070" DurationMax="2.009070"/>
+				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat" GUID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.927750" DurationMax="119.895142"/>
+				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode" GUID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.526246" DurationMax="1.818171"/>
+				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt" GUID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.658118"/>
+				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.556306" DurationMax="6.572504"/>
+				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Bite" GUID="{8581C194-4BA1-4866-8172-BDF1395B15A8}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.480000" DurationMax="3.480000"/>
+				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Charge" GUID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.934942" DurationMax="2.238125"/>
 				<Event Id="2283357753" Name="Enemy_EvilHead_Death" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Death" GUID="{33741091-4554-4D42-B0F5-AFB0FAD96326}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.387186" DurationMax="5.375961"/>
 				<Event Id="3260075118" Name="Enemy_EvilHead_Hover_Play" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hover_Play" GUID="{282381A5-1886-4371-9E79-58379C8BCDF2}" MaxAttenuation="30.000000" DurationType="Infinite"/>
 				<Event Id="4261614160" Name="Enemy_EvilHead_Hover_Stop" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop" GUID="{94A0C34C-1445-40EF-868D-0B1302A7B56A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3999192250" Name="Enemy_EvilHead_Hurt" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hurt" GUID="{3F88DB87-F71B-46EB-8B79-2DED365C9F81}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.242086"/>
-				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Movement" GUID="{82A4B395-FF37-459D-A690-8D4D38D669D7}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.831956" DurationMax="3.232871"/>
+				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Movement" GUID="{82A4B395-FF37-459D-A690-8D4D38D669D7}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.216440" DurationMax="5.216440"/>
 				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy" GUID="{E75317BD-39E3-4BF5-88B8-43663586D277}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.602732" DurationMax="0.716773"/>
 				<Event Id="4037905639" Name="Enemy_EvilHead_Telegraph" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Telegraph" GUID="{7D5C20C7-7D4B-4B2C-BFA4-E4E0082A7C5C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.745562" DurationMax="1.745562"/>
 				<Event Id="1702412353" Name="Enemy_EVilSpitPlant_Bullet_Impact" ObjectPath="\Events\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact" GUID="{0BF8BE60-442E-47E1-A9CD-06E40AF6852D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.370975" DurationMax="0.986848"/>
@@ -156,14 +156,14 @@
 				<Event Id="3373889173" Name="Magic_Charge" ObjectPath="\Events\Magic\General\Magic_Charge" GUID="{9B7276C5-B34F-402A-9F1C-C83A9200DFAA}" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="2409105241" Name="Music_ArcadeMachine_Play" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Play" GUID="{DE3E5ECC-6C17-4EEA-B522-4A7F4462B078}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Stop" GUID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="Infinite"/>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region" GUID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" DurationType="Infinite"/>
 				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.922842" DurationMax="0.922842"/>
 				<Event Id="2391108228" Name="NPC_Wwizard_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_Poof" GUID="{BE2DCBF1-942E-4646-8D7B-FA557C01FA74}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.473590" DurationMax="2.473590"/>
 				<Event Id="2857761532" Name="NPC_Wwizard_StaffOnGround" ObjectPath="\Events\NPCs\NPC_Wwizard_StaffOnGround" GUID="{043CC3FE-76CA-4416-A960-616573CB563D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.332418" DurationMax="0.332418"/>
 				<Event Id="1795559212" Name="Object_Coin_Drop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Coin_Drop" GUID="{C68C81D1-9D17-4C7F-8356-964F200DDE92}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="3.100000" DurationMax="3.100000"/>
 				<Event Id="1499896846" Name="Pickup_Coins" ObjectPath="\Events\Player\General\Pickup_Coins" GUID="{1C8D40AF-CE04-489F-92DE-5DA195664503}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.408707" DurationMax="0.626248"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="2.190000" DurationMax="3.630000"/>
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.189125" DurationMax="4.420672"/>
@@ -171,9 +171,9 @@
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="2.304000"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.181420" DurationMax="7.240664"/>
 				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\General\Player_WeaponSwing" GUID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.340000" DurationMax="2.350000"/>
-				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Quest\Quest_Complete" GUID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}" DurationType="OneShot" DurationMin="1.406333" DurationMax="1.406333"/>
-				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Quest\Quest_CompleteCollection" GUID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}" DurationType="OneShot" DurationMin="1.413720" DurationMax="1.413720"/>
-				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Music\General\Stinger_GetWeapon" GUID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}" DurationType="OneShot" DurationMin="3.179146" DurationMax="3.179146"/>
+				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Quest\Quest_Complete" GUID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}" DurationType="OneShot" DurationMin="2.040000" DurationMax="2.040000"/>
+				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Quest\Quest_CompleteCollection" GUID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}" DurationType="OneShot" DurationMin="1.635692" DurationMax="1.635692"/>
+				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Music\General\Stinger_GetWeapon" GUID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}" DurationType="OneShot" DurationMin="2.690000" DurationMax="2.690000"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" GUID="{BF5E1436-4D49-4EDA-AAFE-265F853BFED5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\UI\Generic\UI_Button_Down" GUID="{1CF76F02-9289-49BB-B568-B32E7CB1551D}" DurationType="OneShot" DurationMin="0.513492" DurationMax="0.513492"/>
 				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\UI\Generic\UI_Button_Enter" GUID="{CE7B657B-F319-4C41-8CD7-82FBEA81EF7A}" DurationType="OneShot" DurationMin="0.420917" DurationMax="0.420917"/>
@@ -186,10 +186,10 @@
 				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume" GUID="{EEBDA753-4E1B-4380-ACA2-FD53129C027D}" DurationType="OneShot" DurationMin="4.100000" DurationMax="4.100000"/>
 				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.070136" DurationMax="2.070136"/>
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport" GUID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}" DurationType="OneShot" DurationMin="3.891066" DurationMax="3.891066"/>
-				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="0.423525" DurationMax="0.423525"/>
-				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="0.423525" DurationMax="0.423525"/>
-				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="1.087646" DurationMax="1.087646"/>
-				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="1.087646" DurationMax="1.087646"/>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="651327" Language="SFX">
@@ -228,14 +228,6 @@
 					<ShortName>Impact_PickAxe_Barrel.wav</ShortName>
 					<Path>SFX/Impact_PickAxe_Barrel_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="27824897" Language="SFX">
-					<ShortName>Interface\BAS_Quest_CompleteCollection_01.wav</ShortName>
-					<Path>SFX/Interface/BAS_Quest_CompleteCollection_01_4BFF9DFD.wem</Path>
-				</File>
-				<File Id="31470392" Language="SFX">
-					<ShortName>Character\Weapons\BAS_pickUpWeapon_001.wav</ShortName>
-					<Path>SFX/Character/Weapons/BAS_pickUpWeapon_001_1BBFD0DD.wem</Path>
-				</File>
 				<File Id="34954357" Language="SFX">
 					<ShortName>Pickup_WeaponType_Sword.wav</ShortName>
 					<Path>SFX/Pickup_WeaponType_Sword_7A224B1A.wem</Path>
@@ -243,6 +235,10 @@
 				<File Id="39712027" Language="SFX">
 					<ShortName>Sword Impact 2.wav</ShortName>
 					<Path>SFX/Sword Impact 2_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="50497435" Language="SFX">
+					<ShortName>EvilHead_Charge_03.wav</ShortName>
+					<Path>SFX/EvilHead_Charge_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="50556790" Language="SFX">
 					<ShortName>ambient_fire_torch_2.wav</ShortName>
@@ -260,13 +256,17 @@
 					<ShortName>Impact_PickAxe_EvilHead.wav</ShortName>
 					<Path>SFX/Impact_PickAxe_EvilHead_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="60150315" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Bite_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Bite_02_0515C6FA_02D16AE2.wem</Path>
-				</File>
 				<File Id="64123130" Language="SFX">
 					<ShortName>Impact_Sword_Grass.wav</ShortName>
 					<Path>SFX/Impact_Sword_Grass_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="67235325" Language="SFX">
+					<ShortName>EvilCrawler_Eat_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Eat_02_8F98DC6A.wem</Path>
+				</File>
+				<File Id="68411760" Language="SFX">
+					<ShortName>Quest_Complete_Collection.wav</ShortName>
+					<Path>SFX/Quest_Complete_Collection_8F98DC6A.wem</Path>
 				</File>
 				<File Id="69431015" Language="SFX">
 					<ShortName>destroy_wood_01.wav</ShortName>
@@ -283,10 +283,6 @@
 				<File Id="82540882" Language="SFX">
 					<ShortName>Adventuress Damaged-013.wav</ShortName>
 					<Path>SFX/Adventuress Damaged-013_7A224B1A.wem</Path>
-				</File>
-				<File Id="82985248" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Hover_LP.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Hover_LP_8EA0C614.wem</Path>
 				</File>
 				<File Id="84348566" Language="SFX">
 					<ShortName>SKULL_death.wav</ShortName>
@@ -308,6 +304,10 @@
 					<ShortName>Ambient\Ambient_Emitters\WAG_Crystal_Ringing.wav</ShortName>
 					<Path>SFX/Ambient/Ambient_Emitters/WAG_Crystal_Ringing_2A7C31A8.wem</Path>
 				</File>
+				<File Id="93320748" Language="SFX">
+					<ShortName>Questroll Close.wav</ShortName>
+					<Path>SFX/Questroll Close_8F98DC6A.wem</Path>
+				</File>
 				<File Id="96652300" Language="SFX">
 					<ShortName>Impact_CrystalShard_02.wav</ShortName>
 					<Path>SFX/Impact_CrystalShard_02_8A3EE5DD.wem</Path>
@@ -316,9 +316,17 @@
 					<ShortName>destroy_barrel_02.wav</ShortName>
 					<Path>SFX/destroy_barrel_02_8F98DC6A.wem</Path>
 				</File>
+				<File Id="107949489" Language="SFX">
+					<ShortName>EvilCrawler_Movement_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Movement_02_8F98DC6A.wem</Path>
+				</File>
 				<File Id="112419487" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-006.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-006_7A224B1A.wem</Path>
+				</File>
+				<File Id="116929962" Language="SFX">
+					<ShortName>EvilCrawler_Explosion_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Explosion_02_8F98DC6A.wem</Path>
 				</File>
 				<File Id="117025190" Language="SFX">
 					<ShortName>Impact_Hammer_Crate.wav</ShortName>
@@ -327,6 +335,10 @@
 				<File Id="117046144" Language="SFX">
 					<ShortName>CHARGE_3.wav</ShortName>
 					<Path>SFX/CHARGE_3_8F98DC6A_1FD433A6.wem</Path>
+				</File>
+				<File Id="121579601" Language="SFX">
+					<ShortName>Pickup_Misc.wav</ShortName>
+					<Path>SFX/Pickup_Misc_7A224B1A.wem</Path>
 				</File>
 				<File Id="122475090" Language="SFX">
 					<ShortName>Button_Close.wav</ShortName>
@@ -376,10 +388,6 @@
 					<ShortName>Adventuress swing weapon hard-003.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-003_7A224B1A.wem</Path>
 				</File>
-				<File Id="197932788" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Charge_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Charge_03_879B32EF.wem</Path>
-				</File>
 				<File Id="209771660" Language="SFX">
 					<ShortName>Impact_CrystalShard_06.wav</ShortName>
 					<Path>SFX/Impact_CrystalShard_06_8A3EE5DD.wem</Path>
@@ -388,13 +396,13 @@
 					<ShortName>Impact_Dagger_Barrel.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Barrel_8A3EE5DD.wem</Path>
 				</File>
+				<File Id="221853960" Language="SFX">
+					<ShortName>EvilCrawler_Eat_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Eat_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="224492450" Language="SFX">
 					<ShortName>Impact_PickAxe_Dirt.wav</ShortName>
 					<Path>SFX/Impact_PickAxe_Dirt_8E4130C0.wem</Path>
-				</File>
-				<File Id="228435873" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Charge_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Charge_01_2A0ACCD8.wem</Path>
 				</File>
 				<File Id="229737450" Language="SFX">
 					<ShortName>SKULL_hurt.wav</ShortName>
@@ -452,21 +460,29 @@
 					<ShortName>Impact_Dagger_Dirt.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Dirt_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="320959230" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Move_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Move_02_0515C6FA.wem</Path>
-				</File>
 				<File Id="325669408" Language="SFX">
 					<ShortName>Adventuress Damaged-007.wav</ShortName>
 					<Path>SFX/Adventuress Damaged-007_7A224B1A.wem</Path>
+				</File>
+				<File Id="325805174" Language="SFX">
+					<ShortName>EvilCrawler_Death_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Death_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="326535310" Language="SFX">
 					<ShortName>TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
 					<Path>SFX/TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
+				<File Id="327514655" Language="SFX">
+					<ShortName>EvilHead_Movement_02.wav</ShortName>
+					<Path>SFX/EvilHead_Movement_02_8F98DC6A.wem</Path>
+				</File>
 				<File Id="330017917" Language="SFX">
 					<ShortName>SKULL_death.wav</ShortName>
 					<Path>SFX/SKULL_death_14C3A65C.wem</Path>
+				</File>
+				<File Id="332240288" Language="SFX">
+					<ShortName>EvilHead_Charge_01.wav</ShortName>
+					<Path>SFX/EvilHead_Charge_01_8F98DC6A.wem</Path>
 				</File>
 				<File Id="333031398" Language="SFX">
 					<ShortName>destroy_crate_03.wav</ShortName>
@@ -475,6 +491,14 @@
 				<File Id="340074122" Language="SFX">
 					<ShortName>Character\Adventuress_damaged_05.wav</ShortName>
 					<Path>SFX/Character/Adventuress_damaged_05_907E20D4.wem</Path>
+				</File>
+				<File Id="351636245" Language="SFX">
+					<ShortName>FIGHT_TOUT_4brs_120bpm-44.wav</ShortName>
+					<Path>SFX/FIGHT_TOUT_4brs_120bpm-44_1DD5206E.wem</Path>
+				</File>
+				<File Id="353750307" Language="SFX">
+					<ShortName>EvilCrawler_Death_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Death_02_8F98DC6A.wem</Path>
 				</File>
 				<File Id="353842310" Language="SFX">
 					<ShortName>Character\Heartbeat_Lub.wav</ShortName>
@@ -496,13 +520,17 @@
 					<ShortName>Adventuress swing weapon light-002.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon light-002_7A224B1A.wem</Path>
 				</File>
+				<File Id="397504219" Language="SFX">
+					<ShortName>EvilHead_Movement_01.wav</ShortName>
+					<Path>SFX/EvilHead_Movement_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="400948229" Language="SFX">
 					<ShortName>Impact_Dagger_Wood.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Wood_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="401846827" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Hurt_Vox_03_0515C6FA.wem</Path>
+				<File Id="436175451" Language="SFX">
+					<ShortName>EvilCrawler_Movement_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Movement_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -532,10 +560,6 @@
 					<ShortName>Adventuress Damaged-003.wav</ShortName>
 					<Path>SFX/Adventuress Damaged-003_7A224B1A.wem</Path>
 				</File>
-				<File Id="474305653" Language="SFX">
-					<ShortName>Objects\Pickup.wav</ShortName>
-					<Path>SFX/Objects/Pickup_A3DA4DE2.wem</Path>
-				</File>
 				<File Id="483551176" Language="SFX">
 					<ShortName>Sword Impact 1.wav</ShortName>
 					<Path>SFX/Sword Impact 1_8A3EE5DD.wem</Path>
@@ -544,17 +568,13 @@
 					<ShortName>Impact_PickAxe_Wood.wav</ShortName>
 					<Path>SFX/Impact_PickAxe_Wood_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="492838405" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Eat_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Eat_03_0515C6FA.wem</Path>
+				<File Id="494250686" Language="SFX">
+					<ShortName>Quest_Complete.wav</ShortName>
+					<Path>SFX/Quest_Complete_8F98DC6A.wem</Path>
 				</File>
-				<File Id="496256198" Language="SFX">
-					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
-					<Path>SFX/Interface/BAS_QuestRoll_Close_C29BE63E.wem</Path>
-				</File>
-				<File Id="504991743" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Explode_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Explode_03_0515C6FA.wem</Path>
+				<File Id="504113723" Language="SFX">
+					<ShortName>EvilHead_Bite_02.wav</ShortName>
+					<Path>SFX/EvilHead_Bite_02_8F98DC6A_02D16AE2.wem</Path>
 				</File>
 				<File Id="507086479" Language="SFX">
 					<ShortName>Adventuress Damaged-001.wav</ShortName>
@@ -576,17 +596,29 @@
 					<ShortName>Weapon_Swing_Sword.wav</ShortName>
 					<Path>SFX/Weapon_Swing_Sword_55FA8AD5.wem</Path>
 				</File>
+				<File Id="542133360" Language="SFX">
+					<ShortName>EvilCrawler_Hurt_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Hurt_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="542995811" Language="SFX">
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_03.wav</ShortName>
 					<Path>SFX/Objects/Pickups/BAS_Pickup_Coin_03_E61FB670.wem</Path>
+				</File>
+				<File Id="545286099" Language="SFX">
+					<ShortName>EvilHead_Charge_02.wav</ShortName>
+					<Path>SFX/EvilHead_Charge_02_8F98DC6A.wem</Path>
+				</File>
+				<File Id="546241215" Language="SFX">
+					<ShortName>Quest_ Get_Weapon.wav</ShortName>
+					<Path>SFX/Quest_ Get_Weapon_8F98DC6A.wem</Path>
 				</File>
 				<File Id="549711663" Language="SFX">
 					<ShortName>destroy_barrel_03.wav</ShortName>
 					<Path>SFX/destroy_barrel_03_8F98DC6A.wem</Path>
 				</File>
-				<File Id="558182472" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Move_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Move_01_0515C6FA.wem</Path>
+				<File Id="551193915" Language="SFX">
+					<ShortName>EvilCrawler_Hurt_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Hurt_02_8F98DC6A.wem</Path>
 				</File>
 				<File Id="567589712" Language="SFX">
 					<ShortName>Adventuress Damaged-006.wav</ShortName>
@@ -600,25 +632,9 @@
 					<ShortName>SKULL_dying breath.wav</ShortName>
 					<Path>SFX/SKULL_dying breath_8F98DC6A.wem</Path>
 				</File>
-				<File Id="580300220" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_03_0515C6FA.wem</Path>
-				</File>
-				<File Id="581193606" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Hurt_Vox_01_3C2B40BA.wem</Path>
-				</File>
 				<File Id="581394888" Language="SFX">
 					<ShortName>New_Impact_Crawler_03.wav</ShortName>
 					<Path>SFX/New_Impact_Crawler_03_8A3EE5DD.wem</Path>
-				</File>
-				<File Id="585246084" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Eat_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Eat_01_0515C6FA.wem</Path>
-				</File>
-				<File Id="591600176" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Move_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Move_03_0515C6FA.wem</Path>
 				</File>
 				<File Id="601876095" Language="SFX">
 					<ShortName>TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
@@ -632,10 +648,6 @@
 					<ShortName>Pick Impact 2.wav</ShortName>
 					<Path>SFX/Pick Impact 2_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="624605826" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_02_0515C6FA.wem</Path>
-				</File>
 				<File Id="629734211" Language="SFX">
 					<ShortName>Button_Open.wav</ShortName>
 					<Path>SFX/Button_Open_F766247F.wem</Path>
@@ -643,14 +655,6 @@
 				<File Id="630179046" Language="SFX">
 					<ShortName>EVILPLANT_LOOP.wav</ShortName>
 					<Path>SFX/EVILPLANT_LOOP_D0D45A34.wem</Path>
-				</File>
-				<File Id="635787326" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Explode_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Explode_01_0515C6FA.wem</Path>
-				</File>
-				<File Id="644004411" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Explode_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Explode_02_0515C6FA.wem</Path>
 				</File>
 				<File Id="650182870" Language="SFX">
 					<ShortName>Adventuress Damaged-010.wav</ShortName>
@@ -667,6 +671,10 @@
 				<File Id="657075190" Language="SFX">
 					<ShortName>HURT_1wav.wav</ShortName>
 					<Path>SFX/HURT_1wav_8F98DC6A.wem</Path>
+				</File>
+				<File Id="657291671" Language="SFX">
+					<ShortName>Questroll_Open.wav</ShortName>
+					<Path>SFX/Questroll_Open_8F98DC6A.wem</Path>
 				</File>
 				<File Id="664123056" Language="SFX">
 					<ShortName>Impact_Pickaxe_Grass.wav</ShortName>
@@ -692,6 +700,10 @@
 					<ShortName>Adventuress DEATH-002.wav</ShortName>
 					<Path>SFX/Adventuress DEATH-002_7A224B1A.wem</Path>
 				</File>
+				<File Id="700863536" Language="SFX">
+					<ShortName>EvilHead_Movement_03.wav</ShortName>
+					<Path>SFX/EvilHead_Movement_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="703501136" Language="SFX">
 					<ShortName>Impact_CrystalShard_07.wav</ShortName>
 					<Path>SFX/Impact_CrystalShard_07_8A3EE5DD.wem</Path>
@@ -711,10 +723,6 @@
 				<File Id="742600215" Language="SFX">
 					<ShortName>ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1.wav</ShortName>
 					<Path>SFX/ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1_1DD5206E.wem</Path>
-				</File>
-				<File Id="745897563" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Charge_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Charge_02_12862AC2.wem</Path>
 				</File>
 				<File Id="747629416" Language="SFX">
 					<ShortName>Music\Stingers\QucickStinger_Death.wav</ShortName>
@@ -736,10 +744,6 @@
 					<ShortName>destroy_barrel_01.wav</ShortName>
 					<Path>SFX/destroy_barrel_01_8F98DC6A.wem</Path>
 				</File>
-				<File Id="791272135" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Eat_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Eat_02_0515C6FA.wem</Path>
-				</File>
 				<File Id="793060160" Language="SFX">
 					<ShortName>Music\Stingers\QucickStinger_Victory.wav</ShortName>
 					<Path>SFX/Music/Stingers/QucickStinger_Victory_BD3A445E.wem</Path>
@@ -756,13 +760,13 @@
 					<ShortName>Weapon_Swing_PickAxe.wav</ShortName>
 					<Path>SFX/Weapon_Swing_PickAxe_3A3460D4.wem</Path>
 				</File>
-				<File Id="812794088" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Bite_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Bite_03_0515C6FA_02D16AE2.wem</Path>
+				<File Id="804977747" Language="SFX">
+					<ShortName>EvilCrawler_Hurt_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Hurt_01_8F98DC6A.wem</Path>
 				</File>
-				<File Id="813955928" Language="SFX">
-					<ShortName>Interface\BAS_QuestRoll_Open.wav</ShortName>
-					<Path>SFX/Interface/BAS_QuestRoll_Open_0515C6FA.wem</Path>
+				<File Id="813624506" Language="SFX">
+					<ShortName>EvilCrawler_Explosion_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Explosion_01_8F98DC6A.wem</Path>
 				</File>
 				<File Id="820985440" Language="SFX">
 					<ShortName>Adventuress swing weapon light-005.wav</ShortName>
@@ -779,6 +783,10 @@
 				<File Id="856863536" Language="SFX">
 					<ShortName>Impact_CrystalShard_01.wav</ShortName>
 					<Path>SFX/Impact_CrystalShard_01_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="859711236" Language="SFX">
+					<ShortName>EvilCrawler_Explosion_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Explosion_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="860763820" Language="SFX">
 					<ShortName>Button_Over.wav</ShortName>
@@ -804,9 +812,17 @@
 					<ShortName>Adventuress swing weapon hard-001.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-001_7A224B1A.wem</Path>
 				</File>
+				<File Id="870914841" Language="SFX">
+					<ShortName>EvilCrawler_Movement_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Movement_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="872064368" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-004.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-004_7A224B1A.wem</Path>
+				</File>
+				<File Id="884334431" Language="SFX">
+					<ShortName>EvilCrawler_Death_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Death_01_8F98DC6A.wem</Path>
 				</File>
 				<File Id="888488608" Language="SFX">
 					<ShortName>SHOOT_3.wav</ShortName>
@@ -840,6 +856,10 @@
 					<ShortName>IMPACT_1.wav</ShortName>
 					<Path>SFX/IMPACT_1_8F98DC6A.wem</Path>
 				</File>
+				<File Id="913150674" Language="SFX">
+					<ShortName>Evilhead_Hover_01.wav</ShortName>
+					<Path>SFX/Evilhead_Hover_01_D0D45A34.wem</Path>
+				</File>
 				<File Id="917466409" Language="SFX">
 					<ShortName>destroy_crate_04.wav</ShortName>
 					<Path>SFX/destroy_crate_04_8F98DC6A.wem</Path>
@@ -848,13 +868,9 @@
 					<ShortName>SKULL_death.wav</ShortName>
 					<Path>SFX/SKULL_death_F8F3F594.wem</Path>
 				</File>
-				<File Id="928123683" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_01_0515C6FA.wem</Path>
-				</File>
-				<File Id="930202647" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Hurt_Vox_02_0515C6FA.wem</Path>
+				<File Id="922999685" Language="SFX">
+					<ShortName>FIGHT_Loop_8+1brs_124bpm-44.wav</ShortName>
+					<Path>SFX/FIGHT_Loop_8+1brs_124bpm-44_1DD5206E.wem</Path>
 				</File>
 				<File Id="931910637" Language="SFX">
 					<ShortName>Button_Teleport.wav</ShortName>
@@ -868,13 +884,13 @@
 					<ShortName>Impact_Sword_Barrel.wav</ShortName>
 					<Path>SFX/Impact_Sword_Barrel_8A3EE5DD.wem</Path>
 				</File>
+				<File Id="940066120" Language="SFX">
+					<ShortName>EvilHead_Bite_03.wav</ShortName>
+					<Path>SFX/EvilHead_Bite_03_8F98DC6A_02D16AE2.wem</Path>
+				</File>
 				<File Id="940774173" Language="SFX">
 					<ShortName>SHOOT_2.wav</ShortName>
 					<Path>SFX/SHOOT_2_8F98DC6A.wem</Path>
-				</File>
-				<File Id="945967359" Language="SFX">
-					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
-					<Path>SFX/Interface/BAS_Quest_CompleteCollection_02_49C56D8D.wem</Path>
 				</File>
 				<File Id="957579855" Language="SFX">
 					<ShortName>Adventuress swing weapon light-003.wav</ShortName>
@@ -888,6 +904,10 @@
 					<ShortName>Impact_Dagger_Grass.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Grass_8A3EE5DD.wem</Path>
 				</File>
+				<File Id="983728569" Language="SFX">
+					<ShortName>EvilCrawler_Eat_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Eat_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="993005431" Language="SFX">
 					<ShortName>HEAD FALL 1.wav</ShortName>
 					<Path>SFX/HEAD FALL 1_8F98DC6A.wem</Path>
@@ -895,6 +915,10 @@
 				<File Id="997664200" Language="SFX">
 					<ShortName>New_Impact_Crawler_02.wav</ShortName>
 					<Path>SFX/New_Impact_Crawler_02_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="998490517" Language="SFX">
+					<ShortName>EvilHead_Bite_01.wav</ShortName>
+					<Path>SFX/EvilHead_Bite_01_8F98DC6A_02D16AE2.wem</Path>
 				</File>
 				<File Id="999445908" Language="SFX">
 					<ShortName>HURT_3.wav</ShortName>
@@ -927,10 +951,6 @@
 				<File Id="1050158704" Language="SFX">
 					<ShortName>Pickup_WeaponType_Dagger.wav</ShortName>
 					<Path>SFX/Pickup_WeaponType_Dagger_7A224B1A.wem</Path>
-				</File>
-				<File Id="1057116956" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Bite_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Bite_01_E5554761_02D16AE2.wem</Path>
 				</File>
 				<File Id="1062139904" Language="SFX">
 					<ShortName>SKULL_hurt.wav</ShortName>
@@ -2114,7 +2134,7 @@
 			<ShortName>Quest_02</ShortName>
 			<Path>English(US)/Quest_02.bnk</Path>
 			<IncludedEvents>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
 				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
@@ -2128,10 +2148,6 @@
 				<File Id="672209366"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="190170041" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Book_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Book_01_266B63D9.wem</Path>
-				</File>
 				<File Id="372825360" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-006.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-006_CA1E5381.wem</Path>
@@ -2143,6 +2159,10 @@
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-002_B4A22A82.wem</Path>
+				</File>
+				<File Id="864546744" Language="SFX">
+					<ShortName>Pickup_Book.wav</ShortName>
+					<Path>SFX/Pickup_Book_7A224B1A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2156,7 +2176,7 @@
 				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="5.175276" DurationMax="5.175276"/>
 				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="9.920299" DurationMax="9.920299"/>
 				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="5.757738" DurationMax="5.757738"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.606952" DurationMax="10.606952"/>
 				<Event Id="1620373965" Name="Wwizard_DialogueLine_Q3a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02" GUID="{52175C07-A72E-46E3-B5DA-CBA1605D887F}" DurationType="OneShot" DurationMin="5.486717" DurationMax="5.486717"/>
@@ -2202,10 +2222,6 @@
 					<ShortName>WAG Wwizard Dial. Line-014.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-014_B4A22A82.wem</Path>
 				</File>
-				<File Id="472043901" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_EvilEssence.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_EvilEssence_2313C659.wem</Path>
-				</File>
 				<File Id="486625135" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-003.wav</ShortName>
 					<Path>Voices/English(US)/WAG Blacksmith Line-003_EE86E0DE.wem</Path>
@@ -2225,6 +2241,10 @@
 				<File Id="736547560" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-008.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-008_B4A22A82.wem</Path>
+				</File>
+				<File Id="769633419" Language="SFX">
+					<ShortName>Pickup_EvilEssence.wav</ShortName>
+					<Path>SFX/Pickup_EvilEssence_5CD02F60.wem</Path>
 				</File>
 				<File Id="792618344" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-004.wav</ShortName>
@@ -2250,7 +2270,7 @@
 			<Path>English(US)/Quest_04.bnk</Path>
 			<IncludedEvents>
 				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="8.264974" DurationMax="8.264974"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.460657" DurationMax="6.460657"/>
 				<Event Id="3210335082" Name="Wwizard_DialogueLine_Q4a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02" GUID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}" DurationType="OneShot" DurationMin="9.427544" DurationMax="9.427544"/>
@@ -2276,33 +2296,33 @@
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-019_B4A22A82.wem</Path>
 				</File>
-				<File Id="188686969" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_PineCone_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_PineCone_01_7C4108EC.wem</Path>
+				<File Id="159574703" Language="SFX">
+					<ShortName>Pickup_PineCone.wav</ShortName>
+					<Path>SFX/Pickup_PineCone_7A224B1A.wem</Path>
 				</File>
 				<File Id="255956512" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-020.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-020_B4A22A82.wem</Path>
 				</File>
-				<File Id="270916331" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Key_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Key_01_8374BCAA.wem</Path>
-				</File>
 				<File Id="475500304" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-018.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-018_B4A22A82.wem</Path>
+				</File>
+				<File Id="639973630" Language="SFX">
+					<ShortName>Pickup_Mushroom.wav</ShortName>
+					<Path>SFX/Pickup_Mushroom_7A224B1A.wem</Path>
 				</File>
 				<File Id="691705488" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-007.wav</ShortName>
 					<Path>Voices/English(US)/WAG Blacksmith Line-007_B4A22A82.wem</Path>
 				</File>
-				<File Id="737856040" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Mushroom_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Mushroom_01_8374BCAA.wem</Path>
+				<File Id="953096697" Language="SFX">
+					<ShortName>Pickup_Key.wav</ShortName>
+					<Path>SFX/Pickup_Key_7A224B1A.wem</Path>
 				</File>
-				<File Id="767754403" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Generic_05.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Generic_05_8374BCAA.wem</Path>
+				<File Id="996262965" Language="SFX">
+					<ShortName>Pickup_CrystalShard.wav</ShortName>
+					<Path>SFX/Pickup_CrystalShard_7A224B1A.wem</Path>
 				</File>
 				<File Id="1072836852" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-021.wav</ShortName>
@@ -2317,7 +2337,7 @@
 			<IncludedEvents>
 				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play" GUID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="5.096907" DurationMax="5.096907"/>
 				<Event Id="2622623673" Name="Door_TempleDoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop" GUID="{92070154-8029-4CAE-816F-579CB6F4999C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="7.815919" DurationMax="7.815919"/>
 				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="9.367746" DurationMax="9.367746"/>
@@ -2357,17 +2377,17 @@
 			<ShortName>Quest_06</ShortName>
 			<Path>Quest_06.bnk</Path>
 			<IncludedEvents>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="190170041" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Book_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Book_01_266B63D9.wem</Path>
+				<File Id="121579601" Language="SFX">
+					<ShortName>Pickup_Misc.wav</ShortName>
+					<Path>SFX/Pickup_Misc_7A224B1A.wem</Path>
 				</File>
-				<File Id="474305653" Language="SFX">
-					<ShortName>Objects\Pickup.wav</ShortName>
-					<Path>SFX/Objects/Pickup_A3DA4DE2.wem</Path>
+				<File Id="864546744" Language="SFX">
+					<ShortName>Pickup_Book.wav</ShortName>
+					<Path>SFX/Pickup_Book_7A224B1A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2468,18 +2488,18 @@
 				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop" GUID="{9ECAE2DE-A602-41D0-9804-A68F69366076}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="2.647154" DurationMax="2.647154"/>
 				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play" GUID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="5.096907" DurationMax="5.096907"/>
 				<Event Id="2622623673" Name="Door_TempleDoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop" GUID="{92070154-8029-4CAE-816F-579CB6F4999C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.251542" DurationMax="1.540292"/>
-				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat" GUID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.782118" DurationMax="1.166396"/>
-				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode" GUID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.247743" DurationMax="2.954966"/>
-				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt" GUID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.810083"/>
-				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.396901" DurationMax="1.869060"/>
-				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Bite" GUID="{8581C194-4BA1-4866-8172-BDF1395B15A8}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.759979" DurationMax="0.827313"/>
-				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Charge" GUID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.831956" DurationMax="3.232871"/>
+				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.009070" DurationMax="2.009070"/>
+				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat" GUID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.927750" DurationMax="119.895142"/>
+				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode" GUID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.526246" DurationMax="1.818171"/>
+				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt" GUID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.658118"/>
+				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.556306" DurationMax="6.572504"/>
+				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Bite" GUID="{8581C194-4BA1-4866-8172-BDF1395B15A8}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.480000" DurationMax="3.480000"/>
+				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Charge" GUID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.934942" DurationMax="2.238125"/>
 				<Event Id="2283357753" Name="Enemy_EvilHead_Death" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Death" GUID="{33741091-4554-4D42-B0F5-AFB0FAD96326}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.387186" DurationMax="5.375961"/>
 				<Event Id="3260075118" Name="Enemy_EvilHead_Hover_Play" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hover_Play" GUID="{282381A5-1886-4371-9E79-58379C8BCDF2}" MaxAttenuation="30.000000" DurationType="Infinite"/>
 				<Event Id="4261614160" Name="Enemy_EvilHead_Hover_Stop" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop" GUID="{94A0C34C-1445-40EF-868D-0B1302A7B56A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3999192250" Name="Enemy_EvilHead_Hurt" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hurt" GUID="{3F88DB87-F71B-46EB-8B79-2DED365C9F81}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.242086"/>
-				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Movement" GUID="{82A4B395-FF37-459D-A690-8D4D38D669D7}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.831956" DurationMax="3.232871"/>
+				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Movement" GUID="{82A4B395-FF37-459D-A690-8D4D38D669D7}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.216440" DurationMax="5.216440"/>
 				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy" GUID="{E75317BD-39E3-4BF5-88B8-43663586D277}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.602732" DurationMax="0.716773"/>
 				<Event Id="4037905639" Name="Enemy_EvilHead_Telegraph" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Telegraph" GUID="{7D5C20C7-7D4B-4B2C-BFA4-E4E0082A7C5C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.745562" DurationMax="1.745562"/>
 				<Event Id="1702412353" Name="Enemy_EVilSpitPlant_Bullet_Impact" ObjectPath="\Events\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact" GUID="{0BF8BE60-442E-47E1-A9CD-06E40AF6852D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.370975" DurationMax="0.986848"/>
@@ -2499,7 +2519,7 @@
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Stop" GUID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2276042689" Name="Music_DungeonEnemyOnly" ObjectPath="\Events\Music\SoundBankSpecific\Music_DungeonEnemyOnly" GUID="{9910D8A5-7271-413E-A41F-37FC0F57B992}" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000"/>
-				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="Infinite"/>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region" GUID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" DurationType="Infinite"/>
 				<Event Id="1532327793" Name="Music_TitleScreen" ObjectPath="\Events\Music\SoundBankSpecific\Music_TitleScreen" GUID="{AB1B2D9B-58CE-423A-AC9A-D5A824F42D6C}" DurationType="Infinite"/>
 				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.922842" DurationMax="0.922842"/>
@@ -2511,7 +2531,7 @@
 				<Event Id="1817926999" Name="Object_Rune_Charge_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Play" GUID="{CA13E948-FC8A-4C86-A933-FEB51278A585}" MaxAttenuation="50.000000" DurationType="Infinite"/>
 				<Event Id="547945861" Name="Object_Rune_Charge_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Stop" GUID="{ACA095B5-7387-4C6B-AC03-D2462587900A}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.793333" DurationMax="2.089813"/>
 				<Event Id="1499896846" Name="Pickup_Coins" ObjectPath="\Events\Player\General\Pickup_Coins" GUID="{1C8D40AF-CE04-489F-92DE-5DA195664503}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.408707" DurationMax="0.626248"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.230654" DurationMax="1.522597"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="2.190000" DurationMax="3.630000"/>
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.189125" DurationMax="4.420672"/>
@@ -2519,9 +2539,9 @@
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="2.304000"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.181420" DurationMax="7.240664"/>
 				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\General\Player_WeaponSwing" GUID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.340000" DurationMax="2.350000"/>
-				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Quest\Quest_Complete" GUID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}" DurationType="OneShot" DurationMin="1.406333" DurationMax="1.406333"/>
-				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Quest\Quest_CompleteCollection" GUID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}" DurationType="OneShot" DurationMin="1.413720" DurationMax="1.413720"/>
-				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Music\General\Stinger_GetWeapon" GUID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}" DurationType="OneShot" DurationMin="3.179146" DurationMax="3.179146"/>
+				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Quest\Quest_Complete" GUID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}" DurationType="OneShot" DurationMin="2.040000" DurationMax="2.040000"/>
+				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Quest\Quest_CompleteCollection" GUID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}" DurationType="OneShot" DurationMin="1.635692" DurationMax="1.635692"/>
+				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Music\General\Stinger_GetWeapon" GUID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}" DurationType="OneShot" DurationMin="2.690000" DurationMax="2.690000"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" GUID="{BF5E1436-4D49-4EDA-AAFE-265F853BFED5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\UI\Generic\UI_Button_Down" GUID="{1CF76F02-9289-49BB-B568-B32E7CB1551D}" DurationType="OneShot" DurationMin="0.513492" DurationMax="0.513492"/>
 				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\UI\Generic\UI_Button_Enter" GUID="{CE7B657B-F319-4C41-8CD7-82FBEA81EF7A}" DurationType="OneShot" DurationMin="0.420917" DurationMax="0.420917"/>
@@ -2534,10 +2554,10 @@
 				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume" GUID="{EEBDA753-4E1B-4380-ACA2-FD53129C027D}" DurationType="OneShot" DurationMin="4.100000" DurationMax="4.100000"/>
 				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.070136" DurationMax="2.070136"/>
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport" GUID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}" DurationType="OneShot" DurationMin="3.891066" DurationMax="3.891066"/>
-				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="0.423525" DurationMax="0.423525"/>
-				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="0.423525" DurationMax="0.423525"/>
-				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="1.087646" DurationMax="1.087646"/>
-				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="1.087646" DurationMax="1.087646"/>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
 				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
@@ -2657,14 +2677,6 @@
 					<ShortName>WAG Blacksmith Line-001.wav</ShortName>
 					<Path>Voices/English(US)/WAG Blacksmith Line-001_59B9FEFF.wem</Path>
 				</File>
-				<File Id="27824897" Language="SFX">
-					<ShortName>Interface\BAS_Quest_CompleteCollection_01.wav</ShortName>
-					<Path>SFX/Interface/BAS_Quest_CompleteCollection_01_4BFF9DFD.wem</Path>
-				</File>
-				<File Id="31470392" Language="SFX">
-					<ShortName>Character\Weapons\BAS_pickUpWeapon_001.wav</ShortName>
-					<Path>SFX/Character/Weapons/BAS_pickUpWeapon_001_1BBFD0DD.wem</Path>
-				</File>
 				<File Id="33459104" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-022.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-022_B4A22A82.wem</Path>
@@ -2684,6 +2696,10 @@
 				<File Id="46371184" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX/FS_Stone_Run_E1B91BE3.wem</Path>
+				</File>
+				<File Id="50497435" Language="SFX">
+					<ShortName>EvilHead_Charge_03.wav</ShortName>
+					<Path>SFX/EvilHead_Charge_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="50556790" Language="SFX">
 					<ShortName>ambient_fire_torch_2.wav</ShortName>
@@ -2705,13 +2721,17 @@
 					<ShortName>Impact_PickAxe_EvilHead.wav</ShortName>
 					<Path>SFX/Impact_PickAxe_EvilHead_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="60150315" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Bite_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Bite_02_0515C6FA_02D16AE2.wem</Path>
-				</File>
 				<File Id="64123130" Language="SFX">
 					<ShortName>Impact_Sword_Grass.wav</ShortName>
 					<Path>SFX/Impact_Sword_Grass_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="67235325" Language="SFX">
+					<ShortName>EvilCrawler_Eat_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Eat_02_8F98DC6A.wem</Path>
+				</File>
+				<File Id="68411760" Language="SFX">
+					<ShortName>Quest_Complete_Collection.wav</ShortName>
+					<Path>SFX/Quest_Complete_Collection_8F98DC6A.wem</Path>
 				</File>
 				<File Id="69431015" Language="SFX">
 					<ShortName>destroy_wood_01.wav</ShortName>
@@ -2741,10 +2761,6 @@
 					<ShortName>Adventuress Damaged-013.wav</ShortName>
 					<Path>SFX/Adventuress Damaged-013_7A224B1A.wem</Path>
 				</File>
-				<File Id="82985248" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Hover_LP.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Hover_LP_8EA0C614.wem</Path>
-				</File>
 				<File Id="84348566" Language="SFX">
 					<ShortName>SKULL_death.wav</ShortName>
 					<Path>SFX/SKULL_death_EE5B571A.wem</Path>
@@ -2764,6 +2780,10 @@
 				<File Id="93186345" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\WAG_Crystal_Ringing.wav</ShortName>
 					<Path>SFX/Ambient/Ambient_Emitters/WAG_Crystal_Ringing_2A7C31A8.wem</Path>
+				</File>
+				<File Id="93320748" Language="SFX">
+					<ShortName>Questroll Close.wav</ShortName>
+					<Path>SFX/Questroll Close_8F98DC6A.wem</Path>
 				</File>
 				<File Id="96652300" Language="SFX">
 					<ShortName>Impact_CrystalShard_02.wav</ShortName>
@@ -2785,6 +2805,10 @@
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
 					<Path>SFX/FS_Woodlands_Walk_3BF62D21.wem</Path>
 				</File>
+				<File Id="107949489" Language="SFX">
+					<ShortName>EvilCrawler_Movement_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Movement_02_8F98DC6A.wem</Path>
+				</File>
 				<File Id="108931642" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-019_B4A22A82.wem</Path>
@@ -2801,6 +2825,10 @@
 					<ShortName>Adventuress swing weapon hard-006.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-006_7A224B1A.wem</Path>
 				</File>
+				<File Id="116929962" Language="SFX">
+					<ShortName>EvilCrawler_Explosion_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Explosion_02_8F98DC6A.wem</Path>
+				</File>
 				<File Id="117025190" Language="SFX">
 					<ShortName>Impact_Hammer_Crate.wav</ShortName>
 					<Path>SFX/Impact_Hammer_Crate_8A3EE5DD.wem</Path>
@@ -2812,6 +2840,10 @@
 				<File Id="119767071" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX/FS_Stone_Run_145D2EEB.wem</Path>
+				</File>
+				<File Id="121579601" Language="SFX">
+					<ShortName>Pickup_Misc.wav</ShortName>
+					<Path>SFX/Pickup_Misc_7A224B1A.wem</Path>
 				</File>
 				<File Id="122475090" Language="SFX">
 					<ShortName>Button_Close.wav</ShortName>
@@ -2870,6 +2902,10 @@
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX/FS_Stone_Walk_BE3FD360.wem</Path>
 				</File>
+				<File Id="159574703" Language="SFX">
+					<ShortName>Pickup_PineCone.wav</ShortName>
+					<Path>SFX/Pickup_PineCone_7A224B1A.wem</Path>
+				</File>
 				<File Id="161812219" Language="SFX">
 					<ShortName>FS_Water_Run.wav</ShortName>
 					<Path>SFX/FS_Water_Run_5E08B8A7.wem</Path>
@@ -2890,14 +2926,6 @@
 					<ShortName>Sword Impact 3.wav</ShortName>
 					<Path>SFX/Sword Impact 3_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="188686969" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_PineCone_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_PineCone_01_7C4108EC.wem</Path>
-				</File>
-				<File Id="190170041" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Book_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Book_01_266B63D9.wem</Path>
-				</File>
 				<File Id="190827734" Language="SFX">
 					<ShortName>Adventuress DEATH-003.wav</ShortName>
 					<Path>SFX/Adventuress DEATH-003_7A224B1A.wem</Path>
@@ -2909,10 +2937,6 @@
 				<File Id="196106116" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-003.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-003_7A224B1A.wem</Path>
-				</File>
-				<File Id="197932788" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Charge_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Charge_03_879B32EF.wem</Path>
 				</File>
 				<File Id="202341787" Language="SFX">
 					<ShortName>Music\EvilHead_Tamburine.wav</ShortName>
@@ -2931,6 +2955,10 @@
 					<ShortName>Impact_Dagger_Barrel.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Barrel_8A3EE5DD.wem</Path>
 				</File>
+				<File Id="221853960" Language="SFX">
+					<ShortName>EvilCrawler_Eat_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Eat_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="222371863" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
 					<Path>SFX/FS_Woodlands_Run_62075296.wem</Path>
@@ -2947,10 +2975,6 @@
 					<ShortName>Music\MFYG\1_Tuba.wav</ShortName>
 					<Path>SFX/Music/MFYG/1_Tuba_BD3A445E.wem</Path>
 					<PrefetchSize>588</PrefetchSize>
-				</File>
-				<File Id="228435873" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Charge_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Charge_01_2A0ACCD8.wem</Path>
 				</File>
 				<File Id="229737450" Language="SFX">
 					<ShortName>SKULL_hurt.wav</ShortName>
@@ -2995,10 +3019,6 @@
 				<File Id="270244909" Language="SFX">
 					<ShortName>SKULL_hurt.wav</ShortName>
 					<Path>SFX/SKULL_hurt_CE255652.wem</Path>
-				</File>
-				<File Id="270916331" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Key_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Key_01_8374BCAA.wem</Path>
 				</File>
 				<File Id="272780788" Language="SFX">
 					<ShortName>Adventuress swing weapon light-001.wav</ShortName>
@@ -3064,21 +3084,29 @@
 					<ShortName>Impact_Dagger_Dirt.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Dirt_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="320959230" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Move_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Move_02_0515C6FA.wem</Path>
-				</File>
 				<File Id="325669408" Language="SFX">
 					<ShortName>Adventuress Damaged-007.wav</ShortName>
 					<Path>SFX/Adventuress Damaged-007_7A224B1A.wem</Path>
+				</File>
+				<File Id="325805174" Language="SFX">
+					<ShortName>EvilCrawler_Death_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Death_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="326535310" Language="SFX">
 					<ShortName>TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
 					<Path>SFX/TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
+				<File Id="327514655" Language="SFX">
+					<ShortName>EvilHead_Movement_02.wav</ShortName>
+					<Path>SFX/EvilHead_Movement_02_8F98DC6A.wem</Path>
+				</File>
 				<File Id="330017917" Language="SFX">
 					<ShortName>SKULL_death.wav</ShortName>
 					<Path>SFX/SKULL_death_14C3A65C.wem</Path>
+				</File>
+				<File Id="332240288" Language="SFX">
+					<ShortName>EvilHead_Charge_01.wav</ShortName>
+					<Path>SFX/EvilHead_Charge_01_8F98DC6A.wem</Path>
 				</File>
 				<File Id="333031398" Language="SFX">
 					<ShortName>destroy_crate_03.wav</ShortName>
@@ -3095,6 +3123,14 @@
 				<File Id="347709270" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
 					<Path>SFX/FS_Wood_Run_543A402D.wem</Path>
+				</File>
+				<File Id="351636245" Language="SFX">
+					<ShortName>FIGHT_TOUT_4brs_120bpm-44.wav</ShortName>
+					<Path>SFX/FIGHT_TOUT_4brs_120bpm-44_1DD5206E.wem</Path>
+				</File>
+				<File Id="353750307" Language="SFX">
+					<ShortName>EvilCrawler_Death_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Death_02_8F98DC6A.wem</Path>
 				</File>
 				<File Id="353842310" Language="SFX">
 					<ShortName>Character\Heartbeat_Lub.wav</ShortName>
@@ -3145,13 +3181,13 @@
 					<ShortName>Adventuress swing weapon light-002.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon light-002_7A224B1A.wem</Path>
 				</File>
+				<File Id="397504219" Language="SFX">
+					<ShortName>EvilHead_Movement_01.wav</ShortName>
+					<Path>SFX/EvilHead_Movement_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="400948229" Language="SFX">
 					<ShortName>Impact_Dagger_Wood.wav</ShortName>
 					<Path>SFX/Impact_Dagger_Wood_8A3EE5DD.wem</Path>
-				</File>
-				<File Id="401846827" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Hurt_Vox_03_0515C6FA.wem</Path>
 				</File>
 				<File Id="402893315" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
@@ -3180,6 +3216,10 @@
 				<File Id="433857567" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX/FS_Dirt_Walk_69A82833.wem</Path>
+				</File>
+				<File Id="436175451" Language="SFX">
+					<ShortName>EvilCrawler_Movement_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Movement_03_8F98DC6A.wem</Path>
 				</File>
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -3233,14 +3273,6 @@
 					<ShortName>Other\WAG_Sparkle.wav</ShortName>
 					<Path>SFX/Other/WAG_Sparkle_B6779732.wem</Path>
 				</File>
-				<File Id="472043901" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_EvilEssence.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_EvilEssence_2313C659.wem</Path>
-				</File>
-				<File Id="474305653" Language="SFX">
-					<ShortName>Objects\Pickup.wav</ShortName>
-					<Path>SFX/Objects/Pickup_A3DA4DE2.wem</Path>
-				</File>
 				<File Id="475500304" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-018.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-018_B4A22A82.wem</Path>
@@ -3257,21 +3289,17 @@
 					<ShortName>WAG Blacksmith Line-003.wav</ShortName>
 					<Path>Voices/English(US)/WAG Blacksmith Line-003_EE86E0DE.wem</Path>
 				</File>
-				<File Id="492838405" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Eat_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Eat_03_0515C6FA.wem</Path>
-				</File>
-				<File Id="496256198" Language="SFX">
-					<ShortName>Interface\BAS_QuestRoll_Close.wav</ShortName>
-					<Path>SFX/Interface/BAS_QuestRoll_Close_C29BE63E.wem</Path>
+				<File Id="494250686" Language="SFX">
+					<ShortName>Quest_Complete.wav</ShortName>
+					<Path>SFX/Quest_Complete_8F98DC6A.wem</Path>
 				</File>
 				<File Id="498254836" Language="SFX">
 					<ShortName>FS_Water_Walk.wav</ShortName>
 					<Path>SFX/FS_Water_Walk_D625CB0E.wem</Path>
 				</File>
-				<File Id="504991743" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Explode_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Explode_03_0515C6FA.wem</Path>
+				<File Id="504113723" Language="SFX">
+					<ShortName>EvilHead_Bite_02.wav</ShortName>
+					<Path>SFX/EvilHead_Bite_02_8F98DC6A_02D16AE2.wem</Path>
 				</File>
 				<File Id="507086479" Language="SFX">
 					<ShortName>Adventuress Damaged-001.wav</ShortName>
@@ -3314,17 +3342,29 @@
 					<ShortName>WAG Blacksmith Line-002.wav</ShortName>
 					<Path>Voices/English(US)/WAG Blacksmith Line-002_B4A22A82.wem</Path>
 				</File>
+				<File Id="542133360" Language="SFX">
+					<ShortName>EvilCrawler_Hurt_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Hurt_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="542995811" Language="SFX">
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_03.wav</ShortName>
 					<Path>SFX/Objects/Pickups/BAS_Pickup_Coin_03_E61FB670.wem</Path>
+				</File>
+				<File Id="545286099" Language="SFX">
+					<ShortName>EvilHead_Charge_02.wav</ShortName>
+					<Path>SFX/EvilHead_Charge_02_8F98DC6A.wem</Path>
+				</File>
+				<File Id="546241215" Language="SFX">
+					<ShortName>Quest_ Get_Weapon.wav</ShortName>
+					<Path>SFX/Quest_ Get_Weapon_8F98DC6A.wem</Path>
 				</File>
 				<File Id="549711663" Language="SFX">
 					<ShortName>destroy_barrel_03.wav</ShortName>
 					<Path>SFX/destroy_barrel_03_8F98DC6A.wem</Path>
 				</File>
-				<File Id="558182472" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Move_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Move_01_0515C6FA.wem</Path>
+				<File Id="551193915" Language="SFX">
+					<ShortName>EvilCrawler_Hurt_02.wav</ShortName>
+					<Path>SFX/EvilCrawler_Hurt_02_8F98DC6A.wem</Path>
 				</File>
 				<File Id="561416365" Language="SFX">
 					<ShortName>Music\MFYG\1_Piano.wav</ShortName>
@@ -3351,14 +3391,6 @@
 					<ShortName>SKULL_dying breath.wav</ShortName>
 					<Path>SFX/SKULL_dying breath_8F98DC6A.wem</Path>
 				</File>
-				<File Id="580300220" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_03_0515C6FA.wem</Path>
-				</File>
-				<File Id="581193606" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Hurt_Vox_01_3C2B40BA.wem</Path>
-				</File>
 				<File Id="581394888" Language="SFX">
 					<ShortName>New_Impact_Crawler_03.wav</ShortName>
 					<Path>SFX/New_Impact_Crawler_03_8A3EE5DD.wem</Path>
@@ -3371,10 +3403,6 @@
 					<ShortName>FS_Woodlands_Walk.wav</ShortName>
 					<Path>SFX/FS_Woodlands_Walk_2C69BB5B.wem</Path>
 				</File>
-				<File Id="585246084" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Eat_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Eat_01_0515C6FA.wem</Path>
-				</File>
 				<File Id="588650531" Language="SFX">
 					<ShortName>Music\MFYG\3_Clarinet.wav</ShortName>
 					<Path>SFX/Music/MFYG/3_Clarinet_BD3A445E.wem</Path>
@@ -3383,10 +3411,6 @@
 				<File Id="591482962" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
 					<Path>SFX/FS_Woodlands_Run_5D4A0EF7.wem</Path>
-				</File>
-				<File Id="591600176" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Move_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Move_03_0515C6FA.wem</Path>
 				</File>
 				<File Id="601876095" Language="SFX">
 					<ShortName>TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
@@ -3424,10 +3448,6 @@
 					<ShortName>FS_Dirt_Run.wav</ShortName>
 					<Path>SFX/FS_Dirt_Run_6290859C.wem</Path>
 				</File>
-				<File Id="624605826" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_02_0515C6FA.wem</Path>
-				</File>
 				<File Id="625582644" Language="SFX">
 					<ShortName>FS_Water_Run.wav</ShortName>
 					<Path>SFX/FS_Water_Run_A6898771.wem</Path>
@@ -3449,13 +3469,9 @@
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX/FS_Dirt_Walk_45C9E09B.wem</Path>
 				</File>
-				<File Id="635787326" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Explode_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Explode_01_0515C6FA.wem</Path>
-				</File>
-				<File Id="644004411" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Explode_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Explode_02_0515C6FA.wem</Path>
+				<File Id="639973630" Language="SFX">
+					<ShortName>Pickup_Mushroom.wav</ShortName>
+					<Path>SFX/Pickup_Mushroom_7A224B1A.wem</Path>
 				</File>
 				<File Id="650182870" Language="SFX">
 					<ShortName>Adventuress Damaged-010.wav</ShortName>
@@ -3480,6 +3496,10 @@
 				<File Id="657075190" Language="SFX">
 					<ShortName>HURT_1wav.wav</ShortName>
 					<Path>SFX/HURT_1wav_8F98DC6A.wem</Path>
+				</File>
+				<File Id="657291671" Language="SFX">
+					<ShortName>Questroll_Open.wav</ShortName>
+					<Path>SFX/Questroll_Open_8F98DC6A.wem</Path>
 				</File>
 				<File Id="660387120" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
@@ -3530,6 +3550,10 @@
 					<ShortName>Adventuress DEATH-002.wav</ShortName>
 					<Path>SFX/Adventuress DEATH-002_7A224B1A.wem</Path>
 				</File>
+				<File Id="700863536" Language="SFX">
+					<ShortName>EvilHead_Movement_03.wav</ShortName>
+					<Path>SFX/EvilHead_Movement_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="703501136" Language="SFX">
 					<ShortName>Impact_CrystalShard_07.wav</ShortName>
 					<Path>SFX/Impact_CrystalShard_07_8A3EE5DD.wem</Path>
@@ -3563,10 +3587,6 @@
 					<ShortName>WAG Wwizard Dial. Line-008.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-008_B4A22A82.wem</Path>
 				</File>
-				<File Id="737856040" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Mushroom_01.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Mushroom_01_8374BCAA.wem</Path>
-				</File>
 				<File Id="738144536" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
 					<Path>SFX/Ambient/Ambient_Emitters/BAS_WaterDrops_02_B4D2C210.wem</Path>
@@ -3578,10 +3598,6 @@
 				<File Id="742600215" Language="SFX">
 					<ShortName>ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1.wav</ShortName>
 					<Path>SFX/ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1_1DD5206E.wem</Path>
-				</File>
-				<File Id="745897563" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Charge_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Charge_02_12862AC2.wem</Path>
 				</File>
 				<File Id="747629416" Language="SFX">
 					<ShortName>Music\Stingers\QucickStinger_Death.wav</ShortName>
@@ -3608,13 +3624,13 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01.wav</ShortName>
 					<Path>SFX/Creatures/BAS_Evil_SpitPlant_ImpactPlayer_01_8374BCAA.wem</Path>
 				</File>
-				<File Id="767754403" Language="SFX">
-					<ShortName>Objects\Pickups\BAS_Pickup_Generic_05.wav</ShortName>
-					<Path>SFX/Objects/Pickups/BAS_Pickup_Generic_05_8374BCAA.wem</Path>
-				</File>
 				<File Id="767951656" Language="SFX">
 					<ShortName>Impact_Sword_EvilHead.wav</ShortName>
 					<Path>SFX/Impact_Sword_EvilHead_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="769633419" Language="SFX">
+					<ShortName>Pickup_EvilEssence.wav</ShortName>
+					<Path>SFX/Pickup_EvilEssence_5CD02F60.wem</Path>
 				</File>
 				<File Id="775213757" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
@@ -3627,10 +3643,6 @@
 				<File Id="781460930" Language="SFX">
 					<ShortName>Ambient\Ambient_Background\BAS_amb_shield_core_LP_03.wav</ShortName>
 					<Path>SFX/Ambient/Ambient_Background/BAS_amb_shield_core_LP_03_4FCE0C42.wem</Path>
-				</File>
-				<File Id="791272135" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Eat_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Eat_02_0515C6FA.wem</Path>
 				</File>
 				<File Id="792618344" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-004.wav</ShortName>
@@ -3652,18 +3664,18 @@
 					<ShortName>Weapon_Swing_PickAxe.wav</ShortName>
 					<Path>SFX/Weapon_Swing_PickAxe_3A3460D4.wem</Path>
 				</File>
+				<File Id="804977747" Language="SFX">
+					<ShortName>EvilCrawler_Hurt_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Hurt_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="810217821" Language="SFX">
 					<ShortName>Music\MFYG\2_Staccato_DoubleBass.wav</ShortName>
 					<Path>SFX/Music/MFYG/2_Staccato_DoubleBass_BD3A445E.wem</Path>
 					<PrefetchSize>2404</PrefetchSize>
 				</File>
-				<File Id="812794088" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Bite_03.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Bite_03_0515C6FA_02D16AE2.wem</Path>
-				</File>
-				<File Id="813955928" Language="SFX">
-					<ShortName>Interface\BAS_QuestRoll_Open.wav</ShortName>
-					<Path>SFX/Interface/BAS_QuestRoll_Open_0515C6FA.wem</Path>
+				<File Id="813624506" Language="SFX">
+					<ShortName>EvilCrawler_Explosion_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Explosion_01_8F98DC6A.wem</Path>
 				</File>
 				<File Id="820509230" Language="SFX">
 					<ShortName>FS_Water_Walk.wav</ShortName>
@@ -3698,6 +3710,10 @@
 					<ShortName>Impact_CrystalShard_01.wav</ShortName>
 					<Path>SFX/Impact_CrystalShard_01_8A3EE5DD.wem</Path>
 				</File>
+				<File Id="859711236" Language="SFX">
+					<ShortName>EvilCrawler_Explosion_03.wav</ShortName>
+					<Path>SFX/EvilCrawler_Explosion_03_8F98DC6A.wem</Path>
+				</File>
 				<File Id="860763820" Language="SFX">
 					<ShortName>Button_Over.wav</ShortName>
 					<Path>SFX/Button_Over_F766247F.wem</Path>
@@ -3713,6 +3729,10 @@
 				<File Id="863050244" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
 					<Path>SFX/FS_Wood_Walk_C4CD1D75.wem</Path>
+				</File>
+				<File Id="864546744" Language="SFX">
+					<ShortName>Pickup_Book.wav</ShortName>
+					<Path>SFX/Pickup_Book_7A224B1A.wem</Path>
 				</File>
 				<File Id="867188758" Language="SFX">
 					<ShortName>CHARGE_1.wav</ShortName>
@@ -3730,6 +3750,10 @@
 					<ShortName>Adventuress swing weapon hard-001.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-001_7A224B1A.wem</Path>
 				</File>
+				<File Id="870914841" Language="SFX">
+					<ShortName>EvilCrawler_Movement_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Movement_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="871178072" Language="SFX">
 					<ShortName>FS_Stone_Run.wav</ShortName>
 					<Path>SFX/FS_Stone_Run_9D1EB5C5.wem</Path>
@@ -3737,6 +3761,10 @@
 				<File Id="872064368" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-004.wav</ShortName>
 					<Path>SFX/Adventuress swing weapon hard-004_7A224B1A.wem</Path>
+				</File>
+				<File Id="884334431" Language="SFX">
+					<ShortName>EvilCrawler_Death_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Death_01_8F98DC6A.wem</Path>
 				</File>
 				<File Id="888488608" Language="SFX">
 					<ShortName>SHOOT_3.wav</ShortName>
@@ -3774,6 +3802,10 @@
 					<ShortName>IMPACT_1.wav</ShortName>
 					<Path>SFX/IMPACT_1_8F98DC6A.wem</Path>
 				</File>
+				<File Id="913150674" Language="SFX">
+					<ShortName>Evilhead_Hover_01.wav</ShortName>
+					<Path>SFX/Evilhead_Hover_01_D0D45A34.wem</Path>
+				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
 					<Path>SFX/FS_Wood_Walk_28E7A8CE.wem</Path>
@@ -3798,13 +3830,9 @@
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX/FS_Stone_Walk_273386A2.wem</Path>
 				</File>
-				<File Id="928123683" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Death_Vox_01_0515C6FA.wem</Path>
-				</File>
-				<File Id="930202647" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_02.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Crawler_Hurt_Vox_02_0515C6FA.wem</Path>
+				<File Id="922999685" Language="SFX">
+					<ShortName>FIGHT_Loop_8+1brs_124bpm-44.wav</ShortName>
+					<Path>SFX/FIGHT_Loop_8+1brs_124bpm-44_1DD5206E.wem</Path>
 				</File>
 				<File Id="931042639" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_PinkShield_Impact_02.wav</ShortName>
@@ -3822,6 +3850,10 @@
 					<ShortName>Impact_Sword_Barrel.wav</ShortName>
 					<Path>SFX/Impact_Sword_Barrel_8A3EE5DD.wem</Path>
 				</File>
+				<File Id="940066120" Language="SFX">
+					<ShortName>EvilHead_Bite_03.wav</ShortName>
+					<Path>SFX/EvilHead_Bite_03_8F98DC6A_02D16AE2.wem</Path>
+				</File>
 				<File Id="940774173" Language="SFX">
 					<ShortName>SHOOT_2.wav</ShortName>
 					<Path>SFX/SHOOT_2_8F98DC6A.wem</Path>
@@ -3829,10 +3861,6 @@
 				<File Id="942932876" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
 					<Path>SFX/FS_Wood_Walk_53A311B6.wem</Path>
-				</File>
-				<File Id="945967359" Language="SFX">
-					<ShortName>Interface\BAS_Quest_CompleteCollection_02.wav</ShortName>
-					<Path>SFX/Interface/BAS_Quest_CompleteCollection_02_49C56D8D.wem</Path>
 				</File>
 				<File Id="947204474" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_Creature_Wind_Loop.wav</ShortName>
@@ -3845,6 +3873,10 @@
 				<File Id="952233575" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
 					<Path>SFX/FS_Wood_Walk_EB7C6D90.wem</Path>
+				</File>
+				<File Id="953096697" Language="SFX">
+					<ShortName>Pickup_Key.wav</ShortName>
+					<Path>SFX/Pickup_Key_7A224B1A.wem</Path>
 				</File>
 				<File Id="956294730" Language="SFX">
 					<ShortName>windmill_02.wav</ShortName>
@@ -3880,6 +3912,10 @@
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX/FS_Stone_Walk_66E86856.wem</Path>
 				</File>
+				<File Id="983728569" Language="SFX">
+					<ShortName>EvilCrawler_Eat_01.wav</ShortName>
+					<Path>SFX/EvilCrawler_Eat_01_8F98DC6A.wem</Path>
+				</File>
 				<File Id="992774190" Language="SFX">
 					<ShortName>FS_Dirt_Walk.wav</ShortName>
 					<Path>SFX/FS_Dirt_Walk_90DF369F.wem</Path>
@@ -3892,9 +3928,17 @@
 					<ShortName>WAG Wwizard Dial. Line-009.wav</ShortName>
 					<Path>Voices/English(US)/WAG Wwizard Dial. Line-009_B4A22A82.wem</Path>
 				</File>
+				<File Id="996262965" Language="SFX">
+					<ShortName>Pickup_CrystalShard.wav</ShortName>
+					<Path>SFX/Pickup_CrystalShard_7A224B1A.wem</Path>
+				</File>
 				<File Id="997664200" Language="SFX">
 					<ShortName>New_Impact_Crawler_02.wav</ShortName>
 					<Path>SFX/New_Impact_Crawler_02_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="998490517" Language="SFX">
+					<ShortName>EvilHead_Bite_01.wav</ShortName>
+					<Path>SFX/EvilHead_Bite_01_8F98DC6A_02D16AE2.wem</Path>
 				</File>
 				<File Id="999206556" Language="SFX">
 					<ShortName>Music\MFYG\1_Clarinet.wav</ShortName>
@@ -3944,10 +3988,6 @@
 				<File Id="1055916331" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_Creature_Start.wav</ShortName>
 					<Path>SFX/Cinematic/BAS_CIN_Creature_Start_A85E47ED.wem</Path>
-				</File>
-				<File Id="1057116956" Language="SFX">
-					<ShortName>Creatures\BAS_Evil_Head_Bite_01.wav</ShortName>
-					<Path>SFX/Creatures/BAS_Evil_Head_Bite_01_E5554761_02D16AE2.wem</Path>
 				</File>
 				<File Id="1060616819" Language="SFX">
 					<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM.wav</ShortName>

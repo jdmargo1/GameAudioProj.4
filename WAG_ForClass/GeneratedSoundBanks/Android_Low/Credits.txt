@@ -24,6 +24,9 @@ State	ID	Name	State Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Ambient\Time_of_Day	
+	691349574	Enemy_Music_EvilHead			\Enemies\Enemy_Music_EvilHead	
+	2322571464	Enemy_Music_EvilCrawler			\Enemies\Enemy_Music_EvilCrawler	
+	3481128293	Enemy_Music_EviSpitPlant			\Enemies\Enemy_Music_EviSpitPlant	
 
 Trigger	ID	Name			Wwise Object Path	Notes
 	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	

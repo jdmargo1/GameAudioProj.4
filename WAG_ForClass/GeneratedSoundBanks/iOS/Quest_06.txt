@@ -33,5 +33,5 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	292402141	Pickup_SynthOne	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc\Pickup_SynthOne	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	190170041	Pickup_Book	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Objects\Pickups\BAS_Pickup_Book_01_5FC27F53.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		5602
+	864546744	Pickup_Book	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\iOS\SFX\Pickup_Book_77BC7FD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		5606
 

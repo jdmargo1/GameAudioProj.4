@@ -161,16 +161,16 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambient.wwu" DateLow="1644870021" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1644870021" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies.wwu" DateLow="1644870021" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilCrawler.wwu" DateLow="1644870021" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilHead.wwu" DateLow="1646881700" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilCrawler.wwu" DateLow="1646889868" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilHead.wwu" DateLow="1646889930" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilSpitPlant.wwu" DateLow="1646881700" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Instruments.wwu" DateLow="1646076744" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\NPCs.wwu" DateLow="1646874971" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Destruction.wwu" DateLow="1646851197" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Props.wwu" DateLow="1646076744" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1644870021" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Player.wwu" DateLow="1646851197" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\UI.wwu" DateLow="1646461846" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Player.wwu" DateLow="1646889869" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\UI.wwu" DateLow="1646889869" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Attenuations\Ambient.wwu" DateLow="1644870021" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Attenuations\Default Work Unit.wwu" DateLow="1644870021" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Audio Devices\Default Work Unit.wwu" DateLow="1644870021" DateHigh="0"/>
@@ -232,7 +232,7 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Switches\Player.wwu" DateLow="1644870029" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Triggers\Default Work Unit.wwu" DateLow="1644870029" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1644870029" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.crossover.wsettings" DateLow="1646885999" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.crossover.wsettings" DateLow="1646890049" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.wproj" DateLow="1646851199" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Dropbox\Mac\Documents\GitHub\Project 4 NEW\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1646852712" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Dropbox\Mac\Documents\GitHub\Project 4 NEW\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1646852712" DateHigh="0"/>

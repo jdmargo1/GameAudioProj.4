@@ -27,6 +27,6 @@ Modulator LFO	ID	Name			Wwise Object Path	Notes
 	397902884	Modulator LFO (Custom)				
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	190170041	Pickup_Book	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Objects\Pickups\BAS_Pickup_Book_01_31F0D4CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		3368
-	474305653	Pickup_Misc	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Objects\Pickup_14FAC200.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		2982
+	121579601	Pickup_Misc	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Pickup_Misc_1036F9F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		3966
+	864546744	Pickup_Book	Y:\Documents\GitHub\GameAudioProj.4\Wwise Project\.cache\Android_Low\SFX\Pickup_Book_1036F9F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		4832
 
