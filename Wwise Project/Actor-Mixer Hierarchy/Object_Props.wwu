@@ -113,7 +113,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-16</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>

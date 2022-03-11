@@ -155,17 +155,19 @@
 								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>21</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>34</Value>
+										<Value>35</Value>
 									</ValueList>
 								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-1490</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{1BBFB39D-C2B9-43E8-8F09-64369904B2B8}">
@@ -195,7 +197,7 @@
 									<Custom CreatedFrom="{B5ABA2BA-8AB4-48BA-9D54-19B9F0CA3208}">
 										<Attenuation Name="Ambience_Emitters_Large_5_50 (Custom)" ID="{3C621C0C-DC6D-468E-B6D8-4E8FC77E7F95}" ShortID="134114918">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="30"/>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -211,13 +213,13 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>8.14791</XPos>
+																	<XPos>3.23129333333333</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>30</XPos>
+																	<XPos>20</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -232,7 +234,30 @@
 													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 												</VolumeWetUserUsage>
 												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{C1D0F535-B0EB-4376-A116-657C58072585}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>5.11327</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>20</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
 												</LowPassFilterUsage>
 												<HighPassFilterUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -251,12 +276,12 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>20.47469</XPos>
+																	<XPos>13.6497933333333</XPos>
 																	<YPos>51.14943</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>30</XPos>
+																	<XPos>20</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -1214,7 +1239,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_02" ID="{EA6D795F-4E0F-4037-9A59-3F5EEBB241B9}" ShortID="92368391">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0255825977363958"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.55825977363958E-02"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.15204751484839"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.321954579059924"/>
 															</PropertyList>
@@ -1249,7 +1274,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_03" ID="{B07E8B46-C6F1-4247-81F5-4A227AB23ADD}" ShortID="439035036">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0463636950038951"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.63636950038951E-02"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.182279184467368"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.379166108456512"/>
 															</PropertyList>
@@ -1284,7 +1309,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_04" ID="{93DE85FF-8835-49D9-9837-D46C5BA880E9}" ShortID="664756174">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.00570940707054871"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="5.70940707054871E-03"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.100312845507848"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.273337863502518"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.494577387486279"/>
@@ -1320,8 +1345,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_05" ID="{F6CE48E8-B93F-4B13-BC67-B090C30700E8}" ShortID="720197828">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0702005090876613"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0884204885455276"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7.02005090876613E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.84204885455276E-02"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Ambient\Ambient_Emitters\BAS_WaterDrops_05.wav</AudioFile>
@@ -1354,7 +1379,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops_06" ID="{D3470F65-320C-4B0A-B1D2-4E8A1AA36178}" ShortID="986175919">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0694502746393962"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6.94502746393962E-02"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.226195686151922"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -1384,7 +1409,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="BAS_WaterDrops" ID="{F0A8CB68-E420-4298-B180-71B968020DB2}" ShortID="439528036">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0700663401757494"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7.00663401757494E-02"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.245054357264423"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -1801,7 +1826,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_02" ID="{3A398AB7-E8C2-4960-B770-2D96BA03F606}" ShortID="738144536">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0255825977363958"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.55825977363958E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.15204751484839"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.321954579059924"/>
 											</PropertyList>
@@ -1845,7 +1870,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_03" ID="{FDC28892-34E0-4075-884E-24A7F2DA9D13}" ShortID="464674442">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0463636950038951"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.63636950038951E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.182279184467368"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.379166108456512"/>
 											</PropertyList>
@@ -1876,7 +1901,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_04" ID="{C84C379D-8E58-4098-AFE5-6A6FEB494B88}" ShortID="402893315">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00570940707054871"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.70940707054871E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.100312845507848"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.273337863502518"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.494577387486279"/>
@@ -1908,8 +1933,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_05" ID="{10B4ADDB-ECC5-4C4C-80BC-AF4D2105A658}" ShortID="830124314">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0702005090876613"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0884204885455276"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.02005090876613E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.84204885455276E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambient\Ambient_Emitters\BAS_WaterDrops_05.wav</AudioFile>
@@ -1949,7 +1974,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops_06" ID="{DF863385-A08B-429F-9B10-C74D358C7507}" ShortID="660387120">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0694502746393962"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="6.94502746393962E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.226195686151922"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1987,7 +2012,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_WaterDrops" ID="{6CD1BBE8-A2C7-434B-9EBE-03A03BBC5A13}" ShortID="512076338">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0700663401757494"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.00663401757494E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.245054357264423"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2013,7 +2038,6 @@
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="OverridePriority" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2029,7 +2053,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-9</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -2052,7 +2076,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="51"/>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -2066,15 +2090,16 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>13.822955</XPos>
-																	<YPos>0</YPos>
+																	<XPos>25</XPos>
+																	<YPos>-14.53352</YPos>
 																	<Flags>0</Flags>
-																	<SegmentShape>Log2</SegmentShape>
+																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>51</XPos>
+																	<XPos>50</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -2101,19 +2126,19 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>14.491803</XPos>
+																	<XPos>14.20765</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>31.7147540983606</XPos>
+																	<XPos>31.0928961748633</XPos>
 																	<YPos>54</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>51</XPos>
+																	<XPos>50</XPos>
 																	<YPos>76</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -2599,7 +2624,7 @@
 										<AudioFileSource Name="WAG_TmpShotSound" ID="{2992C63C-1814-4F4F-ACAC-1B89043964D6}" ShortID="73574320">
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.16328872271799"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0222647702407002"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.22647702407002E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Other\WAG_TmpShotSound.wav</AudioFile>
@@ -2662,7 +2687,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG_Sparkle" ID="{4026690D-E61F-4556-A9F7-383090B94715}" ShortID="466737030">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0344369985412108"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.44369985412108E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="1.14867505964493"/>
 												<Property Name="FadeOutShape" Type="int16" Value="1"/>
 												<Property Name="TrimBegin" Type="Real64" Value="4.06038697065027"/>

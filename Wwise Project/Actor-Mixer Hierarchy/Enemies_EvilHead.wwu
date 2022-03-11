@@ -34,6 +34,11 @@
 						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -105,7 +110,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -330,11 +335,6 @@
 									</ModifierList>
 								</Property>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -436,7 +436,7 @@
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0349268518186419"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.49268518186419E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.674524825747522"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -524,7 +524,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-7</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{03DFA5B4-F94D-42B9-AE7D-14E50145C296}" ShortID="60112283">
@@ -704,7 +704,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_03" ID="{17984926-944B-4703-A70A-1F96FDD121C1}" ShortID="864397412">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0300262044270833"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.00262044270833E-02"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.27601048642113"/>
 														<Property Name="LoopEnd" Type="Real64" Value="0.782087239583333"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -754,7 +754,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Evil_SpitPlant_Charge_02" ID="{C6371396-E151-47E4-B4B6-2AF178E393AB}" ShortID="898477822">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.0617015438988095"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="6.17015438988095E-02"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.620100516183038"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.305422642299107"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.925523158482145"/>
@@ -880,7 +880,7 @@
 												<AudioFileSource Name="BAS_Evil_Head_Charge" ID="{095736F8-019A-4499-BC40-B9F0484954D9}" ShortID="1043505733">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.323876023065476"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0739282226562502"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7.39282226562502E-02"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.823771623883928"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.91157261439732"/>
@@ -915,7 +915,7 @@
 												<AudioFileSource Name="BAS_Evil_Head_Charge_Bite" ID="{3B221517-3406-4297-8061-F40BD20D3C38}" ShortID="1028269556">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.170502580915179"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.00303115699404762"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.03115699404762E-03"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.660792224702381"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -1012,7 +1012,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1049,7 +1049,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Head_Charge_03" ID="{E313A83B-ED2C-4FA0-9891-4173F9C90B0A}" ShortID="197932788">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0178166852678572"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.78166852678572E-02"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.235180245535714"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.231616908482143"/>
@@ -1093,7 +1093,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Head_Charge_02" ID="{77C59012-0960-4EC6-AE90-4B0E1A91ADD2}" ShortID="745897563">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0290770089285714"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.90770089285714E-02"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.244731491815476"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.230192987351191"/>
@@ -1137,7 +1137,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Head_Charge_01" ID="{A5BB200A-2ECC-4A57-9E6F-2C5DA10CCE50}" ShortID="228435873">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0172965494791667"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.72965494791667E-02"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0.265762855489418"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.242151692708333"/>
@@ -1177,6 +1177,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1599,6 +1604,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1619,7 +1629,7 @@
 										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.0796258787346222"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.96258787346222E-02"/>
 										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 									</PropertyList>
 									<Language>SFX</Language>
@@ -1634,6 +1644,11 @@
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

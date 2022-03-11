@@ -86,7 +86,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>6</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -111,10 +111,15 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Button_Over" ID="{743CB019-96F5-4C15-8CA0-40FAD8F9EA18}" ShortID="1048632403">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>39</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-21</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -138,9 +143,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Button_Over" ID="{292332F2-D4BA-4208-9978-9F88DA057F2C}" ShortID="576059042">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.00886272321428572"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.00147712053571429"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.0488680710565476"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="8.86272321428572E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.47712053571429E-03"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.88680710565476E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Interface\BAS_Button_Over.wav</AudioFile>
@@ -163,8 +168,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Button_Enter" ID="{1918C28B-64AB-4769-8F5C-7FEEDB8B19B3}" ShortID="988512328">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{131698E8-9B0A-413F-90CD-6CB7AE697123}">
@@ -187,7 +200,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Button_Enter" ID="{D1600F98-DC12-4CF0-9DF0-9B137F4B7C38}" ShortID="51516125">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0689020647321428"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="6.89020647321428E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.420916573660714"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -313,8 +326,21 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Inventory_Scroll" ID="{32949C9C-5158-4633-A55F-B8D98ED05CD8}" ShortID="558239131">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-250</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{DCC02278-7393-47B0-BF03-75037C550009}">
@@ -337,7 +363,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Inventory_Scroll" ID="{CED45119-2E48-4C6E-83D6-CC12555246CA}" ShortID="386803661">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0122174246651786"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.22174246651786E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0043857421875"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.27410888671875"/>
 											</PropertyList>
@@ -365,8 +391,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Inventory_Open" ID="{60000B83-405D-4B9E-9346-59F2A7B208D0}" ShortID="577955913">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{4279F65C-0020-4BEF-ADAD-754A58F2A59C}">
@@ -390,7 +424,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<AudioFileSource Name="BAS_Inventory_Open" ID="{C2AE06E3-1F06-47E1-A30F-0DCD96F52786}" ShortID="158702693">
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0181708984375"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0100071614583333"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.00071614583333E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.210150390625"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -417,8 +451,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Inventory_Close" ID="{58AF1975-6EC9-4780-8538-2A8ECA09703E}" ShortID="665599711">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{36238C65-6B95-48BD-96B9-B9CCE1FC909C}">
@@ -441,7 +483,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Inventory_Close" ID="{49ACF27B-E12E-4C9D-9C7D-EB26AF6B0248}" ShortID="759863594">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0335602678571429"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.35602678571429E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.20271484375"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -507,7 +549,29 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Inventory_Select" ID="{9AEED124-33C7-4759-9032-501A97AAADAE}" ShortID="225716691">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ADFC49F8-B4D9-4DC9-9227-4FA5FBFF497F}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -547,8 +611,22 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Button_Close" ID="{B3A69D25-E42F-492E-A945-09F696DE37A7}" ShortID="224207726">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{271F314A-1A1E-4DAF-9983-18D26758B001}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{E8BECB14-F5DE-4F29-87FD-C39CE969DEFE}">
@@ -636,7 +714,28 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<Sound Name="Button_Open" ID="{94B7605A-C4B8-47F7-BB69-B6BE48965B15}" ShortID="444126993">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>29</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{881F5A19-416F-4CEC-99BB-8D9157087776}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="False"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -771,7 +870,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<AudioFileSource Name="BAS_pickUpWeapon_001" ID="{F8D2F3A4-C330-418D-B9DE-72BA30C78B0F}" ShortID="31470392">
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.996164091688633"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0524296890362438"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.24296890362438E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="3.23157537877939"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -866,7 +965,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Quest_CompleteCollection_02" ID="{635C1330-AADF-40AF-825E-D2DAF68BD010}" ShortID="945967359">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="0.00256479904632153"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.56479904632153E-03"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.1251796316204"/>
 														<Property Name="FadeOutShape" Type="int16" Value="4"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.169276737057221"/>
@@ -1078,7 +1177,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 							<PositioningInfo>
 								<Panner Name="" ID="{851CDE86-E2AC-4D01-99E8-C519C553EAEF}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="2.22044604925031E-016"/>
+										<Property Name="PanX" Type="Real64" Value="2.22044604925031E-16"/>
 										<Property Name="PanY" Type="Real64" Value="100"/>
 									</PropertyList>
 								</Panner>
@@ -1137,6 +1236,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{88EDAE12-194D-43EB-871D-A78267132C3D}">
@@ -1170,7 +1272,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<ChildrenList>
 										<AudioFileSource Name="BAS_QuestRoll_Close" ID="{3613A917-6C3C-450E-AE33-04DC6ECB160A}" ShortID="144163515">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00518866703642085"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.18866703642085E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.745870886485487"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1198,6 +1300,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>200</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{5E07A692-0AE7-4162-B188-18066F0FECD1}">

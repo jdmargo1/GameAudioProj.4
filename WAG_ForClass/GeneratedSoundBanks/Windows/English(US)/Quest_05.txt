@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2934374889	Wwizard_DialogueLine_Q5a_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04	
 	2934374890	Wwizard_DialogueLine_Q5a_07			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07	
 	2934374891	Wwizard_DialogueLine_Q5a_06			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06	
+	2934374892	Wwizard_DialogueLine_Q5a_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01	
 	2934374894	Wwizard_DialogueLine_Q5a_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03	
 	2934374895	Wwizard_DialogueLine_Q5a_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02	
 	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
@@ -32,12 +33,13 @@ Switch	ID	Name	Switch Group			Notes
 	3062523257	Misc	Player_Pickup_ItemType			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	20442315	WAG Wwizard Dial_ Line-026	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-026_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-026		68222
-	27295569	WAG Wwizard Dial_ Line-025	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-025_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-025		76969
-	204931226	WAG Wwizard Dial_ Line-024	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-024_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-024		59199
-	619952066	WAG Wwizard Dial_ Line-028	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-028_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-028		50671
-	1073270917	WAG Wwizard Dial_ Line-027	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-027_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-027		53177
+	20442315	WAG Wwizard Dial_ Line-026	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-026_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-026		68222
+	27295569	WAG Wwizard Dial_ Line-025	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-025_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-025		76969
+	204931226	WAG Wwizard Dial_ Line-024	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-024_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-024		59199
+	619952066	WAG Wwizard Dial_ Line-028	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-028_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-028		50671
+	740647715	WAG Wwizard Dial_ Line-023	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-023_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-023		63688
+	1073270917	WAG Wwizard Dial_ Line-027	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-027_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-027		53177
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	973122318	WAG Wwizard Dial_ Line-029	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-029_B4A22A82.wem	973122318.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-029	
+	973122318	WAG Wwizard Dial_ Line-029	C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-029_B4A22A82.wem	973122318.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-029	
 

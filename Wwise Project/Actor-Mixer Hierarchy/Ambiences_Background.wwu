@@ -3491,6 +3491,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{300C9831-DC3E-4362-BABC-6A5DBD3EDB24}">

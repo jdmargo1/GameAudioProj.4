@@ -2521,6 +2521,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ModifierList>
 														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2729,6 +2734,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ModifierList>
 														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -3015,6 +3025,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Impact_Sword_Stone" ID="{46A1648D-4D75-4E06-ADD3-2CDC202BD8DB}" ShortID="531834864">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
 																<Value>-50</Value>
@@ -3031,6 +3046,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ModifierList>
 														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -3836,6 +3856,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ModifierList>
 														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -4020,7 +4045,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>-5</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -6682,6 +6707,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{A30C02A7-344A-4742-8FC1-A8CA67D00056}">
@@ -6957,6 +6985,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Impact_Dagger_Crate" ID="{C5222200-C3C9-468F-84A6-DB34785B64C3}" ShortID="81571585">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -6972,7 +7005,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-2</Value>
+																<Value>-6</Value>
 															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
@@ -7065,6 +7098,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Impact_Dagger_Barrel" ID="{1106718F-ED61-4AC0-A39D-03338CA9B0F9}" ShortID="654854228">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
@@ -7078,6 +7116,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 															</ModifierList>
 														</Property>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -12767,6 +12810,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>150</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{3911BA1D-0168-4222-BFC9-0D818ECDBB97}">
@@ -13021,6 +13067,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>150</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{C32103E5-BBDD-4D71-B28E-B26077DF2FD0}">
@@ -22297,6 +22346,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{49540BE0-9AE1-4C99-B3AA-32C05D50FA42}">
@@ -22371,6 +22423,9 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													</ModifierList>
 												</Property>
 												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{E5C0AF61-F333-4B72-8487-8F095384DF87}">
@@ -22390,7 +22445,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-25</Value>
+														<Value>-14</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -22450,7 +22505,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>12</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -22812,7 +22867,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>1</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -22867,7 +22922,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
-														<Value>-500</Value>
+														<Value>600</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -22888,7 +22943,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-4</Value>
+														<Value>4</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>

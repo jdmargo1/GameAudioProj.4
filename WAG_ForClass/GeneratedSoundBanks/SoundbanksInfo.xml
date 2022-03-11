@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android_High" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Android_High\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\WAG_ForClass\GeneratedSoundBanks\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Android_High\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\WAG_ForClass\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\GeneratedSoundBanks\Android_High</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\GeneratedSoundBanks\Android_High</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -125,7 +125,7 @@
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Ambient\General\Ambient_Campfire_Play" GUID="{4B7C14D3-4763-4B2C-9EAB-142865C3261F}" MaxAttenuation="50.000000" DurationType="Infinite"/>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Ambient\General\Ambient_Campfire_Play" GUID="{4B7C14D3-4763-4B2C-9EAB-142865C3261F}" MaxAttenuation="30.000000" DurationType="Infinite"/>
 				<Event Id="100151336" Name="Ambient_Campfire_Stop" ObjectPath="\Events\Ambient\General\Ambient_Campfire_Stop" GUID="{45C3257D-2EAB-49B6-B593-1A3290D7C5A0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2355650095" Name="Ambient_Crystal_Hum" ObjectPath="\Events\Ambient\General\Ambient_Crystal_Hum" GUID="{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}" MaxAttenuation="50.000000" DurationType="Infinite"/>
 				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Ambient_Torch" GUID="{19917800-6812-4744-9B26-A3519A86EFA5}" MaxAttenuation="15.000000" DurationType="Infinite"/>
@@ -134,7 +134,7 @@
 				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat" GUID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.927750" DurationMax="119.895142"/>
 				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode" GUID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.526246" DurationMax="1.818171"/>
 				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt" GUID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.658118"/>
-				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.556306" DurationMax="6.572504"/>
+				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.859486" DurationMax="1.809945"/>
 				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Bite" GUID="{8581C194-4BA1-4866-8172-BDF1395B15A8}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.480000" DurationMax="3.480000"/>
 				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Charge" GUID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.934942" DurationMax="2.238125"/>
 				<Event Id="2283357753" Name="Enemy_EvilHead_Death" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Death" GUID="{33741091-4554-4D42-B0F5-AFB0FAD96326}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.387186" DurationMax="5.375961"/>
@@ -158,19 +158,19 @@
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Music\SoundBankSpecific\Music_ArcadeMachine_Stop" GUID="{BE48C80E-0C5E-455E-9633-DA78B4DEC8BC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="Infinite"/>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region" GUID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" DurationType="Infinite"/>
-				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.922842" DurationMax="0.922842"/>
+				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.922842" DurationMax="0.922842"/>
 				<Event Id="2391108228" Name="NPC_Wwizard_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_Poof" GUID="{BE2DCBF1-942E-4646-8D7B-FA557C01FA74}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.473590" DurationMax="2.473590"/>
 				<Event Id="2857761532" Name="NPC_Wwizard_StaffOnGround" ObjectPath="\Events\NPCs\NPC_Wwizard_StaffOnGround" GUID="{043CC3FE-76CA-4416-A960-616573CB563D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.332418" DurationMax="0.332418"/>
 				<Event Id="1795559212" Name="Object_Coin_Drop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Coin_Drop" GUID="{C68C81D1-9D17-4C7F-8356-964F200DDE92}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="3.100000" DurationMax="3.100000"/>
 				<Event Id="1499896846" Name="Pickup_Coins" ObjectPath="\Events\Player\General\Pickup_Coins" GUID="{1C8D40AF-CE04-489F-92DE-5DA195664503}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.408707" DurationMax="0.626248"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="2.190000" DurationMax="3.630000"/>
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.225869" DurationMax="4.420672"/>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Player\General\Player_Health" GUID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" DurationType="Infinite"/>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="2.304000"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.181420" DurationMax="7.240664"/>
-				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\General\Player_WeaponSwing" GUID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.340000" DurationMax="2.350000"/>
+				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\General\Player_WeaponSwing" GUID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.228786" DurationMax="2.154959"/>
 				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Quest\Quest_Complete" GUID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}" DurationType="OneShot" DurationMin="2.040000" DurationMax="2.040000"/>
 				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Quest\Quest_CompleteCollection" GUID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}" DurationType="OneShot" DurationMin="1.635692" DurationMax="1.635692"/>
 				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Music\General\Stinger_GetWeapon" GUID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}" DurationType="OneShot" DurationMin="2.690000" DurationMax="2.690000"/>
@@ -181,15 +181,15 @@
 				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\UI\Generic\UI_Button_Up" GUID="{1975C582-9BE3-4B94-AF65-DC7C428D2057}" DurationType="OneShot" DurationMin="0.513492" DurationMax="0.513492"/>
 				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\UI\Inventory\UI_Inventory_Close" GUID="{B2445F20-C2C6-4632-B596-1BC3BDF68AE0}" DurationType="OneShot" DurationMin="1.025941" DurationMax="1.025941"/>
 				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\UI\Inventory\UI_Inventory_Open" GUID="{E1F08740-DE9E-4039-BDE2-C46B8D8B18F8}" DurationType="OneShot" DurationMin="0.612358" DurationMax="0.612358"/>
-				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\UI\Inventory\UI_Inventory_Roll" GUID="{0FB5BEB2-B5B9-42FE-A8BF-D6DFBE133F84}" DurationType="OneShot" DurationMin="0.170590" DurationMax="0.170590"/>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\UI\Inventory\UI_Inventory_Roll" GUID="{0FB5BEB2-B5B9-42FE-A8BF-D6DFBE133F84}" DurationType="OneShot" DurationMin="0.197091" DurationMax="0.197091"/>
 				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\Menu\UI_Menu_Pause" GUID="{38C87385-C5F6-411F-9E84-D9EA1B4D1D98}" DurationType="OneShot" DurationMin="2.304966" DurationMax="2.304966"/>
 				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume" GUID="{EEBDA753-4E1B-4380-ACA2-FD53129C027D}" DurationType="OneShot" DurationMin="4.100000" DurationMax="4.100000"/>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.070136" DurationMax="2.070136"/>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.058213" DurationMax="2.082128"/>
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport" GUID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}" DurationType="OneShot" DurationMin="3.891066" DurationMax="3.891066"/>
-				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
-				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
-				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
-				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="1.329685" DurationMax="1.329685"/>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="1.329685" DurationMax="1.329685"/>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="651327" Language="SFX">
@@ -318,7 +318,7 @@
 				</File>
 				<File Id="107949489" Language="SFX">
 					<ShortName>EvilCrawler_Movement_02.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_02_B830A894.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_02_CC452553.wem</Path>
 				</File>
 				<File Id="112419487" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-006.wav</ShortName>
@@ -542,7 +542,7 @@
 				</File>
 				<File Id="436175451" Language="SFX">
 					<ShortName>EvilCrawler_Movement_03.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_03_B830A894.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_03_C3A5442F.wem</Path>
 				</File>
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -854,7 +854,7 @@
 				</File>
 				<File Id="870914841" Language="SFX">
 					<ShortName>EvilCrawler_Movement_01.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_01_B830A894.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_01_940C5699.wem</Path>
 				</File>
 				<File Id="872064368" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-004.wav</ShortName>
@@ -1165,7 +1165,7 @@
 				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\UI\Generic\UI_Button_Up" GUID="{1975C582-9BE3-4B94-AF65-DC7C428D2057}" DurationType="OneShot" DurationMin="0.513492" DurationMax="0.513492"/>
 				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\Menu\UI_Menu_Pause" GUID="{38C87385-C5F6-411F-9E84-D9EA1B4D1D98}" DurationType="OneShot" DurationMin="2.304966" DurationMax="2.304966"/>
 				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume" GUID="{EEBDA753-4E1B-4380-ACA2-FD53129C027D}" DurationType="OneShot" DurationMin="4.100000" DurationMax="4.100000"/>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.070136" DurationMax="2.070136"/>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.058213" DurationMax="2.082128"/>
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport" GUID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}" DurationType="OneShot" DurationMin="3.891066" DurationMax="3.891066"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -1301,7 +1301,7 @@
 			<Path>DLC.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2048928861" Name="DLC_Ambient_Heaven" ObjectPath="\Events\Ambient\DLC\DLC_Ambient_Heaven" GUID="{DA561C5D-7659-42C9-BDA4-8B3D97227854}" DurationType="OneShot" DurationMin="62.975563" DurationMax="62.975563"/>
-				<Event Id="2622476831" Name="DLC_Button" ObjectPath="\Events\Ambient\DLC\DLC_Button" GUID="{3E84C696-077B-4FD3-8892-158C9DF3A153}" MaxAttenuation="50.000000" DurationType="Unknown"/>
+				<Event Id="2622476831" Name="DLC_Button" ObjectPath="\Events\Ambient\DLC\DLC_Button" GUID="{3E84C696-077B-4FD3-8892-158C9DF3A153}" MaxAttenuation="30.000000" DurationType="Unknown"/>
 				<Event Id="2874568351" Name="DLC_Cannon_Shot" ObjectPath="\Events\Ambient\DLC\DLC_Cannon_Shot" GUID="{2566E600-7C95-4E66-800B-FE7CA2C3741F}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.661715" DurationMax="1.661715"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -1336,13 +1336,13 @@
 				<Event Id="1615265847" Name="Ambient_Core_Shield_Alive" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Alive" GUID="{413C2693-74F1-4A1F-8C23-7405F80007C0}" MaxAttenuation="60.000000" DurationType="Infinite"/>
 				<Event Id="1389069565" Name="Ambient_Core_Shield_Destroyed" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Destroyed" GUID="{E9AB26B5-CF96-456A-9177-01FEF863BD7F}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="10.652333" DurationMax="10.652333"/>
 				<Event Id="4275106484" Name="Ambient_Lava" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Ambient_Lava" GUID="{1FD14D4E-ADA6-45D5-80BC-0EECF0F71DD9}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Dungeon" GUID="{0DA0B07A-4FFA-4946-8E31-D92FE4963F4C}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Dungeon" GUID="{0DA0B07A-4FFA-4946-8E31-D92FE4963F4C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Ambient_Torch" GUID="{19917800-6812-4744-9B26-A3519A86EFA5}" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy" GUID="{2DE6AABD-0288-445F-A9B7-67E4BF11C653}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play" GUID="{936CD5EF-9820-4A21-B810-D0492C1490C3}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop" GUID="{9ECAE2DE-A602-41D0-9804-A68F69366076}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="2.647154" DurationMax="2.647154"/>
-				<Event Id="630311347" Name="Object_ActivateKey_Failed" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Failed" GUID="{9C0865EA-D2B5-41F4-9C0D-8479A86F808D}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.425280" DurationMax="0.477360"/>
-				<Event Id="1499503781" Name="Object_ActivateKey_Success" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Success" GUID="{26455C14-A2D3-4E82-9EAA-D0429D7C60D4}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.060354" DurationMax="1.190208"/>
+				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play" GUID="{936CD5EF-9820-4A21-B810-D0492C1490C3}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop" GUID="{9ECAE2DE-A602-41D0-9804-A68F69366076}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.647154" DurationMax="2.647154"/>
+				<Event Id="630311347" Name="Object_ActivateKey_Failed" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Failed" GUID="{9C0865EA-D2B5-41F4-9C0D-8479A86F808D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.425280" DurationMax="0.477360"/>
+				<Event Id="1499503781" Name="Object_ActivateKey_Success" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Success" GUID="{26455C14-A2D3-4E82-9EAA-D0429D7C60D4}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.060354" DurationMax="1.190208"/>
 				<Event Id="1795559212" Name="Object_Coin_Drop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Coin_Drop" GUID="{C68C81D1-9D17-4C7F-8356-964F200DDE92}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="3.100000" DurationMax="3.100000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -1775,7 +1775,7 @@
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Desert" GUID="{6D521A86-5974-488D-BA01-9D605693B6CA}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Desert" GUID="{6D521A86-5974-488D-BA01-9D605693B6CA}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact" GUID="{42EA45FE-B6AA-42DF-A7D6-D904F1D60431}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -1992,7 +1992,7 @@
 			<ShortName>Quest_02</ShortName>
 			<Path>English(US)\Quest_02.bnk</Path>
 			<IncludedEvents>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
 				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
@@ -2029,12 +2029,12 @@
 			<ShortName>Quest_03</ShortName>
 			<Path>English(US)\Quest_03.bnk</Path>
 			<IncludedEvents>
-				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="8.948769" DurationMax="8.948769"/>
-				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="10.281489" DurationMax="10.281489"/>
-				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="5.175276" DurationMax="5.175276"/>
-				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="9.920299" DurationMax="9.920299"/>
-				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="5.757738" DurationMax="5.757738"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="9.758702" DurationMax="9.758702"/>
+				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.212044" DurationMax="11.212044"/>
+				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.793679" DurationMax="7.793679"/>
+				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="10.818163" DurationMax="10.818163"/>
+				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.278857" DurationMax="6.278857"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.606952" DurationMax="10.606952"/>
 				<Event Id="1620373965" Name="Wwizard_DialogueLine_Q3a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02" GUID="{52175C07-A72E-46E3-B5DA-CBA1605D887F}" DurationType="OneShot" DurationMin="5.486717" DurationMax="5.486717"/>
@@ -2127,8 +2127,8 @@
 			<ShortName>Quest_04</ShortName>
 			<Path>English(US)\Quest_04.bnk</Path>
 			<IncludedEvents>
-				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="8.264974" DurationMax="8.264974"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.013018" DurationMax="9.013018"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.460657" DurationMax="6.460657"/>
 				<Event Id="3210335082" Name="Wwizard_DialogueLine_Q4a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02" GUID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}" DurationType="OneShot" DurationMin="9.427544" DurationMax="9.427544"/>
@@ -2193,10 +2193,11 @@
 			<ShortName>Quest_05</ShortName>
 			<Path>English(US)\Quest_05.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play" GUID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="5.096907" DurationMax="5.096907"/>
+				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play" GUID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.096907" DurationMax="5.096907"/>
 				<Event Id="2622623673" Name="Door_TempleDoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop" GUID="{92070154-8029-4CAE-816F-579CB6F4999C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
+				<Event Id="2934374892" Name="Wwizard_DialogueLine_Q5a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01" GUID="{33EF92E5-CA70-44A3-AA5D-235DBCF72599}" DurationType="OneShot" DurationMin="8.653030" DurationMax="8.653030"/>
 				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="7.815919" DurationMax="7.815919"/>
 				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="9.367746" DurationMax="9.367746"/>
 				<Event Id="2934374889" Name="Wwizard_DialogueLine_Q5a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04" GUID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}" DurationType="OneShot" DurationMin="11.173794" DurationMax="11.173794"/>
@@ -2224,6 +2225,10 @@
 					<ShortName>WAG Wwizard Dial. Line-028.wav</ShortName>
 					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_B4A22A82.wem</Path>
 				</File>
+				<File Id="740647715" Language="English(US)">
+					<ShortName>WAG Wwizard Dial. Line-023.wav</ShortName>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-023_B4A22A82.wem</Path>
+				</File>
 				<File Id="1073270917" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-027.wav</ShortName>
 					<Path>Voices\English(US)\WAG Wwizard Dial. Line-027_B4A22A82.wem</Path>
@@ -2235,7 +2240,7 @@
 			<ShortName>Quest_06</ShortName>
 			<Path>Quest_06.bnk</Path>
 			<IncludedEvents>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -2269,8 +2274,8 @@
 				<Event Id="1230192158" Name="Magic_Blast_Impact" ObjectPath="\Events\Magic\SoundBankSpecific\Magic_Blast_Impact" GUID="{159898B0-0B04-4F62-86BE-C4EDA88332CF}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="3.074354" DurationMax="5.825833"/>
 				<Event Id="3373889173" Name="Magic_Charge" ObjectPath="\Events\Magic\General\Magic_Charge" GUID="{9B7276C5-B34F-402A-9F1C-C83A9200DFAA}" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="2689787085" Name="Magic_Stop" ObjectPath="\Events\Magic\SoundBankSpecific\Magic_Stop" GUID="{3AF9B346-F69E-4C4B-A9D1-F52B13F73CC5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1817926999" Name="Object_Rune_Charge_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Play" GUID="{CA13E948-FC8A-4C86-A933-FEB51278A585}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="547945861" Name="Object_Rune_Charge_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Stop" GUID="{ACA095B5-7387-4C6B-AC03-D2462587900A}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.793333" DurationMax="2.089813"/>
+				<Event Id="1817926999" Name="Object_Rune_Charge_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Play" GUID="{CA13E948-FC8A-4C86-A933-FEB51278A585}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="547945861" Name="Object_Rune_Charge_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Stop" GUID="{ACA095B5-7387-4C6B-AC03-D2462587900A}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.793333" DurationMax="2.089813"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -2305,7 +2310,7 @@
 			<ShortName>All_In_One</ShortName>
 			<Path>English(US)\All_In_One.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Ambient\General\Ambient_Campfire_Play" GUID="{4B7C14D3-4763-4B2C-9EAB-142865C3261F}" MaxAttenuation="50.000000" DurationType="Infinite"/>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Ambient\General\Ambient_Campfire_Play" GUID="{4B7C14D3-4763-4B2C-9EAB-142865C3261F}" MaxAttenuation="30.000000" DurationType="Infinite"/>
 				<Event Id="100151336" Name="Ambient_Campfire_Stop" ObjectPath="\Events\Ambient\General\Ambient_Campfire_Stop" GUID="{45C3257D-2EAB-49B6-B593-1A3290D7C5A0}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1342629461" Name="Ambient_Core_FinalReveal" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_FinalReveal" GUID="{371AE6AB-C596-4F3C-8C7C-774491766239}" DurationType="Infinite"/>
 				<Event Id="1205412814" Name="Ambient_Core_HorribleSound" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_HorribleSound" GUID="{E93CE2A7-7805-450B-803E-E08AFF6B267A}" DurationType="OneShot" DurationMin="11.077979" DurationMax="11.077979"/>
@@ -2316,23 +2321,23 @@
 				<Event Id="1389069565" Name="Ambient_Core_Shield_Destroyed" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Destroyed" GUID="{E9AB26B5-CF96-456A-9177-01FEF863BD7F}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="10.652333" DurationMax="10.652333"/>
 				<Event Id="2355650095" Name="Ambient_Crystal_Hum" ObjectPath="\Events\Ambient\General\Ambient_Crystal_Hum" GUID="{25B3E3DE-DAEE-4718-A2A2-8B9343F935AE}" MaxAttenuation="50.000000" DurationType="Infinite"/>
 				<Event Id="4275106484" Name="Ambient_Lava" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Ambient_Lava" GUID="{1FD14D4E-ADA6-45D5-80BC-0EECF0F71DD9}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Cave" GUID="{C54FB893-8B84-4A04-AE12-7512C79000CF}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Desert" GUID="{6D521A86-5974-488D-BA01-9D605693B6CA}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Dungeon" GUID="{0DA0B07A-4FFA-4946-8E31-D92FE4963F4C}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Cave" GUID="{C54FB893-8B84-4A04-AE12-7512C79000CF}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Desert" GUID="{6D521A86-5974-488D-BA01-9D605693B6CA}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Dungeon" GUID="{0DA0B07A-4FFA-4946-8E31-D92FE4963F4C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_PineForest" GUID="{9887199A-C53A-4F4B-B207-CACADB99D4EC}" DurationType="Infinite"/>
-				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Village" GUID="{F45A0843-3F9D-4976-B1B2-32097119D30C}" MaxAttenuation="50.000000" DurationType="Infinite"/>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Village" GUID="{F45A0843-3F9D-4976-B1B2-32097119D30C}" MaxAttenuation="30.000000" DurationType="Infinite"/>
 				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Woodlands" GUID="{CF6209A5-C98B-4649-ADA7-D6795F1369CA}" DurationType="Infinite"/>
-				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_River" GUID="{B30B52AB-46CF-4A54-9DC8-A90CDD5398E2}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_River" GUID="{B30B52AB-46CF-4A54-9DC8-A90CDD5398E2}" MaxAttenuation="20.000000" DurationType="Infinite"/>
 				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Ambient\SoundBankSpecific\Dungeon\Ambient_Torch" GUID="{19917800-6812-4744-9B26-A3519A86EFA5}" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_WaterDrop" GUID="{321E9D2C-FD0D-4EA6-A4AF-34B52637C7DE}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.389000"/>
 				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Waterfall" GUID="{B0747836-9578-49F6-ADCB-20DAADE76160}" MaxAttenuation="150.000000" DurationType="Infinite"/>
-				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Windmill" GUID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}" MaxAttenuation="51.000000" DurationType="Infinite"/>
-				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="8.948769" DurationMax="8.948769"/>
-				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="10.281489" DurationMax="10.281489"/>
-				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="5.175276" DurationMax="5.175276"/>
-				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="9.920299" DurationMax="9.920299"/>
-				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="5.757738" DurationMax="5.757738"/>
-				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="8.264974" DurationMax="8.264974"/>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Windmill" GUID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}" MaxAttenuation="50.000000" DurationType="Infinite"/>
+				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="9.758702" DurationMax="9.758702"/>
+				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.212044" DurationMax="11.212044"/>
+				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.793679" DurationMax="7.793679"/>
+				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="10.818163" DurationMax="10.818163"/>
+				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.278857" DurationMax="6.278857"/>
+				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.013018" DurationMax="9.013018"/>
 				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Destruction\General\Destruction_Container" GUID="{F52B8CBC-4A26-44FF-8B0B-1E5D8E73FA20}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.813187" DurationMax="2.372896"/>
 				<Event Id="3250765487" Name="Destruction_Core_Explosion" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Core_Explosion" GUID="{D7C01EED-F0BC-4672-A90A-BB4959573ED7}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="10.652333" DurationMax="10.652333"/>
 				<Event Id="2095238286" Name="Destruction_Core_ShieldBreak" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Core_ShieldBreak" GUID="{9B32D667-4AF8-4699-858D-9FCBFB7A4493}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -2340,17 +2345,17 @@
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Rock_Destroy" GUID="{2DE6AABD-0288-445F-A9B7-67E4BF11C653}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact" GUID="{42EA45FE-B6AA-42DF-A7D6-D904F1D60431}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2048928861" Name="DLC_Ambient_Heaven" ObjectPath="\Events\Ambient\DLC\DLC_Ambient_Heaven" GUID="{DA561C5D-7659-42C9-BDA4-8B3D97227854}" DurationType="OneShot" DurationMin="62.975563" DurationMax="62.975563"/>
-				<Event Id="2622476831" Name="DLC_Button" ObjectPath="\Events\Ambient\DLC\DLC_Button" GUID="{3E84C696-077B-4FD3-8892-158C9DF3A153}" MaxAttenuation="50.000000" DurationType="Unknown"/>
+				<Event Id="2622476831" Name="DLC_Button" ObjectPath="\Events\Ambient\DLC\DLC_Button" GUID="{3E84C696-077B-4FD3-8892-158C9DF3A153}" MaxAttenuation="30.000000" DurationType="Unknown"/>
 				<Event Id="2874568351" Name="DLC_Cannon_Shot" ObjectPath="\Events\Ambient\DLC\DLC_Cannon_Shot" GUID="{2566E600-7C95-4E66-800B-FE7CA2C3741F}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.661715" DurationMax="1.661715"/>
-				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play" GUID="{936CD5EF-9820-4A21-B810-D0492C1490C3}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop" GUID="{9ECAE2DE-A602-41D0-9804-A68F69366076}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="2.647154" DurationMax="2.647154"/>
-				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play" GUID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="5.096907" DurationMax="5.096907"/>
+				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play" GUID="{936CD5EF-9820-4A21-B810-D0492C1490C3}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop" GUID="{9ECAE2DE-A602-41D0-9804-A68F69366076}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.647154" DurationMax="2.647154"/>
+				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play" GUID="{7E82BB2D-5CB4-4BDF-AF67-8BB906A0E729}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.096907" DurationMax="5.096907"/>
 				<Event Id="2622623673" Name="Door_TempleDoor_Open_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop" GUID="{92070154-8029-4CAE-816F-579CB6F4999C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Death" GUID="{361ACB08-CF41-4C11-AA87-3CA4142AAC7E}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.009070" DurationMax="2.009070"/>
 				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat" GUID="{C11E259A-FF49-4371-A0C5-CD222B9B7610}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.927750" DurationMax="119.895142"/>
 				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode" GUID="{A4CDCAC3-7FEA-451B-854A-FD603CCBD040}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.526246" DurationMax="1.818171"/>
 				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt" GUID="{988BB9A1-2F8E-4993-8933-5B2A87D9869C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.658118"/>
-				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="2.556306" DurationMax="6.572504"/>
+				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement" GUID="{37E1081C-623E-42D2-8F87-13ADA174F864}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.859486" DurationMax="1.809945"/>
 				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Bite" GUID="{8581C194-4BA1-4866-8172-BDF1395B15A8}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.480000" DurationMax="3.480000"/>
 				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Charge" GUID="{9EAEB9E0-3BAF-4D65-98A5-6DA75FAA8548}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.934942" DurationMax="2.238125"/>
 				<Event Id="2283357753" Name="Enemy_EvilHead_Death" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Death" GUID="{33741091-4554-4D42-B0F5-AFB0FAD96326}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="3.387186" DurationMax="5.375961"/>
@@ -2380,23 +2385,23 @@
 				<Event Id="433441283" Name="Music_Enemies" ObjectPath="\Events\Music\General\Music_Enemies" GUID="{9BACC72B-91D8-40BC-8753-DADA3E6C40A1}" DurationType="Infinite"/>
 				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Music\General\Music_Region" GUID="{7ADFE735-CFF7-4FB6-AD0E-95505AC5D57D}" DurationType="Infinite"/>
 				<Event Id="1532327793" Name="Music_TitleScreen" ObjectPath="\Events\Music\SoundBankSpecific\Music_TitleScreen" GUID="{AB1B2D9B-58CE-423A-AC9A-D5A824F42D6C}" DurationType="Infinite"/>
-				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.922842" DurationMax="0.922842"/>
+				<Event Id="1035173718" Name="NPC_Wwizard_IdleGimmick_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_IdleGimmick_Poof" GUID="{C7B0806F-E42E-4813-ADA1-8F99BDD38112}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.922842" DurationMax="0.922842"/>
 				<Event Id="2391108228" Name="NPC_Wwizard_Poof" ObjectPath="\Events\Magic\General\NPC_Wwizard_Poof" GUID="{BE2DCBF1-942E-4646-8D7B-FA557C01FA74}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.473590" DurationMax="2.473590"/>
 				<Event Id="2857761532" Name="NPC_Wwizard_StaffOnGround" ObjectPath="\Events\NPCs\NPC_Wwizard_StaffOnGround" GUID="{043CC3FE-76CA-4416-A960-616573CB563D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.332418" DurationMax="0.332418"/>
-				<Event Id="630311347" Name="Object_ActivateKey_Failed" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Failed" GUID="{9C0865EA-D2B5-41F4-9C0D-8479A86F808D}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="0.425280" DurationMax="0.477360"/>
-				<Event Id="1499503781" Name="Object_ActivateKey_Success" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Success" GUID="{26455C14-A2D3-4E82-9EAA-D0429D7C60D4}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.060354" DurationMax="1.190208"/>
+				<Event Id="630311347" Name="Object_ActivateKey_Failed" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Failed" GUID="{9C0865EA-D2B5-41F4-9C0D-8479A86F808D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.425280" DurationMax="0.477360"/>
+				<Event Id="1499503781" Name="Object_ActivateKey_Success" ObjectPath="\Events\Objects\SoundBankSpecific\Object_ActivateKey_Success" GUID="{26455C14-A2D3-4E82-9EAA-D0429D7C60D4}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.060354" DurationMax="1.190208"/>
 				<Event Id="1795559212" Name="Object_Coin_Drop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Coin_Drop" GUID="{C68C81D1-9D17-4C7F-8356-964F200DDE92}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="3.100000" DurationMax="3.100000"/>
-				<Event Id="1817926999" Name="Object_Rune_Charge_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Play" GUID="{CA13E948-FC8A-4C86-A933-FEB51278A585}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="547945861" Name="Object_Rune_Charge_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Stop" GUID="{ACA095B5-7387-4C6B-AC03-D2462587900A}" MaxAttenuation="50.000000" DurationType="OneShot" DurationMin="1.793333" DurationMax="2.089813"/>
+				<Event Id="1817926999" Name="Object_Rune_Charge_Play" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Play" GUID="{CA13E948-FC8A-4C86-A933-FEB51278A585}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="547945861" Name="Object_Rune_Charge_Stop" ObjectPath="\Events\Objects\SoundBankSpecific\Object_Rune_Charge_Stop" GUID="{ACA095B5-7387-4C6B-AC03-D2462587900A}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.793333" DurationMax="2.089813"/>
 				<Event Id="1499896846" Name="Pickup_Coins" ObjectPath="\Events\Player\General\Pickup_Coins" GUID="{1C8D40AF-CE04-489F-92DE-5DA195664503}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.408707" DurationMax="0.626248"/>
-				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="2.658329"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="2.190000" DurationMax="3.630000"/>
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.225869" DurationMax="4.420672"/>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Player\General\Player_Health" GUID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" DurationType="Infinite"/>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="2.304000"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.181420" DurationMax="7.240664"/>
-				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\General\Player_WeaponSwing" GUID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.340000" DurationMax="2.350000"/>
+				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Player\General\Player_WeaponSwing" GUID="{D6576080-A42D-4FBF-8B25-56C419BC2D7E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.228786" DurationMax="2.154959"/>
 				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Quest\Quest_Complete" GUID="{278DE966-6B7C-462A-9E4C-A610FD7806CB}" DurationType="OneShot" DurationMin="2.040000" DurationMax="2.040000"/>
 				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Quest\Quest_CompleteCollection" GUID="{D521273D-3E7B-4EF2-8A9B-66160F6242A9}" DurationType="OneShot" DurationMin="1.635692" DurationMax="1.635692"/>
 				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Music\General\Stinger_GetWeapon" GUID="{E26772A2-5767-4DF7-A39A-01C2BA0BB020}" DurationType="OneShot" DurationMin="2.690000" DurationMax="2.690000"/>
@@ -2407,15 +2412,15 @@
 				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\UI\Generic\UI_Button_Up" GUID="{1975C582-9BE3-4B94-AF65-DC7C428D2057}" DurationType="OneShot" DurationMin="0.513492" DurationMax="0.513492"/>
 				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\UI\Inventory\UI_Inventory_Close" GUID="{B2445F20-C2C6-4632-B596-1BC3BDF68AE0}" DurationType="OneShot" DurationMin="1.025941" DurationMax="1.025941"/>
 				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\UI\Inventory\UI_Inventory_Open" GUID="{E1F08740-DE9E-4039-BDE2-C46B8D8B18F8}" DurationType="OneShot" DurationMin="0.612358" DurationMax="0.612358"/>
-				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\UI\Inventory\UI_Inventory_Roll" GUID="{0FB5BEB2-B5B9-42FE-A8BF-D6DFBE133F84}" DurationType="OneShot" DurationMin="0.170590" DurationMax="0.170590"/>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\UI\Inventory\UI_Inventory_Roll" GUID="{0FB5BEB2-B5B9-42FE-A8BF-D6DFBE133F84}" DurationType="OneShot" DurationMin="0.197091" DurationMax="0.197091"/>
 				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\UI\Menu\UI_Menu_Pause" GUID="{38C87385-C5F6-411F-9E84-D9EA1B4D1D98}" DurationType="OneShot" DurationMin="2.304966" DurationMax="2.304966"/>
 				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\UI\Menu\UI_Menu_Resume" GUID="{EEBDA753-4E1B-4380-ACA2-FD53129C027D}" DurationType="OneShot" DurationMin="4.100000" DurationMax="4.100000"/>
-				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.070136" DurationMax="2.070136"/>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\UI\Menu\UI_Menu_Select" GUID="{F8A4BB36-DA49-445D-8477-D48BF27F917E}" DurationType="OneShot" DurationMin="2.058213" DurationMax="2.082128"/>
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport" GUID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}" DurationType="OneShot" DurationMin="3.891066" DurationMax="3.891066"/>
-				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
-				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="1.408753" DurationMax="1.408753"/>
-				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
-				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Close" GUID="{EDD74CCB-6AB7-48FF-BE5B-3EE357DBD93B}" DurationType="OneShot" DurationMin="1.329685" DurationMax="1.329685"/>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Hide" GUID="{7338840D-47AA-49C7-B598-CFEF41459A42}" DurationType="OneShot" DurationMin="1.329685" DurationMax="1.329685"/>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
 				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
@@ -2438,6 +2443,7 @@
 				<Event Id="3210335084" Name="Wwizard_DialogueLine_Q4a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04" GUID="{D076FAD1-40D8-443D-B933-49B2C541E96C}" DurationType="OneShot" DurationMin="8.879843" DurationMax="8.879843"/>
 				<Event Id="3210335085" Name="Wwizard_DialogueLine_Q4a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05" GUID="{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}" DurationType="OneShot" DurationMin="10.089436" DurationMax="10.089436"/>
 				<Event Id="3210335086" Name="Wwizard_DialogueLine_Q4a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06" GUID="{42EB972D-7E5A-436E-95DA-0A12AF2AD046}" DurationType="OneShot" DurationMin="11.223417" DurationMax="11.223417"/>
+				<Event Id="2934374892" Name="Wwizard_DialogueLine_Q5a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01" GUID="{33EF92E5-CA70-44A3-AA5D-235DBCF72599}" DurationType="OneShot" DurationMin="8.653030" DurationMax="8.653030"/>
 				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="7.815919" DurationMax="7.815919"/>
 				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="9.367746" DurationMax="9.367746"/>
 				<Event Id="2934374889" Name="Wwizard_DialogueLine_Q5a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04" GUID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}" DurationType="OneShot" DurationMin="11.173794" DurationMax="11.173794"/>
@@ -2681,7 +2687,7 @@
 				</File>
 				<File Id="107949489" Language="SFX">
 					<ShortName>EvilCrawler_Movement_02.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_02_B830A894.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_02_CC452553.wem</Path>
 				</File>
 				<File Id="108931642" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
@@ -3093,7 +3099,7 @@
 				</File>
 				<File Id="436175451" Language="SFX">
 					<ShortName>EvilCrawler_Movement_03.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_03_B830A894.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_03_C3A5442F.wem</Path>
 				</File>
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -3469,6 +3475,10 @@
 					<ShortName>ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION2.wav</ShortName>
 					<Path>SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION2_1DD5206E.wem</Path>
 				</File>
+				<File Id="740647715" Language="English(US)">
+					<ShortName>WAG Wwizard Dial. Line-023.wav</ShortName>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-023_B4A22A82.wem</Path>
+				</File>
 				<File Id="742600215" Language="SFX">
 					<ShortName>ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1.wav</ShortName>
 					<Path>SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1_1DD5206E.wem</Path>
@@ -3618,7 +3628,7 @@
 				</File>
 				<File Id="870914841" Language="SFX">
 					<ShortName>EvilCrawler_Movement_01.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_01_B830A894.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_01_940C5699.wem</Path>
 				</File>
 				<File Id="872064368" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-004.wav</ShortName>
@@ -4068,9 +4078,9 @@
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Village" GUID="{F45A0843-3F9D-4976-B1B2-32097119D30C}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_River" GUID="{B30B52AB-46CF-4A54-9DC8-A90CDD5398E2}" MaxAttenuation="30.000000" DurationType="Infinite"/>
-				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Windmill" GUID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}" MaxAttenuation="51.000000" DurationType="Infinite"/>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Village" GUID="{F45A0843-3F9D-4976-B1B2-32097119D30C}" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_River" GUID="{B30B52AB-46CF-4A54-9DC8-A90CDD5398E2}" MaxAttenuation="20.000000" DurationType="Infinite"/>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Windmill" GUID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}" MaxAttenuation="50.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="759379745"/>
@@ -4196,7 +4206,7 @@
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Cave" GUID="{C54FB893-8B84-4A04-AE12-7512C79000CF}" MaxAttenuation="50.000000" DurationType="Infinite"/>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Region_Cave" GUID="{C54FB893-8B84-4A04-AE12-7512C79000CF}" MaxAttenuation="30.000000" DurationType="Infinite"/>
 				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_WaterDrop" GUID="{321E9D2C-FD0D-4EA6-A4AF-34B52637C7DE}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.389000"/>
 				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Crystal_Destroy" GUID="{D0403EDA-8F7F-4CFA-A39A-04EB7C726517}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="1.883670" DurationMax="2.054157"/>
 			</IncludedEvents>

@@ -867,7 +867,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="RadiusMax" Type="Real64" Value="50"/>
+								<Property Name="RadiusMax" Type="Real64" Value="30"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -884,13 +884,13 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<SegmentShape>Log3</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>5</XPos>
-													<YPos>0</YPos>
+													<XPos>10.18446</XPos>
+													<YPos>-1.45682</YPos>
 													<Flags>0</Flags>
-													<SegmentShape>Exp3</SegmentShape>
+													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>50</XPos>
+													<XPos>30</XPos>
 													<YPos>-96.3</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -912,7 +912,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<SegmentShape>Log3</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>50</XPos>
+													<XPos>30</XPos>
 													<YPos>-96.3</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -934,7 +934,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<SegmentShape>Log3</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>50</XPos>
+													<XPos>30</XPos>
 													<YPos>-96.3</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -953,9 +953,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<XPos>0</XPos>
 													<YPos>0</YPos>
 													<Flags>5</Flags>
+													<SegmentShape>Exp2</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>50</XPos>
+													<XPos>10.33981</XPos>
+													<YPos>6</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>Log2</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>30</XPos>
 													<YPos>100</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -979,17 +986,17 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>5</XPos>
+													<XPos>3</XPos>
 													<YPos>100</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>20</XPos>
+													<XPos>12</XPos>
 													<YPos>0</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>50</XPos>
+													<XPos>30</XPos>
 													<YPos>0</YPos>
 													<Flags>37</Flags>
 												</Point>

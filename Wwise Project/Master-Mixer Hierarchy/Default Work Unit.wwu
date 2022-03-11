@@ -392,7 +392,7 @@
 												<DuckItem>
 													<BusRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}"/>
 													<DuckingParam>
-														<Volume>-4</Volume>
+														<Volume>-8</Volume>
 														<FadeInTime>1</FadeInTime>
 														<FadeOutTime>1</FadeOutTime>
 														<FadeCurve>FadeLinear</FadeCurve>
@@ -401,7 +401,7 @@
 												<DuckItem>
 													<BusRef Name="Ambient" ID="{E70EE446-5A9F-4382-8B46-9AF3C72F9FC3}"/>
 													<DuckingParam>
-														<Volume>-2</Volume>
+														<Volume>-5</Volume>
 														<FadeInTime>2</FadeInTime>
 														<FadeOutTime>1</FadeOutTime>
 														<FadeCurve>FadeLinear</FadeCurve>
@@ -489,6 +489,11 @@
 											<ChildrenList>
 												<AuxBus Name="Village" ID="{9E5B3690-AA8E-42AB-B247-82BEF43C5645}">
 													<PropertyList>
+														<Property Name="BypassEffect0" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
@@ -528,6 +533,11 @@
 												</AuxBus>
 												<AuxBus Name="Training" ID="{FD7555EE-8278-4239-9CD0-167E7B219146}">
 													<PropertyList>
+														<Property Name="BypassEffect0" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>
@@ -567,6 +577,11 @@
 												</AuxBus>
 												<AuxBus Name="WwizardHouse" ID="{5C6967B1-5E14-44E0-8108-9582638E40CC}">
 													<PropertyList>
+														<Property Name="BypassEffect0" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
 														<Property Name="CenterPercentage" Type="int32">
 															<ValueList>
 																<Value>100</Value>

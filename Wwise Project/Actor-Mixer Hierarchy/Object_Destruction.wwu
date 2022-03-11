@@ -892,7 +892,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9.99695064898753</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -994,7 +994,7 @@
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1162,7 +1162,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{2838CB7B-0F7C-4603-8D0F-79596BC143ED}" ShortID="998009996">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0968330308529946"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="9.68330308529946E-02"/>
 														<Property Name="TrimEnd" Type="Real64" Value="1.24134565940714"/>
 													</PropertyList>
 													<Language>SFX</Language>

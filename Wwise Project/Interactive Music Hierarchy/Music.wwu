@@ -138,14 +138,12 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="Inclusion" Type="bool">
 											<ValueList>
 												<Value Platform="Mac">True</Value>
-												<Value Platform="Windows">False</Value>
+												<Value Platform="Windows">True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
-												<RTPC Name="" ID="{1AB5D4E9-B8B1-4B2E-9BD7-1C84AE260EE3}" ShortID="306261862">
-													<ReferenceList/>
-												</RTPC>
+												<RTPC Name="" ID="{1AB5D4E9-B8B1-4B2E-9BD7-1C84AE260EE3}" ShortID="306261862"/>
 											</RTPCList>
 										</Property>
 									</PropertyList>
@@ -3472,7 +3470,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="Inclusion" Type="bool">
 											<ValueList>
 												<Value Platform="Mac">True</Value>
-												<Value Platform="Windows">False</Value>
+												<Value Platform="Windows">True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
@@ -4446,7 +4444,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="Inclusion" Type="bool">
 											<ValueList>
 												<Value Platform="Mac">True</Value>
-												<Value Platform="Windows">False</Value>
+												<Value Platform="Windows">True</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
@@ -8423,7 +8421,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 					<CueList>
 						<MusicCue Name="Entry Cue" ID="{181C833A-AE2E-43A9-92C3-B2860D72B56C}">
 							<PropertyList>
-								<Property Name="TimeMs" Type="Real64" Value="1.70530256582424E-013"/>
+								<Property Name="TimeMs" Type="Real64" Value="1.70530256582424E-13"/>
 							</PropertyList>
 						</MusicCue>
 						<MusicCue Name="Exit Cue" ID="{2C4579AA-C165-4CBE-8B1E-AE0F20F79B4E}">

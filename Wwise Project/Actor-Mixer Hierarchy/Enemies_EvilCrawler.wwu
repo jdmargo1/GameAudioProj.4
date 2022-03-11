@@ -70,7 +70,7 @@
 						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -128,7 +128,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-12</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -241,10 +241,12 @@
 									<ChildrenList>
 										<AudioFileSource Name="EvilCrawler_Movement_01" ID="{C9C15781-22A7-4F9F-ABEE-E36688399AAE}" ShortID="870914841">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.348460604345724"/>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.07087893042832"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.33723576085547"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>EvilCrawler_Movement_01.wav</AudioFile>
@@ -258,6 +260,11 @@
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -270,10 +277,12 @@
 									<ChildrenList>
 										<AudioFileSource Name="EvilCrawler_Movement_02" ID="{B76BC559-4246-4A94-B814-CA635A6D0695}" ShortID="107949489">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.385911804352012"/>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.271713413268254"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.03566127086305"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>EvilCrawler_Movement_02.wav</AudioFile>
@@ -287,6 +296,11 @@
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -299,10 +313,12 @@
 									<ChildrenList>
 										<AudioFileSource Name="EvilCrawler_Movement_03" ID="{4D0D41AC-7B4A-43F5-A4ED-ADCE5224866D}" ShortID="436175451">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.253483456929855"/>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.35045496881595"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>EvilCrawler_Movement_03.wav</AudioFile>
@@ -338,6 +354,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -506,7 +527,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -776,7 +797,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -810,7 +831,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="BAS_Evil_Crawler_Hurt_Vox_01" ID="{81331CDE-D21F-441D-A528-7CB2E3CE0B0F}" ShortID="581193606">
 											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.00950613839285714"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.50613839285714E-03"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Creatures\BAS_Evil_Crawler_Hurt_Vox_01.wav</AudioFile>

@@ -142,6 +142,7 @@
 										<Action Name="" ID="{3D01B474-8195-47B0-BB57-9BD3BD7C8E40}" ShortID="484329399">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="2.15"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -504,6 +505,20 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="WAG Wwizard Dial_ Line-029" ID="{1154A8AA-6735-45A3-A417-90A7674B34FD}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Wwizard_DialogueLine_Q5a_01" ID="{33EF92E5-CA70-44A3-AA5D-235DBCF72599}">
+									<ChildrenList>
+										<Action Name="" ID="{E24C691E-AC74-4270-B037-3F4E9B09AC30}" ShortID="51622490">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WAG Wwizard Dial_ Line-023" ID="{7859C312-3D05-401A-9E58-1E5E24B00DFD}" WorkUnitID="{FE345DBC-02F9-490F-8727-6049197C2E87}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

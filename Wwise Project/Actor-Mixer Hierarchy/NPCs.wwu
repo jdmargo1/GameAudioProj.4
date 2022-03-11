@@ -95,6 +95,9 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{C6BBA1B3-A32E-451B-9E21-A9D5ED071575}">
@@ -1758,7 +1761,7 @@
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.002557429850828"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.231703144485017"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0163675510452992"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.63675510452992E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.312517927771182"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1788,6 +1791,9 @@
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-150</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{3698A8BC-CDE1-40EE-A37E-6918D0838AE4}">
@@ -1800,6 +1806,11 @@
 								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1820,11 +1831,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1861,11 +1867,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1901,11 +1902,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1942,11 +1938,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1982,11 +1973,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2022,11 +2008,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2062,11 +2043,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
