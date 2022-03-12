@@ -437,7 +437,7 @@ MonoBehaviour:
     ParentPhysicalPath: SoundBanks\Default Work Unit.wwu
     guid: 61467bddcc87384998a5d297216ccc65
     GuidInternal: 
-    m_lastTime: -8585579578579732165
+    m_lastTime: -8585546436283053820
     List:
     - name: Quest_01
       guid: 174fc7a1b838ea499fdf411d9151a7be
@@ -1353,8 +1353,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy
       maxAttenuation: 15
-      maxDuration: 0.716773
-      minDuration: 0.602732
+      maxDuration: 0.696368
+      minDuration: 0.585574
     - name: Enemy_EvilHead_Telegraph
       guid: c7205c7d4b7d2c4bbfa4e4e0082a7c5c
       id: 4037905639
@@ -1707,7 +1707,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8157b1cf4989c64780c59b7bcc8aae4d
     GuidInternal: 
-    m_lastTime: -8585546468313853538
+    m_lastTime: -8585546436283103690
     List:
     - name: Blacksmith_DialogueLine_Q3b_01
       guid: 9b10b1443df9804387c0a28497a32d8d
@@ -1847,8 +1847,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2
       maxAttenuation: 0
-      maxDuration: 15.169118
-      minDuration: 15.169118
+      maxDuration: 14.748485
+      minDuration: 14.748485
     - name: Wwizard_DialogueLine_Q1_3
       guid: 3fd6e230244b5142bb37b41990136fc0
       id: 4165450551
@@ -1927,8 +1927,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01
       maxAttenuation: 0
-      maxDuration: 10.606952
-      minDuration: 10.606952
+      maxDuration: 10.349589
+      minDuration: 10.349589
     - name: Wwizard_DialogueLine_Q3a_02
       guid: 075c17522ea7e346b5dacba1605d887f
       id: 1620373965
@@ -1991,8 +1991,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05
       maxAttenuation: 0
-      maxDuration: 8.04057
-      minDuration: 8.04057
+      maxDuration: 7.580711
+      minDuration: 7.580711
     - name: Wwizard_DialogueLine_Q3a_06
       guid: 7c09e2e0800b204f920bd96ca54e21f7
       id: 1620373961
@@ -2007,8 +2007,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06
       maxAttenuation: 0
-      maxDuration: 10.900558
-      minDuration: 10.900558
+      maxDuration: 10.673857
+      minDuration: 10.673857
     - name: Wwizard_DialogueLine_Q3a_07
       guid: bbbf96126fe41a40b1bebe0d9745f2f7
       id: 1620373960
@@ -2023,8 +2023,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07
       maxAttenuation: 0
-      maxDuration: 9.843587
-      minDuration: 9.843587
+      maxDuration: 9.400028
+      minDuration: 9.400028
     - name: Wwizard_DialogueLine_Q3a_08
       guid: 58de5baf13784442bee3f8e1db37d200
       id: 1620373959
@@ -2039,8 +2039,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08
       maxAttenuation: 0
-      maxDuration: 7.085433
-      minDuration: 7.085433
+      maxDuration: 6.704759
+      minDuration: 6.704759
     - name: Wwizard_DialogueLine_Q3a_09
       guid: b782b401c8841442aa97122f590636f5
       id: 1620373958
@@ -2055,8 +2055,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09
       maxAttenuation: 0
-      maxDuration: 11.05034
-      minDuration: 11.05034
+      maxDuration: 9.977862
+      minDuration: 9.977862
     - name: Wwizard_DialogueLine_Q3a_10
       guid: 6f115ee8127c224b8a4638bf20c07964
       id: 1603596380
@@ -2071,8 +2071,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10
       maxAttenuation: 0
-      maxDuration: 12.050119
-      minDuration: 12.050119
+      maxDuration: 11.590669
+      minDuration: 11.590669
     - name: Wwizard_DialogueLine_Q4a_01
       guid: 643894567b114243815948e68ec2cb07
       id: 3210335081
@@ -2087,8 +2087,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01
       maxAttenuation: 0
-      maxDuration: 6.460657
-      minDuration: 6.460657
+      maxDuration: 6.337491
+      minDuration: 6.337491
     - name: Wwizard_DialogueLine_Q4a_02
       guid: 2212c836fcb4c34695e337ce5fad8d4c
       id: 3210335082
@@ -2103,8 +2103,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02
       maxAttenuation: 0
-      maxDuration: 9.427544
-      minDuration: 9.427544
+      maxDuration: 9.198799
+      minDuration: 9.198799
     - name: Wwizard_DialogueLine_Q4a_03
       guid: 77b435448a39ce4e8a15dae8d1275418
       id: 3210335083
@@ -2119,8 +2119,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03
       maxAttenuation: 0
-      maxDuration: 5.072391
-      minDuration: 5.072391
+      maxDuration: 4.835035
+      minDuration: 4.835035
     - name: Wwizard_DialogueLine_Q4a_04
       guid: d1fa76d0d8403d44b93349b2c541e96c
       id: 3210335084
@@ -2151,8 +2151,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05
       maxAttenuation: 0
-      maxDuration: 10.089436
-      minDuration: 10.089436
+      maxDuration: 9.862117
+      minDuration: 9.862117
     - name: Wwizard_DialogueLine_Q4a_06
       guid: 2d97eb425a7e6e4395da0a12af2ad046
       id: 3210335086
@@ -2167,8 +2167,24 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06
       maxAttenuation: 0
-      maxDuration: 11.223417
-      minDuration: 11.223417
+      maxDuration: 10.931647
+      minDuration: 10.931647
+    - name: Wwizard_DialogueLine_Q5a_01
+      guid: e592ef3370caa344aa5d235dbcf72599
+      id: 2934374892
+      PathAndIcons:
+      - ElementName: NPCs
+        ObjectType: 12
+      - ElementName: Dialogue
+        ObjectType: 4
+      - ElementName: Quest 5
+        ObjectType: 4
+      - ElementName: Wwizard_DialogueLine_Q5a_01
+        ObjectType: 3
+      Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01
+      maxAttenuation: 0
+      maxDuration: 8.65303
+      minDuration: 8.65303
     - name: Wwizard_DialogueLine_Q5a_02
       guid: 242cf6a087a0e444ac65cb15e9635298
       id: 2934374895
@@ -2183,8 +2199,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02
       maxAttenuation: 0
-      maxDuration: 7.815919
-      minDuration: 7.815919
+      maxDuration: 5.621501
+      minDuration: 5.621501
     - name: Wwizard_DialogueLine_Q5a_03
       guid: 3a14eb7163077840b38b99f76ce5cc23
       id: 2934374894
@@ -2199,8 +2215,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03
       maxAttenuation: 0
-      maxDuration: 9.367746
-      minDuration: 9.367746
+      maxDuration: 8.799511
+      minDuration: 8.799511
     - name: Wwizard_DialogueLine_Q5a_04
       guid: 4fdbb2630ce20c46bf426b92de66bc45
       id: 2934374889
@@ -2215,8 +2231,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04
       maxAttenuation: 0
-      maxDuration: 11.173794
-      minDuration: 11.173794
+      maxDuration: 10.728391
+      minDuration: 10.728391
     - name: Wwizard_DialogueLine_Q5a_05
       guid: b63b193cfd64694abb0a67e23bc76f56
       id: 2934374888
@@ -2231,8 +2247,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05
       maxAttenuation: 0
-      maxDuration: 8.138227
-      minDuration: 8.138227
+      maxDuration: 7.334278
+      minDuration: 7.334278
     - name: Wwizard_DialogueLine_Q5a_06
       guid: 30219d2fee0503498b8ec01607221a11
       id: 2934374891
@@ -2247,8 +2263,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06
       maxAttenuation: 0
-      maxDuration: 6.591467
-      minDuration: 6.591467
+      maxDuration: 6.26018
+      minDuration: 6.26018
     - name: Wwizard_DialogueLine_Q5a_07
       guid: d58cf6fecab3ec4b987ab7d6cb76b9d3
       id: 2934374890
@@ -2263,8 +2279,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07
       maxAttenuation: 0
-      maxDuration: 4.435279
-      minDuration: 4.435279
+      maxDuration: 2.190736
+      minDuration: 2.190736
   - PhysicalPath: Events\Objects.wwu
     ParentPhysicalPath: 
     guid: e479a010ddb4fd458b611565bea608b0

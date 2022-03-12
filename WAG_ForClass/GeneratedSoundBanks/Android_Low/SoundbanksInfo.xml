@@ -107,7 +107,7 @@
 		</File>
 		<File Id="973122318" Language="English(US)">
 			<ShortName>WAG Wwizard Dial. Line-029.wav</ShortName>
-			<Path>Voices\English(US)\WAG Wwizard Dial. Line-029_63712F16.wem</Path>
+			<Path>Voices\English(US)\WAG Wwizard Dial. Line-029_156C14BA.wem</Path>
 		</File>
 		<File Id="973984296" Language="SFX">
 			<ShortName>Music\EvilHead_Tuba.wav</ShortName>
@@ -142,7 +142,7 @@
 				<Event Id="4261614160" Name="Enemy_EvilHead_Hover_Stop" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop" GUID="{94A0C34C-1445-40EF-868D-0B1302A7B56A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3999192250" Name="Enemy_EvilHead_Hurt" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hurt" GUID="{3F88DB87-F71B-46EB-8B79-2DED365C9F81}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.242086"/>
 				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Movement" GUID="{82A4B395-FF37-459D-A690-8D4D38D669D7}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.216440" DurationMax="5.216440"/>
-				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy" GUID="{E75317BD-39E3-4BF5-88B8-43663586D277}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.602732" DurationMax="0.716773"/>
+				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy" GUID="{E75317BD-39E3-4BF5-88B8-43663586D277}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.585574" DurationMax="0.696368"/>
 				<Event Id="4037905639" Name="Enemy_EvilHead_Telegraph" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Telegraph" GUID="{7D5C20C7-7D4B-4B2C-BFA4-E4E0082A7C5C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.745562" DurationMax="1.745562"/>
 				<Event Id="1702412353" Name="Enemy_EVilSpitPlant_Bullet_Impact" ObjectPath="\Events\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact" GUID="{0BF8BE60-442E-47E1-A9CD-06E40AF6852D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.370975" DurationMax="0.986848"/>
 				<Event Id="3324372356" Name="Enemy_EVilSpitPlant_Bullet_NoImpact" ObjectPath="\Events\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_NoImpact" GUID="{905AB196-06B9-475B-BDA2-2BEC7182D653}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
@@ -318,7 +318,7 @@
 				</File>
 				<File Id="107949489" Language="SFX">
 					<ShortName>EvilCrawler_Movement_02.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_02_AF878AE7.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_02_A0964352.wem</Path>
 				</File>
 				<File Id="112419487" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-006.wav</ShortName>
@@ -542,7 +542,7 @@
 				</File>
 				<File Id="436175451" Language="SFX">
 					<ShortName>EvilCrawler_Movement_03.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_03_4A9AFB1B.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_03_795D076E.wem</Path>
 				</File>
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -854,7 +854,7 @@
 				</File>
 				<File Id="870914841" Language="SFX">
 					<ShortName>EvilCrawler_Movement_01.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_01_EE3C34FD.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_01_4641E4BA.wem</Path>
 				</File>
 				<File Id="872064368" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-004.wav</ShortName>
@@ -1961,7 +1961,7 @@
 			<Path>English(US)\Quest_01.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
-				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
+				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="14.748485" DurationMax="14.748485"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
 				<Event Id="3091829994" Name="Wwizard_DialogueLine_Q2_1" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1" GUID="{1BEB1FB6-365A-4078-8D18-28727C82A133}" DurationType="OneShot" DurationMin="6.737920" DurationMax="6.737920"/>
 				<Event Id="3091829993" Name="Wwizard_DialogueLine_Q2_2" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2" GUID="{FCECD427-EBCE-43A2-9EF1-6339E5BC707D}" DurationType="OneShot" DurationMin="7.441278" DurationMax="7.441278"/>
@@ -1983,7 +1983,7 @@
 				</File>
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_8ED882A4.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -1994,7 +1994,7 @@
 			<IncludedEvents>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
-				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
+				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="14.748485" DurationMax="14.748485"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
 				<Event Id="3091829994" Name="Wwizard_DialogueLine_Q2_1" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1" GUID="{1BEB1FB6-365A-4078-8D18-28727C82A133}" DurationType="OneShot" DurationMin="6.737920" DurationMax="6.737920"/>
 				<Event Id="3091829993" Name="Wwizard_DialogueLine_Q2_2" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2" GUID="{FCECD427-EBCE-43A2-9EF1-6339E5BC707D}" DurationType="OneShot" DurationMin="7.441278" DurationMax="7.441278"/>
@@ -2016,7 +2016,7 @@
 				</File>
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_8ED882A4.wem</Path>
 				</File>
 				<File Id="864546744" Language="SFX">
 					<ShortName>Pickup_Book.wav</ShortName>
@@ -2036,16 +2036,16 @@
 				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.278857" DurationMax="6.278857"/>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
-				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.606952" DurationMax="10.606952"/>
+				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.349589" DurationMax="10.349589"/>
 				<Event Id="1620373965" Name="Wwizard_DialogueLine_Q3a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02" GUID="{52175C07-A72E-46E3-B5DA-CBA1605D887F}" DurationType="OneShot" DurationMin="5.486717" DurationMax="5.486717"/>
 				<Event Id="1620373964" Name="Wwizard_DialogueLine_Q3a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_03" GUID="{219313F0-B0DF-4D98-AAB6-7833341A984A}" DurationType="OneShot" DurationMin="6.983642" DurationMax="6.983642"/>
 				<Event Id="1620373963" Name="Wwizard_DialogueLine_Q3a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_04" GUID="{AF768276-848D-49C0-B4DF-E5C0AA0A20CC}" DurationType="OneShot" DurationMin="8.583117" DurationMax="8.583117"/>
-				<Event Id="1620373962" Name="Wwizard_DialogueLine_Q3a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05" GUID="{90CF2651-3C6B-415D-AEF5-1EE0FDA1701D}" DurationType="OneShot" DurationMin="8.040570" DurationMax="8.040570"/>
-				<Event Id="1620373961" Name="Wwizard_DialogueLine_Q3a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06" GUID="{E0E2097C-0B80-4F20-920B-D96CA54E21F7}" DurationType="OneShot" DurationMin="10.900558" DurationMax="10.900558"/>
-				<Event Id="1620373960" Name="Wwizard_DialogueLine_Q3a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07" GUID="{1296BFBB-E46F-401A-B1BE-BE0D9745F2F7}" DurationType="OneShot" DurationMin="9.843587" DurationMax="9.843587"/>
-				<Event Id="1620373959" Name="Wwizard_DialogueLine_Q3a_08" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08" GUID="{AF5BDE58-7813-4244-BEE3-F8E1DB37D200}" DurationType="OneShot" DurationMin="7.085433" DurationMax="7.085433"/>
-				<Event Id="1620373958" Name="Wwizard_DialogueLine_Q3a_09" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09" GUID="{01B482B7-84C8-4214-AA97-122F590636F5}" DurationType="OneShot" DurationMin="11.050340" DurationMax="11.050340"/>
-				<Event Id="1603596380" Name="Wwizard_DialogueLine_Q3a_10" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10" GUID="{E85E116F-7C12-4B22-8A46-38BF20C07964}" DurationType="OneShot" DurationMin="12.050119" DurationMax="12.050119"/>
+				<Event Id="1620373962" Name="Wwizard_DialogueLine_Q3a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05" GUID="{90CF2651-3C6B-415D-AEF5-1EE0FDA1701D}" DurationType="OneShot" DurationMin="7.580711" DurationMax="7.580711"/>
+				<Event Id="1620373961" Name="Wwizard_DialogueLine_Q3a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06" GUID="{E0E2097C-0B80-4F20-920B-D96CA54E21F7}" DurationType="OneShot" DurationMin="10.673857" DurationMax="10.673857"/>
+				<Event Id="1620373960" Name="Wwizard_DialogueLine_Q3a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07" GUID="{1296BFBB-E46F-401A-B1BE-BE0D9745F2F7}" DurationType="OneShot" DurationMin="9.400028" DurationMax="9.400028"/>
+				<Event Id="1620373959" Name="Wwizard_DialogueLine_Q3a_08" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08" GUID="{AF5BDE58-7813-4244-BEE3-F8E1DB37D200}" DurationType="OneShot" DurationMin="6.704759" DurationMax="6.704759"/>
+				<Event Id="1620373958" Name="Wwizard_DialogueLine_Q3a_09" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09" GUID="{01B482B7-84C8-4214-AA97-122F590636F5}" DurationType="OneShot" DurationMin="9.977862" DurationMax="9.977862"/>
+				<Event Id="1603596380" Name="Wwizard_DialogueLine_Q3a_10" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10" GUID="{E85E116F-7C12-4B22-8A46-38BF20C07964}" DurationType="OneShot" DurationMin="11.590669" DurationMax="11.590669"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="18204354" Language="English(US)">
@@ -2062,15 +2062,15 @@
 				</File>
 				<File Id="100772734" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-016.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_63C4146F.wem</Path>
 				</File>
 				<File Id="135281028" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-007.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_EBE13CDA.wem</Path>
 				</File>
 				<File Id="260764241" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-015.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_90A9D42C.wem</Path>
 				</File>
 				<File Id="292045048" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-006.wav</ShortName>
@@ -2078,7 +2078,7 @@
 				</File>
 				<File Id="423311836" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-014.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_05CE2EA7.wem</Path>
 				</File>
 				<File Id="486625135" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-003.wav</ShortName>
@@ -2094,7 +2094,7 @@
 				</File>
 				<File Id="664371182" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-011.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_70964CA8.wem</Path>
 				</File>
 				<File Id="736547560" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-008.wav</ShortName>
@@ -2110,7 +2110,7 @@
 				</File>
 				<File Id="965734785" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-012.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_595850AF.wem</Path>
 				</File>
 				<File Id="995834926" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-009.wav</ShortName>
@@ -2118,7 +2118,7 @@
 				</File>
 				<File Id="1032677554" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-013.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_C9C76C4F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2130,21 +2130,21 @@
 				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.013018" DurationMax="9.013018"/>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
-				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.460657" DurationMax="6.460657"/>
-				<Event Id="3210335082" Name="Wwizard_DialogueLine_Q4a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02" GUID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}" DurationType="OneShot" DurationMin="9.427544" DurationMax="9.427544"/>
-				<Event Id="3210335083" Name="Wwizard_DialogueLine_Q4a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03" GUID="{4435B477-398A-4ECE-8A15-DAE8D1275418}" DurationType="OneShot" DurationMin="5.072391" DurationMax="5.072391"/>
+				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.337491" DurationMax="6.337491"/>
+				<Event Id="3210335082" Name="Wwizard_DialogueLine_Q4a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02" GUID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}" DurationType="OneShot" DurationMin="9.198799" DurationMax="9.198799"/>
+				<Event Id="3210335083" Name="Wwizard_DialogueLine_Q4a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03" GUID="{4435B477-398A-4ECE-8A15-DAE8D1275418}" DurationType="OneShot" DurationMin="4.835035" DurationMax="4.835035"/>
 				<Event Id="3210335084" Name="Wwizard_DialogueLine_Q4a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04" GUID="{D076FAD1-40D8-443D-B933-49B2C541E96C}" DurationType="OneShot" DurationMin="8.879843" DurationMax="8.879843"/>
-				<Event Id="3210335085" Name="Wwizard_DialogueLine_Q4a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05" GUID="{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}" DurationType="OneShot" DurationMin="10.089436" DurationMax="10.089436"/>
-				<Event Id="3210335086" Name="Wwizard_DialogueLine_Q4a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06" GUID="{42EB972D-7E5A-436E-95DA-0A12AF2AD046}" DurationType="OneShot" DurationMin="11.223417" DurationMax="11.223417"/>
+				<Event Id="3210335085" Name="Wwizard_DialogueLine_Q4a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05" GUID="{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}" DurationType="OneShot" DurationMin="9.862117" DurationMax="9.862117"/>
+				<Event Id="3210335086" Name="Wwizard_DialogueLine_Q4a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06" GUID="{42EB972D-7E5A-436E-95DA-0A12AF2AD046}" DurationType="OneShot" DurationMin="10.931647" DurationMax="10.931647"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="33459104" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-022.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_D2474A43.wem</Path>
 				</File>
 				<File Id="77578611" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-017.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_A730AE48.wem</Path>
 				</File>
 				<File Id="93130815" Language="SFX">
 					<ShortName>Pickup_WeaponType_PickAxe.wav</ShortName>
@@ -2152,7 +2152,7 @@
 				</File>
 				<File Id="108931642" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_64588FB4.wem</Path>
 				</File>
 				<File Id="159574703" Language="SFX">
 					<ShortName>Pickup_PineCone.wav</ShortName>
@@ -2164,7 +2164,7 @@
 				</File>
 				<File Id="475500304" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-018.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_9A5BAA79.wem</Path>
 				</File>
 				<File Id="639973630" Language="SFX">
 					<ShortName>Pickup_Mushroom.wav</ShortName>
@@ -2184,7 +2184,7 @@
 				</File>
 				<File Id="1072836852" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-021.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_81D51022.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2198,12 +2198,12 @@
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="2934374892" Name="Wwizard_DialogueLine_Q5a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01" GUID="{33EF92E5-CA70-44A3-AA5D-235DBCF72599}" DurationType="OneShot" DurationMin="8.653030" DurationMax="8.653030"/>
-				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="7.815919" DurationMax="7.815919"/>
-				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="9.367746" DurationMax="9.367746"/>
-				<Event Id="2934374889" Name="Wwizard_DialogueLine_Q5a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04" GUID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}" DurationType="OneShot" DurationMin="11.173794" DurationMax="11.173794"/>
-				<Event Id="2934374888" Name="Wwizard_DialogueLine_Q5a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05" GUID="{3C193BB6-64FD-4A69-BB0A-67E23BC76F56}" DurationType="OneShot" DurationMin="8.138227" DurationMax="8.138227"/>
-				<Event Id="2934374891" Name="Wwizard_DialogueLine_Q5a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06" GUID="{2F9D2130-05EE-4903-8B8E-C01607221A11}" DurationType="OneShot" DurationMin="6.591467" DurationMax="6.591467"/>
-				<Event Id="2934374890" Name="Wwizard_DialogueLine_Q5a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07" GUID="{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}" DurationType="OneShot" DurationMin="4.435279" DurationMax="4.435279"/>
+				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="5.621501" DurationMax="5.621501"/>
+				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="8.799511" DurationMax="8.799511"/>
+				<Event Id="2934374889" Name="Wwizard_DialogueLine_Q5a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04" GUID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}" DurationType="OneShot" DurationMin="10.728391" DurationMax="10.728391"/>
+				<Event Id="2934374888" Name="Wwizard_DialogueLine_Q5a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05" GUID="{3C193BB6-64FD-4A69-BB0A-67E23BC76F56}" DurationType="OneShot" DurationMin="7.334278" DurationMax="7.334278"/>
+				<Event Id="2934374891" Name="Wwizard_DialogueLine_Q5a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06" GUID="{2F9D2130-05EE-4903-8B8E-C01607221A11}" DurationType="OneShot" DurationMin="6.260180" DurationMax="6.260180"/>
+				<Event Id="2934374890" Name="Wwizard_DialogueLine_Q5a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07" GUID="{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}" DurationType="OneShot" DurationMin="2.190736" DurationMax="2.190736"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="973122318"/>
@@ -2211,19 +2211,19 @@
 			<IncludedMemoryFiles>
 				<File Id="20442315" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-026.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_C45F764C.wem</Path>
 				</File>
 				<File Id="27295569" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-025.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_FFC4A4E6.wem</Path>
 				</File>
 				<File Id="204931226" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-024.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_C9EF4E01.wem</Path>
 				</File>
 				<File Id="619952066" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-028.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_76909658.wem</Path>
 				</File>
 				<File Id="740647715" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-023.wav</ShortName>
@@ -2231,7 +2231,7 @@
 				</File>
 				<File Id="1073270917" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-027.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-027_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-027_9F6B80D9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2363,7 +2363,7 @@
 				<Event Id="4261614160" Name="Enemy_EvilHead_Hover_Stop" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop" GUID="{94A0C34C-1445-40EF-868D-0B1302A7B56A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3999192250" Name="Enemy_EvilHead_Hurt" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Hurt" GUID="{3F88DB87-F71B-46EB-8B79-2DED365C9F81}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="1.242086"/>
 				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Movement" GUID="{82A4B395-FF37-459D-A690-8D4D38D669D7}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.216440" DurationMax="5.216440"/>
-				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy" GUID="{E75317BD-39E3-4BF5-88B8-43663586D277}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.602732" DurationMax="0.716773"/>
+				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy" GUID="{E75317BD-39E3-4BF5-88B8-43663586D277}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.585574" DurationMax="0.696368"/>
 				<Event Id="4037905639" Name="Enemy_EvilHead_Telegraph" ObjectPath="\Events\Enemies\EvilHead\Enemy_EvilHead_Telegraph" GUID="{7D5C20C7-7D4B-4B2C-BFA4-E4E0082A7C5C}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.745562" DurationMax="1.745562"/>
 				<Event Id="1702412353" Name="Enemy_EVilSpitPlant_Bullet_Impact" ObjectPath="\Events\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact" GUID="{0BF8BE60-442E-47E1-A9CD-06E40AF6852D}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.370975" DurationMax="0.986848"/>
 				<Event Id="3324372356" Name="Enemy_EVilSpitPlant_Bullet_NoImpact" ObjectPath="\Events\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_NoImpact" GUID="{905AB196-06B9-475B-BDA2-2BEC7182D653}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
@@ -2422,34 +2422,34 @@
 				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
 				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
 				<Event Id="4165450549" Name="Wwizard_DialogueLine_Q1_1" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1" GUID="{2FBACECC-9351-465C-ACCF-E19B92D29B51}" DurationType="OneShot" DurationMin="10.217362" DurationMax="10.217362"/>
-				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="15.169118" DurationMax="15.169118"/>
+				<Event Id="4165450550" Name="Wwizard_DialogueLine_Q1_2" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2" GUID="{A52B770D-06F1-44A5-9665-41F86EC74571}" DurationType="OneShot" DurationMin="14.748485" DurationMax="14.748485"/>
 				<Event Id="4165450551" Name="Wwizard_DialogueLine_Q1_3" ObjectPath="\Events\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3" GUID="{30E2D63F-4B24-4251-BB37-B41990136FC0}" DurationType="OneShot" DurationMin="4.699722" DurationMax="4.699722"/>
 				<Event Id="3091829994" Name="Wwizard_DialogueLine_Q2_1" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1" GUID="{1BEB1FB6-365A-4078-8D18-28727C82A133}" DurationType="OneShot" DurationMin="6.737920" DurationMax="6.737920"/>
 				<Event Id="3091829993" Name="Wwizard_DialogueLine_Q2_2" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2" GUID="{FCECD427-EBCE-43A2-9EF1-6339E5BC707D}" DurationType="OneShot" DurationMin="7.441278" DurationMax="7.441278"/>
 				<Event Id="3091829992" Name="Wwizard_DialogueLine_Q2_3" ObjectPath="\Events\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_3" GUID="{E86FB16A-D137-41F5-AD05-F5D304320F4D}" DurationType="OneShot" DurationMin="10.025445" DurationMax="10.025445"/>
-				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.606952" DurationMax="10.606952"/>
+				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.349589" DurationMax="10.349589"/>
 				<Event Id="1620373965" Name="Wwizard_DialogueLine_Q3a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02" GUID="{52175C07-A72E-46E3-B5DA-CBA1605D887F}" DurationType="OneShot" DurationMin="5.486717" DurationMax="5.486717"/>
 				<Event Id="1620373964" Name="Wwizard_DialogueLine_Q3a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_03" GUID="{219313F0-B0DF-4D98-AAB6-7833341A984A}" DurationType="OneShot" DurationMin="6.983642" DurationMax="6.983642"/>
 				<Event Id="1620373963" Name="Wwizard_DialogueLine_Q3a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_04" GUID="{AF768276-848D-49C0-B4DF-E5C0AA0A20CC}" DurationType="OneShot" DurationMin="8.583117" DurationMax="8.583117"/>
-				<Event Id="1620373962" Name="Wwizard_DialogueLine_Q3a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05" GUID="{90CF2651-3C6B-415D-AEF5-1EE0FDA1701D}" DurationType="OneShot" DurationMin="8.040570" DurationMax="8.040570"/>
-				<Event Id="1620373961" Name="Wwizard_DialogueLine_Q3a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06" GUID="{E0E2097C-0B80-4F20-920B-D96CA54E21F7}" DurationType="OneShot" DurationMin="10.900558" DurationMax="10.900558"/>
-				<Event Id="1620373960" Name="Wwizard_DialogueLine_Q3a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07" GUID="{1296BFBB-E46F-401A-B1BE-BE0D9745F2F7}" DurationType="OneShot" DurationMin="9.843587" DurationMax="9.843587"/>
-				<Event Id="1620373959" Name="Wwizard_DialogueLine_Q3a_08" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08" GUID="{AF5BDE58-7813-4244-BEE3-F8E1DB37D200}" DurationType="OneShot" DurationMin="7.085433" DurationMax="7.085433"/>
-				<Event Id="1620373958" Name="Wwizard_DialogueLine_Q3a_09" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09" GUID="{01B482B7-84C8-4214-AA97-122F590636F5}" DurationType="OneShot" DurationMin="11.050340" DurationMax="11.050340"/>
-				<Event Id="1603596380" Name="Wwizard_DialogueLine_Q3a_10" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10" GUID="{E85E116F-7C12-4B22-8A46-38BF20C07964}" DurationType="OneShot" DurationMin="12.050119" DurationMax="12.050119"/>
-				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.460657" DurationMax="6.460657"/>
-				<Event Id="3210335082" Name="Wwizard_DialogueLine_Q4a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02" GUID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}" DurationType="OneShot" DurationMin="9.427544" DurationMax="9.427544"/>
-				<Event Id="3210335083" Name="Wwizard_DialogueLine_Q4a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03" GUID="{4435B477-398A-4ECE-8A15-DAE8D1275418}" DurationType="OneShot" DurationMin="5.072391" DurationMax="5.072391"/>
+				<Event Id="1620373962" Name="Wwizard_DialogueLine_Q3a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05" GUID="{90CF2651-3C6B-415D-AEF5-1EE0FDA1701D}" DurationType="OneShot" DurationMin="7.580711" DurationMax="7.580711"/>
+				<Event Id="1620373961" Name="Wwizard_DialogueLine_Q3a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06" GUID="{E0E2097C-0B80-4F20-920B-D96CA54E21F7}" DurationType="OneShot" DurationMin="10.673857" DurationMax="10.673857"/>
+				<Event Id="1620373960" Name="Wwizard_DialogueLine_Q3a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07" GUID="{1296BFBB-E46F-401A-B1BE-BE0D9745F2F7}" DurationType="OneShot" DurationMin="9.400028" DurationMax="9.400028"/>
+				<Event Id="1620373959" Name="Wwizard_DialogueLine_Q3a_08" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08" GUID="{AF5BDE58-7813-4244-BEE3-F8E1DB37D200}" DurationType="OneShot" DurationMin="6.704759" DurationMax="6.704759"/>
+				<Event Id="1620373958" Name="Wwizard_DialogueLine_Q3a_09" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09" GUID="{01B482B7-84C8-4214-AA97-122F590636F5}" DurationType="OneShot" DurationMin="9.977862" DurationMax="9.977862"/>
+				<Event Id="1603596380" Name="Wwizard_DialogueLine_Q3a_10" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10" GUID="{E85E116F-7C12-4B22-8A46-38BF20C07964}" DurationType="OneShot" DurationMin="11.590669" DurationMax="11.590669"/>
+				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.337491" DurationMax="6.337491"/>
+				<Event Id="3210335082" Name="Wwizard_DialogueLine_Q4a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02" GUID="{36C81222-B4FC-46C3-95E3-37CE5FAD8D4C}" DurationType="OneShot" DurationMin="9.198799" DurationMax="9.198799"/>
+				<Event Id="3210335083" Name="Wwizard_DialogueLine_Q4a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03" GUID="{4435B477-398A-4ECE-8A15-DAE8D1275418}" DurationType="OneShot" DurationMin="4.835035" DurationMax="4.835035"/>
 				<Event Id="3210335084" Name="Wwizard_DialogueLine_Q4a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04" GUID="{D076FAD1-40D8-443D-B933-49B2C541E96C}" DurationType="OneShot" DurationMin="8.879843" DurationMax="8.879843"/>
-				<Event Id="3210335085" Name="Wwizard_DialogueLine_Q4a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05" GUID="{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}" DurationType="OneShot" DurationMin="10.089436" DurationMax="10.089436"/>
-				<Event Id="3210335086" Name="Wwizard_DialogueLine_Q4a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06" GUID="{42EB972D-7E5A-436E-95DA-0A12AF2AD046}" DurationType="OneShot" DurationMin="11.223417" DurationMax="11.223417"/>
+				<Event Id="3210335085" Name="Wwizard_DialogueLine_Q4a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05" GUID="{C0145CF3-D8CA-47E9-AE09-A16E5CE59E6D}" DurationType="OneShot" DurationMin="9.862117" DurationMax="9.862117"/>
+				<Event Id="3210335086" Name="Wwizard_DialogueLine_Q4a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06" GUID="{42EB972D-7E5A-436E-95DA-0A12AF2AD046}" DurationType="OneShot" DurationMin="10.931647" DurationMax="10.931647"/>
 				<Event Id="2934374892" Name="Wwizard_DialogueLine_Q5a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01" GUID="{33EF92E5-CA70-44A3-AA5D-235DBCF72599}" DurationType="OneShot" DurationMin="8.653030" DurationMax="8.653030"/>
-				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="7.815919" DurationMax="7.815919"/>
-				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="9.367746" DurationMax="9.367746"/>
-				<Event Id="2934374889" Name="Wwizard_DialogueLine_Q5a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04" GUID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}" DurationType="OneShot" DurationMin="11.173794" DurationMax="11.173794"/>
-				<Event Id="2934374888" Name="Wwizard_DialogueLine_Q5a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05" GUID="{3C193BB6-64FD-4A69-BB0A-67E23BC76F56}" DurationType="OneShot" DurationMin="8.138227" DurationMax="8.138227"/>
-				<Event Id="2934374891" Name="Wwizard_DialogueLine_Q5a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06" GUID="{2F9D2130-05EE-4903-8B8E-C01607221A11}" DurationType="OneShot" DurationMin="6.591467" DurationMax="6.591467"/>
-				<Event Id="2934374890" Name="Wwizard_DialogueLine_Q5a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07" GUID="{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}" DurationType="OneShot" DurationMin="4.435279" DurationMax="4.435279"/>
+				<Event Id="2934374895" Name="Wwizard_DialogueLine_Q5a_02" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02" GUID="{A0F62C24-A087-44E4-AC65-CB15E9635298}" DurationType="OneShot" DurationMin="5.621501" DurationMax="5.621501"/>
+				<Event Id="2934374894" Name="Wwizard_DialogueLine_Q5a_03" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03" GUID="{71EB143A-0763-4078-B38B-99F76CE5CC23}" DurationType="OneShot" DurationMin="8.799511" DurationMax="8.799511"/>
+				<Event Id="2934374889" Name="Wwizard_DialogueLine_Q5a_04" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04" GUID="{63B2DB4F-E20C-460C-BF42-6B92DE66BC45}" DurationType="OneShot" DurationMin="10.728391" DurationMax="10.728391"/>
+				<Event Id="2934374888" Name="Wwizard_DialogueLine_Q5a_05" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05" GUID="{3C193BB6-64FD-4A69-BB0A-67E23BC76F56}" DurationType="OneShot" DurationMin="7.334278" DurationMax="7.334278"/>
+				<Event Id="2934374891" Name="Wwizard_DialogueLine_Q5a_06" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06" GUID="{2F9D2130-05EE-4903-8B8E-C01607221A11}" DurationType="OneShot" DurationMin="6.260180" DurationMax="6.260180"/>
+				<Event Id="2934374890" Name="Wwizard_DialogueLine_Q5a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07" GUID="{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}" DurationType="OneShot" DurationMin="2.190736" DurationMax="2.190736"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="4132728"/>
@@ -2511,7 +2511,7 @@
 				</File>
 				<File Id="20442315" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-026.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_C45F764C.wem</Path>
 				</File>
 				<File Id="21340349" Language="SFX">
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_04.wav</ShortName>
@@ -2539,7 +2539,7 @@
 				</File>
 				<File Id="27295569" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-025.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_FFC4A4E6.wem</Path>
 				</File>
 				<File Id="27737227" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-001.wav</ShortName>
@@ -2547,7 +2547,7 @@
 				</File>
 				<File Id="33459104" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-022.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_D2474A43.wem</Path>
 				</File>
 				<File Id="34428346" Language="SFX">
 					<ShortName>FS_Water_Wade.wav</ShortName>
@@ -2627,7 +2627,7 @@
 				</File>
 				<File Id="77578611" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-017.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_A730AE48.wem</Path>
 				</File>
 				<File Id="77938166" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
@@ -2683,7 +2683,7 @@
 				</File>
 				<File Id="100772734" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-016.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_63C4146F.wem</Path>
 				</File>
 				<File Id="106310996" Language="SFX">
 					<ShortName>FS_Water_Run.wav</ShortName>
@@ -2691,11 +2691,11 @@
 				</File>
 				<File Id="107949489" Language="SFX">
 					<ShortName>EvilCrawler_Movement_02.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_02_AF878AE7.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_02_A0964352.wem</Path>
 				</File>
 				<File Id="108931642" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_64588FB4.wem</Path>
 				</File>
 				<File Id="110825758" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -2755,7 +2755,7 @@
 				</File>
 				<File Id="135281028" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-007.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_EBE13CDA.wem</Path>
 				</File>
 				<File Id="137295530" Language="SFX">
 					<ShortName>New_Impact_Crawler_01.wav</ShortName>
@@ -2841,7 +2841,7 @@
 				</File>
 				<File Id="204931226" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-024.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_C9EF4E01.wem</Path>
 				</File>
 				<File Id="205325659" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -2910,7 +2910,7 @@
 				</File>
 				<File Id="260764241" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-015.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_90A9D42C.wem</Path>
 				</File>
 				<File Id="262132101" Language="SFX">
 					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM.wav</ShortName>
@@ -3095,7 +3095,7 @@
 				</File>
 				<File Id="423311836" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-014.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_05CE2EA7.wem</Path>
 				</File>
 				<File Id="432396446" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-005.wav</ShortName>
@@ -3107,7 +3107,7 @@
 				</File>
 				<File Id="436175451" Language="SFX">
 					<ShortName>EvilCrawler_Movement_03.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_03_4A9AFB1B.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_03_795D076E.wem</Path>
 				</File>
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
@@ -3151,7 +3151,7 @@
 				</File>
 				<File Id="475500304" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-018.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_9A5BAA79.wem</Path>
 				</File>
 				<File Id="477244820" Language="SFX">
 					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM.wav</ShortName>
@@ -3338,7 +3338,7 @@
 				</File>
 				<File Id="619952066" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-028.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_76909658.wem</Path>
 				</File>
 				<File Id="621670486" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_dungeonLava_001.wav</ShortName>
@@ -3400,7 +3400,7 @@
 				</File>
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_8ED882A4.wem</Path>
 				</File>
 				<File Id="664123056" Language="SFX">
 					<ShortName>Impact_Pickaxe_Grass.wav</ShortName>
@@ -3408,7 +3408,7 @@
 				</File>
 				<File Id="664371182" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-011.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_70964CA8.wem</Path>
 				</File>
 				<File Id="676619034" Language="SFX">
 					<ShortName>Ambient\Ambient_Background\BAS_AMB_Heaven.wav</ShortName>
@@ -3628,7 +3628,7 @@
 				</File>
 				<File Id="870914841" Language="SFX">
 					<ShortName>EvilCrawler_Movement_01.wav</ShortName>
-					<Path>SFX\EvilCrawler_Movement_01_EE3C34FD.wem</Path>
+					<Path>SFX\EvilCrawler_Movement_01_4641E4BA.wem</Path>
 				</File>
 				<File Id="872064368" Language="SFX">
 					<ShortName>Adventuress swing weapon hard-004.wav</ShortName>
@@ -3789,7 +3789,7 @@
 				</File>
 				<File Id="965734785" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-012.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_595850AF.wem</Path>
 				</File>
 				<File Id="972846252" Language="SFX">
 					<ShortName>Impact_Sword_Leaves.wav</ShortName>
@@ -3851,7 +3851,7 @@
 				</File>
 				<File Id="1032677554" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-013.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_C9C76C4F.wem</Path>
 				</File>
 				<File Id="1033458789" Language="SFX">
 					<ShortName>owl_03.wav</ShortName>
@@ -3887,7 +3887,7 @@
 				</File>
 				<File Id="1072836852" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-021.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_81D51022.wem</Path>
 				</File>
 				<File Id="1073140718" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -3895,7 +3895,7 @@
 				</File>
 				<File Id="1073270917" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-027.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-027_63712F16.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-027_9F6B80D9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

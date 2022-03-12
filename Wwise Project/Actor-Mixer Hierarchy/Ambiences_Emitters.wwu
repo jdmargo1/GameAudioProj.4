@@ -197,6 +197,11 @@
 									<Custom CreatedFrom="{B5ABA2BA-8AB4-48BA-9D54-19B9F0CA3208}">
 										<Attenuation Name="Ambience_Emitters_Large_5_50 (Custom)" ID="{3C621C0C-DC6D-468E-B6D8-4E8FC77E7F95}" ShortID="134114918">
 											<PropertyList>
+												<Property Name="ConeLowPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>47</Value>
+													</ValueList>
+												</Property>
 												<Property Name="RadiusMax" Type="Real64" Value="20"/>
 											</PropertyList>
 											<CurveUsageInfoList>

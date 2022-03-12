@@ -1591,7 +1591,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>100</Value>
+										<Value>150</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>

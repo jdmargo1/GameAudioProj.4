@@ -22445,7 +22445,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-14</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

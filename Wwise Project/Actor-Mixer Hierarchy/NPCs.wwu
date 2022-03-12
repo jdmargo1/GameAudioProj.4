@@ -194,10 +194,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-002" ID="{59EE4271-FB76-4B53-80CA-8F40296C5B12}" ShortID="662387708">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.413407856730214"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -419,9 +419,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-007" ID="{63869677-6E96-4FB3-B273-67C5D7A0E6A1}" ShortID="135281028">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.252939702484113"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.252939702484113"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -580,9 +581,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-011" ID="{F43B8D3D-0850-4D12-8CC0-B667C3E2005B}" ShortID="664371182">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.205435983535529"/>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.451959163778163"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -620,9 +623,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-012" ID="{EC411E01-3F3F-43F5-8B6A-A7D4DE9C8715}" ShortID="965734785">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.222806759098787"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.222806759098787"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -660,9 +664,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-013" ID="{B937C5A9-45EC-4A88-98EE-FAB8AF7A723A}" ShortID="1032677554">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.435938402657423"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.435938402657423"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -700,9 +705,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-014" ID="{28D57B4A-2133-44E4-AC1B-D19D4C2FCCA7}" ShortID="423311836">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.37413337666089"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.37413337666089"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -740,9 +746,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-015" ID="{1C7E7F49-106D-4C36-B4C0-36A7EA29050B}" ShortID="260764241">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.05405199306759"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.05405199306759"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -780,9 +787,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-016" ID="{1FCE7A19-0520-4E90-B22D-C17B21153135}" ShortID="100772734">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.451556831311381"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.451556831311381"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -820,9 +828,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-017" ID="{04D91EE2-8AF5-4F8C-8404-4EC5017113CF}" ShortID="77578611">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.121050837666089"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.121050837666089"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -860,9 +869,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-018" ID="{9A3BA0EE-0B80-4B54-A8D3-950ECF6CF6D1}" ShortID="475500304">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.224814846909301"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.224814846909301"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -900,9 +910,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-019" ID="{36F00CD0-53B5-4FC4-833B-B0D7792DDFEC}" ShortID="108931642">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.233278596187175"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.233278596187175"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -980,9 +991,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-021" ID="{2680C8C5-F934-49CC-BCCA-289F11266C1A}" ShortID="1072836852">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.22341309214327"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.22341309214327"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1020,9 +1032,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-022" ID="{47DC38B4-AE25-49FA-A992-19B2D6E205F7}" ShortID="33459104">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.286757474003466"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.286757474003466"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1045,7 +1058,7 @@
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7.5</Value>
+												<Value>-6.5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1100,9 +1113,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-024" ID="{470BEDF3-4C47-4D93-AC99-839204B446D9}" ShortID="204931226">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.15671858752166"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.15671858752166"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1140,9 +1154,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-025" ID="{B83A9A26-CE04-4173-AA73-CBBAFB0DC4B7}" ShortID="27295569">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.55847216204506"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.55847216204506"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1180,9 +1195,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-026" ID="{5C18BBCB-4344-44C5-9369-0B5FD2AFF1A4}" ShortID="20442315">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.437750722125939"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.437750722125939"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1220,9 +1236,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-027" ID="{0468D5AC-65C4-4CE4-A1D5-4651AD29A988}" ShortID="1073270917">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.79013821490468"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.79013821490468"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1245,7 +1262,7 @@
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7.5</Value>
+												<Value>-9.5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1260,9 +1277,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-028" ID="{317294D1-923B-44BC-A945-F14CD173A9E6}" ShortID="619952066">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.325595573367995"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.325595573367995"/>
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>English(US)</Language>
@@ -1305,10 +1323,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="WAG Wwizard Dial_ Line-029" ID="{44FB3AB0-D114-4150-A312-29E4E07CD9F1}" ShortID="973122318">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
-												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.15310008665512"/>
 											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>WAG Wwizard Dial. Line-029.wav</AudioFile>
