@@ -159,6 +159,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Partial String" ID="{98C7AA92-EE7F-4DD4-A168-0F0C833E611E}" ShortID="201047351">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
@@ -209,6 +214,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Partial Woodwinds" ID="{D2A75010-B244-4CFA-9F7A-84024E00E03D}" ShortID="86562979">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-8</Value>
@@ -259,6 +269,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Pizzicato" ID="{235DDCB4-8646-46AC-80AB-79111D2AAF01}" ShortID="611242574">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -333,6 +348,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Busy Pizzicato" ID="{44D03944-C8C5-4033-AA4E-E1AAFF90F64F}" ShortID="741589420">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -354,6 +374,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Flute" ID="{8AD26774-EE88-49B4-8BB0-C9CC4310A3CB}" ShortID="279100100">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
@@ -423,6 +448,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_English Horn" ID="{2FEF6C0A-E446-4B35-BF89-3C1C67E61C7A}" ShortID="857642323">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -497,6 +527,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Brass" ID="{3BB69728-4E1A-4BCC-B9A4-9DB35212B9C7}" ShortID="11943340">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ModifierList>
 														<ModifierInfo>
@@ -553,6 +588,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="Music_Wood_Piccolo" ID="{E2792AD6-C00B-4DD8-B4B3-50FC1418F4D8}" ShortID="201984555">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -7312,6 +7352,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34" ID="{B1637D14-610C-45E0-A474-C2AD0012794A}" ShortID="901623075">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -7446,6 +7491,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34" ID="{008B2909-47B1-4D7C-B1E0-7E9D4C63D718}" ShortID="256676144">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MusicTrackType" Type="int16" Value="2"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -7639,6 +7689,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<MusicTrack Name="TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34" ID="{1C94CC67-4AE8-4CCD-BE2B-142131EC4612}" ShortID="305266443">
 											<PropertyList>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
@@ -7863,7 +7918,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</MusicStinger>
 						<MusicStinger Name="" ID="{BBB6C6D4-616B-4B9E-8A15-48F691928CB0}">
 							<TriggerRef Name="Music_GetItem" ID="{52F3AA1D-0522-4D5C-A496-DFA8A283EF95}" WorkUnitID="{9978C530-D1B6-4667-995D-0EBC998A7E7B}"/>
-							<SegmentRef Name="WAG_QucickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+							<SegmentRef Name="WAGV2_Quest_ Get_Weapon" ID="{E1EA0E2B-9883-49E7-AE36-4F2841433742}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
 						</MusicStinger>
 						<MusicStinger Name="" ID="{1C8DC16A-F0C3-4A4B-8640-FE7B5AC554CC}">
 							<PropertyList>
@@ -8101,7 +8156,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 							<SegmentRef Name="WAG_QucickStinger_Death" ID="{D90D1D71-A65A-4578-B799-DDF7FA53CECF}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
 						</MusicStinger>
 						<MusicStinger Name="" ID="{A4EA543F-4266-4895-B327-BDBDB9083CD6}">
-							<SegmentRef Name="WAG_QucickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+							<SegmentRef Name="WAG_QuickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
 						</MusicStinger>
 					</StingerList>
 					<CueList>
@@ -8260,7 +8315,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 							<SegmentRef Name="WAG_QucickStinger_Victory" ID="{0BA641DA-5862-43B6-BE6D-0F517668ADCA}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
 						</MusicStinger>
 						<MusicStinger Name="" ID="{407FA49C-1FB7-433E-B32C-E97252D004CC}">
-							<SegmentRef Name="WAG_QucickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
+							<SegmentRef Name="WAG_QuickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" WorkUnitID="{7EEF7DFB-FB01-49A6-ADE2-D0FF894FF235}"/>
 						</MusicStinger>
 					</StingerList>
 					<CueList>
@@ -8273,10 +8328,15 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</MusicCue>
 					</CueList>
 				</MusicSegment>
-				<MusicSegment Name="WAG_QucickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" ShortID="52658175">
+				<MusicSegment Name="WAG_QuickStinger_GetItem" ID="{05077927-AD57-447C-AC4C-21FB503CE01C}" ShortID="52658175">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="12500"/>
 						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Priority" Type="int16">
 							<ValueList>
 								<Value>100</Value>
@@ -8301,7 +8361,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="WAG_QucickStinger_GetItem" ID="{C9305776-BDA8-4ADE-8AA0-64A9E1D0EE6B}" ShortID="242737635">
+						<MusicTrack Name="WAG_QuickStinger_GetItem" ID="{C9305776-BDA8-4ADE-8AA0-64A9E1D0EE6B}" ShortID="242737635">
 							<PropertyList>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 								<Property Name="Priority" Type="int16">
@@ -8319,6 +8379,16 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<AudioFileSource Name="QucickStinger_GetItem" ID="{F14ED218-D765-496E-A751-785DA60B930A}" ShortID="1031283392">
 									<Language>SFX</Language>
 									<AudioFile>Music\Stingers\QucickStinger_GetItem.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="Quest_ Get_Weapon" ID="{DEF884EB-B6CB-4464-A1E4-FC20DE4894A3}" ShortID="743900972">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Quest_ Get_Weapon.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<TransitionList>
@@ -12096,6 +12166,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="FIGHT_Loop_8+1brs_124bpm-44" ID="{DE358177-B2DC-477A-9FC1-CB4A4DC17C37}" ShortID="819298000">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{95DDABF3-B8BE-4D0C-9425-DAA0AB466F68}" ShortID="700331972">
@@ -12184,6 +12259,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Fight Evil Head" ID="{FDD69639-6297-44BB-B36E-E39DEE3E89CA}" ShortID="679345162">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{79B2CCC9-B025-4651-B446-AA1AC1064A3E}" ShortID="833441330">
@@ -12259,6 +12339,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Fight Evil Crawler" ID="{2D0796EB-7737-4F2D-90C5-2AC1166FCF9D}" ShortID="972321718">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{36BCBD5A-FB09-4F0A-9CFA-3BC528FFCB50}" ShortID="403830073">
@@ -12359,6 +12444,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="FIGHT_TOUT_4brs_120bpm-44" ID="{AB7C9C27-167A-4451-9BFA-F12A184F0C50}" ShortID="65405576">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{7194D695-A96E-4418-852C-704C9D903D99}" ShortID="551683900">
@@ -12431,6 +12521,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="FIGHT OUT EVIL HEAD" ID="{C24E3900-C7EE-48CF-A543-02EA3321C3EE}" ShortID="1044388113">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{2ECF744C-11E3-4719-86D0-498058FDF10C}" ShortID="794998940">
@@ -12506,6 +12601,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="FIGHT OUT EVIL CRAWLER" ID="{39508DC7-9ADE-4CCB-9482-0EC54E4900C6}" ShortID="661648451">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{A0FAA4FE-55E8-4B61-8D24-E36910DA27F3}" ShortID="897218217">
@@ -12683,6 +12783,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Title_Strings" ID="{929E18B9-07EB-4050-B802-2EF038716C7F}" ShortID="255818555">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>15</Value>
@@ -12741,6 +12846,11 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 								<MusicTrack Name="Title_Loop Woodwind" ID="{51269DBB-9362-43C1-B13A-A16C84958A05}" ShortID="673447969">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
@@ -12890,6 +13000,88 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicSegment Name="WAGV2_Quest_ Get_Weapon" ID="{E1EA0E2B-9883-49E7-AE36-4F2841433742}" ShortID="399407472">
+					<PropertyList>
+						<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Objects_General" ID="{8A0F318D-CCEE-41F0-86BC-9492B09099BC}" WorkUnitID="{9EB947C2-28EF-4A8A-8D30-521CC61B45DA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Quest_ Get_Weapon" ID="{353E011D-FA4A-4BAA-8706-63956D7F286F}" ShortID="827782615">
+							<PropertyList>
+								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Plate_Large" ID="{62CB7384-421D-4F9A-9CF1-E90F7336A07B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56F639F1-1C67-49F4-8B8F-872989E35A0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Quest_ Get_Weapon" ID="{E17FD270-2F7A-4208-96ED-857F01F1E771}" ShortID="320750378">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+										<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Quest_ Get_Weapon.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BAC3CFDA-C3E9-4191-9090-6FBFBD8462D9}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{1808F3E7-B7E3-4A0D-BA8E-4396D6F2E01A}">
+									<ClipList>
+										<MusicClip Name="Quest_ Get_Weapon" ID="{5CD5D521-238D-4592-A994-C02B2DF5F259}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="2690"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Quest_ Get_Weapon" ID="{E17FD270-2F7A-4208-96ED-857F01F1E771}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{C8EABD37-A662-40F5-8545-78CB12A88E96}"/>
+						<MusicCue Name="Exit Cue" ID="{227FE9B0-CC4E-41D5-AD1F-184B8189C34F}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="2690"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

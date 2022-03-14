@@ -9,6 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
+		<File Id="22623075" Language="SFX">
+			<ShortName>TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34.wav</ShortName>
+			<Path>SFX\TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34_1DD5206E.wem</Path>
+		</File>
 		<File Id="146703143" Language="English(US)">
 			<ShortName>WAG Wwizard Dial. Line-004.wav</ShortName>
 			<Path>Voices\English(US)\WAG Wwizard Dial. Line-004_88501DDF.wem</Path>
@@ -16,6 +20,10 @@
 		<File Id="152211720" Language="SFX">
 			<ShortName>Music\Battle_Flutes.wav</ShortName>
 			<Path>SFX\Music\Battle_Flutes_BD3A445E.wem</Path>
+		</File>
+		<File Id="197217690" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM_1DD5206E.wem</Path>
 		</File>
 		<File Id="200534813" Language="SFX">
 			<ShortName>Ambient\Ambient_Background\treesVillage_001.wav</ShortName>
@@ -29,17 +37,57 @@
 			<ShortName>Music\MFYG\1_Tuba.wav</ShortName>
 			<Path>SFX\Music\MFYG\1_Tuba_BD3A445E.wem</Path>
 		</File>
+		<File Id="262132101" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM_1DD5206E.wem</Path>
+		</File>
+		<File Id="314316775" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM_1DD5206E.wem</Path>
+		</File>
 		<File Id="321602368" Language="English(US)">
 			<ShortName>WAG Wwizard Dial. Line-003.wav</ShortName>
 			<Path>Voices\English(US)\WAG Wwizard Dial. Line-003_5ECC430A.wem</Path>
+		</File>
+		<File Id="326535310" Language="SFX">
+			<ShortName>TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
+			<Path>SFX\TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
+		</File>
+		<File Id="351636245" Language="SFX">
+			<ShortName>FIGHT_TOUT_4brs_120bpm-44.wav</ShortName>
+			<Path>SFX\FIGHT_TOUT_4brs_120bpm-44_1DD5206E.wem</Path>
 		</File>
 		<File Id="355999611" Language="SFX">
 			<ShortName>Music\Timpani.wav</ShortName>
 			<Path>SFX\Music\Timpani_BD3A445E.wem</Path>
 		</File>
+		<File Id="387914519" Language="SFX">
+			<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM.wav</ShortName>
+			<Path>SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM_1DD5206E.wem</Path>
+		</File>
 		<File Id="436811808" Language="SFX">
 			<ShortName>Ambient\Ambient_Background\BAS_amb_village_day_background_loop_01.wav</ShortName>
 			<Path>SFX\Ambient\Ambient_Background\BAS_amb_village_day_background_loop_01_AC843406.wem</Path>
+		</File>
+		<File Id="446550112" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
+		</File>
+		<File Id="477244820" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM_1DD5206E.wem</Path>
+		</File>
+		<File Id="498401065" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM_1DD5206E.wem</Path>
+		</File>
+		<File Id="503396803" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM_1DD5206E.wem</Path>
+		</File>
+		<File Id="519879413" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM_1DD5206E.wem</Path>
 		</File>
 		<File Id="528358999" Language="SFX">
 			<ShortName>Music\MFYG\1_Stacc_DoubleBass.wav</ShortName>
@@ -61,9 +109,17 @@
 			<ShortName>Music\MFYG\3_Clarinet.wav</ShortName>
 			<Path>SFX\Music\MFYG\3_Clarinet_BD3A445E.wem</Path>
 		</File>
+		<File Id="601876095" Language="SFX">
+			<ShortName>TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
+			<Path>SFX\TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
+		</File>
 		<File Id="633287397" Language="SFX">
 			<ShortName>Music\MFYG\3_BigPno.wav</ShortName>
 			<Path>SFX\Music\MFYG\3_BigPno_BD3A445E.wem</Path>
+		</File>
+		<File Id="652286364" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
 		</File>
 		<File Id="661714509" Language="SFX">
 			<ShortName>Music\Trumpets.wav</ShortName>
@@ -97,17 +153,29 @@
 			<ShortName>Music\EvilHead_Clarinet.wav</ShortName>
 			<Path>SFX\Music\EvilHead_Clarinet_BD3A445E.wem</Path>
 		</File>
+		<File Id="848976232" Language="SFX">
+			<ShortName>TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
+			<Path>SFX\TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
+		</File>
 		<File Id="857167900" Language="SFX">
 			<ShortName>Ambient\Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
 			<Path>SFX\Ambient\Ambient_Background\BAS_amb_cave_background_LP_4FCE0C42.wem</Path>
+		</File>
+		<File Id="922999685" Language="SFX">
+			<ShortName>FIGHT_Loop_8+1brs_124bpm-44.wav</ShortName>
+			<Path>SFX\FIGHT_Loop_8+1brs_124bpm-44_1DD5206E.wem</Path>
 		</File>
 		<File Id="956779705" Language="SFX">
 			<ShortName>Music\MFYG\3_Flutes.wav</ShortName>
 			<Path>SFX\Music\MFYG\3_Flutes_BD3A445E.wem</Path>
 		</File>
+		<File Id="963495165" Language="SFX">
+			<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM.wav</ShortName>
+			<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM_1DD5206E.wem</Path>
+		</File>
 		<File Id="973122318" Language="English(US)">
 			<ShortName>WAG Wwizard Dial. Line-029.wav</ShortName>
-			<Path>Voices\English(US)\WAG Wwizard Dial. Line-029_A055D856.wem</Path>
+			<Path>Voices\English(US)\WAG Wwizard Dial. Line-029_08BE0BCB.wem</Path>
 		</File>
 		<File Id="973984296" Language="SFX">
 			<ShortName>Music\EvilHead_Tuba.wav</ShortName>
@@ -116,6 +184,10 @@
 		<File Id="999206556" Language="SFX">
 			<ShortName>Music\MFYG\1_Clarinet.wav</ShortName>
 			<Path>SFX\Music\MFYG\1_Clarinet_BD3A445E.wem</Path>
+		</File>
+		<File Id="1060616819" Language="SFX">
+			<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM.wav</ShortName>
+			<Path>SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM_1DD5206E.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -166,7 +238,7 @@
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="2.190000" DurationMax="3.630000"/>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.178510" DurationMax="4.420672"/>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.178510" DurationMax="4.233251"/>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Player\General\Player_Health" GUID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" DurationType="Infinite"/>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="2.304000"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.181420" DurationMax="7.240664"/>
@@ -191,6 +263,24 @@
 				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Open" GUID="{81178E46-95EF-4779-AB9E-2D5734984EF8}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
 				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\UI\Quest Roll\UI_QuestRoll_Show" GUID="{C1574AAA-7435-4B7D-A0EE-94E4C14C2CE2}" DurationType="OneShot" DurationMin="1.781797" DurationMax="1.781797"/>
 			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="22623075"/>
+				<File Id="197217690"/>
+				<File Id="262132101"/>
+				<File Id="314316775"/>
+				<File Id="326535310"/>
+				<File Id="351636245"/>
+				<File Id="446550112"/>
+				<File Id="477244820"/>
+				<File Id="498401065"/>
+				<File Id="503396803"/>
+				<File Id="519879413"/>
+				<File Id="601876095"/>
+				<File Id="652286364"/>
+				<File Id="848976232"/>
+				<File Id="922999685"/>
+				<File Id="963495165"/>
+			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="651327" Language="SFX">
 					<ShortName>Inventory_Scroll.wav</ShortName>
@@ -219,10 +309,6 @@
 				<File Id="21991143" Language="SFX">
 					<ShortName>Inventory_Select.wav</ShortName>
 					<Path>SFX\Inventory_Select_F766247F.wem</Path>
-				</File>
-				<File Id="22623075" Language="SFX">
-					<ShortName>TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
 				<File Id="26198805" Language="SFX">
 					<ShortName>Impact_PickAxe_Barrel.wav</ShortName>
@@ -388,10 +474,6 @@
 					<ShortName>Adventuress swing weapon hard-003.wav</ShortName>
 					<Path>SFX\Adventuress swing weapon hard-003_7A224B1A.wem</Path>
 				</File>
-				<File Id="197217690" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="209771660" Language="SFX">
 					<ShortName>Impact_CrystalShard_06.wav</ShortName>
 					<Path>SFX\Impact_CrystalShard_06_8A3EE5DD.wem</Path>
@@ -423,10 +505,6 @@
 				<File Id="258211570" Language="SFX">
 					<ShortName>SKULL_destory.wav</ShortName>
 					<Path>SFX\SKULL_destory_51FB1F28.wem</Path>
-				</File>
-				<File Id="262132101" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="270244909" Language="SFX">
 					<ShortName>SKULL_hurt.wav</ShortName>
@@ -464,13 +542,13 @@
 					<ShortName>Inventory_Open.wav</ShortName>
 					<Path>SFX\Inventory_Open_F766247F.wem</Path>
 				</File>
-				<File Id="314316775" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="316294701" Language="SFX">
 					<ShortName>Impact_Dagger_Dirt.wav</ShortName>
 					<Path>SFX\Impact_Dagger_Dirt_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="320750378" Language="SFX">
+					<ShortName>Quest_ Get_Weapon.wav</ShortName>
+					<Path>SFX\Quest_ Get_Weapon_D0D45A34_22BA8EB2.wem</Path>
 				</File>
 				<File Id="325669408" Language="SFX">
 					<ShortName>Adventuress Damaged-007.wav</ShortName>
@@ -479,10 +557,6 @@
 				<File Id="325805174" Language="SFX">
 					<ShortName>EvilCrawler_Death_03.wav</ShortName>
 					<Path>SFX\EvilCrawler_Death_03_8F98DC6A.wem</Path>
-				</File>
-				<File Id="326535310" Language="SFX">
-					<ShortName>TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
 				<File Id="327514655" Language="SFX">
 					<ShortName>EvilHead_Movement_02.wav</ShortName>
@@ -503,10 +577,6 @@
 				<File Id="340074122" Language="SFX">
 					<ShortName>Character\Adventuress_damaged_05.wav</ShortName>
 					<Path>SFX\Character\Adventuress_damaged_05_907E20D4.wem</Path>
-				</File>
-				<File Id="351636245" Language="SFX">
-					<ShortName>FIGHT_TOUT_4brs_120bpm-44.wav</ShortName>
-					<Path>SFX\FIGHT_TOUT_4brs_120bpm-44_1DD5206E.wem</Path>
 				</File>
 				<File Id="353750307" Language="SFX">
 					<ShortName>EvilCrawler_Death_02.wav</ShortName>
@@ -548,10 +618,6 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_B666C449.wem</Path>
 				</File>
-				<File Id="446550112" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="450823707" Language="SFX">
 					<ShortName>Adventuress Damaged-002.wav</ShortName>
 					<Path>SFX\Adventuress Damaged-002_7A224B1A.wem</Path>
@@ -576,10 +642,6 @@
 					<ShortName>Adventuress Damaged-003.wav</ShortName>
 					<Path>SFX\Adventuress Damaged-003_7A224B1A.wem</Path>
 				</File>
-				<File Id="477244820" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="483551176" Language="SFX">
 					<ShortName>Sword Impact 1.wav</ShortName>
 					<Path>SFX\Sword Impact 1_8A3EE5DD.wem</Path>
@@ -591,14 +653,6 @@
 				<File Id="494250686" Language="SFX">
 					<ShortName>Quest_Complete.wav</ShortName>
 					<Path>SFX\Quest_Complete_8F98DC6A.wem</Path>
-				</File>
-				<File Id="498401065" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="503396803" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="504113723" Language="SFX">
 					<ShortName>EvilHead_Bite_02.wav</ShortName>
@@ -615,10 +669,6 @@
 				<File Id="515949137" Language="SFX">
 					<ShortName>Impact_Dagger_Crate.wav</ShortName>
 					<Path>SFX\Impact_Dagger_Crate_8A3EE5DD.wem</Path>
-				</File>
-				<File Id="519879413" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="529411293" Language="SFX">
 					<ShortName>ambient_fire_campfire_2.wav</ShortName>
@@ -672,10 +722,6 @@
 					<ShortName>New_Impact_Crawler_03.wav</ShortName>
 					<Path>SFX\New_Impact_Crawler_03_8A3EE5DD.wem</Path>
 				</File>
-				<File Id="601876095" Language="SFX">
-					<ShortName>TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
-				</File>
 				<File Id="606544257" Language="SFX">
 					<ShortName>ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION3.wav</ShortName>
 					<Path>SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION3_1DD5206E.wem</Path>
@@ -699,10 +745,6 @@
 				<File Id="651734579" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_8374BCAA.wem</Path>
-				</File>
-				<File Id="652286364" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="655081181" Language="SFX">
 					<ShortName>destroy_crate_01.wav</ShortName>
@@ -816,10 +858,6 @@
 					<ShortName>Adventuress swing weapon hard-007.wav</ShortName>
 					<Path>SFX\Adventuress swing weapon hard-007_7A224B1A.wem</Path>
 				</File>
-				<File Id="848976232" Language="SFX">
-					<ShortName>TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
-				</File>
 				<File Id="856863536" Language="SFX">
 					<ShortName>Impact_CrystalShard_01.wav</ShortName>
 					<Path>SFX\Impact_CrystalShard_01_8A3EE5DD.wem</Path>
@@ -908,10 +946,6 @@
 					<ShortName>SKULL_death.wav</ShortName>
 					<Path>SFX\SKULL_death_F8F3F594.wem</Path>
 				</File>
-				<File Id="922999685" Language="SFX">
-					<ShortName>FIGHT_Loop_8+1brs_124bpm-44.wav</ShortName>
-					<Path>SFX\FIGHT_Loop_8+1brs_124bpm-44_1DD5206E.wem</Path>
-				</File>
 				<File Id="931910637" Language="SFX">
 					<ShortName>Button_Teleport.wav</ShortName>
 					<Path>SFX\Button_Teleport_F766247F.wem</Path>
@@ -939,10 +973,6 @@
 				<File Id="957579855" Language="SFX">
 					<ShortName>Adventuress swing weapon light-003.wav</ShortName>
 					<Path>SFX\Adventuress swing weapon light-003_7A224B1A.wem</Path>
-				</File>
-				<File Id="963495165" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="972846252" Language="SFX">
 					<ShortName>Impact_Sword_Leaves.wav</ShortName>
@@ -979,10 +1009,6 @@
 				<File Id="1028269556" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_Head_Charge_Bite.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_Head_Charge_Bite_69DB5B2B.wem</Path>
-				</File>
-				<File Id="1031283392" Language="SFX">
-					<ShortName>Music\Stingers\QucickStinger_GetItem.wav</ShortName>
-					<Path>SFX\Music\Stingers\QucickStinger_GetItem_BD3A445E.wem</Path>
 				</File>
 				<File Id="1043505733" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_Head_Charge.wav</ShortName>
@@ -1289,8 +1315,10 @@
 				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\UI\Menu\UI_Menu_Teleport" GUID="{17EFC7BC-7118-4C2D-8F3A-46491D0BF0CC}" DurationType="OneShot" DurationMin="3.891066" DurationMax="3.891066"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
+				<File Id="387914519"/>
 				<File Id="535160128"/>
 				<File Id="760983670"/>
+				<File Id="1060616819"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="21991143" Language="SFX">
@@ -1311,7 +1339,7 @@
 				</File>
 				<File Id="95024384" Language="SFX">
 					<ShortName>scream_01.wav</ShortName>
-					<Path>SFX\scream_01_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_01_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="98770837" Language="SFX">
 					<ShortName>frog_05.wav</ShortName>
@@ -1349,10 +1377,6 @@
 					<ShortName>ambi_day_element_01_03.wav</ShortName>
 					<Path>SFX\ambi_day_element_01_03_7C493EF8.wem</Path>
 				</File>
-				<File Id="387914519" Language="SFX">
-					<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM.wav</ShortName>
-					<Path>SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="506408922" Language="SFX">
 					<ShortName>cricket_04.wav</ShortName>
 					<Path>SFX\cricket_04_7C493EF8.wem</Path>
@@ -1363,7 +1387,7 @@
 				</File>
 				<File Id="589283411" Language="SFX">
 					<ShortName>scream_02.wav</ShortName>
-					<Path>SFX\scream_02_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_02_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="599457266" Language="SFX">
 					<ShortName>owl_02.wav</ShortName>
@@ -1391,7 +1415,7 @@
 				</File>
 				<File Id="910721575" Language="SFX">
 					<ShortName>scream_03.wav</ShortName>
-					<Path>SFX\scream_03_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_03_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="920678023" Language="SFX">
 					<ShortName>frog_04.wav</ShortName>
@@ -1408,10 +1432,6 @@
 				<File Id="1033458789" Language="SFX">
 					<ShortName>owl_03.wav</ShortName>
 					<Path>SFX\owl_03_7C493EF8.wem</Path>
-				</File>
-				<File Id="1060616819" Language="SFX">
-					<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM.wav</ShortName>
-					<Path>SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM_1DD5206E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -1722,7 +1742,7 @@
 				</File>
 				<File Id="95024384" Language="SFX">
 					<ShortName>scream_01.wav</ShortName>
-					<Path>SFX\scream_01_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_01_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="98770837" Language="SFX">
 					<ShortName>frog_05.wav</ShortName>
@@ -1926,7 +1946,7 @@
 				</File>
 				<File Id="589283411" Language="SFX">
 					<ShortName>scream_02.wav</ShortName>
-					<Path>SFX\scream_02_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_02_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="591482962" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -2030,7 +2050,7 @@
 				</File>
 				<File Id="910721575" Language="SFX">
 					<ShortName>scream_03.wav</ShortName>
-					<Path>SFX\scream_03_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_03_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="915141775" Language="SFX">
 					<ShortName>FS_Wood_Walk.wav</ShortName>
@@ -2320,48 +2340,18 @@
 			<IncludedEvents>
 				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Music\SoundBankSpecific\Music_Credits" GUID="{1DF0672B-D80F-47F6-9AD4-08A647433C4D}" DurationType="Infinite"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="197217690" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="262132101" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="314316775" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="446550112" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="477244820" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="498401065" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="503396803" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="519879413" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="652286364" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="963495165" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM_1DD5206E.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
+			<ReferencedStreamedFiles>
+				<File Id="197217690"/>
+				<File Id="262132101"/>
+				<File Id="314316775"/>
+				<File Id="446550112"/>
+				<File Id="477244820"/>
+				<File Id="498401065"/>
+				<File Id="503396803"/>
+				<File Id="519879413"/>
+				<File Id="652286364"/>
+				<File Id="963495165"/>
+			</ReferencedStreamedFiles>
 		</SoundBank>
 		<SoundBank Id="2307651649" GUID="{A1C74F17-38B8-49EA-9FDF-411D9151A7BE}" Language="English(US)">
 			<ObjectPath>\SoundBanks\Default Work Unit\Context\Quest_01</ObjectPath>
@@ -2391,7 +2381,7 @@
 				</File>
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_7F21F350.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_8801964B.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2424,7 +2414,7 @@
 				</File>
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_7F21F350.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_8801964B.wem</Path>
 				</File>
 				<File Id="864546744" Language="SFX">
 					<ShortName>Pickup_Book.wav</ShortName>
@@ -2437,11 +2427,11 @@
 			<ShortName>Quest_03</ShortName>
 			<Path>English(US)\Quest_03.bnk</Path>
 			<IncludedEvents>
-				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="9.758702" DurationMax="9.758702"/>
-				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.212044" DurationMax="11.212044"/>
-				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.793679" DurationMax="7.793679"/>
-				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="10.818163" DurationMax="10.818163"/>
-				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.278857" DurationMax="6.278857"/>
+				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="10.044653" DurationMax="10.044653"/>
+				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.540581" DurationMax="11.540581"/>
+				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.959051" DurationMax="7.959051"/>
+				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="11.135159" DurationMax="11.135159"/>
+				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.462842" DurationMax="6.462842"/>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.349589" DurationMax="10.349589"/>
@@ -2470,15 +2460,15 @@
 				</File>
 				<File Id="100772734" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-016.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_C8F34F6B.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_A4A3017E.wem</Path>
 				</File>
 				<File Id="135281028" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-007.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_9D70FBAE.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_E0DADC13.wem</Path>
 				</File>
 				<File Id="260764241" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-015.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_B85767C8.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_294ABD77.wem</Path>
 				</File>
 				<File Id="292045048" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-006.wav</ShortName>
@@ -2486,7 +2476,7 @@
 				</File>
 				<File Id="423311836" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-014.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_7920B3BB.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_9FC5C73A.wem</Path>
 				</File>
 				<File Id="486625135" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-003.wav</ShortName>
@@ -2502,7 +2492,7 @@
 				</File>
 				<File Id="664371182" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-011.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_F78AF3DC.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_6BC70DB7.wem</Path>
 				</File>
 				<File Id="736547560" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-008.wav</ShortName>
@@ -2518,7 +2508,7 @@
 				</File>
 				<File Id="965734785" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-012.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_86468C5B.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_6EBD4D07.wem</Path>
 				</File>
 				<File Id="995834926" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-009.wav</ShortName>
@@ -2526,7 +2516,7 @@
 				</File>
 				<File Id="1032677554" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-013.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_0391FA0B.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_8654D2C2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2535,7 +2525,7 @@
 			<ShortName>Quest_04</ShortName>
 			<Path>English(US)\Quest_04.bnk</Path>
 			<IncludedEvents>
-				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.013018" DurationMax="9.013018"/>
+				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.277119" DurationMax="9.277119"/>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.337491" DurationMax="6.337491"/>
@@ -2548,11 +2538,11 @@
 			<IncludedMemoryFiles>
 				<File Id="33459104" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-022.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_9EED0F37.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_2A6896EC.wem</Path>
 				</File>
 				<File Id="77578611" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-017.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_BC31347C.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_9610C2FF.wem</Path>
 				</File>
 				<File Id="93130815" Language="SFX">
 					<ShortName>Pickup_WeaponType_PickAxe.wav</ShortName>
@@ -2560,7 +2550,7 @@
 				</File>
 				<File Id="108931642" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_423E9920.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_F98FF95A.wem</Path>
 				</File>
 				<File Id="159574703" Language="SFX">
 					<ShortName>Pickup_PineCone.wav</ShortName>
@@ -2572,7 +2562,7 @@
 				</File>
 				<File Id="475500304" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-018.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_F65EA66D.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_13B2035E.wem</Path>
 				</File>
 				<File Id="639973630" Language="SFX">
 					<ShortName>Pickup_Mushroom.wav</ShortName>
@@ -2592,7 +2582,7 @@
 				</File>
 				<File Id="1072836852" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-021.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_48802946.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_778582C8.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -2619,19 +2609,19 @@
 			<IncludedMemoryFiles>
 				<File Id="20442315" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-026.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_DC861788.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_D4810722.wem</Path>
 				</File>
 				<File Id="27295569" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-025.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_37ED399A.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_D7BE52DE.wem</Path>
 				</File>
 				<File Id="204931226" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-024.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_1845DEAD.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_88A76C6A.wem</Path>
 				</File>
 				<File Id="619952066" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-028.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_22076CDC.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_12BD17DF.wem</Path>
 				</File>
 				<File Id="740647715" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-023.wav</ShortName>
@@ -2740,12 +2730,12 @@
 				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_WaterDrop" GUID="{321E9D2C-FD0D-4EA6-A4AF-34B52637C7DE}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.389000"/>
 				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Waterfall" GUID="{B0747836-9578-49F6-ADCB-20DAADE76160}" MaxAttenuation="150.000000" DurationType="Infinite"/>
 				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Windmill" GUID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="9.758702" DurationMax="9.758702"/>
-				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.212044" DurationMax="11.212044"/>
-				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.793679" DurationMax="7.793679"/>
-				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="10.818163" DurationMax="10.818163"/>
-				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.278857" DurationMax="6.278857"/>
-				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.013018" DurationMax="9.013018"/>
+				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="10.044653" DurationMax="10.044653"/>
+				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.540581" DurationMax="11.540581"/>
+				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.959051" DurationMax="7.959051"/>
+				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="11.135159" DurationMax="11.135159"/>
+				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.462842" DurationMax="6.462842"/>
+				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.277119" DurationMax="9.277119"/>
 				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Destruction\General\Destruction_Container" GUID="{F52B8CBC-4A26-44FF-8B0B-1E5D8E73FA20}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.813187" DurationMax="2.372896"/>
 				<Event Id="3250765487" Name="Destruction_Core_Explosion" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Core_Explosion" GUID="{D7C01EED-F0BC-4672-A90A-BB4959573ED7}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="10.652333" DurationMax="10.652333"/>
 				<Event Id="2095238286" Name="Destruction_Core_ShieldBreak" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Core_ShieldBreak" GUID="{9B32D667-4AF8-4699-858D-9FCBFB7A4493}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -2805,7 +2795,7 @@
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Player\General\Player_Death" GUID="{FB2B576F-E7ED-48B1-BA22-47110315BD88}" DurationType="OneShot" DurationMin="2.190000" DurationMax="3.630000"/>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.178510" DurationMax="4.420672"/>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Player\SoundBankSpecific\Player_Footstep" GUID="{C9FD3C73-255A-47E5-BFA2-C3D1514AE81F}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.178510" DurationMax="4.233251"/>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Player\General\Player_Health" GUID="{358E9A1B-6D95-4D15-9DE3-0CF4BDD482DD}" DurationType="Infinite"/>
 				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Player\General\Player_Hurt_Vox" GUID="{3FCCDAF5-5AB8-4A21-9C1B-541987EBBF12}" DurationType="OneShot" DurationMin="0.700479" DurationMax="2.304000"/>
 				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Player\General\Player_WeaponImpact" GUID="{1749950B-D5B0-40C6-9430-6F0D4F7A516E}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="0.181420" DurationMax="7.240664"/>
@@ -2860,20 +2850,34 @@
 				<Event Id="2934374890" Name="Wwizard_DialogueLine_Q5a_07" ObjectPath="\Events\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07" GUID="{FEF68CD5-B3CA-4BEC-987A-B7D6CB76B9D3}" DurationType="OneShot" DurationMin="2.190736" DurationMax="2.190736"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
+				<File Id="22623075"/>
 				<File Id="146703143"/>
 				<File Id="152211720"/>
+				<File Id="197217690"/>
 				<File Id="200534813"/>
 				<File Id="202341787"/>
 				<File Id="225760600"/>
+				<File Id="262132101"/>
+				<File Id="314316775"/>
 				<File Id="321602368"/>
+				<File Id="326535310"/>
+				<File Id="351636245"/>
 				<File Id="355999611"/>
+				<File Id="387914519"/>
 				<File Id="436811808"/>
+				<File Id="446550112"/>
+				<File Id="477244820"/>
+				<File Id="498401065"/>
+				<File Id="503396803"/>
+				<File Id="519879413"/>
 				<File Id="528358999"/>
 				<File Id="535160128"/>
 				<File Id="561416365"/>
 				<File Id="564098441"/>
 				<File Id="588650531"/>
+				<File Id="601876095"/>
 				<File Id="633287397"/>
+				<File Id="652286364"/>
 				<File Id="661714509"/>
 				<File Id="672209366"/>
 				<File Id="731548434"/>
@@ -2882,11 +2886,15 @@
 				<File Id="767628211"/>
 				<File Id="810217821"/>
 				<File Id="847242115"/>
+				<File Id="848976232"/>
 				<File Id="857167900"/>
+				<File Id="922999685"/>
 				<File Id="956779705"/>
+				<File Id="963495165"/>
 				<File Id="973122318"/>
 				<File Id="973984296"/>
 				<File Id="999206556"/>
+				<File Id="1060616819"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
 				<File Id="651327" Language="SFX">
@@ -2919,7 +2927,7 @@
 				</File>
 				<File Id="20442315" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-026.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_DC861788.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-026_D4810722.wem</Path>
 				</File>
 				<File Id="21340349" Language="SFX">
 					<ShortName>Objects\Pickups\BAS_Pickup_Coin_04.wav</ShortName>
@@ -2928,10 +2936,6 @@
 				<File Id="21991143" Language="SFX">
 					<ShortName>Inventory_Select.wav</ShortName>
 					<Path>SFX\Inventory_Select_F766247F.wem</Path>
-				</File>
-				<File Id="22623075" Language="SFX">
-					<ShortName>TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
 				<File Id="24068947" Language="SFX">
 					<ShortName>FS_Water_Wade.wav</ShortName>
@@ -2947,7 +2951,7 @@
 				</File>
 				<File Id="27295569" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-025.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_37ED399A.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-025_D7BE52DE.wem</Path>
 				</File>
 				<File Id="27737227" Language="English(US)">
 					<ShortName>WAG Blacksmith Line-001.wav</ShortName>
@@ -2955,7 +2959,7 @@
 				</File>
 				<File Id="33459104" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-022.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_9EED0F37.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-022_2A6896EC.wem</Path>
 				</File>
 				<File Id="34428346" Language="SFX">
 					<ShortName>FS_Water_Wade.wav</ShortName>
@@ -3035,7 +3039,7 @@
 				</File>
 				<File Id="77578611" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-017.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_BC31347C.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-017_9610C2FF.wem</Path>
 				</File>
 				<File Id="81755460" Language="SFX">
 					<ShortName>Dagger Impact 2.wav</ShortName>
@@ -3071,7 +3075,7 @@
 				</File>
 				<File Id="95024384" Language="SFX">
 					<ShortName>scream_01.wav</ShortName>
-					<Path>SFX\scream_01_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_01_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="96652300" Language="SFX">
 					<ShortName>Impact_CrystalShard_02.wav</ShortName>
@@ -3087,7 +3091,7 @@
 				</File>
 				<File Id="100772734" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-016.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_C8F34F6B.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-016_A4A3017E.wem</Path>
 				</File>
 				<File Id="106310996" Language="SFX">
 					<ShortName>FS_Water_Run.wav</ShortName>
@@ -3103,7 +3107,7 @@
 				</File>
 				<File Id="108931642" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-019.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_423E9920.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-019_F98FF95A.wem</Path>
 				</File>
 				<File Id="110825758" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -3163,7 +3167,7 @@
 				</File>
 				<File Id="135281028" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-007.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_9D70FBAE.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-007_E0DADC13.wem</Path>
 				</File>
 				<File Id="137295530" Language="SFX">
 					<ShortName>New_Impact_Crawler_01.wav</ShortName>
@@ -3242,10 +3246,6 @@
 					<ShortName>Adventuress swing weapon hard-003.wav</ShortName>
 					<Path>SFX\Adventuress swing weapon hard-003_7A224B1A.wem</Path>
 				</File>
-				<File Id="197217690" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="199440052" Language="SFX">
 					<ShortName>owl_04.wav</ShortName>
 					<Path>SFX\owl_04_7C493EF8.wem</Path>
@@ -3257,7 +3257,7 @@
 				</File>
 				<File Id="204931226" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-024.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_1845DEAD.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-024_88A76C6A.wem</Path>
 				</File>
 				<File Id="205325659" Language="SFX">
 					<ShortName>FS_Dirt_Run.wav</ShortName>
@@ -3322,11 +3322,7 @@
 				</File>
 				<File Id="260764241" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-015.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_B85767C8.wem</Path>
-				</File>
-				<File Id="262132101" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM_1DD5206E.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-015_294ABD77.wem</Path>
 				</File>
 				<File Id="265022886" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\Waterfall_Strong_1.wav</ShortName>
@@ -3412,13 +3408,13 @@
 					<ShortName>Inventory_Open.wav</ShortName>
 					<Path>SFX\Inventory_Open_F766247F.wem</Path>
 				</File>
-				<File Id="314316775" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="316294701" Language="SFX">
 					<ShortName>Impact_Dagger_Dirt.wav</ShortName>
 					<Path>SFX\Impact_Dagger_Dirt_8A3EE5DD.wem</Path>
+				</File>
+				<File Id="320750378" Language="SFX">
+					<ShortName>Quest_ Get_Weapon.wav</ShortName>
+					<Path>SFX\Quest_ Get_Weapon_D0D45A34_22BA8EB2.wem</Path>
 				</File>
 				<File Id="325669408" Language="SFX">
 					<ShortName>Adventuress Damaged-007.wav</ShortName>
@@ -3427,10 +3423,6 @@
 				<File Id="325805174" Language="SFX">
 					<ShortName>EvilCrawler_Death_03.wav</ShortName>
 					<Path>SFX\EvilCrawler_Death_03_8F98DC6A.wem</Path>
-				</File>
-				<File Id="326535310" Language="SFX">
-					<ShortName>TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
 				<File Id="327514655" Language="SFX">
 					<ShortName>EvilHead_Movement_02.wav</ShortName>
@@ -3459,10 +3451,6 @@
 				<File Id="347709270" Language="SFX">
 					<ShortName>FS_Wood_Run.wav</ShortName>
 					<Path>SFX\FS_Wood_Run_9B4A350A.wem</Path>
-				</File>
-				<File Id="351636245" Language="SFX">
-					<ShortName>FIGHT_TOUT_4brs_120bpm-44.wav</ShortName>
-					<Path>SFX\FIGHT_TOUT_4brs_120bpm-44_1DD5206E.wem</Path>
 				</File>
 				<File Id="353750307" Language="SFX">
 					<ShortName>EvilCrawler_Death_02.wav</ShortName>
@@ -3505,10 +3493,6 @@
 					<ShortName>FS_Water_Wade.wav</ShortName>
 					<Path>SFX\FS_Water_Wade_3AB8F5E8.wem</Path>
 				</File>
-				<File Id="387914519" Language="SFX">
-					<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM.wav</ShortName>
-					<Path>SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="395445078" Language="SFX">
 					<ShortName>FS_Water_Run.wav</ShortName>
 					<Path>SFX\FS_Water_Run_AFB7B900.wem</Path>
@@ -3543,7 +3527,7 @@
 				</File>
 				<File Id="423311836" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-014.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_7920B3BB.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-014_9FC5C73A.wem</Path>
 				</File>
 				<File Id="432396446" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-005.wav</ShortName>
@@ -3560,10 +3544,6 @@
 				<File Id="441591698" Language="SFX">
 					<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_B666C449.wem</Path>
-				</File>
-				<File Id="446550112" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="448906690" Language="SFX">
 					<ShortName>FS_Water_Wade.wav</ShortName>
@@ -3615,11 +3595,7 @@
 				</File>
 				<File Id="475500304" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-018.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_F65EA66D.wem</Path>
-				</File>
-				<File Id="477244820" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM_1DD5206E.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-018_13B2035E.wem</Path>
 				</File>
 				<File Id="483551176" Language="SFX">
 					<ShortName>Sword Impact 1.wav</ShortName>
@@ -3640,14 +3616,6 @@
 				<File Id="498254836" Language="SFX">
 					<ShortName>FS_Water_Walk.wav</ShortName>
 					<Path>SFX\FS_Water_Walk_ECE15038.wem</Path>
-				</File>
-				<File Id="498401065" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM_1DD5206E.wem</Path>
-				</File>
-				<File Id="503396803" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="504113723" Language="SFX">
 					<ShortName>EvilHead_Bite_02.wav</ShortName>
@@ -3676,10 +3644,6 @@
 				<File Id="515949137" Language="SFX">
 					<ShortName>Impact_Dagger_Crate.wav</ShortName>
 					<Path>SFX\Impact_Dagger_Crate_8A3EE5DD.wem</Path>
-				</File>
-				<File Id="519879413" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM_1DD5206E.wem</Path>
 				</File>
 				<File Id="526127783" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
@@ -3778,7 +3742,7 @@
 				</File>
 				<File Id="589283411" Language="SFX">
 					<ShortName>scream_02.wav</ShortName>
-					<Path>SFX\scream_02_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_02_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="591482962" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -3787,10 +3751,6 @@
 				<File Id="599457266" Language="SFX">
 					<ShortName>owl_02.wav</ShortName>
 					<Path>SFX\owl_02_7C493EF8.wem</Path>
-				</File>
-				<File Id="601876095" Language="SFX">
-					<ShortName>TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
 				</File>
 				<File Id="606544257" Language="SFX">
 					<ShortName>ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION3.wav</ShortName>
@@ -3814,7 +3774,7 @@
 				</File>
 				<File Id="619952066" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-028.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_22076CDC.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-028_12BD17DF.wem</Path>
 				</File>
 				<File Id="621670486" Language="SFX">
 					<ShortName>Ambient\Ambient_Emitters\BAS_dungeonLava_001.wav</ShortName>
@@ -3857,10 +3817,6 @@
 					<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_8374BCAA.wem</Path>
 				</File>
-				<File Id="652286364" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="653608214" Language="SFX">
 					<ShortName>FS_Water_Walk.wav</ShortName>
 					<Path>SFX\FS_Water_Walk_F1870D2A.wem</Path>
@@ -3892,7 +3848,7 @@
 				</File>
 				<File Id="662387708" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-002.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_7F21F350.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-002_8801964B.wem</Path>
 				</File>
 				<File Id="664123056" Language="SFX">
 					<ShortName>Impact_Pickaxe_Grass.wav</ShortName>
@@ -3900,7 +3856,7 @@
 				</File>
 				<File Id="664371182" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-011.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_F78AF3DC.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-011_6BC70DB7.wem</Path>
 				</File>
 				<File Id="676619034" Language="SFX">
 					<ShortName>Ambient\Ambient_Background\BAS_AMB_Heaven.wav</ShortName>
@@ -4086,10 +4042,6 @@
 					<Path>SFX\Music\EvilHead_Clarinet_BD3A445E.wem</Path>
 					<PrefetchSize>2745</PrefetchSize>
 				</File>
-				<File Id="848976232" Language="SFX">
-					<ShortName>TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34.wav</ShortName>
-					<Path>SFX\TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem</Path>
-				</File>
 				<File Id="856665198" Language="SFX">
 					<ShortName>ambi_day_element_01_01.wav</ShortName>
 					<Path>SFX\ambi_day_element_01_01_7C493EF8.wem</Path>
@@ -4196,7 +4148,7 @@
 				</File>
 				<File Id="910721575" Language="SFX">
 					<ShortName>scream_03.wav</ShortName>
-					<Path>SFX\scream_03_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_03_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="911538696" Language="SFX">
 					<ShortName>IMPACT_1.wav</ShortName>
@@ -4233,10 +4185,6 @@
 				<File Id="922822218" Language="SFX">
 					<ShortName>FS_Stone_Walk.wav</ShortName>
 					<Path>SFX\FS_Stone_Walk_C707224D.wem</Path>
-				</File>
-				<File Id="922999685" Language="SFX">
-					<ShortName>FIGHT_Loop_8+1brs_124bpm-44.wav</ShortName>
-					<Path>SFX\FIGHT_Loop_8+1brs_124bpm-44_1DD5206E.wem</Path>
 				</File>
 				<File Id="931042639" Language="SFX">
 					<ShortName>Cinematic\BAS_CIN_PinkShield_Impact_02.wav</ShortName>
@@ -4303,13 +4251,9 @@
 					<ShortName>Adventuress swing weapon light-003.wav</ShortName>
 					<Path>SFX\Adventuress swing weapon light-003_7A224B1A.wem</Path>
 				</File>
-				<File Id="963495165" Language="SFX">
-					<ShortName>WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM.wav</ShortName>
-					<Path>SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="965734785" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-012.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_86468C5B.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-012_6EBD4D07.wem</Path>
 				</File>
 				<File Id="972846252" Language="SFX">
 					<ShortName>Impact_Sword_Leaves.wav</ShortName>
@@ -4369,13 +4313,9 @@
 					<ShortName>Creatures\BAS_Evil_Head_Charge_Bite.wav</ShortName>
 					<Path>SFX\Creatures\BAS_Evil_Head_Charge_Bite_69DB5B2B.wem</Path>
 				</File>
-				<File Id="1031283392" Language="SFX">
-					<ShortName>Music\Stingers\QucickStinger_GetItem.wav</ShortName>
-					<Path>SFX\Music\Stingers\QucickStinger_GetItem_BD3A445E.wem</Path>
-				</File>
 				<File Id="1032677554" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-013.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_0391FA0B.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-013_8654D2C2.wem</Path>
 				</File>
 				<File Id="1033458789" Language="SFX">
 					<ShortName>owl_03.wav</ShortName>
@@ -4401,17 +4341,13 @@
 					<ShortName>Cinematic\BAS_CIN_Creature_Start.wav</ShortName>
 					<Path>SFX\Cinematic\BAS_CIN_Creature_Start_A85E47ED.wem</Path>
 				</File>
-				<File Id="1060616819" Language="SFX">
-					<ShortName>TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM.wav</ShortName>
-					<Path>SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM_1DD5206E.wem</Path>
-				</File>
 				<File Id="1062139904" Language="SFX">
 					<ShortName>SKULL_hurt.wav</ShortName>
 					<Path>SFX\SKULL_hurt_7173D467.wem</Path>
 				</File>
 				<File Id="1072836852" Language="English(US)">
 					<ShortName>WAG Wwizard Dial. Line-021.wav</ShortName>
-					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_48802946.wem</Path>
+					<Path>Voices\English(US)\WAG Wwizard Dial. Line-021_778582C8.wem</Path>
 				</File>
 				<File Id="1073140718" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -4457,7 +4393,7 @@
 				</File>
 				<File Id="95024384" Language="SFX">
 					<ShortName>scream_01.wav</ShortName>
-					<Path>SFX\scream_01_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_01_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="98770837" Language="SFX">
 					<ShortName>frog_05.wav</ShortName>
@@ -4585,7 +4521,7 @@
 				</File>
 				<File Id="589283411" Language="SFX">
 					<ShortName>scream_02.wav</ShortName>
-					<Path>SFX\scream_02_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_02_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="591482962" Language="SFX">
 					<ShortName>FS_Woodlands_Run.wav</ShortName>
@@ -4641,7 +4577,7 @@
 				</File>
 				<File Id="910721575" Language="SFX">
 					<ShortName>scream_03.wav</ShortName>
-					<Path>SFX\scream_03_7C493EF8_7E0E5BDB.wem</Path>
+					<Path>SFX\scream_03_7C493EF8_DDA7E906.wem</Path>
 				</File>
 				<File Id="920678023" Language="SFX">
 					<ShortName>frog_04.wav</ShortName>

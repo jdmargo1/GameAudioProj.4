@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f139f656671cf4498b8f872989e35a0b
     GuidInternal: 
-    m_lastTime: -8585546468313953272
+    m_lastTime: -8585543887020475525
     List:
     - name: Cave
       guid: dc4a4d280a689847b17e325317108335
@@ -531,7 +531,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 52fd2ba2b4ca9c46acd05a88f0878fa9
     GuidInternal: 
-    m_lastTime: -8585579578579722062
+    m_lastTime: -8585543887020173544
     List:
     - name: All_In_One
       guid: 2aeeabb5ee9bf94fa47ca2df0c03fb46
@@ -1723,8 +1723,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01
       maxAttenuation: 0
-      maxDuration: 9.758702
-      minDuration: 9.758702
+      maxDuration: 10.044653
+      minDuration: 10.044653
     - name: Blacksmith_DialogueLine_Q3b_02
       guid: 43e9815ba7ad6d4fbea776d274e4b6b6
       id: 958722918
@@ -1739,8 +1739,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02
       maxAttenuation: 0
-      maxDuration: 11.212044
-      minDuration: 11.212044
+      maxDuration: 11.540581
+      minDuration: 11.540581
     - name: Blacksmith_DialogueLine_Q3b_03
       guid: d5ed6dc72d070d478e1858272b44114d
       id: 958722919
@@ -1755,8 +1755,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03
       maxAttenuation: 0
-      maxDuration: 7.793679
-      minDuration: 7.793679
+      maxDuration: 7.959051
+      minDuration: 7.959051
     - name: Blacksmith_DialogueLine_Q3b_04
       guid: 99b104f41f6615408b1c2e57459467ca
       id: 958722912
@@ -1771,8 +1771,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04
       maxAttenuation: 0
-      maxDuration: 10.818163
-      minDuration: 10.818163
+      maxDuration: 11.135159
+      minDuration: 11.135159
     - name: Blacksmith_DialogueLine_Q3b_05
       guid: 0aa62522e4188c4aa82ca30a7f4f2754
       id: 958722913
@@ -1787,8 +1787,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05
       maxAttenuation: 0
-      maxDuration: 6.278857
-      minDuration: 6.278857
+      maxDuration: 6.462842
+      minDuration: 6.462842
     - name: Blacksmith_DialogueLine_Q4b_01
       guid: 032bfdc63e6ab74ca8d6f52dc6d759a4
       id: 135068334
@@ -1803,8 +1803,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01
       maxAttenuation: 0
-      maxDuration: 9.013018
-      minDuration: 9.013018
+      maxDuration: 9.277119
+      minDuration: 9.277119
     - name: NPC_Wwizard_StaffOnGround
       guid: fec33c04ca761644a960616573cb563d
       id: 2857761532
@@ -2487,7 +2487,7 @@ MonoBehaviour:
         ObjectType: 3
       Path: Player\SoundBankSpecific\Player_Footstep
       maxAttenuation: 15
-      maxDuration: 4.420672
+      maxDuration: 4.233251
       minDuration: 0.17851
     - name: Player_Health
       guid: 1b9a8e35956d154d9de30cf4bdd482dd
@@ -3264,7 +3264,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2741e4ad5b9b534eaf393c3ad3284471
     GuidInternal: 
-    m_lastTime: -8585579578579682022
+    m_lastTime: -8585543949527494382
     List:
     - name: DayOrNight
       guid: 998b7accde13874eb5b77c076b780a22

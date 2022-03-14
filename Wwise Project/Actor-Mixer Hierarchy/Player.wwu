@@ -1143,6 +1143,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										</Property>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1206,7 +1207,6 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Value>90</Value>
 											</ValueList>
 										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -13512,7 +13512,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-7</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -17133,7 +17133,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 														<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-6</Value>
+																<Value>-2</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -17167,8 +17167,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{137BA29A-3D75-4DD6-AC06-3BD0C1F3C03A}">
 																				<PropertyList>
-																					<Property Name="Max" Type="Real64" Value="100"/>
-																					<Property Name="Min" Type="Real64" Value="-100"/>
+																					<Property Name="Max" Type="Real64" Value="25"/>
+																					<Property Name="Min" Type="Real64" Value="-25"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
@@ -17500,8 +17500,8 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 																		<ModifierInfo>
 																			<Modifier Name="" ID="{8811F65D-1814-4490-8FA0-515E307C602F}">
 																				<PropertyList>
-																					<Property Name="Max" Type="Real64" Value="100"/>
-																					<Property Name="Min" Type="Real64" Value="-100"/>
+																					<Property Name="Max" Type="Real64" Value="25"/>
+																					<Property Name="Min" Type="Real64" Value="-25"/>
 																				</PropertyList>
 																			</Modifier>
 																		</ModifierInfo>
@@ -22505,7 +22505,7 @@ or modified for a commercial purpose nor for public demonstration.</Comment>
 												<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>12</Value>
+														<Value>6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

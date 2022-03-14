@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1646959163" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1646960054" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Background.wwu" DateLow="1647120082" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambiences_Emitters.wwu" DateLow="1647120082" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Ambient.wwu" DateLow="1646959163" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1643649022" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies.wwu" DateLow="1643649022" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilCrawler.wwu" DateLow="1646962604" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilHead.wwu" DateLow="1646962604" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilSpitPlant.wwu" DateLow="1646962604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilCrawler.wwu" DateLow="1647120082" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilHead.wwu" DateLow="1647120082" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Enemies_EvilSpitPlant.wwu" DateLow="1647120082" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Instruments.wwu" DateLow="1646851113" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\NPCs.wwu" DateLow="1646959163" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\NPCs.wwu" DateLow="1647120082" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Destruction.wwu" DateLow="1646961613" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Object_Props.wwu" DateLow="1646961613" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1643649022" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Player.wwu" DateLow="1646962604" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\Player.wwu" DateLow="1647120082" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Actor-Mixer Hierarchy\UI.wwu" DateLow="1646961845" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Attenuations\Ambient.wwu" DateLow="1646959163" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Attenuations\Default Work Unit.wwu" DateLow="1643649022" DateHigh="0"/>
@@ -51,7 +51,7 @@
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Game Parameters\Player.wwu" DateLow="1646851113" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Game Parameters\SideChain.wwu" DateLow="1643649022" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1643649022" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Interactive Music Hierarchy\Music.wwu" DateLow="1646959163" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Interactive Music Hierarchy\Music.wwu" DateLow="1647120082" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Interactive Music Hierarchy\Other.wwu" DateLow="1646851113" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1646960054" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Mixing Sessions\Default Work Unit.wwu" DateLow="1643649022" DateHigh="0"/>
@@ -76,6 +76,6 @@
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Switches\Player.wwu" DateLow="1646955446" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Triggers\Default Work Unit.wwu" DateLow="1643649027" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1643649027" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.CTSA User.wsettings" DateLow="1646963888" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.CTSA User.wsettings" DateLow="1647122637" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\WAG_ForClass_WWiseProject.wproj" DateLow="1646851116" DateHigh="0"/>
 </ValidationCache>

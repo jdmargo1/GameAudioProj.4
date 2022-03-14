@@ -103,28 +103,30 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\World\AUX\Region_Dungeon\Dungeon_MezzanineRoom	
 
 Effect plug-ins	ID	Name	Type				Notes
+	690888	Outside_Narrow	Wwise RoomVerb			
 	77906159	Wwise RoomVerb (Custom)	Wwise RoomVerb			
 	125812960	WAG_PitchShift_SlowMotionMode	Wwise Pitch Shifter			
 	135805232	WAG_Room_Large (Custom)	Wwise RoomVerb			
-	210348734	WAG_Exterior (Custom)	Wwise RoomVerb			
 	293032590	Wwise RoomVerb (Custom)	Wwise RoomVerb			
-	340577010	WAG_Exterior (Custom)	Wwise RoomVerb			
+	340577010	WAG_Exterior_(Custom)	Wwise RoomVerb			
 	381192976	Room_Large (Custom)	Wwise RoomVerb			
 	384632663	WAG_Dungeon_Core	Wwise RoomVerb			
 	385945448	WAG_Music	Wwise RoomVerb			
 	445611739	Hall_Medium (Custom)	Wwise RoomVerb			
 	503218738	Phone_Booth (Custom)	Wwise RoomVerb			
+	506263793	Outside_(Custom)	Wwise RoomVerb			
 	515435302	Wwise Delay (Custom)	Wwise Delay			
 	588347440	Wwise RoomVerb (Custom)	Wwise RoomVerb			
-	656189815	WAG_Exterior (Custom)	Wwise RoomVerb			
-	705739009	Room_Large (Custom)	Wwise RoomVerb			
 	707590278	Holy (Custom)	Wwise RoomVerb			
-	728462504	WAG_Exterior (Custom)	Wwise RoomVerb			
-	784915932	Plate_Medium (Custom)	Wwise RoomVerb			
+	728462504	WAG_Exterior_(Custom)	Wwise RoomVerb			
+	743802916	Church_Small_Wood (Custom)	Wwise RoomVerb			
+	801734189	Outside_(Custom)	Wwise RoomVerb			
 	825815201	Echoes_Linear (Custom)	Wwise Delay			
 	831154295	WAG_Exterior (Custom)	Wwise RoomVerb			
+	885067213	Outside_(Custom)	Wwise RoomVerb			
+	963417945	Outside (Custom)	Wwise RoomVerb			
 	1006930435	Wwise RoomVerb (Custom)	Wwise RoomVerb			
-	1070542748	WAG_Exterior (Custom)	Wwise RoomVerb			
+	1070542748	WAG_Exterior_(Custom)	Wwise RoomVerb			
 	1242019057	WAG_SideChainArcade	Wwise Meter			
 	1305889293	WAG_SideChainStinger	Wwise Meter			
 	1783154876	WAG_Cave	Wwise RoomVerb			
