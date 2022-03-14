@@ -392,7 +392,7 @@
 												<DuckItem>
 													<BusRef Name="Music" ID="{DA3F90D5-3E9A-4567-B4AC-61F7BE31814E}"/>
 													<DuckingParam>
-														<Volume>-10</Volume>
+														<Volume>-13</Volume>
 														<FadeInTime>1</FadeInTime>
 														<FadeOutTime>1</FadeOutTime>
 														<FadeCurve>FadeLinear</FadeCurve>
@@ -486,7 +486,6 @@
 												</Property>
 												<Property Name="MaxDuckVolume" Type="Real64" Value="-96"/>
 											</PropertyList>
-											<ReferenceList/>
 											<ChildrenList>
 												<AuxBus Name="Village" ID="{9E5B3690-AA8E-42AB-B247-82BEF43C5645}">
 													<PropertyList>

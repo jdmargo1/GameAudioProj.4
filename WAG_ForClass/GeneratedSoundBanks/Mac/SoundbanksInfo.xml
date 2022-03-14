@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\WAG_ForClass\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\WAG_ForClass\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\CTSA User\Desktop\Game Audio Class Files\0. Class Project Files\GameAudioProj.4\Wwise Project\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -2427,11 +2427,11 @@
 			<ShortName>Quest_03</ShortName>
 			<Path>English(US)\Quest_03.bnk</Path>
 			<IncludedEvents>
-				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="10.044653" DurationMax="10.044653"/>
-				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.540581" DurationMax="11.540581"/>
-				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.959051" DurationMax="7.959051"/>
-				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="11.135159" DurationMax="11.135159"/>
-				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.462842" DurationMax="6.462842"/>
+				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="9.900645" DurationMax="9.900645"/>
+				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.375126" DurationMax="11.375126"/>
+				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.875768" DurationMax="7.875768"/>
+				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="10.975516" DurationMax="10.975516"/>
+				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.370185" DurationMax="6.370185"/>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="1620373966" Name="Wwizard_DialogueLine_Q3a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01" GUID="{F453350F-76D0-462F-A918-08520519CDDC}" DurationType="OneShot" DurationMin="10.349589" DurationMax="10.349589"/>
@@ -2525,7 +2525,7 @@
 			<ShortName>Quest_04</ShortName>
 			<Path>English(US)\Quest_04.bnk</Path>
 			<IncludedEvents>
-				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.277119" DurationMax="9.277119"/>
+				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.144114" DurationMax="9.144114"/>
 				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Player\General\Pickup_ItemType" GUID="{2D48A28B-B9CE-4E74-A06D-2ED1F9A01F59}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.141882" DurationMax="1.986103"/>
 				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Player\General\Pickup_WeaponType" GUID="{483E897D-C45B-4AD3-818D-C2E9B50C4897}" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="1.052458" DurationMax="1.890960"/>
 				<Event Id="3210335081" Name="Wwizard_DialogueLine_Q4a_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01" GUID="{56943864-117B-4342-8159-48E68EC2CB07}" DurationType="OneShot" DurationMin="6.337491" DurationMax="6.337491"/>
@@ -2730,12 +2730,12 @@
 				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_WaterDrop" GUID="{321E9D2C-FD0D-4EA6-A4AF-34B52637C7DE}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.389000"/>
 				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Waterfall" GUID="{B0747836-9578-49F6-ADCB-20DAADE76160}" MaxAttenuation="150.000000" DurationType="Infinite"/>
 				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Ambient\SoundBankSpecific\Ambient_Windmill" GUID="{E3D08F1C-3D32-4268-BFCB-336CA08C1A5F}" MaxAttenuation="50.000000" DurationType="Infinite"/>
-				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="10.044653" DurationMax="10.044653"/>
-				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.540581" DurationMax="11.540581"/>
-				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.959051" DurationMax="7.959051"/>
-				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="11.135159" DurationMax="11.135159"/>
-				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.462842" DurationMax="6.462842"/>
-				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.277119" DurationMax="9.277119"/>
+				<Event Id="958722917" Name="Blacksmith_DialogueLine_Q3b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01" GUID="{44B1109B-F93D-4380-87C0-A28497A32D8D}" DurationType="OneShot" DurationMin="9.900645" DurationMax="9.900645"/>
+				<Event Id="958722918" Name="Blacksmith_DialogueLine_Q3b_02" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02" GUID="{5B81E943-ADA7-4F6D-BEA7-76D274E4B6B6}" DurationType="OneShot" DurationMin="11.375126" DurationMax="11.375126"/>
+				<Event Id="958722919" Name="Blacksmith_DialogueLine_Q3b_03" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03" GUID="{C76DEDD5-072D-470D-8E18-58272B44114D}" DurationType="OneShot" DurationMin="7.875768" DurationMax="7.875768"/>
+				<Event Id="958722912" Name="Blacksmith_DialogueLine_Q3b_04" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04" GUID="{F404B199-661F-4015-8B1C-2E57459467CA}" DurationType="OneShot" DurationMin="10.975516" DurationMax="10.975516"/>
+				<Event Id="958722913" Name="Blacksmith_DialogueLine_Q3b_05" ObjectPath="\Events\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05" GUID="{2225A60A-18E4-4A8C-A82C-A30A7F4F2754}" DurationType="OneShot" DurationMin="6.370185" DurationMax="6.370185"/>
+				<Event Id="135068334" Name="Blacksmith_DialogueLine_Q4b_01" ObjectPath="\Events\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01" GUID="{C6FD2B03-6A3E-4CB7-A8D6-F52DC6D759A4}" DurationType="OneShot" DurationMin="9.144114" DurationMax="9.144114"/>
 				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Destruction\General\Destruction_Container" GUID="{F52B8CBC-4A26-44FF-8B0B-1E5D8E73FA20}" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.813187" DurationMax="2.372896"/>
 				<Event Id="3250765487" Name="Destruction_Core_Explosion" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Core_Explosion" GUID="{D7C01EED-F0BC-4672-A90A-BB4959573ED7}" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="10.652333" DurationMax="10.652333"/>
 				<Event Id="2095238286" Name="Destruction_Core_ShieldBreak" ObjectPath="\Events\Destruction\RegionSpecific\Destruction_Core_ShieldBreak" GUID="{9B32D667-4AF8-4699-858D-9FCBFB7A4493}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>

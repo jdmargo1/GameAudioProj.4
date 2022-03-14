@@ -94,7 +94,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2.5</Value>
+										<Value>-1.8</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1811,7 +1811,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-200</Value>
+										<Value>-175</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1826,7 +1826,7 @@
 								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2076,6 +2076,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
