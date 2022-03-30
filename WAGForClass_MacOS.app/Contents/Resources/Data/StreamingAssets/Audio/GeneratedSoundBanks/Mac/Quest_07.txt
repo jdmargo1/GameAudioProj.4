@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+

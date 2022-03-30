@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1882971781	Music_Credits			\Music\SoundBankSpecific\Music_Credits	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3219147252	DayOrNight			\General\DayOrNight	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	0	None	Music_Regions			
+	608898761	Dungeon	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Ambient\Time_of_Day	
+	691349574	Enemy_Music_EvilHead			\Enemies\Enemy_Music_EvilHead	
+	2322571464	Enemy_Music_EvilCrawler			\Enemies\Enemy_Music_EvilCrawler	
+	3481128293	Enemy_Music_EviSpitPlant			\Enemies\Enemy_Music_EviSpitPlant	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	
+	1870078530	Adventuress_Death			\Default Work Unit\Adventuress_Death	
+	2029038382	Music_GetItem			\Default Work Unit\Music_GetItem	
+	3921957830	Music_EnemyTheme			\Default Work Unit\Music_EnemyTheme	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	197217690	Music_Wood_Piccolo	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM_1DD5206E.wem	197217690.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Piccolo	
+	262132101	Music_Wood_Partial Woodwinds	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM_1DD5206E.wem	262132101.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Partial Woodwinds	
+	314316775	Music_Wood_Partial String	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM_1DD5206E.wem	314316775.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Partial String	
+	446550112	Music_Wood_Pizzicato	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM_1DD5206E.wem	446550112.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Pizzicato	
+	477244820	Music_Wood_English Horn	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM_1DD5206E.wem	477244820.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_English Horn	
+	498401065	Music_Wood_Brass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM_1DD5206E.wem	498401065.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Brass	
+	503396803	Music_Wood_Flute	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM_1DD5206E.wem	503396803.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Flute	
+	519879413	Music_Wood_Flute	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM_1DD5206E.wem	519879413.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Flute	
+	652286364	Music_Wood_Pizzicato	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM_1DD5206E.wem	652286364.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Pizzicato	
+	963495165	Music_Wood_English Horn	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM_1DD5206E.wem	963495165.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_English Horn	
+

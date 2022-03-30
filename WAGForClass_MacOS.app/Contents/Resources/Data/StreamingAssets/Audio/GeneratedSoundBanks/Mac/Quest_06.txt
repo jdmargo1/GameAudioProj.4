@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+
+Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	397902884	Modulator LFO (Custom)				
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	121579601	Pickup_Misc	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Misc_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		127318
+	864546744	Pickup_Book	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Book_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		136850
+

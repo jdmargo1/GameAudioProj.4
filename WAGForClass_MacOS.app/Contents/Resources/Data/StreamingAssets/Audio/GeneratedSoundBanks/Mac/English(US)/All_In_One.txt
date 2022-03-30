@@ -1,0 +1,852 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3990952	Enemy_EvilCrawler_Hurt			\Enemies\EvilCrawler\Enemy_EvilCrawler_Hurt	
+	15662850	UI_Button_Up			\UI\Generic\UI_Button_Up	
+	18309885	UI_Button_Enter			\UI\Generic\UI_Button_Enter	
+	100151336	Ambient_Campfire_Stop			\Ambient\General\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Ambient\SoundBankSpecific\Dungeon\Ambient_Torch	
+	135068334	Blacksmith_DialogueLine_Q4b_01			\NPCs\Dialogue\Quest 4\Blacksmith_DialogueLine_Q4b_01	
+	156563189	UI_Button_Down			\UI\Generic\UI_Button_Down	
+	215992295	Player_Health			\Player\General\Player_Health	
+	433441283	Music_Enemies			\Music\General\Music_Enemies	
+	448719855	Destruction_Crystal_Destroy			\Destruction\RegionSpecific\Destruction_Crystal_Destroy	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	504652456	Enemy_EvilSpitPlant_Charge			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Charge	
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	547945861	Object_Rune_Charge_Stop			\Objects\SoundBankSpecific\Object_Rune_Charge_Stop	
+	630311347	Object_ActivateKey_Failed			\Objects\SoundBankSpecific\Object_ActivateKey_Failed	
+	746676127	Music_ArcadeMachine_Stop			\Music\SoundBankSpecific\Music_ArcadeMachine_Stop	
+	750089663	UI_Menu_Teleport			\UI\Menu\UI_Menu_Teleport	
+	808171864	Ambient_Region_PineForest			\Ambient\SoundBankSpecific\Ambient_Region_PineForest	
+	808893336	UI_QuestRoll_Close			\UI\Quest Roll\UI_QuestRoll_Close	
+	812304580	Enemy_EvilSpitPlant_ShootLoop_Play			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Play	
+	844130829	Quest_CompleteCollection			\Quest\Quest_CompleteCollection	
+	949395292	UI_QuestRoll_Open			\UI\Quest Roll\UI_QuestRoll_Open	
+	958722912	Blacksmith_DialogueLine_Q3b_04			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_04	
+	958722913	Blacksmith_DialogueLine_Q3b_05			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_05	
+	958722917	Blacksmith_DialogueLine_Q3b_01			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_01	
+	958722918	Blacksmith_DialogueLine_Q3b_02			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_02	
+	958722919	Blacksmith_DialogueLine_Q3b_03			\NPCs\Dialogue\Quest 3\Blacksmith_DialogueLine_Q3b_03	
+	1035173718	NPC_Wwizard_IdleGimmick_Poof			\Magic\General\NPC_Wwizard_IdleGimmick_Poof	
+	1042419433	Enemy_EvilSpitPlant_ShootBullet			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootBullet	
+	1049266392	Ambient_Region_Woodlands			\Ambient\SoundBankSpecific\Ambient_Region_Woodlands	
+	1070022042	Enemy_EvilHead_Movement			\Enemies\EvilHead\Enemy_EvilHead_Movement	
+	1205412814	Ambient_Core_HorribleSound			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_HorribleSound	
+	1230192158	Magic_Blast_Impact			\Magic\SoundBankSpecific\Magic_Blast_Impact	
+	1258303199	Enemy_EvilCrawler_Death			\Enemies\EvilCrawler\Enemy_EvilCrawler_Death	
+	1293226255	Enemy_EvilSpitPlant_Hurt			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Hurt	
+	1331382810	Ambient_Region_Cave			\Ambient\SoundBankSpecific\Ambient_Region_Cave	
+	1342629461	Ambient_Core_FinalReveal			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_FinalReveal	
+	1378810117	Ambient_Core_Shield_1			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_1	
+	1378810118	Ambient_Core_Shield_2			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_2	
+	1378810119	Ambient_Core_Shield_3			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_3	
+	1389069565	Ambient_Core_Shield_Destroyed			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Destroyed	
+	1464993479	UI_Menu_Resume			\UI\Menu\UI_Menu_Resume	
+	1499503781	Object_ActivateKey_Success			\Objects\SoundBankSpecific\Object_ActivateKey_Success	
+	1499896846	Pickup_Coins			\Player\General\Pickup_Coins	
+	1532327793	Music_TitleScreen			\Music\SoundBankSpecific\Music_TitleScreen	
+	1603596380	Wwizard_DialogueLine_Q3a_10			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_10	
+	1615265847	Ambient_Core_Shield_Alive			\Ambient\SoundBankSpecific\Dungeon\Core\Ambient_Core_Shield_Alive	
+	1620373958	Wwizard_DialogueLine_Q3a_09			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_09	
+	1620373959	Wwizard_DialogueLine_Q3a_08			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_08	
+	1620373960	Wwizard_DialogueLine_Q3a_07			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_07	
+	1620373961	Wwizard_DialogueLine_Q3a_06			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_06	
+	1620373962	Wwizard_DialogueLine_Q3a_05			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_05	
+	1620373963	Wwizard_DialogueLine_Q3a_04			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_04	
+	1620373964	Wwizard_DialogueLine_Q3a_03			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_03	
+	1620373965	Wwizard_DialogueLine_Q3a_02			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_02	
+	1620373966	Wwizard_DialogueLine_Q3a_01			\NPCs\Dialogue\Quest 3\Wwizard_DialogueLine_Q3a_01	
+	1702412353	Enemy_EVilSpitPlant_Bullet_Impact			\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_Impact	
+	1795559212	Object_Coin_Drop			\Objects\SoundBankSpecific\Object_Coin_Drop	
+	1817926999	Object_Rune_Charge_Play			\Objects\SoundBankSpecific\Object_Rune_Charge_Play	
+	1880981927	Enemy_EvilHead_SpawnerDestroy			\Enemies\EvilHead\Enemy_EvilHead_SpawnerDestroy	
+	1882971781	Music_Credits			\Music\SoundBankSpecific\Music_Credits	
+	1934835592	Ambient_Waterfall			\Ambient\SoundBankSpecific\Ambient_Waterfall	
+	1999886838	Destruction_Rock_Destroy			\Destruction\RegionSpecific\Destruction_Rock_Destroy	
+	2048928861	DLC_Ambient_Heaven			\Ambient\DLC\DLC_Ambient_Heaven	
+	2095238286	Destruction_Core_ShieldBreak			\Destruction\RegionSpecific\Destruction_Core_ShieldBreak	
+	2135810184	Enemy_EvilCrawler_Movement			\Enemies\EvilCrawler\Enemy_EvilCrawler_Movement	
+	2199611969	UI_Inventory_Open			\UI\Inventory\UI_Inventory_Open	
+	2208964750	Ambient_Windmill			\Ambient\SoundBankSpecific\Ambient_Windmill	
+	2258053876	Ambient_River			\Ambient\SoundBankSpecific\Ambient_River	
+	2276042689	Music_DungeonEnemyOnly			\Music\SoundBankSpecific\Music_DungeonEnemyOnly	
+	2278290679	UI_Inventory_Close			\UI\Inventory\UI_Inventory_Close	
+	2283357753	Enemy_EvilHead_Death			\Enemies\EvilHead\Enemy_EvilHead_Death	
+	2325560497	UI_Button_Exit			\UI\Generic\UI_Button_Exit	
+	2340191741	Enemy_EvilHead_Charge			\Enemies\EvilHead\Enemy_EvilHead_Charge	
+	2355650095	Ambient_Crystal_Hum			\Ambient\General\Ambient_Crystal_Hum	
+	2379298625	Door_DLCdoor_Open_Stop			\Objects\SoundBankSpecific\Door_DLCdoor_Open_Stop	
+	2391108228	NPC_Wwizard_Poof			\Magic\General\NPC_Wwizard_Poof	
+	2409105241	Music_ArcadeMachine_Play			\Music\SoundBankSpecific\Music_ArcadeMachine_Play	
+	2453392179	Player_Footstep			\Player\SoundBankSpecific\Player_Footstep	
+	2541270269	Destruction_VolcanicBoulder_Impact			\Destruction\RegionSpecific\Destruction_VolcanicBoulder_Impact	
+	2622476831	DLC_Button			\Ambient\DLC\DLC_Button	
+	2622623673	Door_TempleDoor_Open_Stop			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop	
+	2637251965	Magic_Blast			\Magic\SoundBankSpecific\Magic_Blast	
+	2644063196	Ambient_WaterDrop			\Ambient\SoundBankSpecific\Ambient_WaterDrop	
+	2681420560	Stinger_GetWeapon			\Music\General\Stinger_GetWeapon	
+	2689787085	Magic_Stop			\Magic\SoundBankSpecific\Magic_Stop	
+	2752753183	Ambient_Region_Village			\Ambient\SoundBankSpecific\Ambient_Region_Village	
+	2758258135	Enemy_EvilHead_Bite			\Enemies\EvilHead\Enemy_EvilHead_Bite	
+	2792117052	UI_QuestRoll_Hide			\UI\Quest Roll\UI_QuestRoll_Hide	
+	2857761532	NPC_Wwizard_StaffOnGround			\NPCs\NPC_Wwizard_StaffOnGround	
+	2874568351	DLC_Cannon_Shot			\Ambient\DLC\DLC_Cannon_Shot	
+	2892293322	Enemy_EvilSpitPlant_Death			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death	
+	2934374888	Wwizard_DialogueLine_Q5a_05			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05	
+	2934374889	Wwizard_DialogueLine_Q5a_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04	
+	2934374890	Wwizard_DialogueLine_Q5a_07			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07	
+	2934374891	Wwizard_DialogueLine_Q5a_06			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06	
+	2934374892	Wwizard_DialogueLine_Q5a_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01	
+	2934374894	Wwizard_DialogueLine_Q5a_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03	
+	2934374895	Wwizard_DialogueLine_Q5a_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+	3083087645	Player_Death			\Player\General\Player_Death	
+	3091829992	Wwizard_DialogueLine_Q2_3			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_3	
+	3091829993	Wwizard_DialogueLine_Q2_2			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2	
+	3091829994	Wwizard_DialogueLine_Q2_1			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1	
+	3210335081	Wwizard_DialogueLine_Q4a_01			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_01	
+	3210335082	Wwizard_DialogueLine_Q4a_02			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_02	
+	3210335083	Wwizard_DialogueLine_Q4a_03			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_03	
+	3210335084	Wwizard_DialogueLine_Q4a_04			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_04	
+	3210335085	Wwizard_DialogueLine_Q4a_05			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_05	
+	3210335086	Wwizard_DialogueLine_Q4a_06			\NPCs\Dialogue\Quest 4\Wwizard_DialogueLine_Q4a_06	
+	3237189652	UI_Menu_Pause			\UI\Menu\UI_Menu_Pause	
+	3240473869	Quest_Complete			\Quest\Quest_Complete	
+	3250765487	Destruction_Core_Explosion			\Destruction\RegionSpecific\Destruction_Core_Explosion	
+	3260075118	Enemy_EvilHead_Hover_Play			\Enemies\EvilHead\Enemy_EvilHead_Hover_Play	
+	3324372356	Enemy_EVilSpitPlant_Bullet_NoImpact			\Enemies\EvilSpitPlant\Enemy_EVilSpitPlant_Bullet_NoImpact	
+	3373889173	Magic_Charge			\Magic\General\Magic_Charge	
+	3408705206	Ambient_Region_Desert			\Ambient\SoundBankSpecific\Ambient_Region_Desert	
+	3474566310	UI_Menu_Select			\UI\Menu\UI_Menu_Select	
+	3492604883	Door_TempleDoor_Open_Play			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play	
+	3556635307	Door_DLCdoor_Open_Play			\Objects\SoundBankSpecific\Door_DLCdoor_Open_Play	
+	3580182562	Enemy_EvilCrawler_Explode			\Enemies\EvilCrawler\Enemy_EvilCrawler_Explode	
+	3584751806	Enemy_EvilSpitPlant_ShootLoop_Stop			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_ShootLoop_Stop	
+	3621593767	Enemy_EvilCrawler_Eat			\Enemies\EvilCrawler\Enemy_EvilCrawler_Eat	
+	3664581270	Ambient_Campfire_Play			\Ambient\General\Ambient_Campfire_Play	
+	3695342915	Player_WeaponImpact			\Player\General\Player_WeaponImpact	
+	3699139167	UI_QuestRoll_Show			\UI\Quest Roll\UI_QuestRoll_Show	
+	3741135221	Music_Region			\Music\General\Music_Region	
+	3749307760	UI_Inventory_Roll			\UI\Inventory\UI_Inventory_Roll	
+	3808743129	Player_WeaponSwing			\Player\General\Player_WeaponSwing	
+	3842195348	Player_Hurt_Vox			\Player\General\Player_Hurt_Vox	
+	3999192250	Enemy_EvilHead_Hurt			\Enemies\EvilHead\Enemy_EvilHead_Hurt	
+	4037905639	Enemy_EvilHead_Telegraph			\Enemies\EvilHead\Enemy_EvilHead_Telegraph	
+	4077685701	Ambient_Region_Dungeon			\Ambient\SoundBankSpecific\Ambient_Region_Dungeon	
+	4129842532	Enemy_EvilSpitPlant_Death_Headfall			\Enemies\EvilSpitPlant\Enemy_EvilSpitPlant_Death_Headfall	
+	4165450549	Wwizard_DialogueLine_Q1_1			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1	
+	4165450550	Wwizard_DialogueLine_Q1_2			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2	
+	4165450551	Wwizard_DialogueLine_Q1_3			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3	
+	4254124015	Destruction_Container			\Destruction\General\Destruction_Container	
+	4261614160	Enemy_EvilHead_Hover_Stop			\Enemies\EvilHead\Enemy_EvilHead_Hover_Stop	
+	4275106484	Ambient_Lava			\Ambient\SoundBankSpecific\Dungeon\Ambient_Lava	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	3219147252	DayOrNight			\General\DayOrNight	
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+	4064446173	Surface_Type			\General\Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Player_MovementSpeed			
+	2108779966	Walk	Player_MovementSpeed			
+	311764537	Day	DayOrNight			
+	1011622525	Night	DayOrNight			
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+	286660663	Rubble	Surface_Type			
+	389757836	Agent	Surface_Type			
+	442447909	Barrel	Surface_Type			
+	582824249	Leaves	Surface_Type			
+	803837735	Sand	Surface_Type			
+	1216965916	Stone	Surface_Type			
+	1647104456	Enemy_EvilCrawler	Surface_Type			
+	2058049674	Wood	Surface_Type			
+	2195636714	Dirt	Surface_Type			
+	2473969246	Metal	Surface_Type			
+	2654748154	Water	Surface_Type			
+	3065846598	Enemy_EvilHead	Surface_Type			
+	3098439042	Crate	Surface_Type			
+	3276966729	Enemy_EvilSpitPlant	Surface_Type			
+	3444057113	Crystal	Surface_Type			
+	4248645337	Grass	Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	326723740	MagicZone			\MusicStates\MagicZone	
+	440928865	InWater			\PlayerInWater\InWater	
+	2106907484	Music_Regions			\MusicStates\Music_Regions	
+	2333396925	Combo			\Player\Combo	
+
+State	ID	Name	State Group			Notes
+	0	None	MagicZone			
+	975018643	MZ1_OutsideHouse	MagicZone			
+	3530070619	MZ2_InsideHouse	MagicZone			
+	0	None	InWater			
+	979470758	Yes	InWater			
+	1668749452	No	InWater			
+	0	None	Music_Regions			
+	608898761	Dungeon	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+	0	None	Combo			
+	1736510753	RightSwing	Combo			
+	2398785008	LeftSwing	Combo			
+	2416766296	TopSwing	Combo			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	651318039	TopSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	897268338	No	InWater	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S		
+	959165918	RightSwing	Combo	\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type		
+	1064249781	MZ2_InsideHouse	MagicZone	\Effects\Factory Effects\Wwise Flanger\Flanging\Standard		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Ambient\Time_of_Day	
+	215992295	Player_Health			\Player\Player_Health	
+	500836401	Quest_Progress			\Gameplay\Quest_Progress	
+	691349574	Enemy_Music_EvilHead			\Enemies\Enemy_Music_EvilHead	
+	1124499852	DopplerEffect			\Generic\DopplerEffect	
+	1756231317	InMenu_LowPass			\Gameplay\InMenu_LowPass	
+	2149718692	Destruction_Level			\Objects\Destruction_Level	
+	2322571464	Enemy_Music_EvilCrawler			\Enemies\Enemy_Music_EvilCrawler	
+	2471758783	Player_MovementSpeed			\Player\Player_MovementSpeed	
+	2947261878	Game_TimeSpeed			\Gameplay\Game_TimeSpeed	
+	3046587051	Enemy_EvilHead_MovementSpeed			\Enemies\Enemy_EvilHead_MovementSpeed	
+	3481128293	Enemy_Music_EviSpitPlant			\Enemies\Enemy_Music_EviSpitPlant	
+	3588190939	Music_EnemyTheme_Volume			\Gameplay\Music_EnemyTheme_Volume	
+	3717648145	Listener_Cone			\Generic\Listener_Cone	
+	3717892141	CombatLevel			\Enemies\CombatLevel	
+	3917897988	Distance_to_Player			\Generic\Distance_to_Player	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	185131821	Modulator LFO (Custom)				
+	397902884	Modulator LFO (Custom)				
+	856353238	Modulator LFO (Custom)				
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	360368708	Modulator Envelope (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	780938204	Music_QuestComplete			\Default Work Unit\Music_QuestComplete	
+	1870078530	Adventuress_Death			\Default Work Unit\Adventuress_Death	
+	2029038382	Music_GetItem			\Default Work Unit\Music_GetItem	
+	3921957830	Music_EnemyTheme			\Default Work Unit\Music_EnemyTheme	
+
+Effect plug-ins	ID	Name	Type				Notes
+	690888	Outside_Narrow	Wwise RoomVerb			
+	4496003	Dirty_Washing_Machine	Wwise RoomVerb			
+	59662939	Dialog_Too_Quiet	Wwise Compressor			
+	86245554	Attack_Remover	Wwise Compressor			
+	109045632	Vibrato	Wwise Flanger			
+	125812960	WAG_PitchShift_SlowMotionMode	Wwise Pitch Shifter			
+	131511410	Let_The_Power_Fall	Wwise Stereo Delay			
+	136714882	_500ms_Per_Hour	Wwise Stereo Delay			
+	145028528	Static_Sibilance_Remover_Female	Wwise Parametric EQ			
+	176439046	Caught_in_a_loop	Wwise Stereo Delay			
+	199095971	Dialog_Through_AC_Vents	Wwise Parametric EQ			
+	384632663	WAG_Dungeon_Core	Wwise RoomVerb			
+	385945448	WAG_Music	Wwise RoomVerb			
+	389252396	Next_Room	Wwise Parametric EQ			
+	400317747	Hall_Large_TooBright	Wwise RoomVerb			
+	415841907	Space_Garage	Wwise RoomVerb			
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	438105790	Outside	Wwise RoomVerb			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	506891147	Plate_Small	Wwise RoomVerb			
+	535667444	Bathroom1	Wwise Matrix Reverb			
+	654807232	Chipmunk	Wwise Pitch Shifter			
+	701863527	Inside_My_Head	Wwise RoomVerb			
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	776837744	Born_In_1950	Wwise Parametric EQ			
+	785024900	WAG_Questing_PitchShift (Custom)	Wwise Pitch Shifter			
+	819943492	Fear_no_Evil	Wwise Harmonizer			
+	863110902	WAG_Lava_EQ	Wwise Parametric EQ			
+	927250686	Rhythmic_Talk	Wwise Tremolo			
+	949863463	Many_Even_Harm_Notches	Wwise Flanger			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1110677034	Underwater_Echoes	Wwise Stereo Delay			
+	1125262053	Blue_Distant_Echoes	Wwise Stereo Delay			
+	1144018367	Plate_Large	Wwise RoomVerb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	1182561210	Cut_3dB_10KHz	Wwise Parametric EQ			
+	1198215643	Boomerang	Wwise Tremolo			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	1232017842	LR_Slap_with_CrossFeed	Wwise Stereo Delay			
+	1237275451	Octave_Up	Wwise Pitch Shifter			
+	1242019057	WAG_SideChainArcade	Wwise Meter			
+	1252796875	Light_Expander	Wwise Expander			
+	1291433344	Bass	Wwise Flanger			
+	1293178626	In_My_Car	Wwise Parametric EQ			
+	1305889293	WAG_SideChainStinger	Wwise Meter			
+	1416967478	All_Buttons_IN	Wwise Compressor			
+	1431209347	One_Tap_One_Second	Wwise Delay			
+	1431265797	Monsterize	Wwise Pitch Shifter			
+	1443902288	_1_Second_Delay	Wwise Stereo Delay			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	1588715066	Echoes_Linear	Wwise Delay			
+	1590660382	Nearly_Forever	Wwise Delay			
+	1655770832	High_Freq_Cut_11	Wwise Parametric EQ			
+	1655770833	High_Freq_Cut_10	Wwise Parametric EQ			
+	1674078407	Chorus_Like	Wwise Flanger			
+	1675424737	Extreme_Limiting_1	Wwise Peak Limiter			
+	1675424738	Extreme_Limiting_2	Wwise Peak Limiter			
+	1675424739	Extreme_Limiting_3	Wwise Peak Limiter			
+	1706684651	Plate_Medium	Wwise RoomVerb			
+	1711423976	Many_Odd_Harm_Notches	Wwise Flanger			
+	1735130781	Aliasing	Wwise Tremolo			
+	1759944409	Cut_3dB_100Hz	Wwise Parametric EQ			
+	1783154876	WAG_Cave	Wwise RoomVerb			
+	1863245162	Noise_Gate_Slow_Attack	Wwise Expander			
+	1866712626	High_Freq_Cut_8	Wwise Parametric EQ			
+	1866712627	High_Freq_Cut_9	Wwise Parametric EQ			
+	1866712632	High_Freq_Cut_2	Wwise Parametric EQ			
+	1866712633	High_Freq_Cut_3	Wwise Parametric EQ			
+	1866712635	High_Freq_Cut_1	Wwise Parametric EQ			
+	1866712636	High_Freq_Cut_6	Wwise Parametric EQ			
+	1866712637	High_Freq_Cut_7	Wwise Parametric EQ			
+	1866712638	High_Freq_Cut_4	Wwise Parametric EQ			
+	1866712639	High_Freq_Cut_5	Wwise Parametric EQ			
+	1883259540	WAG_PineForest_Hut	Wwise Matrix Reverb			
+	1904434771	Medium_Room1	Wwise Matrix Reverb			
+	1937843064	WAG_Desert	Wwise Convolution Reverb			
+	1976939195	Deep	Wwise Flanger			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2038996943	Plate_Sizzle	Wwise RoomVerb			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+	2135883084	Nasty_Radio	Wwise Peak Limiter			
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
+	2180422931	One_Tap_Quarter_Second	Wwise Delay			
+	2202047219	Few_Even_Notches	Wwise Flanger			
+	2230265344	Very_Bad_Connection	Wwise Tremolo			
+	2258521792	Brick_Wall_Minus_1dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2265839006	Not_A_Yellow_Submarine	Wwise RoomVerb			
+	2301880513	Many_Even_Harm_Peaks	Wwise Flanger			
+	2373712977	WAG_Enemy_EvilHead_MovementSpeed	Wwise Tremolo			
+	2394809124	Very_Slow_Modulation	Wwise Tremolo			
+	2439616960	WAG_Dungeon_Entrance	Wwise RoomVerb			
+	2513915904	Hall_Large	Wwise RoomVerb			
+	2539557199	Treble	Wwise Flanger			
+	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
+	2568359573	Secret_message	Wwise Harmonizer			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+	2653529179	Three_Voices	Wwise Harmonizer			
+	2656259783	PA_Announcement1	Wwise Matrix Reverb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+	2667647788	Single_Band_1Khz_Wide	Wwise Parametric EQ			
+	2755291684	Pumping_and_Breathing_1	Wwise Compressor			
+	2755291686	Pumping_and_Breathing_3	Wwise Compressor			
+	2755291687	Pumping_and_Breathing_2	Wwise Compressor			
+	2781261543	Brick_Wall_Minus_6dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2805769450	Special_Effect_1	Wwise Flanger			
+	2839397017	Noise_Gate	Wwise Expander			
+	2849147824	Medium	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	2900412812	Robotic_Trash	Wwise RoomVerb			
+	2943711428	MicrophoneMeter	Wwise Meter			
+	2945072214	My_Closet	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	2952825346	Dual_Filters_Radio_Comm	Wwise Parametric EQ			
+	2995775460	Room_Small	Wwise RoomVerb			
+	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
+	3013737254	Bass_Remover_8	Wwise Parametric EQ			
+	3013737255	Bass_Remover_9	Wwise Parametric EQ			
+	3013737256	Bass_Remover_6	Wwise Parametric EQ			
+	3013737257	Bass_Remover_7	Wwise Parametric EQ			
+	3013737258	Bass_Remover_4	Wwise Parametric EQ			
+	3013737259	Bass_Remover_5	Wwise Parametric EQ			
+	3013737260	Bass_Remover_2	Wwise Parametric EQ			
+	3013737261	Bass_Remover_3	Wwise Parametric EQ			
+	3013737263	Bass_Remover_1	Wwise Parametric EQ			
+	3025917178	Standard	Wwise Flanger			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
+	3043085106	High_Impact	Wwise Compressor			
+	3157398371	Few_Odd_Harm_Notches	Wwise Flanger			
+	3209444191	Static_Sibilance_Remover_Male	Wwise Parametric EQ			
+	3216246379	Space_Dreaming	Wwise RoomVerb			
+	3250156175	Say_what	Wwise Tremolo			
+	3290519051	Aluminium_Tank	Wwise RoomVerb			
+	3332138788	Few_Even_Harm_Peaks	Wwise Flanger			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3395979371	Straight_Delay	Wwise Stereo Delay			
+	3407225994	Phone_Booth	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+	3451596814	Hall_Medium	Wwise RoomVerb			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+	3491912472	Club_Music_Distant_02	Wwise Parametric EQ			
+	3491912473	Club_Music_Distant_03	Wwise Parametric EQ			
+	3491912475	Club_Music_Distant_01	Wwise Parametric EQ			
+	3491912478	Club_Music_Distant_04	Wwise Parametric EQ			
+	3497757918	Fast_LF_Tremolo_No_Smoothing	Wwise Tremolo			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+	3559982155	Hall_Stop_Screaming	Wwise RoomVerb			
+	3563901164	Halfway_There	Wwise Tremolo			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+	3614057183	_1_Frame_Delay	Wwise Stereo Delay			
+	3673681183	Large_Bright_Chamber1	Wwise Matrix Reverb			
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+	3795831770	WAG_Questing_PitchShift	Wwise Pitch Shifter			
+	3796564934	Hard_Knee_Minus_3dB_RMS	Wwise Compressor			
+	3851006675	Secret_message_Distant	Wwise Harmonizer			
+	3868582268	WAG_DLC_Room	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+	4113267698	Hall_Guns	Wwise RoomVerb			
+	4136714357	Few_Odd_Harm_Peaks	Wwise Flanger			
+	4143868620	Bass_Remover_11	Wwise Parametric EQ			
+	4143868621	Bass_Remover_10	Wwise Parametric EQ			
+	4185773483	Dual_Filters_Reset	Wwise Parametric EQ			
+	4190220820	Voice_CenterOnly_Lowered	Wwise Pitch Shifter			
+	4202347640	Repeat_after_me	Wwise Harmonizer			
+	4212217734	Personnel_Advisor	Wwise Stereo Delay			
+	4236290354	Many_Odd_Harm_Peaks	Wwise Flanger			
+	4237026282	WAG_Room_Large	Wwise RoomVerb			
+	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
+	4259739631	WAG_Music_EnemyThemeMeter	Wwise Meter			
+	4269441574	Heavy_Metal	Wwise Flanger			
+	4286906788	Gentle_Program_Compressor_Minus_20dB_RMS	Wwise Compressor			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	52615721	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\WAG_Button\Wwise Synth One	
+	79502778	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Silence\Wwise Silence	
+	332159559	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Silence\Wwise Silence	
+	380065115	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\Silence\Wwise Silence	
+	637350807	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Silence\Wwise Silence	
+	736681753	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_NoImpact\EvilSpitPlant_Silence\Wwise Silence	
+	776592709	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Silence\Wwise Silence	
+	944426266	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	651327	Inventory_Scroll	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Inventory_Scroll_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Scroll		2138
+	777537	Impact_Sword_Crate	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Crate_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Crate\Crate\Impact_Sword_Crate		23804
+	9468547	Impact_Sword_Wood_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Wood_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Wood\Impact_Sword_Wood\Impact_Sword_Wood_01		101346
+	9622725	Impact_Dagger_EvilHead	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_EvilHead_498E5AF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilHead\Impact_Dagger_EvilHead		66702
+	15988685	PinkShield_Impact_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_PinkShield_Impact_01_78A00968.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_01		32472
+	17789199	IceCave_Partial Mix	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_PARTIALMIX_1DD5206E.wem		\Interactive Music Hierarchy\Music\Music_Regions\IceCave\WPA_Ambient\IceCave_Partial Mix		519384
+	18204354	WAG Blacksmith Line-005	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-005_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-005		74087
+	20442315	WAG Wwizard Dial_ Line-026	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-026_D4810722.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-026		64719
+	21340349	Pickup_Coin_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Objects\Pickups\BAS_Pickup_Coin_04_F1B62322.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_04		55332
+	21991143	Inventory_Select	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Inventory_Select_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Inventory_Select		16102
+	24068947	FS_Water_Wade_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Wade_2E16B97C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S\PFS_Water_Wade_R\FS_Water_Wade_05		154188
+	26198805	Impact_PickAxe_Barrel	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_PickAxe_Barrel_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Barrel\Impact_PickAxe_Barrel		145328
+	26489740	Ambient_Day_Element_02_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambi_day_element_02_02_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Ambient_Day_Element_02_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	26684
+	27295569	WAG Wwizard Dial_ Line-025	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-025_D7BE52DE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-025		73218
+	27737227	WAG Blacksmith Line-001	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-001_59B9FEFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-001		64301
+	33459104	WAG Wwizard Dial_ Line-022	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-022_2A6896EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-022		85003
+	34428346	FS_Water_Wade_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Wade_2C145FC1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S\PFS_Water_Wade_L\FS_Water_Wade_05		162424
+	34954357	Pickup_WeaponType_Sword	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_WeaponType_Sword_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Sword		168496
+	39712027	Impact_SpitPlant_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Sword Impact 2_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilSpitPlant\Impact_SpitPlant_02		85278
+	46371184	FS_Stone_Run_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Run_DB57647D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Run\PFS_Stone_Run_L\FS_Stone_Run_01		23516
+	50497435	EvilHead_Charge_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Charge_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_03		2763
+	50556790	Ambient_Fire_Torch	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambient_fire_torch_2_DD807F49.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Fire_Torch		1424296
+	50562905	Ambient_Day_Element_02_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambi_day_element_02_04_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Ambient_Day_Element_02_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	17735
+	51105901	Wwizard_StaffOnGround	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Weapons\BAS_imp_dagger_dirt_B676FD88.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wwizard_StaffOnGround		2931
+	54157530	Core_Shield_Impact_Hammer	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_HammerHit_03_78A00968.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact_Hammer		22313
+	55009279	Ambient_Day_Element_01_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambi_day_element_01_02_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Ambient_Day_Element_01_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	20061
+	55372353	Impact_PickAxe_Crate	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_PickAxe_Crate_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Crate\Impact_PickAxe_Crate		40584
+	56443114	Impact_PickAxe_EvilHead	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_PickAxe_EvilHead_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilHead\Impact_PickAxe_EvilHead		48714
+	64123130	Impact_Sword_Grass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Grass_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\Impact_Sword_Grass		129312
+	67235325	EvilCrawler_Eat_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Eat_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_02		9943
+	68411760	Quest_Complete_Collection	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Quest_Complete_Collection_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Collection Complete\Quest_Complete_Collection		5400
+	69431015	Destroy_Wood	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_wood_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Wood		16055
+	71905540	Heartbeat_Lub2	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Heartbeat_Lub2_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\Heartbeat_Lub\Heartbeat_Lub2		1078
+	73281594	FS_Wood_Run_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Run_0E325B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Run\PFS_Wood_Run_L\FS_Wood_Run_01		23858
+	73574320	Ambient_DLC_Cannon	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Other\WAG_TmpShotSound_7F92391C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Ambient_DLC_Cannon		2403
+	77578611	WAG Wwizard Dial_ Line-017	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-017_9610C2FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-017		36390
+	81755460	BAS_Evil_SpitPlant_HurtImpact_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Dagger Impact 2_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_02		56826
+	82540882	Adventuress_damaged_13	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-013_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_13		178048
+	84348566	BAS_Evil_Head_Death_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_death_EE5B571A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_01		12332
+	86058953	Pickup_Coin_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Objects\Pickups\BAS_Pickup_Coin_01_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_01		36144
+	87450794	Wizard_Poof_Teleport	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Wwizard\BAS_Wizard_Poof_02_DFA157D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wizard_Poof_Teleport		20235
+	93130815	Pickup_WeaponType_Pickaxe	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_WeaponType_PickAxe_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Pickaxe		129312
+	93186345	Ambient_Crystal_Ringing	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\WAG_Crystal_Ringing_8AC2AF2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Crystal_Ringing		69404
+	93320748	QuestRoll_Close	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Questroll Close_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\QuestRoll\QuestRoll_Close		5330
+	95024384	Ambient_Night_Element_03_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\scream_01_7C493EF8_DDA7E906.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	20138
+	96652300	Impact_CrystalShard_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_02_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_02		129312
+	98770837	frog_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\frog_05_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_05		4884
+	100576181	Destroy_Wood_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_barrel_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_02		27669
+	100772734	WAG Wwizard Dial_ Line-016	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-016_A4A3017E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-016		89096
+	106310996	FS_Water_Run_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Run_84E01B99.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Run\FS_Water_Run_02		36722
+	107237651	FS_Woodlands_Walk_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Walk_EDC72090.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Walk\PFS_Woodlands_Walk_L\FS_Woodlands_Walk_05		15226
+	107949489	EvilCrawler_Movement_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Movement_02_0B147ABC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Movement_02		8649
+	108931642	WAG Wwizard Dial_ Line-019	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-019_F98FF95A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-019		37813
+	110825758	FS_Dirt_Run_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Run_1DA8F59B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Run\PFS_Dirt_Run_L\FS_Dirt_Run_03		17848
+	111689082	FS_Woodlands_Walk_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Walk_A91DBC2D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Walk\PFS_Woodlands_Walk_L\FS_Woodlands_Walk_03		25806
+	112419487	Adventuress swing weapon hard-006	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-006_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-006		222518
+	116929962	EvilCrawler_Explosion_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Explosion_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explosion_02		5719
+	117025190	Impact_Hammer_Crate	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Hammer_Crate_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Crate\Crate\Impact_Hammer_Crate		119904
+	117046144	BAS_Evil_SpitPlant_Charge_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\CHARGE_3_8F98DC6A_1FD433A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_03		3535
+	119767071	FS_Stone_Run_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Run_C05E1536.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Run\PFS_Stone_Run_L\FS_Stone_Run_02		24474
+	121579601	Pickup_Misc	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Misc_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Misc		127318
+	122475090	Button_Close	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Button_Close_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Close		31606
+	122491377	Impact_PickAxe_Stone	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Pickaxe_Stone_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Stone\Impact_PickAxe_Stone		78068
+	122505936	BAS_Evil_SpitPlant_Charge_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\CHARGE_2_8F98DC6A_1FD433A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_02		2696
+	125288342	Heartbeat_Dub2	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Heartbeat_Dub2_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub2		1078
+	125579260	Ambient_Core_Shield_Outer	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_01_4FCE0C42.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Outer		43400
+	132383432	Evil_SpitPlant_Charge_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_BE1DC7C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_03		4531
+	135281028	WAG Wwizard Dial_ Line-007	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-007_E0DADC13.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-007		80256
+	137295530	Impact_Crawler_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\New_Impact_Crawler_01_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilCrawler\Impact_Crawler_01		200930
+	139752345	FS_Water_Walk_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Walk_63B807E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Walk\FS_Water_Walk_06		101936
+	140084451	FS_Water_Wade_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Wade_C997035D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S\PFS_Water_Wade_L\FS_Water_Wade_02		180904
+	147413471	Crate_Destroy_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crate_05_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_05		10633
+	148925723	FS_Dirt_Walk_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Walk_F79DD5F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Walk\PFS_Dirt_Walk_L\FS_Dirt_Walk_01		24982
+	151205934	FS_Woodlands_Walk_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Walk_9A5AC056.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Walk\PFS_Woodlands_Walk_L\FS_Woodlands_Walk_04		16452
+	152211720	EvilSpitPlant_Flutes_Battle	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Battle_Flutes_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes_Battle		2289
+	154860637	FS_Stone_Walk_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Walk_0AD79137.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Walk\PFS_Stone_Walk_L\FS_Stone_Walk_03		25758
+	159574703	Pickup_PineCone	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_PineCone_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_PineCone		175746
+	161812219	FS_Water_Run_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Run_5E08B8A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Run\FS_Water_Run_01		29540
+	173815796	PlayerHit_SpitShot	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_SpitShot_C4E1794B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Grass\Impact_Sword_Grass\PlayerHit_SpitShot		252832
+	178475207	FS_Water_Run_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Run_23445869.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Run\FS_Water_Run_03		35588
+	184207217	FS_Water_Run_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Run_C3519933.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Run\FS_Water_Run_05		37478
+	187530991	Impact_SpitPlant_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Sword Impact 3_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilSpitPlant\Impact_SpitPlant_03		85278
+	189973564	Ambient_Day_Element_02_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambi_day_element_02_03_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_birds\Ambient_Day_Element_02_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	17475
+	190827734	Adventuress DEATH-003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress DEATH-003_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress DEATH-003		348544
+	192562240	Button_Enter	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Interface\BAS_Button_Enter_630FFF11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Enter		5787
+	195237193	Ambient_Night_Element_01_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\cricket_02_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	240746
+	196106116	Adventuress swing weapon hard-003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-003_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-003		215474
+	199440052	Ambient_Night_Element_02_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\owl_04_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	3078
+	202341787	Perc_Normal_Tamburine_Quick	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\EvilHead_Tamburine_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Normal_Tamburine_Quick		3021
+	204931226	WAG Wwizard Dial_ Line-024	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-024_88A76C6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-024		44030
+	205325659	FS_Dirt_Run_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Run_2667B43E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Run\PFS_Dirt_Run_L\FS_Dirt_Run_02		18652
+	209771660	Impact_CrystalShard_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_06_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_03		129312
+	210651942	Impact_Dagger_Barrel	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_Barrel_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Barrel\Impact_Dagger_Barrel		151860
+	221853960	EvilCrawler_Eat_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Eat_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_03		451639
+	222371863	FS_Woodlands_Run_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Run_62075296.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Run\PFS_Woodlands_Run_L\FS_Woodlands_Run_02		20158
+	222577091	Ambient_Core_Shield_Destroyed	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_PinkShield_After_Loop_78A00968.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Destroyed		103925
+	224492450	Impact_PickAxe_Dirt	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_PickAxe_Dirt_7D402092.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Dirt\Impact_PickAxe_Dirt		61948
+	225760600	EvilCrawler_Tuba	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Tuba_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Tuba		588
+	229737450	EvilHead_Hurt_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_hurt_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_02		11487
+	231204175	Ambient_Night_Element_01_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\cricket_03_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	5703
+	233247650	Impact_CrystalShard_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_08_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_02		129312
+	239168245	FS_Dirt_Walk_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Walk_BE052721.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Walk\PFS_Dirt_Walk_L\FS_Dirt_Walk_03		29340
+	249818564	Adventuress_damaged_12	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-012_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_12		202048
+	255956512	WAG Wwizard Dial_ Line-020	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-020_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-020		69788
+	258211570	EvilHead_SpawnerDestroy	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_destory_51FB1F28.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_SpawnerDestroy		3519
+	260764241	WAG Wwizard Dial_ Line-015	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-015_294ABD77.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-015		74168
+	265022886	Waterfall_Far	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\Waterfall_Strong_1_BB46165D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Far		33078
+	265204291	FS_Stone_Walk_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Walk_F1D3C75B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Walk\PFS_Stone_Walk_L\FS_Stone_Walk_05		26460
+	269405603	Ambient_Core_Shield_Middle	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_02_4FCE0C42.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Middle		31394
+	270244909	EvilHead_Hurt_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_hurt_80C67C17.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_01		7401
+	272780788	Adventuress swing weapon light-001	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-001_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-001		171904
+	273394825	Weapon_Swing_Dagger	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Weapon_Swing_Dagger_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Dagger	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	64736
+	275751534	Impact_CrystalShard_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_03_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_03		129312
+	282957560	frog_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\frog_02_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_02		5213
+	283455833	Ambient_Core_Shield_Alive	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_PinkShield_Before_Loop_D585B4A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Ambient_Core_Shield_Alive		92843
+	285115110	Amb_River	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\Water_RiverLoop_28A8733C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Amb_River		197053
+	290458456	Adventuress swing weapon light-007	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-007_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-007		186304
+	292045048	WAG Blacksmith Line-006	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-006_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-006		41798
+	293977736	FS_Woodlands_Run_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Run_F980B109.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Run\PFS_Woodlands_Run_L\FS_Woodlands_Run_04		21752
+	294169920	Ambient_Day_Element_01_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambi_day_element_01_03_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Ambient_Day_Element_01_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	22959
+	295176911	FS_Dirt_Run_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Run_84836403.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Run\PFS_Dirt_Run_L\FS_Dirt_Run_05		17734
+	296702924	Impact_CrystalShard_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_04_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_01		129312
+	302616316	FS_Stone_Run_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Run_DBBF47AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Run\PFS_Stone_Run_L\FS_Stone_Run_05		21844
+	306250123	Adventuress DEATH-001	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress DEATH-001_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress DEATH-001		157744
+	308537004	BAS_Evil_SpitPlant_HurtImpact_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Dagger Impact 1_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_01		56826
+	312265418	Inventory_Open	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Inventory_Open_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Open		2049
+	316294701	Impact_Dagger_Dirt	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_Dirt_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Dirt\Impact_Dagger_Dirt		125904
+	320750378	Quest_ Get_Weapon	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Quest_ Get_Weapon_D0D45A34_22BA8EB2.wem		\Interactive Music Hierarchy\Music\WAGV2_Quest_ Get_Weapon\Quest_ Get_Weapon		40696
+	325669408	Adventuress_damaged_07	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-007_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_07		170560
+	325805174	EvilCrawler_Death_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Death_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\EvilCrawler_Death_03		11737
+	327514655	EvilHead_Movement_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Movement_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Movement\EvilHead_Movement_02		17855
+	330017917	BAS_Evil_Head_Death_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_death_817D88A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_02		6253
+	332240288	EvilHead_Charge_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Charge_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_01		2776
+	333031398	Crate_Destroy_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crate_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_03		9904
+	340074122	Adventuress_damaged_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Adventuress_damaged_05_907E20D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_05		31516
+	340096011	FS_Wood_Walk_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Walk_55E7434D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Walk\PFS_Wood_Walk_L\FS_Wood_Walk_03		25272
+	347709270	FS_Wood_Run_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Run_9B4A350A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Run\PFS_Wood_Run_L\FS_Wood_Run_06		20708
+	353750307	EvilCrawler_Death_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Death_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\EvilCrawler_Death_02		11428
+	353842310	Heartbeat_Lub	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Heartbeat_Lub_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\Heartbeat_Lub\Heartbeat_Lub		1078
+	355999611	Perc_Battle_Timpani	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Timpani_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Battle_Timpani		584
+	357036992	Creature_FinalReveal	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_Creature_FinalReveal_78A00968.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_FinalReveal		72070
+	359869389	Adventuress swing weapon light-006	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-006_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-006		128704
+	363110106	Creature_Earthquake_Loop	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_Creature_Earthquake_Loop_F7BAAA62.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_Earthquake_Loop		26032
+	363795988	Impact_Sword_Dirt	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Dirt_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Dirt\Impact_Sword_Dirt\Impact_Sword_Dirt		46778
+	368552653	Impact_Sword_Stone	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Stone_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Stone\Impact_Sword_Stone\Impact_Sword_Stone		117024
+	372825360	WAG Wwizard Dial_ Line-006	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-006_CA1E5381.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-006		77978
+	382767867	FS_Water_Wade_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Wade_3AB8F5E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S\PFS_Water_Wade_L\FS_Water_Wade_01		158300
+	395445078	FS_Water_Run_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Run_AFB7B900.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Run\FS_Water_Run_06		34454
+	397299840	Adventuress swing weapon light-002	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-002_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-002		199744
+	397504219	EvilHead_Movement_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Movement_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Movement\EvilHead_Movement_01		17420
+	400948229	Impact_Dagger_Wood	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_Wood_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Wood\Impact_Dagger_Wood		87380
+	402893315	waterdrop_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_04_E3E54F67.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_04		2936
+	408522342	FS_Stone_Walk_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Walk_C09E5455.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Walk\PFS_Stone_Walk_L\FS_Stone_Walk_06		25404
+	412897911	Windmill_Machine	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\windmill_machine_2_DD807F49.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Windmill_Machine		101879
+	414065280	FS_Wood_Walk_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Walk_2969C1E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Walk\PFS_Wood_Walk_L\FS_Wood_Walk_04		26574
+	423311836	WAG Wwizard Dial_ Line-014	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-014_9FC5C73A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-014		55888
+	432396446	WAG Wwizard Dial_ Line-005	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-005_EF0B0E3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-005		59312
+	433857567	FS_Dirt_Walk_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Walk_AEB61D04.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Walk\PFS_Dirt_Walk_L\FS_Dirt_Walk_02		27780
+	436175451	EvilCrawler_Movement_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Movement_03_C13FD28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Movement_03		15190
+	441591698	Evil_SpitPlant_Charge_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_B666C449.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_01		4948
+	448906690	FS_Water_Wade_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Wade_975D2AEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S\PFS_Water_Wade_L\FS_Water_Wade_03		178850
+	450823707	Adventuress_damaged_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-002_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_02		151360
+	452212148	EvilSpitPlant_ImpactPlayer_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\IMPACT_3_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_03		5422
+	452267235	Impact_Dagger_Leaves	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_PickAxe_Leaves_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Leaves\Impact_Dagger_Leaves		117024
+	454268507	Impact_Dagger_Stone	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_Stone_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Stone\Impact_Dagger_Stone		22306
+	457444468	FS_Dirt_Run_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Run_4703F14E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Run\PFS_Dirt_Run_L\FS_Dirt_Run_04		17210
+	458904515	FS_Woodlands_Walk_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Footsteps\BAS_Player_Footstep_grass_walk_06_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Walk\PFS_Woodlands_Walk_L\FS_Woodlands_Walk_06		47000
+	460852298	Impact_CrystalShard_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_05_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_02		129312
+	464674442	waterdrop_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_03_39E9CC88.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_03		2814
+	466637199	Adventuress_damaged_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-003_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_03		165184
+	466737030	Confetti	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Other\WAG_Sparkle_B6779732.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\Cannon_Shot\Confetti		14327
+	471420582	FS_Dirt_Walk_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Walk_8AA6DFB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Walk\PFS_Dirt_Walk_L\FS_Dirt_Walk_05		28094
+	475500304	WAG Wwizard Dial_ Line-018	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-018_13B2035E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-018		67810
+	483551176	Impact_SpitPlant_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Sword Impact 1_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilSpitPlant\Impact_SpitPlant_01		85278
+	484774801	Impact_PickAxe_Wood	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_PickAxe_Wood_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Wood\Impact_PickAxe_Wood		118802
+	486625135	WAG Blacksmith Line-003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-003_D89FDE0D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-003		20842
+	494250686	Quest_Complete	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Quest_Complete_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Quest_Complete		6699
+	498254836	FS_Water_Walk_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Walk_ECE15038.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Walk\FS_Water_Walk_02		105492
+	504113723	EvilHead_Bite_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Bite_02_8F98DC6A_02D16AE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_02		18230
+	506408922	Ambient_Night_Element_01_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\cricket_04_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_04	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	33224
+	507086479	Adventuress_damaged_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-001_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_01		139840
+	509145898	WAG Wwizard Dial_ Line-010	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-010_2A4D3AE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-010		63767
+	512076338	waterdrop_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_AA6FE9C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_01		3675
+	513419570	BAS_Evil_SpitPlant_Hurt_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\HURT_2_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_02		5698
+	515949137	Impact_Dagger_Crate	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_Crate_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Crate\Impact_Dagger_Crate		103092
+	526127783	FS_Stone_Walk_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Walk_C146BB22.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Walk\PFS_Stone_Walk_L\FS_Stone_Walk_02		23296
+	528358999	EvilCrawler_Stacc_DoubleBass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Stacc_DoubleBass_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Stacc_DoubleBass		588
+	528952793	Ambient_Night_Element_01_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\cricket_01_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_crickets\Ambient_Night_Element_01_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	849454
+	529411293	Ambient_Fire_Campfire	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambient_fire_campfire_2_DD807F49.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Fire_Campfire		749249
+	529875381	Weapon_Swing_Sword	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Weapon_Swing_Sword_08D58B94.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Sword	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	53686
+	537249770	NH Village_Mix	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\VILLAGE_Loop_18+1brs_102bpm-44 (TEMPO INC. 102 TO 120)_1DD5206E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Village\Village_Mix\NH Village_Mix		722398
+	539763760	WAG Blacksmith Line-002	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-002_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-002		74691
+	542133360	EvilCrawler_Hurt_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Hurt_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\EvilCrawler_Hurt_03		7379
+	542995811	Pickup_Coin_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Objects\Pickups\BAS_Pickup_Coin_03_E61FB670.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_03		47070
+	545286099	EvilHead_Charge_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Charge_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Charge\EvilHead_Charge_02		3491
+	546241215	Get Weapon	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Quest_ Get_Weapon_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Questing\Get Weapon		16204
+	549711663	Destroy_Wood_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_barrel_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_03		19950
+	551193915	EvilCrawler_Hurt_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Hurt_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\EvilCrawler_Hurt_02		5685
+	561416365	EvilCrawler_Piano	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Piano_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Piano		584
+	565812124	FS_Water_Walk_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Walk_D3C3D715.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Walk\FS_Water_Walk_05		132736
+	567298804	Destruction_Crystals	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crystals_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Crystals		30806
+	567589712	Adventuress_damaged_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-006_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_06		156352
+	575400696	Adventuress swing weapon hard-002	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-002_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-002		190144
+	578309539	BAS_Evil_Head_Death_Vox_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_dying breath_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death_Vox\BAS_Evil_Head_Death_Vox_01		11765
+	581394888	Impact_Crawler_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\New_Impact_Crawler_03_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilCrawler\Impact_Crawler_03		211732
+	582560102	FS_Dirt_Walk_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Walk_D313A1B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Walk\PFS_Dirt_Walk_L\FS_Dirt_Walk_04		27264
+	583871791	FS_Woodlands_Walk_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Walk_698EC5A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Walk\PFS_Woodlands_Walk_L\FS_Woodlands_Walk_02		22158
+	588650531	EvilSpitPlant_Clarinet	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\3_Clarinet_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Clarinet		2037
+	589283411	Ambient_Night_Element_03_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\scream_02_7C493EF8_DDA7E906.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	33967
+	591482962	FS_Woodlands_Run_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Run_5D4A0EF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Run\PFS_Woodlands_Run_L\FS_Woodlands_Run_05		19814
+	599457266	Ambient_Night_Element_02_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\owl_02_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_02	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	29058
+	606544257	IceCave_Celestas	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION3_1DD5206E.wem		\Interactive Music Hierarchy\Music\Music_Regions\IceCave\WPA_Ambient\IceCave_Celestas		335654
+	611581956	Impact_SpitPlant_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pick Impact 2_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_02		85278
+	616862208	FS_Wood_Run_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Run_8756D1EF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Run\PFS_Wood_Run_L\FS_Wood_Run_03		21608
+	618796958	FS_Stone_Run_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Run_79333C41.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Run\PFS_Stone_Run_L\FS_Stone_Run_03		23278
+	619952066	WAG Wwizard Dial_ Line-028	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-028_12BD17DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-028		48376
+	621670486	Ambient_Lava	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_dungeonLava_001_65E4D664_8CB9ABCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Lava		66906
+	623350409	FS_Dirt_Run_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Run_6290859C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Run\PFS_Dirt_Run_L\FS_Dirt_Run_06		13826
+	625582644	FS_Water_Run_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Run_6E149EF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Run\FS_Water_Run_04		36344
+	629734211	Button_Open	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Button_Open_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Open		17435
+	630179046	EvilSpitPlant_Shoot_LP_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EVILPLANT_LOOP_D0D45A34.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot_Loop\EvilSpitPlant_Shoot_LP_01		172908
+	633287397	EvilSpitPlant_BigPno	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\3_BigPno_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_BigPno		2330
+	633450488	FS_Dirt_Walk_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Walk_45C9E09B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Walk\PFS_Dirt_Walk_L\FS_Dirt_Walk_06		28102
+	639973630	Pickup_Mushroom	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Mushroom_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Mushroom		103896
+	650182870	Adventuress_damaged_10	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-010_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_10		165184
+	651734579	EvilSpitPlant_ImpactPlayer_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_02		67662
+	653608214	FS_Water_Walk_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Walk_F1870D2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Walk\FS_Water_Walk_01		99568
+	655081181	Crate_Destroy_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crate_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_01		15879
+	656269259	FS_Woodlands_Run_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Run_7D4F705C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Run\PFS_Woodlands_Run_L\FS_Woodlands_Run_06		17136
+	657075190	BAS_Evil_SpitPlant_Hurt_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\HURT_1wav_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_01		10073
+	657291671	QuestRoll_Open	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Questroll_Open_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\QuestRoll\QuestRoll_Open		12648
+	660387120	waterdrop_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_06_B513EB4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_06		3010
+	661714509	Perc_Battle_Trumpets	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Trumpets_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Battle_Trumpets		588
+	662387708	WAG Wwizard Dial_ Line-002	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-002_8801964B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-002		91179
+	664123056	Impact_PickAxe_Grass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Pickaxe_Grass_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_Grass\Impact_PickAxe_Grass		129312
+	664371182	WAG Wwizard Dial_ Line-011	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-011_6BC70DB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-011		62018
+	676619034	DLC_AMB_Heaven	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_AMB_Heaven_F4B3818C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\DLC\DLC_AMB_Heaven		263480
+	677266341	Inventory_Close	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Inventory_Close_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Inventory\Inventory_Close		9063
+	684463112	Coin	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Objects\Coin_Spawn_160FDB93.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Props\Props\Coin		576064
+	689034906	Wizard_Poof_Idle	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Wwizard\BAS_Wizard_Poof_03_2B079D81.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Wwizard Misc\Wizard_Poof_Idle		26749
+	691094125	EvilSpitPlant_Shoot_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SHOOT_1_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_01		7340
+	691705488	WAG Blacksmith Line-007	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-007_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-007		56188
+	692493790	Adventuress DEATH-002	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress DEATH-002_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\Death\Adventuress DEATH-002		235456
+	700863536	EvilHead_Movement_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Movement_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Movement\EvilHead_Movement_03		21812
+	703501136	Impact_CrystalShard_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_07_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_01		129312
+	707790496	Adventuress swing weapon light-004	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-004_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-004		131760
+	714688282	FS_Water_Wade_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Wade_C4E405B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Wade_S\PFS_Water_Wade_L\FS_Water_Wade_04		312584
+	718453107	BAS_Evil_SpitPlant_HurtImpact_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Dagger Impact 3_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_EvilSpitPlant\BAS_Evil_SpitPlant_HurtImpact_03		56826
+	720373222	Ambient_Water_River	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\river_DD807F49.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_River		1108995
+	731548434	EvilHead_Staccato_Cello	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\2_Staccato_Cello_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_Cello		2285
+	736547560	WAG Wwizard Dial_ Line-008	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-008_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-008		41226
+	738144536	waterdrop_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_02_B4D2C210.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_02		2721
+	738425701	IceCave_Celestas	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION2_1DD5206E.wem		\Interactive Music Hierarchy\Music\Music_Regions\IceCave\WPA_Ambient\IceCave_Celestas		272618
+	740647715	WAG Wwizard Dial_ Line-023	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-023_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-023		63688
+	742600215	IceCave_Celestas	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ICECAVE_PICKUP_16 +1brs_120bpm-44_CELESTE_OPTION1_1DD5206E.wem		\Interactive Music Hierarchy\Music\Music_Regions\IceCave\WPA_Ambient\IceCave_Celestas		397349
+	747629416	WAG_QucickStinger_Death	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Stingers\QucickStinger_Death_BD3A445E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_Death\WAG_QucickStinger_Death		105273
+	748354478	Heartbeat_Dub	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Heartbeat_Dub_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\HeartBeat\HeartBeat\HeartBeat_Dub\Heartbeat_Dub		1078
+	749927517	Perc_Battle_Cymbal	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Cymbal_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Battle_Cymbal		448
+	754920644	Waterfall_High	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\Waterfall_Strong_1_8E87570A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterfall_High		33266
+	757836245	FS_Water_Walk_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Walk_ED642B6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Walk\FS_Water_Walk_04		107860
+	765205196	EvilSpitPlant_ImpactPlayer_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_01		80000
+	767951656	Impact_Sword_EvilHead	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_EvilHead_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilHead\Impact_Sword_EvilHead\Impact_Sword_EvilHead		61888
+	769633419	BAS_Pickup_EvilEssence	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_EvilEssence_5CD02F60.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\BAS_Pickup_EvilEssence		167038
+	774628347	FS_Dirt_Run_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Dirt_Run_69EECF15.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Dirt\PFS_Dirt_Run\PFS_Dirt_Run_L\FS_Dirt_Run_01		21548
+	775213757	FS_Wood_Run_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Run_6DB076FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Run\PFS_Wood_Run_L\FS_Wood_Run_04		23588
+	776399969	Destroy_Wood_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_barrel_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Barrel\Destroy_Wood_01		16934
+	781460930	Amb_Shield_Core_Center	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_amb_shield_core_LP_03_4FCE0C42.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Amb_Shield_Core_Center		31293
+	792618344	WAG Blacksmith Line-004	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Blacksmith Line-004_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Blacksmith\WAG Blacksmith Line-004		37754
+	793060160	WAG_QucickStinger_Victory	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Stingers\QucickStinger_Victory_BD3A445E.wem		\Interactive Music Hierarchy\Music\WAG_QucickStinger_Victory\WAG_QucickStinger_Victory		118338
+	795053026	Impact_SpitPlant_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pick Impact 3_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_03		85278
+	796153610	Adventuress_damaged_11	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress Damaged-011_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_11		168640
+	804165874	Weapon_Swing_Pickaxe	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Weapon_Swing_PickAxe_510333D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Type\Weapon_Swing_Pickaxe	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	23976
+	804977747	EvilCrawler_Hurt_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Hurt_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Hurt\EvilCrawler_Hurt_01		6832
+	810217821	EvilHead_Staccato_DoubleBass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\2_Staccato_DoubleBass_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_DoubleBass		2404
+	813624506	EvilCrawler_Explosion_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Explosion_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explosion_01		4252
+	820509230	FS_Water_Walk_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Water_Walk_A5FDA6F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Water\PFS_Water_Walk\FS_Water_Walk_03		90092
+	820985440	Adventuress swing weapon light-005	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-005_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-005		154624
+	829079823	Adventuress swing weapon hard-007	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-007_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-007		196864
+	830124314	waterdrop_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Emitters\BAS_WaterDrops_05_AE56BA10.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Water_Waterfall\Waterfall_Close\Waterdrops\waterdrop_05		1839
+	838527785	Creature_EarthSweetener_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_Creature_EarthSweetener_02_78A00968.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Creature_EarthSweetener_02		93768
+	847242115	EvilHead_Clarinet_and_Tuba	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\EvilHead_Clarinet_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba		2745
+	856665198	Ambient_Day_Element_01_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambi_day_element_01_01_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_fauna\Ambient_Day_Element_01_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	22275
+	856863536	Impact_CrystalShard_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_01_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_01		129312
+	859711236	EvilCrawler_Explosion_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Explosion_03_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Explode\EvilCrawler_Explosion_03		3338
+	860763820	Button_Over	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Button_Over_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Button\Button_Over		1815
+	861304961	BAS_Evil_SpitPlant_Death_Headfall_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\HEAD FALL 2_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_02		7907
+	862899862	Adventuress_damaged_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Adventuress_damaged_04_D6E4AFEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit_Dialogue\Adventuress_damaged_04		31714
+	863050244	FS_Wood_Walk_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Walk_3D9A119C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Walk\PFS_Wood_Walk_L\FS_Wood_Walk_05		28890
+	864546744	Pickup_Book	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Book_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		136850
+	867188758	BAS_Evil_SpitPlant_Charge_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\CHARGE_1_8F98DC6A_1FD433A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Charge\BAS_Evil_SpitPlant_Charge_01		5521
+	867210621	Crate_Destroy_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crate_06_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_06		11676
+	867309096	FS_Stone_Run_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Character\Footsteps\BAS_Player_Footstep_stone_run_04_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Run\PFS_Stone_Run_L\FS_Stone_Run_04		26088
+	870756169	Adventuress swing weapon hard-001	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-001_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-001		225664
+	870914841	EvilCrawler_Movement_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Movement_01_8CD7CE0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Move\EvilCrawler_Movement_01		12922
+	871178072	FS_Stone_Run_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Run_9D1EB5C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Run\PFS_Stone_Run_L\FS_Stone_Run_06		17542
+	872064368	Adventuress swing weapon hard-004	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-004_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-004		190586
+	884334431	EvilCrawler_Death_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Death_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Die\EvilCrawler_Death_01		12076
+	887528105	frog_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\frog_01_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_01		5106
+	888488608	EvilSpitPlant_Shoot_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SHOOT_3_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_03		15717
+	895407622	frog_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\frog_03_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_03		5027
+	895724711	BAS_Evil_SpitPlant_Death_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\DYING BREATH (1)_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death\BAS_Evil_SpitPlant_Death_04		6758
+	898477822	Evil_SpitPlant_Charge_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_F43E5F9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_Attack_Telegraph\Evil_SpitPlant_Charge_02		6342
+	898983323	FS_Woodlands_Run_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Run_2D05DF58.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Run\PFS_Woodlands_Run_L\FS_Woodlands_Run_01		21752
+	902616889	Impact_CrystalShard_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_CrystalShard_09_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_CrystalShard\Impact_CrystalShard_03		129312
+	903214963	Adventuress swing weapon hard-005	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon hard-005_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Hard\Adventuress swing weapon hard-005		207168
+	904553278	PlayerHit_SpitShot	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_SpitShot_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Dirt\Impact_Sword_Dirt\PlayerHit_SpitShot		252832
+	907771865	Impact_SpitPlant_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pick Impact 1_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_PickAxe_Surface_Type\Impact_PickAxe_EvilSpitPlant\Impact_SpitPlant_01		85278
+	910721575	Ambient_Night_Element_03_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\scream_03_7C493EF8_DDA7E906.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_terror\Ambient_Night_Element_03_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	28904
+	911538696	EvilSpitPlant_ImpactPlayer_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\IMPACT_1_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_01		11232
+	913150674	EvilHead_Hover_LP	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Evilhead_Hover_01_D0D45A34.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hover_LP		14268
+	915141775	FS_Wood_Walk_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Walk_142E7E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Walk\PFS_Wood_Walk_L\FS_Wood_Walk_02		23824
+	917271424	windMillBlade_003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\windmill_01_E41226CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\windMillBlade_003		34973
+	917466409	Crate_Destroy_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crate_04_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_04		9432
+	918818155	BAS_Evil_Head_Death_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_death_F8F3F594.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Death\EvilHead_Death\BAS_Evil_Head_Death_03		17893
+	920142712	FS_Wood_Run_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Run_2C87D075.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Run\PFS_Wood_Run_L\FS_Wood_Run_02		22058
+	920678023	frog_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\frog_04_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Day_Elements_sum\Ambient_Day_Element_frog\frog_04		4955
+	922822218	FS_Stone_Walk_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Walk_C707224D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Walk\PFS_Stone_Walk_L\FS_Stone_Walk_01		33492
+	931042639	PinkShield_Impact_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_PinkShield_Impact_02_78A00968.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_Shields\Core_Shield_Impact\PinkShield_Impact_02		53676
+	931910637	Button_Teleport	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Button_Teleport_F766247F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non_World\UI\UI\Menu\Button_Teleport		32750
+	933865182	Crate_Destroy_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\destroy_crate_02_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Objects\Objects\Object_Destruction\Object_Destruction\Destruction_Container\Destroy_Crate\Crate_Destroy_02		13578
+	939282034	Impact_Sword_Barrel	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Barrel_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Barrel\Impact_Sword_Barrel\Impact_Sword_Barrel		145194
+	940066120	EvilHead_Bite_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Bite_03_8F98DC6A_02D16AE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_03		18171
+	940774173	EvilSpitPlant_Shoot_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SHOOT_2_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Shoot\EvilSpitPlant_Shoot_02		7824
+	942932876	FS_Wood_Walk_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Walk_B1CDA045.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Walk\PFS_Wood_Walk_L\FS_Wood_Walk_01		27154
+	946965300	Ambient_Night_Element_02_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\owl_01_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_01	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	23648
+	947204474	Creature_Wind_Loop	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_Creature_Wind_Loop_F7BAAA62.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Creature_Wind_Loop		86805
+	951918111	FS_Woodlands_Walk_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Walk_6F459487.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Walk\PFS_Woodlands_Walk_L\FS_Woodlands_Walk_01		21050
+	952193094	Pre-Meet	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\PMW_Loop_6+1brs_102bpm-34_1DD5206E.wem		\Interactive Music Hierarchy\Music\Music_Regions\Ambient\WAG_Ambient_Mix\Pre-Meet		175367
+	952233575	FS_Wood_Walk_06	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Walk_9BD1D4BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Walk\PFS_Wood_Walk_L\FS_Wood_Walk_06		26574
+	953096697	Pickup_Key	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Key_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Key		100810
+	956294730	windMillBlade_004	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\windmill_02_E41226CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Emitters\Ambient_Windmill\Windmill_Swing\windMillBlade_004		17352
+	956779705	EvilSpitPlant_Flutes	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\3_Flutes_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes		2382
+	957579855	Adventuress swing weapon light-003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Adventuress swing weapon light-003_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Swing_Weapon_Dialogue\Swing_Weapon_Dialogue_Light\Adventuress swing weapon light-003		133504
+	965734785	WAG Wwizard Dial_ Line-012	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-012_6EBD4D07.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-012		73689
+	972846252	Impact_Sword_Leaves	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Sword_Leaves_483F75E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_Leaves\Impact_Sword_Leaves\Impact_Sword_Leaves		103254
+	973104413	Impact_Dagger_Grass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Impact_Dagger_Grass_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Dagger_Surface_Type\Impact_Dagger_Grass\Impact_Dagger_Grass		60894
+	973984296	EvilHead_Clarinet_and_Tuba	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\EvilHead_Tuba_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba		2202
+	975487097	FS_Stone_Walk_04	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Stone_Walk_AE99AC6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Stone\PFS_Stone_Walk\PFS_Stone_Walk_L\FS_Stone_Walk_04		26460
+	983728569	EvilCrawler_Eat_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilCrawler_Eat_01_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilCrawler\EvilCrawler\EvilCrawler_Eat\EvilCrawler_Eat_01		13588
+	993005431	BAS_Evil_SpitPlant_Death_Headfall_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\HEAD FALL 1_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Death_Headfall\BAS_Evil_SpitPlant_Death_Headfall_01		4244
+	995834926	WAG Wwizard Dial_ Line-009	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-009_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-009		50942
+	996262965	Pickup_CrystalShard	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_CrystalShard_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_CrystalShard		143206
+	997664200	Impact_Crawler_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\New_Impact_Crawler_02_8A3EE5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Melee\Impact_Weapon_Type\Impact_Sword_Surface_Type\Impact_Sword_EvilCrawler\Impact_Crawler_02		191214
+	998490517	EvilHead_Bite_01	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\EvilHead_Bite_01_8F98DC6A_02D16AE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Attack_Bite\EvilHead_Bite_01		14101
+	999206556	EvilCrawler_Clarinet	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Clarinet_BD3A445E.wem		\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Clarinet		588
+	999445908	BAS_Evil_SpitPlant_Hurt_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\HURT_3_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Hurt\BAS_Evil_SpitPlant_Hurt_03		4011
+	1008460296	EvilSpitPlant_ImpactPlayer_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\IMPACT_2_8F98DC6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilSpitPlant\EvilSpitPlant\EvilSpitPlant_Bullet_Impact\EvilSpitPlant_ImpactPlayer_02		4621
+	1028269556	BAS_Evil_Head_Charge_Bite	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_Head_Charge_Bite_69DB5B2B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_Charge_Bite		7380
+	1032677554	WAG Wwizard Dial_ Line-013	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-013_8654D2C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-013		69179
+	1033458789	Ambient_Night_Element_02_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\owl_03_7C493EF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Elements_DayAndNight\Ambient_Night_Elements_sum\Ambient_Night_Element_owl\Ambient_Night_Element_02_03	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	41749
+	1043505733	BAS_Evil_Head_ChargeAhead	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_Head_Charge_9254B9D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\Telegraph\EvilHead_WindUp\BAS_Evil_Head_ChargeAhead		10970
+	1046704186	EvilSpitPlant_ImpactPlayer_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Health\OnHit\EvilSpitPlant_ImpactPlayer_03		67310
+	1050138657	Pickup_Coin_02	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Objects\Pickups\BAS_Pickup_Coin_02_8374BCAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_Coins\Pickup_Coin_02		55220
+	1050158704	Pickup_WeaponType_Dagger	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_WeaponType_Dagger_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_WeaponType\Pickup_WeaponType_Dagger		109010
+	1055916331	Core_HorribleSound	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Cinematic\BAS_CIN_Creature_Start_A85E47ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Emitters\Cinematic\Core_HorribleSound\Core_HorribleSound		26521
+	1062139904	EvilHead_Hurt_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\SKULL_hurt_7173D467.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Enemies\Enemies\Enemies_EvilHead\EvilHead\EvilHead_Hurt\EvilHead_Hurt_03		6185
+	1072836852	WAG Wwizard Dial_ Line-021	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-021_778582C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-021		77165
+	1073140718	FS_Woodlands_Run_03	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Woodlands_Run_FD55DD18.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Woodlands\PFS_Woodlands_Run\PFS_Woodlands_Run_L\FS_Woodlands_Run_03		19702
+	1073270917	WAG Wwizard Dial_ Line-027	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-027_1626A9ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-027		49765
+	1073639909	FS_Wood_Run_05	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FS_Wood_Run_B4A21618.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footstep_Surface\Player_Footstep_Wood\PFS_Wood_Run\PFS_Wood_Run_L\FS_Wood_Run_05		22600
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	22623075	TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34_1DD5206E.wem	22623075.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\Trans to WoodNight PPG\TITLE_TOUTtFLYOVER_Pizz_4 + 1brs_150bpm-34	
+	146703143	WAG Wwizard Dial_ Line-004	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-004_88501DDF.wem	146703143.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-004	
+	152211720	EvilSpitPlant_Flutes_Battle	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Battle_Flutes_BD3A445E.wem	152211720.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes_Battle	
+	197217690	Music_Wood_Piccolo	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PICCOLO-STEM_1DD5206E.wem	197217690.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Piccolo	
+	200534813	Ambient_Forest_Day_Long	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\treesVillage_001_AD65CB3C.wem	200534813.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_PineForest\Day\Ambient_Forest_Day_Long	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.
+	202341787	Perc_Normal_Tamburine_Quick	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\EvilHead_Tamburine_BD3A445E.wem	202341787.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Normal_Tamburine_Quick	
+	225760600	EvilCrawler_Tuba	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Tuba_BD3A445E.wem	225760600.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Tuba	
+	262132101	Music_Wood_Partial Woodwinds	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_PARTIALWW-STEM_1DD5206E.wem	262132101.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Partial Woodwinds	
+	314316775	Music_Wood_Partial String	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_STRINGS-PARTIALSTEM_1DD5206E.wem	314316775.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Partial String	
+	321602368	WAG Wwizard Dial_ Line-003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-003_5ECC430A.wem	321602368.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-003	
+	326535310	TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\TITLE_FLYOVER_Option2Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem	326535310.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\WoodNight_PPG\TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34	
+	351636245	FIGHT_TOUT_4brs_120bpm-44	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FIGHT_TOUT_4brs_120bpm-44_1DD5206E.wem	351636245.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_EnemiesTransOut\FIGHT_TOUT_4brs_120bpm-44	
+	355999611	Perc_Battle_Timpani	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Timpani_BD3A445E.wem	355999611.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Battle_Timpani	
+	387914519	Title_Strings	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_STRINGS-STEM_1DD5206E.wem	387914519.wem	\Interactive Music Hierarchy\Music\Music_TitleScreen\WAG_TitleScreen\Title_Strings	
+	436811808	Ambient_Village_Day_Long	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_amb_village_day_background_loop_01_AC843406.wem	436811808.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Village\Day\Ambient_Village_Day_Long	
+	446550112	Music_Wood_Pizzicato	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BUSYPIZZ-PARTIALSTEM_1DD5206E.wem	446550112.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Pizzicato	
+	477244820	Music_Wood_English Horn	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNHARMONY-STEM_1DD5206E.wem	477244820.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_English Horn	
+	498401065	Music_Wood_Brass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_BRASS-STEM_1DD5206E.wem	498401065.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Brass	
+	503396803	Music_Wood_Flute	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEORNAMENT-STEM_1DD5206E.wem	503396803.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Flute	
+	519879413	Music_Wood_Flute	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_FLUTEMELODY-STEM_1DD5206E.wem	519879413.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Flute	
+	528358999	EvilCrawler_Stacc_DoubleBass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Stacc_DoubleBass_BD3A445E.wem	528358999.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Stacc_DoubleBass	
+	535160128	Ambient_Woodlands_Night_Long	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambient_region_woodlands_2_A41F12C2.wem	535160128.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Woodlands\Night\Ambient_Woodlands_Night_Long	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.
+	561416365	EvilCrawler_Piano	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Piano_BD3A445E.wem	561416365.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Piano	
+	564098441	Ambient_Village_Night_Long	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambient_region_village_2_A41F12C2.wem	564098441.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Village\Night\Ambient_Village_Night_Long	
+	588650531	EvilSpitPlant_Clarinet	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\3_Clarinet_BD3A445E.wem	588650531.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Clarinet	
+	601876095	TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem	601876095.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\WoodNight_PPG\TITLE_FLYOVER_Option1Loop_PICKUP_16 + 1brs_150bpm-34	
+	633287397	EvilSpitPlant_BigPno	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\3_BigPno_BD3A445E.wem	633287397.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_BigPno	
+	652286364	Music_Wood_Pizzicato	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_REGULARPIZZ-PARTIALSTEM_1DD5206E.wem	652286364.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_Pizzicato	
+	661714509	Perc_Battle_Trumpets	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Trumpets_BD3A445E.wem	661714509.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Battle_Trumpets	
+	672209366	WAG Wwizard Dial_ Line-001	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-001_B4A22A82.wem	672209366.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-001	
+	731548434	EvilHead_Staccato_Cello	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\2_Staccato_Cello_BD3A445E.wem	731548434.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_Cello	
+	749927517	Perc_Battle_Cymbal	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\Cymbal_BD3A445E.wem	749927517.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\Perc_Battle_Cymbal	
+	760983670	Ambient_Woodlands_Day_Long	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_amb_forest_day_background_loop_01_96100A9B_52C2586E.wem	760983670.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Woodlands\Day\Ambient_Woodlands_Day_Long	Audiokinetic Inc. All rights reserved. Audio content provided by Bay Area Sound, Inc. With the help of Damian Kastbauer for Lost Chocolate Lab. (c) 2012 Bay Area Sound, Inc. www.basound.com  The Audio Content contained in this file is the property of Bay Area Sound, Inc. Your sole right with regard to this Audio Content is to listen to the Audio  Content as part of this Sample Project.  This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.
+	767628211	Ambient_Pineforest_Night_Long	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\ambient_region_pineforest_2_A41F12C2.wem	767628211.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_PineForest\Night\Ambient_Pineforest_Night_Long	
+	810217821	EvilHead_Staccato_DoubleBass	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\2_Staccato_DoubleBass_BD3A445E.wem	810217821.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Staccato_DoubleBass	
+	847242115	EvilHead_Clarinet_and_Tuba	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\EvilHead_Clarinet_BD3A445E.wem	847242115.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba	
+	848976232	TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34_1DD5206E.wem	848976232.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Night\WoodNight_PPG\TITLE_FLYOVER_PizzLoop_PICKUP_16 + 1brs_150bpm-34	
+	857167900	amb_cave_background_LP	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Ambient\Ambient_Background\BAS_amb_cave_background_LP_4FCE0C42.wem	857167900.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\Ambient\Ambiences\Ambiences_Background\Ambient_Regions\Ambient_Region_Cave\amb_cave_background_LP	
+	922999685	FIGHT_Loop_8+1brs_124bpm-44	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\FIGHT_Loop_8+1brs_124bpm-44_1DD5206E.wem	922999685.wem	\Interactive Music Hierarchy\Music\Music_Enemies\Music_Enemies_Layer NH\FIGHT_Loop_8+1brs_124bpm-44	
+	956779705	EvilSpitPlant_Flutes	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\3_Flutes_BD3A445E.wem	956779705.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilSpitPlant_Flutes	
+	963495165	Music_Wood_English Horn	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\WOOD_PICKUP_16 +1brs_120bpm-44_ENGHORNMELODY-STEM_1DD5206E.wem	963495165.wem	\Interactive Music Hierarchy\Music\Music_Regions\Woodlands_Day\Woodlands_Day_Layer PPG\Music_Wood_English Horn	
+	973122318	WAG Wwizard Dial_ Line-029	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-029_08BE0BCB.wem	973122318.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-029	
+	973984296	EvilHead_Clarinet_and_Tuba	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\EvilHead_Tuba_BD3A445E.wem	973984296.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilHead_Clarinet_and_Tuba	
+	999206556	EvilCrawler_Clarinet	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Music\MFYG\1_Clarinet_BD3A445E.wem	999206556.wem	\Interactive Music Hierarchy\Other\Music_DungeonAndEnemies\DungeonAndEnemies\EvilCrawler_Clarinet	
+	1060616819	Title_Loop Woodwind	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\TITLE_LegatoLoop_PICKUP_18 + 1brs_150bpm-34_WW-STEM_1DD5206E.wem	1060616819.wem	\Interactive Music Hierarchy\Music\Music_TitleScreen\WAG_TitleScreen\Title_Loop Woodwind	
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	299482527	WAG_Desert	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Plugins\Wwise Convolution Reverb\AK_Factory_IR\Exteriors\AK Hamburg Volksdorfer Wald_4301E45E.wem	Wwise Convolution Reverb (Shared)	\Effects\Default Work Unit\Reverbs\WAG_Desert		450384
+	609174261	WAG_DLC_Room	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Plugins\Wwise Convolution Reverb\AK_Factory_IR\Halls\AK Brasilien Halle_DA4BBD8E.wem	Wwise Convolution Reverb (Shared)	\Effects\Default Work Unit\Reverbs\WAG_DLC_Room	Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 10ms 	329376
+

@@ -1,0 +1,38 @@
+Event	ID	Name			Wwise Object Path	Notes
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	3091829992	Wwizard_DialogueLine_Q2_3			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_3	
+	3091829993	Wwizard_DialogueLine_Q2_2			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_2	
+	3091829994	Wwizard_DialogueLine_Q2_1			\NPCs\Dialogue\Quest 2\Wwizard_DialogueLine_Q2_1	
+	4165450549	Wwizard_DialogueLine_Q1_1			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_1	
+	4165450550	Wwizard_DialogueLine_Q1_2			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_2	
+	4165450551	Wwizard_DialogueLine_Q1_3			\NPCs\Dialogue\Quest 1\Wwizard_DialogueLine_Q1_3	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+
+Switch	ID	Name	Switch Group			Notes
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	397902884	Modulator LFO (Custom)				
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	372825360	WAG Wwizard Dial_ Line-006	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-006_CA1E5381.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-006		77978
+	432396446	WAG Wwizard Dial_ Line-005	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-005_EF0B0E3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-005		59312
+	662387708	WAG Wwizard Dial_ Line-002	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-002_8801964B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-002		91179
+	864546744	Pickup_Book	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\SFX\Pickup_Book_7A224B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Player_Pickup\Pickup_ItemType\Pickup_Book		136850
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	146703143	WAG Wwizard Dial_ Line-004	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-004_88501DDF.wem	146703143.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-004	
+	321602368	WAG Wwizard Dial_ Line-003	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-003_5ECC430A.wem	321602368.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-003	
+	672209366	WAG Wwizard Dial_ Line-001	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Mac\Voices\English(US)\WAG Wwizard Dial. Line-001_B4A22A82.wem	672209366.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-001	
+

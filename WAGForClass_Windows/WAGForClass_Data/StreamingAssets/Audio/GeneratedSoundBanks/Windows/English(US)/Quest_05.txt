@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	509318909	Pickup_ItemType			\Player\General\Pickup_ItemType	
+	2622623673	Door_TempleDoor_Open_Stop			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Stop	
+	2934374888	Wwizard_DialogueLine_Q5a_05			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_05	
+	2934374889	Wwizard_DialogueLine_Q5a_04			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_04	
+	2934374890	Wwizard_DialogueLine_Q5a_07			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_07	
+	2934374891	Wwizard_DialogueLine_Q5a_06			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_06	
+	2934374892	Wwizard_DialogueLine_Q5a_01			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_01	
+	2934374894	Wwizard_DialogueLine_Q5a_03			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_03	
+	2934374895	Wwizard_DialogueLine_Q5a_02			\NPCs\Dialogue\Quest 5\Wwizard_DialogueLine_Q5a_02	
+	3012415428	Pickup_WeaponType			\Player\General\Pickup_WeaponType	
+	3492604883	Door_TempleDoor_Open_Play			\Objects\SoundBankSpecific\Door_TempleDoor_Open_Play	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Player\Player_Weapon_Type	
+	3616336268	Player_Pickup_Type			\Player\Player_Pickup_Type	
+	3639591801	Player_Pickup_ItemType			\Player\Player_Pickup_ItemType	
+
+Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	1222624712	Item	Player_Pickup_Type			
+	3893417221	Weapon	Player_Pickup_Type			
+	632653906	PineCone	Player_Pickup_ItemType			
+	1183067778	Key	Player_Pickup_ItemType			
+	1761501022	Book	Player_Pickup_ItemType			
+	1941802987	Mushroom	Player_Pickup_ItemType			
+	2416868231	CrystalShard	Player_Pickup_ItemType			
+	2979801095	EvilEssence	Player_Pickup_ItemType			
+	3062523257	Misc	Player_Pickup_ItemType			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20442315	WAG Wwizard Dial_ Line-026	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-026_D4810722.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-026		64719
+	27295569	WAG Wwizard Dial_ Line-025	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-025_D7BE52DE.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-025		73218
+	204931226	WAG Wwizard Dial_ Line-024	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-024_88A76C6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-024		44030
+	619952066	WAG Wwizard Dial_ Line-028	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-028_12BD17DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-028		48376
+	740647715	WAG Wwizard Dial_ Line-023	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-023_B4A22A82.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-023		63688
+	1073270917	WAG Wwizard Dial_ Line-027	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-027_1626A9ED.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-027		49765
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	973122318	WAG Wwizard Dial_ Line-029	C:\Users\andre\OneDrive\Desktop\VGSD\Project 4\GameAudioProj.4\Wwise Project\.cache\Windows\Voices\English(US)\WAG Wwizard Dial. Line-029_08BE0BCB.wem	973122318.wem	\Actor-Mixer Hierarchy\Default Work Unit\World\NPCs\QuestGivers\Dialogue Wwizard\WAG Wwizard Dial_ Line-029	
+
